@@ -5,7 +5,7 @@ Mabadiliko yote muhimu kwa kozi ya Generative AI kwa Waanzilishi yameandikwa kat
 Muundo unategemea [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Kwa kuwa hii ni
 kozi ya kujifunza badala ya kifurushi cha programu kilicho na matoleo, vitu vimewekwa kwa tarehe.
 
-## [2026-07-16] — Uhakiki wa Yaliyomo + Mali za Picha za Somo la 09
+## [2026-07-16] - Uhakiki wa Yaliyomo + Mali za Picha za Somo la 09
 
 ### Imebadilika
 
@@ -24,7 +24,7 @@ kozi ya kujifunza badala ya kifurushi cha programu kilicho na matoleo, vitu vime
 
 ### Imethibitishwa
 
-- Tulikagua README za masomo 01, 03, 05, 12, 14, na 16 — zote ni za sasa (majina na viungo sahihi vya Microsoft Foundry);
+- Tulikagua README za masomo 01, 03, 05, 12, 14, na 16 - zote ni za sasa (majina na viungo sahihi vya Microsoft Foundry);
   hakuna mabadiliko yanayohitajika.
 - Tulifanya uhakiki kamili wa markdown kwenye faili zote 41 za markdown za ndani (isipokuwa tafsiri) kwa njia za hati zilizotokuwa
   halali, `/en-us/` maeneo ya Microsoft, majina ya bidhaa/mifano ya zamani, kutokuwepo kwa vitambulisho vya ufuatiliaji,
@@ -32,7 +32,7 @@ kozi ya kujifunza badala ya kifurushi cha programu kilicho na matoleo, vitu vime
   alama zingine zote zilithibitishwa kuwa bandia (viungo vya tafsiri vya auto-generated,
   placeholders zilizojumlishwa kama maoni, na URLs za muundo wa mtu wa tatu `/en/`).
 
-## [2026-07-15] — Kuandika Upya Somo la 09 (Maombi ya Picha) kwa Mifano ya Picha za GPT
+## [2026-07-15] - Kuandika Upya Somo la 09 (Maombi ya Picha) kwa Mifano ya Picha za GPT
 
 ### Imebadilika
 
@@ -62,7 +62,7 @@ kozi ya kujifunza badala ya kifurushi cha programu kilicho na matoleo, vitu vime
 - Imethibitisha `aoai-app.py` kutoka mwanzo hadi mwisho dhidi ya mfano wa `gpt-image-1.5` uliotumika na kuthibitisha mchakato wa base64
   wa kubadilisha kuhifadhi huzaa PNG. Daftari zimehakikiwa kuwa JSON halali.
 
-## [2026-07-14] — Sasisho la Mfano wa Chaguo-msingi + Mwongozo wa Mfano wa Kuchambua
+## [2026-07-14] - Sasisho la Mfano wa Chaguo-msingi + Mwongozo wa Mfano wa Kuchambua
 
 ### Imebadilika
 
@@ -106,7 +106,7 @@ kozi ya kujifunza badala ya kifurushi cha programu kilicho na matoleo, vitu vime
 - Sampuli la somo 20 (Mistral) na 21 (Meta) zinaendelea kutumia `temperature`/`max_tokens` kwa sababu zinawalenga
   mifano ya Mistral/Llama, ambayo huunga mkono vigezo hivyo.
 
-## [2026-07-06] — Ufanyaji Upya wa Muhtasari wa Maudhui
+## [2026-07-06] - Ufanyaji Upya wa Muhtasari wa Maudhui
 
 Marekebisho makubwa ili kuhakikisha mtaala ni sahihi kwa mwaka 2026: API za kisasa, majina ya bidhaa na
 majina ya mifano ya sasa, mwongozo ulioboreshwa wa watoa huduma, na zana mpya za uzoefu wa mtaalamu wa programu.
@@ -119,11 +119,11 @@ majina ya mifano ya sasa, mwongozo ulioboreshwa wa watoa huduma, na zana mpya za
 - **Foundry Local** imeandikwa kama muuzaji wa kando / kwa kifaa (pamoja na Ollama) katika
   `00-course-setup/03-providers.md` na somo `19-slm`.
 - **Mtiririko wa usimamizi endelevu**:
-  - `.github/workflows/code-quality.yml` — Ruff + Black (inatumwa kwenye moduli ya `shared/`
+  - `.github/workflows/code-quality.yml` - Ruff + Black (inatumwa kwenye moduli ya `shared/`
     inayodumishwa, ushauri kwa mtaala mzima), ESLint ya ushauri, na kazi ya pytest.
-  - `.github/workflows/security.yml` — Uchambuzi wa CodeQL (Python + JavaScript/TypeScript) na
+  - `.github/workflows/security.yml` - Uchambuzi wa CodeQL (Python + JavaScript/TypeScript) na
     ukaguzi wa utegemezi kwenye maombi ya kuvuta.
-- **Suite ya majaribio** chini ya `tests/` — majaribio 41 ya pytest yanayohusiana na moduli ya zana ya pamoja.
+- **Suite ya majaribio** chini ya `tests/` - majaribio 41 ya pytest yanayohusiana na moduli ya zana ya pamoja.
 - **Uwezo wa uhamisho wa API kutoka Azure OpenAI hadi Responses API** chini ya
   `.github/skills/azure-openai-to-responses/` unaotumika kuongoza uhamisho wa API.
 
@@ -158,13 +158,13 @@ majina ya mifano ya sasa, mwongozo ulioboreshwa wa watoa huduma, na zana mpya za
 
 ### Imetatuliwa
 
-- **`shared/python/input_validation.py`** — `validate_text_input(allow_empty=True)` sasa inarudisha
+- **`shared/python/input_validation.py`** - `validate_text_input(allow_empty=True)` sasa inarudisha
   mfuatano wa herufi tupu kwa ingizo lenye nafasi tu badala ya kutoa kosa la "fupi sana"
   (inayolingana na kesi ya `None`). Imepatikana na kufunikwa na safu mpya ya majaribio.
-- **Mifano ya picha ya Somo 09** — makosa halisi yamejadiliwa: `InvalidRequestError` → `BadRequestError`,
+- **Mifano ya picha ya Somo 09** - makosa halisi yamejadiliwa: `InvalidRequestError` → `BadRequestError`,
   `images.create` → `images.generate`, `Image.create_variation` → `client.images.create_variation`,
   na kigezo kilichoficha moduli ya `openai`.
-- **Daftari la Somo 15 RAG** — marekebisho ya usanidi wa mteja, kubadilisha `DataFrame.append`
+- **Daftari la Somo 15 RAG** - marekebisho ya usanidi wa mteja, kubadilisha `DataFrame.append`
   iliyotolewa na `pd.concat`, na kusasisha matumizi ya SDK ya zamani.
 - Majina ya modeli yaliyokataliwa / kuondolewa (`gpt-3.5-turbo`, `gpt-35-turbo`) yamebadiliwa kwa
   `gpt-4o-mini` katika mifano hai; matokeo ya kufinyangwa kihistoria kwenye somo la 18 yamehifadhiwa
@@ -173,8 +173,8 @@ majina ya mifano ya sasa, mwongozo ulioboreshwa wa watoa huduma, na zana mpya za
 ### Yaliyokataliwa / Vidokezo
 
 - **Mifano ya Microsoft Foundry Models** inayotumia SDK ya `azure-ai-inference` / `@azure-rest/ai-inference`
-  (`client.complete()`) — mifano ya `githubmodels-*` na `js-githubmodels` pamoja na masomo ya 19, 20,
-  na 21 — bado inatumia API ya Model Inference, ambayo haijiungi na API ya Majibu. Hizi
+  (`client.complete()`) - mifano ya `githubmodels-*` na `js-githubmodels` pamoja na masomo ya 19, 20,
+  na 21 - bado inatumia API ya Model Inference, ambayo haijiungi na API ya Majibu. Hizi
   zimeachwa kwenye SDK hiyo kwa makusudi.
 - `AzureOpenAI()` inahifadhiwa kwa makusudi mahali panapofaa bado (embeddings na uundaji wa picha),
   kwa kuwa mchakato huo haujajumuishwa katika uhamishaji wa API ya Majibu.

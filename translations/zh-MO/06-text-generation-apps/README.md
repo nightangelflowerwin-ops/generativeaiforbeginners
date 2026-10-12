@@ -149,7 +149,7 @@ print(response.output_text)
 
 ### 多輪對話
 
-Responses API 非常適合單輪文字生成和多輪聊天機器人——你可在 `input` 中提供一串訊息，建立對話：
+Responses API 非常適合單輪文字生成和多輪聊天機器人--你可在 `input` 中提供一串訊息，建立對話：
 
 ```python
 from openai import OpenAI
@@ -604,11 +604,11 @@ Shopping List:
 
   > 注意，越接近 1.0，輸出越多變。
 
-- **推理模型不使用 `temperature`<strong>。這是 2026 年一個重要的轉變。目前在 Microsoft Foundry 上的非棄用模型中，是</strong>推理模型<strong>（GPT-5 系列，o-series），而且它們</strong>不支持 `temperature` 或 `top_p`**（也不支持 `max_tokens`，請使用 `max_output_tokens`）。如果你對 `gpt-5-mini` 發送 `temperature`，會得到「不支持此參數」的錯誤。所以想嘗試上面的 temperature 範例，請用還支持抽樣控制的模型——例如來自 [Microsoft Foundry 模型目錄](https://ai.azure.com/catalog/models?WT.mc_id=academic-105485-koreyst) 的開放式 **Llama** 模型 `Llama-3.3-70B-Instruct`，透過 Foundry Models / Azure AI 推論端點呼叫（用法與 `githubmodels-*` 範例相同）。對於像 GPT-5 這類的推理模型，控制輸出方式有所不同：
-  - <strong>提示工程</strong>——清晰的指令、範例和結構化輸出（參見課程 [04 - 提示工程基礎](../04-prompt-engineering-fundamentals/README.md?WT.mc_id=academic-105485-koreyst)）完成了原本抽樣控制的工作。
-  - <strong>推理控制</strong>——使用像推理努力/冗長度之類的參數來權衡推理深度、延遲和成本。
+- **推理模型不使用 `temperature`<strong>。這是 2026 年一個重要的轉變。目前在 Microsoft Foundry 上的非棄用模型中，是</strong>推理模型<strong>（GPT-5 系列，o-series），而且它們</strong>不支持 `temperature` 或 `top_p`**（也不支持 `max_tokens`，請使用 `max_output_tokens`）。如果你對 `gpt-5-mini` 發送 `temperature`，會得到「不支持此參數」的錯誤。所以想嘗試上面的 temperature 範例，請用還支持抽樣控制的模型--例如來自 [Microsoft Foundry 模型目錄](https://ai.azure.com/catalog/models?WT.mc_id=academic-105485-koreyst) 的開放式 **Llama** 模型 `Llama-3.3-70B-Instruct`，透過 Foundry Models / Azure AI 推論端點呼叫（用法與 `githubmodels-*` 範例相同）。對於像 GPT-5 這類的推理模型，控制輸出方式有所不同：
+  - <strong>提示工程</strong>--清晰的指令、範例和結構化輸出（參見課程 [04 - 提示工程基礎](../04-prompt-engineering-fundamentals/README.md?WT.mc_id=academic-105485-koreyst)）完成了原本抽樣控制的工作。
+  - <strong>推理控制</strong>--使用像推理努力/冗長度之類的參數來權衡推理深度、延遲和成本。
 
-  簡言之：`temperature`/`top_p` 依然在很多模型（Llama、Mistral、Phi 和 GPT-4.x 系列——雖然 GPT-4.x 正在逐步淘汰）上有效，但趨勢是推理模型如 GPT-5 會以提示工程和推理控制為主。
+  簡言之：`temperature`/`top_p` 依然在很多模型（Llama、Mistral、Phi 和 GPT-4.x 系列--雖然 GPT-4.x 正在逐步淘汰）上有效，但趨勢是推理模型如 GPT-5 會以提示工程和推理控制為主。
 
 ## 作業
 

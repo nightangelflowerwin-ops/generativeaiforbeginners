@@ -30,13 +30,13 @@ Tämä kestää **~2 minuuttia** ensimmäisellä kerralla.
 
 ## 3. Lisää API-avain (turvallinen tapa)
 
-### Vaihtoehto A Codespaces Secrets — Suositeltu
+### Vaihtoehto A Codespaces Secrets - Suositeltu
 
 1. ⚙️ Ratas-kuvake -> Komentopaletti -> Codespaces: Hallitse käyttäjän salaista -> Lisää uusi salainen.
 2. Nimi: OPENAI_API_KEY
 3. Arvo: liitä avain → Lisää salainen
 
-Siinä kaikki—koodimme poimii sen automaattisesti.
+Siinä kaikki-koodimme poimii sen automaattisesti.
 
 ### Vaihtoehto B .env-tiedosto (jos sitä todella tarvitset)
 

@@ -30,13 +30,13 @@ Bu ilk seferde **~2 dakika** sürer.
 
 ## 3. API anahtarınızı ekleyin (güvenli yol)
 
-### Seçenek A Codespaces Secrets — Tavsiye edilen
+### Seçenek A Codespaces Secrets - Tavsiye edilen
 
 1. ⚙️ Dişli simgesi -> Komut Paleti -> Codespaces : Kullanıcı gizliliğini yönet -> Yeni gizli bilgi ekle.
 2. İsim: OPENAI_API_KEY
 3. Değer: anahtarınızı yapıştır → Gizli bilgiyi ekle
 
-Hepsi bu—kodumuz bunu otomatik olarak alacak.
+Hepsi bu-kodumuz bunu otomatik olarak alacak.
 
 ### Seçenek B .env dosyası (gerçekten gerekirse)
 

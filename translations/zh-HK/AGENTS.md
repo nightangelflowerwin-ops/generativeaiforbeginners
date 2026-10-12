@@ -87,7 +87,7 @@ npm install
 
 ### 模型慣例（重要）
 
-- **預設聊天模型為 `gpt-5-mini`<strong> — 一款目前非棄用的</strong>推理**模型。2026年起，舊的支持 temperature 的 "mini" 模型（`gpt-4o-mini`、`gpt-4.1-mini`）逐步棄用，課程統一採用 GPT-5 系列。
+- **預設聊天模型為 `gpt-5-mini`<strong> - 一款目前非棄用的</strong>推理**模型。2026年起，舊的支持 temperature 的 "mini" 模型（`gpt-4o-mini`、`gpt-4.1-mini`）逐步棄用，課程統一採用 GPT-5 系列。
 - **推理模型不接受 `temperature` 和 `top_p`**，並使用 `max_output_tokens`（Responses API）/ `max_completion_tokens`（聊天完成）取代 `max_tokens`。呼叫 `gpt-5-mini` 時，不要添加 `temperature`/`top_p`/`max_tokens`。
 - **示範 `temperature` 時<strong>，範例使用 Microsoft Foundry Models 端點的 </strong>Llama** 模型（`Llama-3.3-70B-Instruct`，透過 `AZURE_INFERENCE_CHAT_MODEL`）。推理模型則以提示工程和推理控制代替采樣旋鈕。
 - **微調（第 18 課）** 仍保留`gpt-4.1-mini`：GPT-5 僅支援強化微調（RFT），不支援該課程中的監督微調（SFT）。

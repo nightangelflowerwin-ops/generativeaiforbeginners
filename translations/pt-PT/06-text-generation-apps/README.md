@@ -149,7 +149,7 @@ No código acima, criamos uma resposta e passamos o modelo que queremos usar e o
 
 ### Conversas múltiplas (multi-turn)
 
-A API Responses é adequada tanto para geração de texto de turno único como para chatbots de múltiplos turnos — fornece uma lista de mensagens em `input` para construir a conversa:
+A API Responses é adequada tanto para geração de texto de turno único como para chatbots de múltiplos turnos - fornece uma lista de mensagens em `input` para construir a conversa:
 
 ```python
 from openai import OpenAI

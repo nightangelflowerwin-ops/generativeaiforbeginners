@@ -33,7 +33,7 @@ source .venv/bin/activate     # macOS / Linux
 .\.venv\Scripts\activate      # Windows PowerShell
 ```
 
-✅ Die Eingabeaufforderung sollte jetzt mit (.venv) beginnen—das bedeutet, Sie befinden sich in der Umgebung.
+✅ Die Eingabeaufforderung sollte jetzt mit (.venv) beginnen-das bedeutet, Sie befinden sich in der Umgebung.
 
 ### Schritt 3 Installieren Sie die Abhängigkeiten
 

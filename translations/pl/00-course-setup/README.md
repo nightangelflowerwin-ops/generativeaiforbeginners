@@ -42,7 +42,7 @@ W swoim forku: **Code -> Codespaces -> New on main**
 | Budowanie kontenera zawiesza się > 10 min | **Codespaces ➜ „Rebuild Container”**                            |
 | `python: command not found`               | Terminal nie został podłączony; kliknij **+** ➜ *bash*          |
 | `401 Unauthorized` od OpenAI              | Błędny / wygasły `OPENAI_API_KEY`                               |
-| VS Code pokazuje „Dev container mounting…” | Odśwież kartę przeglądarki — Codespaces czasami traci połączenie |
+| VS Code pokazuje „Dev container mounting…” | Odśwież kartę przeglądarki - Codespaces czasami traci połączenie |
 | Brak jądra w notatniku                    | Menu notatnika ➜ **Kernel ▸ Select Kernel ▸ Python 3**          |
 
    Systemy oparte na Unix:

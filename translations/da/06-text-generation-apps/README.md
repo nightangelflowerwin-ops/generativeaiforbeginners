@@ -604,11 +604,11 @@ Det, vi har indtil videre, er kode, der virker, men der er nogle justeringer, vi
 
   > Bemærk, jo tættere på 1,0, jo mere varieret bliver outputtet.
 
-- **Reasoning-modeller bruger ikke `temperature`**. Dette er et vigtigt skift i 2026. De nuværende, ikke-forældede modeller på Microsoft Foundry er **reasoning-modeller** (GPT-5 familien, o-serien) — og de **understøtter ikke `temperature` eller `top_p`** (heller ikke `max_tokens`; brug `max_output_tokens`). Hvis du sender `temperature` til `gpt-5-mini`, får du en fejl om "parameter ikke understøttet". Så for at prøve temperatur-eksemplet ovenfor, brug en model, der stadig understøtter sampling-kontroller — for eksempel en åben **Llama** model som `Llama-3.3-70B-Instruct` fra [Microsoft Foundry modelkataloget](https://ai.azure.com/catalog/models?WT.mc_id=academic-105485-koreyst), kaldt via Foundry Models / Azure AI Inference endpunktet (samme måde som `githubmodels-*` eksemplerne). For reasoning-modeller som GPT-5 styrer du output anderledes:
+- **Reasoning-modeller bruger ikke `temperature`**. Dette er et vigtigt skift i 2026. De nuværende, ikke-forældede modeller på Microsoft Foundry er **reasoning-modeller** (GPT-5 familien, o-serien) - og de **understøtter ikke `temperature` eller `top_p`** (heller ikke `max_tokens`; brug `max_output_tokens`). Hvis du sender `temperature` til `gpt-5-mini`, får du en fejl om "parameter ikke understøttet". Så for at prøve temperatur-eksemplet ovenfor, brug en model, der stadig understøtter sampling-kontroller - for eksempel en åben **Llama** model som `Llama-3.3-70B-Instruct` fra [Microsoft Foundry modelkataloget](https://ai.azure.com/catalog/models?WT.mc_id=academic-105485-koreyst), kaldt via Foundry Models / Azure AI Inference endpunktet (samme måde som `githubmodels-*` eksemplerne). For reasoning-modeller som GPT-5 styrer du output anderledes:
   - **Prompt engineering** - klare instruktioner, eksempler og struktureret output (se lektion [04 - Prompt Engineering](../04-prompt-engineering-fundamentals/README.md?WT.mc_id=academic-105485-koreyst)) tager sig af det, som sampling-kontroller plejer at gøre.
   - **Reasoning-kontroller** - parametre som reasoning effort/verbosity afvejer dybden af ræsonnement mod forsinkelse og omkostning.
 
-  Kort sagt: `temperature`/`top_p` er stadig gyldige på mange modeller (Llama, Mistral, Phi og GPT-4.x familien — selvom GPT-4.x udfases), men kursen går mod prompt engineering + reasoning-kontroller på reasoning-modeller som GPT-5.
+  Kort sagt: `temperature`/`top_p` er stadig gyldige på mange modeller (Llama, Mistral, Phi og GPT-4.x familien - selvom GPT-4.x udfases), men kursen går mod prompt engineering + reasoning-kontroller på reasoning-modeller som GPT-5.
 
 ## Opgave
 

@@ -42,7 +42,7 @@ Trong bản sao của bạn: **Code -> Codespaces -> New on main**
 | Quá trình xây dựng container dừng > 10 phút | **Codespaces ➜ “Rebuild Container”**                            |
 | `python: command not found`               | Terminal chưa được đính kèm; nhấn **+** ➜ *bash*                 |
 | `401 Unauthorized` từ OpenAI              | `OPENAI_API_KEY` sai hoặc hết hạn                                |
-| VS Code hiển thị “Dev container mounting…” | Tải lại tab trình duyệt — Codespaces đôi khi mất kết nối         |
+| VS Code hiển thị “Dev container mounting…” | Tải lại tab trình duyệt - Codespaces đôi khi mất kết nối         |
 | Kernel notebook bị mất                    | Menu notebook ➜ **Kernel ▸ Chọn Kernel ▸ Python 3**             |
 
    Hệ thống dựa trên Unix:

@@ -54,7 +54,7 @@ SLM mají širokou škálu aplikací, včetně:
 
 **Velikost**
   
-Hlavní odlišnost mezi LLM a SLM spočívá ve velikosti modelů. LLM, jako například ChatGPT (GPT-4), mohou obsahovat odhadovaných 1,76 bilionu parametrů, zatímco open-source SLM jako Mistral 7B jsou navrženy s výrazně menším počtem parametrů — přibližně 7 miliard. Tento rozdíl je primárně způsoben rozdíly v architektuře modelu a tréninkových postupech. Například ChatGPT používá mechanismus sebe-pozornosti v rámci encodér-dekodér frameworku, zatímco Mistral 7B využívá sliding window attention, což umožňuje efektivnější trénink v modelu pouze s dekodérem. Tento architektonický rozdíl má zásadní dopady na složitost a výkon těchto modelů.
+Hlavní odlišnost mezi LLM a SLM spočívá ve velikosti modelů. LLM, jako například ChatGPT (GPT-4), mohou obsahovat odhadovaných 1,76 bilionu parametrů, zatímco open-source SLM jako Mistral 7B jsou navrženy s výrazně menším počtem parametrů - přibližně 7 miliard. Tento rozdíl je primárně způsoben rozdíly v architektuře modelu a tréninkových postupech. Například ChatGPT používá mechanismus sebe-pozornosti v rámci encodér-dekodér frameworku, zatímco Mistral 7B využívá sliding window attention, což umožňuje efektivnější trénink v modelu pouze s dekodérem. Tento architektonický rozdíl má zásadní dopady na složitost a výkon těchto modelů.
 
 **Porozumění**
 

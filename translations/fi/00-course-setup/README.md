@@ -42,7 +42,7 @@ Forkissasi: **Code -> Codespaces -> New on main**
 | Kontin rakentaminen jumissa yli 10 min    | **Codespaces ➜ “Rebuild Container”**                            |
 | `python: command not found`               | Pääte ei liittänyt; klikkaa **+** ➜ *bash*                       |
 | `401 Unauthorized` OpenAI:ltä              | Väärä/vanhentunut `OPENAI_API_KEY`                               |
-| VS Code näyttää “Dev container mounting…” | Päivitä selainvälilehti—Codespaces saattaa joskus menettää yhteyden |
+| VS Code näyttää “Dev container mounting…” | Päivitä selainvälilehti-Codespaces saattaa joskus menettää yhteyden |
 | Notebook-ytin puuttuminen                 | Notebook-valikko ➜ **Kernel ▸ Valitse Kernel ▸ Python 3**         |
 
    Unix-pohjaiset järjestelmät:

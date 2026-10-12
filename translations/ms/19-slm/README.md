@@ -54,7 +54,7 @@ SLM mempunyai pelbagai aplikasi, termasuk:
 
 **Saiz**
   
-Perbezaan utama antara LLM dan SLM terletak pada skala model. LLM, seperti ChatGPT (GPT-4), boleh terdiri daripada anggaran 1.76 trilion parameter, manakala SLM sumber terbuka seperti Mistral 7B direka dengan parameter yang jauh lebih sedikit—sekitar 7 bilion. Jurang ini kebanyakannya disebabkan oleh perbezaan dalam seni bina model dan proses latihan. Contohnya, ChatGPT menggunakan mekanisme perhatian diri dalam rangka kerja pengekod-penyahkod, manakala Mistral 7B menggunakan perhatian tetingkap gelongsor, yang membolehkan latihan lebih efisien dalam model penyahkod sahaja. Variasi seni bina ini mempunyai impak mendalam terhadap kerumitan dan prestasi model-model ini.
+Perbezaan utama antara LLM dan SLM terletak pada skala model. LLM, seperti ChatGPT (GPT-4), boleh terdiri daripada anggaran 1.76 trilion parameter, manakala SLM sumber terbuka seperti Mistral 7B direka dengan parameter yang jauh lebih sedikit-sekitar 7 bilion. Jurang ini kebanyakannya disebabkan oleh perbezaan dalam seni bina model dan proses latihan. Contohnya, ChatGPT menggunakan mekanisme perhatian diri dalam rangka kerja pengekod-penyahkod, manakala Mistral 7B menggunakan perhatian tetingkap gelongsor, yang membolehkan latihan lebih efisien dalam model penyahkod sahaja. Variasi seni bina ini mempunyai impak mendalam terhadap kerumitan dan prestasi model-model ini.
 
 **Pemahaman**
 

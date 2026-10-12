@@ -30,13 +30,13 @@ Cela prend environ **2 minutes** la première fois.
 
 ## 3. Ajoutez votre clé API (la méthode sécurisée)
 
-### Option A Secrets Codespaces — Recommandé
+### Option A Secrets Codespaces - Recommandé
 
 1. ⚙️ Icône engrenage -> Palette de commandes -> Codespaces : Gérer le secret utilisateur -> Ajouter un nouveau secret.
 2. Nom : OPENAI_API_KEY
 3. Valeur : collez votre clé → Ajouter le secret
 
-C’est tout — notre code la prendra automatiquement en compte.
+C’est tout - notre code la prendra automatiquement en compte.
 
 ### Option B Fichier .env (si vraiment nécessaire)
 

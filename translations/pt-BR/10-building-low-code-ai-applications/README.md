@@ -72,25 +72,25 @@ O recurso de assistente de IA Copilot no Power Automate permite que você descre
 
 ## Construindo Agentes Inteligentes com Microsoft Copilot Studio
 
-[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst) (anteriormente Power Virtual Agents) é o membro low-code do Power Platform para construir **agentes de IA** — copilotos conversacionais que podem responder perguntas, tomar ações e automatizar tarefas em nome dos seus usuários. Assim como o resto do Power Platform, você constrói esses agentes numa experiência visual focada em linguagem natural: você descreve o que quer que o agente faça, e o Copilot Studio ajuda a estruturar suas instruções, conhecimento e ações.
+[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst) (anteriormente Power Virtual Agents) é o membro low-code do Power Platform para construir **agentes de IA** - copilotos conversacionais que podem responder perguntas, tomar ações e automatizar tarefas em nome dos seus usuários. Assim como o resto do Power Platform, você constrói esses agentes numa experiência visual focada em linguagem natural: você descreve o que quer que o agente faça, e o Copilot Studio ajuda a estruturar suas instruções, conhecimento e ações.
 
-Para nossa startup educacional, você poderia construir um agente que responde perguntas dos estudantes sobre cursos, verifica prazos de tarefas e até envia e-mails a um instrutor — tudo isso sem escrever código.
+Para nossa startup educacional, você poderia construir um agente que responde perguntas dos estudantes sobre cursos, verifica prazos de tarefas e até envia e-mails a um instrutor - tudo isso sem escrever código.
 
 Aqui estão algumas das capacidades mais recentes que tornam o Copilot Studio poderoso:
 
-- **Respostas generativas a partir do seu conhecimento**. Em vez de criar cada conversa manualmente, você pode conectar **fontes de conhecimento** — sites públicos, SharePoint, OneDrive, Dataverse, arquivos enviados ou dados corporativos via conectores — e o agente gera respostas fundamentadas a partir delas.
+- **Respostas generativas a partir do seu conhecimento**. Em vez de criar cada conversa manualmente, você pode conectar **fontes de conhecimento** - sites públicos, SharePoint, OneDrive, Dataverse, arquivos enviados ou dados corporativos via conectores - e o agente gera respostas fundamentadas a partir delas.
 
 - **Orquestração generativa**. Em vez de depender de frases disparadoras rígidas, o agente usa IA para entender um pedido e decidir dinamicamente quais conhecimentos, tópicos e ações combinar para atendê-lo, incluindo encadear vários passos juntos.
 
 - **Ações e conectores**. Agentes podem *fazer* coisas, não apenas conversar. Você pode dar a um agente ações suportadas pelos mais de 1.500 conectores predefinidos do Power Platform, fluxos do Power Automate, APIs REST personalizadas, prompts, ou servidores **Model Context Protocol (MCP)**.
 
-- **Agentes autônomos**. Agentes não estão limitados a responder numa janela de chat. Você pode construir **agentes autônomos** que são acionados por eventos — como um novo e-mail, um novo registro no Dataverse ou um arquivo sendo enviado — e então agem em segundo plano para completar uma tarefa.
+- **Agentes autônomos**. Agentes não estão limitados a responder numa janela de chat. Você pode construir **agentes autônomos** que são acionados por eventos - como um novo e-mail, um novo registro no Dataverse ou um arquivo sendo enviado - e então agem em segundo plano para completar uma tarefa.
 
 - **Orquestração multiagente**. Agentes podem chamar outros agentes. Um agente do Copilot Studio pode transferir para, ou ser estendido por, outros agentes, incluindo agentes publicados para Microsoft 365 Copilot e agentes construídos no Microsoft Foundry.
 
 - **Escolha de modelo**. Além dos modelos integrados, você pode trazer modelos do catálogo de modelos Microsoft Foundry para ajustar como seu agente raciocina e responde.
 
-- **Publicar em qualquer lugar**. Uma vez construído, um agente pode ser publicado em vários canais — Microsoft Teams, Microsoft 365 Copilot, um site ou app personalizado e mais — com segurança, autenticação e análises gerenciadas via experiência administrativa do Power Platform.
+- **Publicar em qualquer lugar**. Uma vez construído, um agente pode ser publicado em vários canais - Microsoft Teams, Microsoft 365 Copilot, um site ou app personalizado e mais - com segurança, autenticação e análises gerenciadas via experiência administrativa do Power Platform.
 
 Você pode começar a construir seu primeiro agente em [copilotstudio.microsoft.com](https://copilotstudio.microsoft.com?WT.mc_id=academic-105485-koreyst) e aprender mais na [documentação do Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/?WT.mc_id=academic-105485-koreyst).
 
@@ -270,7 +270,7 @@ Para aprender como usar este Modelo de IA no Power Automate, consulte o módulo 
 
 Após concluir esta lição, confira nossa [coleção de Aprendizado de IA Generativa](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) para continuar aprimorando seu conhecimento em IA Generativa!
 
-Quer personalizar e aproveitar ainda mais o Copilot? Explore o [Awesome Copilot](https://github.com/github/awesome-copilot?WT.mc_id=academic-105485-koreyst) — uma coleção colaborativa da comunidade de instruções, agentes, habilidades e configurações para ajudar você a tirar o máximo proveito do GitHub Copilot.
+Quer personalizar e aproveitar ainda mais o Copilot? Explore o [Awesome Copilot](https://github.com/github/awesome-copilot?WT.mc_id=academic-105485-koreyst) - uma coleção colaborativa da comunidade de instruções, agentes, habilidades e configurações para ajudar você a tirar o máximo proveito do GitHub Copilot.
 
 Vá para a Lição 11, onde veremos como [integrar IA Generativa com Chamada de Funções](../11-integrating-with-function-calling/README.md?WT.mc_id=academic-105485-koreyst)!
 

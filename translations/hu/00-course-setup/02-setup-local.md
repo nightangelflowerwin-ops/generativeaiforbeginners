@@ -2,7 +2,7 @@
 
 **Használd ezt az útmutatót, ha inkább a saját laptopodon futtatnád az egészet.**   
 Két utad van: **(A) natív Python + virtual-env** vagy **(B) VS Code fejlesztői konténer Dockerrel**.  
-Válaszd azt, amelyik könnyebbnek tűnik — mindkettő ugyanahhoz a leckéhez vezet.
+Válaszd azt, amelyik könnyebbnek tűnik - mindkettő ugyanahhoz a leckéhez vezet.
 
 ## 1. Előfeltételek
 
@@ -33,7 +33,7 @@ source .venv/bin/activate     # macOS / Linux
 .\.venv\Scripts\activate      # Windows PowerShell
 ```
 
-✅ A promptnak most (.venv)-nel kell kezdődnie — ez azt jelenti, hogy benne vagy a környezetben.
+✅ A promptnak most (.venv)-nel kell kezdődnie - ez azt jelenti, hogy benne vagy a környezetben.
 
 ### 3. lépés Telepítsd a függőségeket
 
@@ -196,7 +196,7 @@ Az API kulcsok biztonságos tárolása fontos bármilyen alkalmazás építések
 
 Ennyi! Sikeresen létrehoztad a `.env` fájlt, hozzáadtad a Microsoft Foundry Models hitelesítő adataidat, és betöltötted azokat a Python alkalmazásodba.
 
-🔐 Soha ne küldd be a `.env` fájlt verziókezelőbe — már benne van a `.gitignore`-ban.
+🔐 Soha ne küldd be a `.env` fájlt verziókezelőbe - már benne van a `.gitignore`-ban.
 A szolgáltató részletes útmutatója megtalálható a [`providers.md`](03-providers.md) fájlban.
 
 ## 4. Mi a következő lépés?

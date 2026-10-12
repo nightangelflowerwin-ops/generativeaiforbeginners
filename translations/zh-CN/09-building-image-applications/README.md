@@ -6,7 +6,7 @@
 
 ## 介绍
 
-图像生成可以将自然语言提示转换为图片。本课使用OpenAI的**`gpt-image`**系列模型——这是现阶段在**[Microsoft Foundry](https://ai.azure.com?WT.mc_id=academic-105485-koreyst)**和OpenAI平台上可用的最新一代图像模型。这些模型取代了旧的DALL·E模型（DALL·E 2/3属于遗留模型）。
+图像生成可以将自然语言提示转换为图片。本课使用OpenAI的**`gpt-image`**系列模型--这是现阶段在**[Microsoft Foundry](https://ai.azure.com?WT.mc_id=academic-105485-koreyst)**和OpenAI平台上可用的最新一代图像模型。这些模型取代了旧的DALL·E模型（DALL·E 2/3属于遗留模型）。
 
 在整个课程中，我们使用一个虚构的初创公司<strong>Edu4All</strong>，该公司开发学习工具。团队希望为作业和学习资料生成插图。
 
@@ -28,7 +28,7 @@
 - **`gpt-image`（OpenAI）** - 当前一代，用于本课。支持文本生成图像和图像编辑（带掩码的修补）。
 - **Midjourney** - 一个流行的第三方模型，拥有自己的服务和基于Discord的工作流程。
 
-> 旧的OpenAI图像模型——<strong>DALL·E 2</strong>和<strong>DALL·E 3</strong>——已是遗留模型。DALL·E 3不再对新部署开放，`create_variation`等功能仅存在于DALL·E 2。新应用请使用`gpt-image`模型。
+> 旧的OpenAI图像模型--<strong>DALL·E 2</strong>和<strong>DALL·E 3</strong>--已是遗留模型。DALL·E 3不再对新部署开放，`create_variation`等功能仅存在于DALL·E 2。新应用请使用`gpt-image`模型。
 
 ### 我应该使用哪款`gpt-image`模型？
 
@@ -36,14 +36,14 @@
 
 | 模型 | 说明 |
 | --- | --- |
-| **`gpt-image-2`** | 最新且功能最强的图像模型——推荐为默认选择。 |
+| **`gpt-image-2`** | 最新且功能最强的图像模型--推荐为默认选择。 |
 | `gpt-image-1.5` | 普遍可用；较低成本下高质量。 |
 | `gpt-image-1-mini` | 普遍可用；速度最快且成本最低。 |
 | `gpt-image-1` | 仅预览。 |
 
 请始终查阅当前的 [Foundry图像模型列表](https://learn.microsoft.com/azure/ai-foundry/openai/concepts/models?WT.mc_id=academic-105485-koreyst) 以确认可用性及地区支持。
 
-> **重要提示：** `gpt-image`模型以<strong>base64</strong>（`b64_json`）形式返回生成的图像，而不是URL。你的代码需要解码base64字符串成字节并保存——没有图像的下载链接。
+> **重要提示：** `gpt-image`模型以<strong>base64</strong>（`b64_json`）形式返回生成的图像，而不是URL。你的代码需要解码base64字符串成字节并保存--没有图像的下载链接。
 
 ## 设置
 
@@ -51,7 +51,7 @@
 
 ### 1. 创建并部署模型
 
-按照[创建资源](https://learn.microsoft.com/azure/ai-foundry/openai/how-to/create-resource?pivots=web-portal&WT.mc_id=academic-105485-koreyst)指南创建Microsoft Foundry资源，然后部署图像模型——推荐使用**`gpt-image-2`**。
+按照[创建资源](https://learn.microsoft.com/azure/ai-foundry/openai/how-to/create-resource?pivots=web-portal&WT.mc_id=academic-105485-koreyst)指南创建Microsoft Foundry资源，然后部署图像模型--推荐使用**`gpt-image-2`**。
 
 ### 2. 配置你的`.env`
 
@@ -124,7 +124,7 @@ Image.open(image_path).show()
 
 使用`python app.py`运行，你将在`images/`目录下得到PNG文件。
 
-> 每次调用`images.generate`即使使用相同提示也会生成不同图像——图像模型没有文本生成的`temperature`参数。想要多样化只需再次调用API；想减少变异，请更加具体地描述提示。
+> 每次调用`images.generate`即使使用相同提示也会生成不同图像--图像模型没有文本生成的`temperature`参数。想要多样化只需再次调用API；想减少变异，请更加具体地描述提示。
 
 ## 编辑图像
 
@@ -172,7 +172,7 @@ prompt = f"{meta_prompt}\nCreate an image of a bunny on a horse, holding a lolli
 
 ## 练习 - 让学生参与进来
 
-Edu4All的学生需要图像来配合评估。构建一个应用，生成<strong>纪念碑</strong>的图像（纪念碑由你选择），置于不同的、有创意的场景中——例如，一处著名地标在日落时分，有一名儿童在注视。
+Edu4All的学生需要图像来配合评估。构建一个应用，生成<strong>纪念碑</strong>的图像（纪念碑由你选择），置于不同的、有创意的场景中--例如，一处著名地标在日落时分，有一名儿童在注视。
 
 试试自己实现，然后比对参考方案：
 

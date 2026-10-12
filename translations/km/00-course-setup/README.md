@@ -42,7 +42,7 @@
 | ការសាងសង់ container ឈប់ស្ទើរពេញ > 10 នាទី    | **Codespaces ➜ “Rebuild Container”**                            |
 | `python: command not found`             | Terminal មិនបានភ្ជាប់; ចុច **+** ➜ *bash*                    |
 | `401 Unauthorized` ពី OpenAI             | `OPENAI_API_KEY` មិនត្រឹមត្រូវ / ផុតកំណត់                      |
-| VS Code បង្ហាញ “Dev container mounting…” | ធ្វើការបញ្ចូលទំព័រស៊ើបអ៊ិនហ្សើ—Codespaces មួយចំហៀងខ្សែកន្លង់ |
+| VS Code បង្ហាញ “Dev container mounting…” | ធ្វើការបញ្ចូលទំព័រស៊ើបអ៊ិនហ្សើ-Codespaces មួយចំហៀងខ្សែកន្លង់ |
 | មេដឹកនាំNotebookខ្វះ          | ម៉ឺនុយ Notebook ➜ **Kernel ▸ Select Kernel ▸ Python 3**           |
 
    ប្រព័ន្ធ Unix-based:

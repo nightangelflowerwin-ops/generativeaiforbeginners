@@ -42,7 +42,7 @@
 | ساخت کانتینر بیش از ۱۰ دقیقه طول کشید      | **Codespaces ➜ “Rebuild Container”**                            |
 | `python: command not found`               | ترمینال وصل نشده؛ روی **+** کلیک کنید ➜ *bash*                    |
 | `401 Unauthorized` از OpenAI              | کلید `OPENAI_API_KEY` اشتباه یا منقضی شده                         |
-| VS Code نمایش می‌دهد “Dev container mounting…” | تب مرورگر را رفرش کنید— گاهی اتصال Codespaces قطع می‌شود          |
+| VS Code نمایش می‌دهد “Dev container mounting…” | تب مرورگر را رفرش کنید- گاهی اتصال Codespaces قطع می‌شود          |
 | کرنل نوت‌بوک گم شده                      | منوی نوت‌بوک ➜ **Kernel ▸ Select Kernel ▸ Python 3**             |
 
    سیستم‌های مبتنی بر یونیکس:

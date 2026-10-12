@@ -300,9 +300,9 @@ Lahat ng mga pagsasalin ay **kumpleto** at awtomatikong nilikha ng [Azure Co-op 
 
 | Aspeto | Katayuan |
 |--------|--------|
-| Saklaw ng pagsasalin | Kumpleto — 50+ na wika, lahat ng aralin |
+| Saklaw ng pagsasalin | Kumpleto - 50+ na wika, lahat ng aralin |
 | Paraan ng pagsasalin | Awtomatikong gamit ang [Azure Co-op Translator](https://github.com/Azure/co-op-translator?WT.mc_id=academic-105485-koreyst) |
-| Pinananatiling naka-sync sa English source | Oo — awtomatikong nire-regenerate |
+| Pinananatiling naka-sync sa English source | Oo - awtomatikong nire-regenerate |
 
 ### 9.2 Mga Pagpapahusay sa Accessibility
 

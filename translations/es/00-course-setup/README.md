@@ -42,7 +42,7 @@ En tu fork: **Código -> Codespaces -> Nuevo en main**
 | Construcción del contenedor atascada > 10 min | **Codespaces ➜ “Reconstruir contenedor”**                       |
 | `python: command not found`                | El terminal no se adjuntó; haz clic en **+** ➜ *bash*             |
 | `401 Unauthorized` de OpenAI               | `OPENAI_API_KEY` incorrecta o expirada                            |
-| VS Code muestra “Montaje de contenedor Dev…” | Actualiza la pestaña del navegador—Codespaces a veces pierde conexión |
+| VS Code muestra “Montaje de contenedor Dev…” | Actualiza la pestaña del navegador-Codespaces a veces pierde conexión |
 | Kernel del notebook faltante               | Menú del notebook ➜ **Kernel ▸ Seleccionar Kernel ▸ Python 3**    |
 
    Sistemas basados en Unix:

@@ -72,13 +72,13 @@ Power Automate 中的 copilot AI 助手功能，讓您描述所需的工作流�
 
 ## 使用 Microsoft Copilot Studio 建立智能代理人
 
-[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst)（前身為 Power Virtual Agents）是 Power Platform 的低代碼成員，用於建立 **AI 代理人** —— 可以代表使用者回答問題、採取行動及自動化任務的對話式助理。就像 Power Platform 其他產品一樣，您在視覺化、以自然語言為先的體驗中建立這些代理人：您描述希望代理人做什麼，Copilot Studio 協助構建其指令、知識與行動。
+[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst)（前身為 Power Virtual Agents）是 Power Platform 的低代碼成員，用於建立 **AI 代理人** -- 可以代表使用者回答問題、採取行動及自動化任務的對話式助理。就像 Power Platform 其他產品一樣，您在視覺化、以自然語言為先的體驗中建立這些代理人：您描述希望代理人做什麼，Copilot Studio 協助構建其指令、知識與行動。
 
-對於我們的教育新創公司，您可以建立一個代理人，回答學生對課程的問題、檢查作業截止日期，甚至替老師發送電子郵件 —— 全部不需要撰寫程式碼。
+對於我們的教育新創公司，您可以建立一個代理人，回答學生對課程的問題、檢查作業截止日期，甚至替老師發送電子郵件 -- 全部不需要撰寫程式碼。
 
 以下是使 Copilot Studio 強大的部分最新功能：
 
-- <strong>從您的知識產出生成式答案</strong>。您不必手工撰寫每段對話，而是可以連接 <strong>知識來源</strong> —— 公開網站、SharePoint、OneDrive、Dataverse、上傳檔案或透過連接器的企業資料 —— 代理人會從中生成有根據的答案。
+- <strong>從您的知識產出生成式答案</strong>。您不必手工撰寫每段對話，而是可以連接 <strong>知識來源</strong> -- 公開網站、SharePoint、OneDrive、Dataverse、上傳檔案或透過連接器的企業資料 -- 代理人會從中生成有根據的答案。
 
 - <strong>生成式調度</strong>。代理人不依賴僵硬的觸發語句，而是使用 AI 理解請求，並動態決定結合哪些知識、主題及行動來完成請求，包含串接多步驟程序。
 
@@ -90,7 +90,7 @@ Power Automate 中的 copilot AI 助手功能，讓您描述所需的工作流�
 
 - <strong>模型選擇</strong>。除內建模型外，您可匯入 Microsoft Foundry 模型目錄中的模型，調整代理人的推理與回應方式。
 
-- <strong>多處發布</strong>。建立完成後，代理人可發布至多個頻道 —— 包括 Microsoft Teams、Microsoft 365 Copilot、網站或自訂應用程式 —— 並由 Power Platform 管理體驗管理安全、認證及分析。
+- <strong>多處發布</strong>。建立完成後，代理人可發布至多個頻道 -- 包括 Microsoft Teams、Microsoft 365 Copilot、網站或自訂應用程式 -- 並由 Power Platform 管理體驗管理安全、認證及分析。
 
 您可前往 [copilotstudio.microsoft.com](https://copilotstudio.microsoft.com?WT.mc_id=academic-105485-koreyst) 開始建立您的首個代理人，並在 [Microsoft Copilot Studio 文件](https://learn.microsoft.com/microsoft-copilot-studio/?WT.mc_id=academic-105485-koreyst) 瞭解更多。
 
@@ -270,7 +270,7 @@ GPT 模型經過大量資料訓練，在提供提示時能產生與人類語言�
 
 完成本課程後，請查看我們的[生成式 AI 學習合集](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst)以持續提升您的生成式 AI 知識！
 
-想自訂並更充分利用 Copilot 嗎？探索[Awesome Copilot](https://github.com/github/awesome-copilot?WT.mc_id=academic-105485-koreyst) — 這是由社群貢獻的說明、代理、技能和設定集，幫助您充分發揮 GitHub Copilot 的功能。
+想自訂並更充分利用 Copilot 嗎？探索[Awesome Copilot](https://github.com/github/awesome-copilot?WT.mc_id=academic-105485-koreyst) - 這是由社群貢獻的說明、代理、技能和設定集，幫助您充分發揮 GitHub Copilot 的功能。
 
 前往第 11 課，我們將探討如何[將生成式 AI 與函式呼叫整合](../11-integrating-with-function-calling/README.md?WT.mc_id=academic-105485-koreyst)！
 

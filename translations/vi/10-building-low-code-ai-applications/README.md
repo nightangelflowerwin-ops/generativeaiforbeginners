@@ -72,25 +72,25 @@ Tính năng trợ lý AI copilot trong Power Automate cho phép bạn mô tả l
 
 ## Xây dựng Đại lý Thông minh với Microsoft Copilot Studio
 
-[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst) (trước đây là Power Virtual Agents) là thành viên mã thấp của Power Platform để xây dựng **đại lý AI** — các trợ lý hội thoại có thể trả lời câu hỏi, thực hiện hành động và tự động hóa các tác vụ thay mặt người dùng. Giống như phần còn lại của Power Platform, bạn xây dựng các đại lý này trong môi trường trực quan, ưu tiên ngôn ngữ tự nhiên: bạn mô tả những gì bạn muốn đại lý làm, và Copilot Studio giúp xây dựng các hướng dẫn, kiến thức và hành động.
+[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst) (trước đây là Power Virtual Agents) là thành viên mã thấp của Power Platform để xây dựng **đại lý AI** - các trợ lý hội thoại có thể trả lời câu hỏi, thực hiện hành động và tự động hóa các tác vụ thay mặt người dùng. Giống như phần còn lại của Power Platform, bạn xây dựng các đại lý này trong môi trường trực quan, ưu tiên ngôn ngữ tự nhiên: bạn mô tả những gì bạn muốn đại lý làm, và Copilot Studio giúp xây dựng các hướng dẫn, kiến thức và hành động.
 
-Đối với khởi nghiệp giáo dục của chúng ta, bạn có thể xây dựng một đại lý trả lời các câu hỏi của sinh viên về khóa học, kiểm tra thời hạn bài tập, và thậm chí gửi email cho giảng viên — tất cả đều không cần viết mã.
+Đối với khởi nghiệp giáo dục của chúng ta, bạn có thể xây dựng một đại lý trả lời các câu hỏi của sinh viên về khóa học, kiểm tra thời hạn bài tập, và thậm chí gửi email cho giảng viên - tất cả đều không cần viết mã.
 
 Dưới đây là một số khả năng mới nhất làm cho Copilot Studio trở nên mạnh mẽ:
 
-- **Câu trả lời tạo sinh từ kiến thức của bạn**. Thay vì viết thủ công mọi cuộc hội thoại, bạn có thể kết nối **nguồn kiến thức** — các trang web công khai, SharePoint, OneDrive, Dataverse, tập tin tải lên hoặc dữ liệu doanh nghiệp qua các bộ kết nối — và đại lý sẽ tạo ra câu trả lời dựa trên các nguồn ấy.
+- **Câu trả lời tạo sinh từ kiến thức của bạn**. Thay vì viết thủ công mọi cuộc hội thoại, bạn có thể kết nối **nguồn kiến thức** - các trang web công khai, SharePoint, OneDrive, Dataverse, tập tin tải lên hoặc dữ liệu doanh nghiệp qua các bộ kết nối - và đại lý sẽ tạo ra câu trả lời dựa trên các nguồn ấy.
 
 - **Điều phối tạo sinh**. Thay vì dựa vào các câu kích hoạt cứng nhắc, đại lý sử dụng AI để hiểu yêu cầu và quyết định linh hoạt kiến thức, chủ đề và hành động nào cần kết hợp để hoàn thành yêu cầu, kể cả việc kết nối nhiều bước với nhau.
 
 - **Hành động và bộ kết nối**. Các đại lý có thể *thực hiện* các tác vụ, không chỉ trò chuyện. Bạn có thể cung cấp các hành động dựa trên hơn 1,500 bộ kết nối sẵn có của Power Platform, các luồng Power Automate, REST API tùy chỉnh, yêu cầu hoặc máy chủ **Model Context Protocol (MCP)**.
 
-- **Đại lý tự động**. Các đại lý không chỉ phản hồi trong cửa sổ trò chuyện. Bạn có thể xây dựng **đại lý tự động** được kích hoạt bởi sự kiện — chẳng hạn như email mới, bản ghi mới trong Dataverse hoặc tập tin được tải lên — rồi hành động nền để hoàn thành tác vụ.
+- **Đại lý tự động**. Các đại lý không chỉ phản hồi trong cửa sổ trò chuyện. Bạn có thể xây dựng **đại lý tự động** được kích hoạt bởi sự kiện - chẳng hạn như email mới, bản ghi mới trong Dataverse hoặc tập tin được tải lên - rồi hành động nền để hoàn thành tác vụ.
 
 - **Điều phối đa đại lý**. Các đại lý có thể gọi nhau. Đại lý trong Copilot Studio có thể chuyển tiếp hoặc được mở rộng bởi các đại lý khác, bao gồm đại lý phổ biến trong Microsoft 365 Copilot và đại lý xây dựng trong Microsoft Foundry.
 
 - **Lựa chọn mô hình**. Ngoài các mô hình tích hợp, bạn có thể mang các mô hình từ danh mục mô hình Microsoft Foundry để tùy chỉnh cách đại lý suy luận và phản hồi.
 
-- **Phát hành ở mọi nơi**. Khi xây dựng xong, đại lý có thể được xuất bản trên nhiều kênh — Microsoft Teams, Microsoft 365 Copilot, trang web hoặc ứng dụng tùy chỉnh, và hơn thế nữa — với bảo mật, xác thực và phân tích quản lý qua trải nghiệm quản trị Power Platform.
+- **Phát hành ở mọi nơi**. Khi xây dựng xong, đại lý có thể được xuất bản trên nhiều kênh - Microsoft Teams, Microsoft 365 Copilot, trang web hoặc ứng dụng tùy chỉnh, và hơn thế nữa - với bảo mật, xác thực và phân tích quản lý qua trải nghiệm quản trị Power Platform.
 
 Bạn có thể bắt đầu xây dựng đại lý đầu tiên tại [copilotstudio.microsoft.com](https://copilotstudio.microsoft.com?WT.mc_id=academic-105485-koreyst) và tìm hiểu thêm trong [tài liệu Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/?WT.mc_id=academic-105485-koreyst).
 
@@ -270,7 +270,7 @@ Ví dụ, bạn có thể xây dựng các luồng tự động tạo văn bản
 
 Sau khi hoàn thành bài học này, hãy xem bộ sưu tập [Học về AI Sinh tạo](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) của chúng tôi để tiếp tục nâng cao kiến thức về AI Sinh tạo!
 
-Muốn tùy chỉnh và khai thác nhiều hơn từ Copilot? Khám phá [Awesome Copilot](https://github.com/github/awesome-copilot?WT.mc_id=academic-105485-koreyst) — một bộ sưu tập do cộng đồng đóng góp các chỉ dẫn, tác nhân, kỹ năng và cấu hình giúp bạn tận dụng tối đa GitHub Copilot.
+Muốn tùy chỉnh và khai thác nhiều hơn từ Copilot? Khám phá [Awesome Copilot](https://github.com/github/awesome-copilot?WT.mc_id=academic-105485-koreyst) - một bộ sưu tập do cộng đồng đóng góp các chỉ dẫn, tác nhân, kỹ năng và cấu hình giúp bạn tận dụng tối đa GitHub Copilot.
 
 Hãy đến Bài học 11, nơi chúng ta sẽ xem cách [tích hợp AI Sinh tạo với Gọi Hàm](../11-integrating-with-function-calling/README.md?WT.mc_id=academic-105485-koreyst)!
 

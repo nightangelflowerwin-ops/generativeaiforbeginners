@@ -30,13 +30,13 @@ Việc này mất khoảng **~2 phút** lần đầu tiên.
 
 ## 3. Thêm khóa API của bạn (cách an toàn)
 
-### Lựa chọn A Codespaces Secrets — Khuyên dùng
+### Lựa chọn A Codespaces Secrets - Khuyên dùng
 
 1. ⚙️ Biểu tượng bánh răng -> Command Palette -> Codespaces: Manage user secret -> Thêm bí mật mới.
 2. Tên: OPENAI_API_KEY
 3. Giá trị: dán khóa của bạn → Thêm bí mật
 
-Xong—mã của chúng tôi sẽ tự động nhận khóa.
+Xong-mã của chúng tôi sẽ tự động nhận khóa.
 
 ### Lựa chọn B Tệp .env (nếu bạn thực sự cần)
 

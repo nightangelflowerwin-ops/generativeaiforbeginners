@@ -108,8 +108,8 @@ Azure OpenAI 的端點與金鑰可於 [Azure 入口網站](https://portal.azure.
 1. 按上面說明，從你的資源入口導航至 [Microsoft Foundry 入口網站](https://ai.azure.com?WT.mc_id=academic-105485-koreyst)。
 1. 點擊側邊欄（左）中的 <strong>部署</strong> 分頁以查看已部署模型。
 1. 若未部署你需的模型，利用 <strong>部署模型</strong> 從 [模型目錄](https://ai.azure.com/catalog/models?WT.mc_id=academic-105485-koreyst) 新增部署。
-1. 你將需要一個 _文字生成_ 模型 — 推薦使用：**gpt-5-mini**
-1. 你將需要一個 _文字嵌入_ 模型 — 推薦使用：**text-embedding-3-small**
+1. 你將需要一個 _文字生成_ 模型 - 推薦使用：**gpt-5-mini**
+1. 你將需要一個 _文字嵌入_ 模型 - 推薦使用：**text-embedding-3-small**
 
 現在更新環境變數反映 _部署名稱_，通常會與模型名稱相同，除非有特別更改。例如，你可能會有：
 
@@ -141,8 +141,8 @@ AZURE_OPENAI_EMBEDDINGS_DEPLOYMENT='text-embedding-3-small'
 
 若你完全不想使用雲端訂閱，可以在自己的設備上直接運行相容的開放模型：
 
-- **[Foundry Local](https://foundrylocal.ai?WT.mc_id=academic-105485-koreyst)** — 微軟的本地執行時。它會自動選擇最佳執行提供者（NPU、GPU 或 CPU），並提供符合 OpenAI 端點標準，故你可用本課程的範例程式碼並做極少更改。詳見 [Foundry Local 文件](https://learn.microsoft.com/azure/ai-foundry/foundry-local/get-started?WT.mc_id=academic-105485-koreyst)，或使用 `winget install Microsoft.FoundryLocal`（Windows）／`brew install microsoft/foundrylocal/foundrylocal`（macOS）安裝。
-- **[Ollama](https://ollama.com/?WT.mc_id=academic-105485-koreyst)** — 流行的本地運行開放模型替代方案，如 Llama、Phi、Mistral 與 Gemma 等。
+- **[Foundry Local](https://foundrylocal.ai?WT.mc_id=academic-105485-koreyst)** - 微軟的本地執行時。它會自動選擇最佳執行提供者（NPU、GPU 或 CPU），並提供符合 OpenAI 端點標準，故你可用本課程的範例程式碼並做極少更改。詳見 [Foundry Local 文件](https://learn.microsoft.com/azure/ai-foundry/foundry-local/get-started?WT.mc_id=academic-105485-koreyst)，或使用 `winget install Microsoft.FoundryLocal`（Windows）／`brew install microsoft/foundrylocal/foundrylocal`（macOS）安裝。
+- **[Ollama](https://ollama.com/?WT.mc_id=academic-105485-koreyst)** - 流行的本地運行開放模型替代方案，如 Llama、Phi、Mistral 與 Gemma 等。
 
 
 請參閱 [第19課：使用 SLM 建構](../19-slm/README.md?WT.mc_id=academic-105485-koreyst) 來了解使用兩個選項的操作範例。

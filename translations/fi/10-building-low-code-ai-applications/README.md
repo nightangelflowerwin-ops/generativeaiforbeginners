@@ -72,25 +72,25 @@ Power Automatessa oleva Copilot AI -avustajaominaisuus antaa sinun kuvata, milla
 
 ## Älykkäiden agenttien rakentaminen Microsoft Copilot Studiolla
 
-[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst) (entinen Power Virtual Agents) on low-code-jäsen Power Platformissa **tekoälyagenttien** rakentamiseen — keskustelevia copiloteja, jotka voivat vastata kysymyksiin, suorittaa toimintoja ja automatisoida tehtäviä käyttäjiesi puolesta. Kuten muu Power Platform, rakennat nämä agentit visuaalisessa, luonnolliskielisessä kokemuksessa: kuvailet, mitä haluat agentin tekevän, ja Copilot Studio auttaa rakentamaan sen ohjeet, tiedot ja toiminnot.
+[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst) (entinen Power Virtual Agents) on low-code-jäsen Power Platformissa **tekoälyagenttien** rakentamiseen - keskustelevia copiloteja, jotka voivat vastata kysymyksiin, suorittaa toimintoja ja automatisoida tehtäviä käyttäjiesi puolesta. Kuten muu Power Platform, rakennat nämä agentit visuaalisessa, luonnolliskielisessä kokemuksessa: kuvailet, mitä haluat agentin tekevän, ja Copilot Studio auttaa rakentamaan sen ohjeet, tiedot ja toiminnot.
 
-Koulutusstartupllemme voisit rakentaa agentin, joka vastaa opiskelijoiden opiskelukysymyksiin, tarkistaa tehtävien määräajat ja jopa lähettää sähköpostia opettajalle — kaikki ilman koodin kirjoittamista.
+Koulutusstartupllemme voisit rakentaa agentin, joka vastaa opiskelijoiden opiskelukysymyksiin, tarkistaa tehtävien määräajat ja jopa lähettää sähköpostia opettajalle - kaikki ilman koodin kirjoittamista.
 
 Tässä on joitakin viimeisimpiä ominaisuuksia, jotka tekevät Copilot Studiosta tehokkaan:
 
-- **Generatiiviset vastaukset tiedoistasi**. Sen sijaan, että kirjoittaisit jokaisen keskustelun käsin, voit yhdistää **tietolähteitä** — julkisia verkkosivustoja, SharePointia, OneDrivea, Dataverseta, ladattuja tiedostoja tai yritystietoja liittimien kautta — ja agentti luo niistä perusteltuja vastauksia.
+- **Generatiiviset vastaukset tiedoistasi**. Sen sijaan, että kirjoittaisit jokaisen keskustelun käsin, voit yhdistää **tietolähteitä** - julkisia verkkosivustoja, SharePointia, OneDrivea, Dataverseta, ladattuja tiedostoja tai yritystietoja liittimien kautta - ja agentti luo niistä perusteltuja vastauksia.
 
 - **Generatiivinen orkestrointi**. Sen sijaan, että luotattaisiin jäykkiin laukaisulauseisiin, agentti käyttää tekoälyä ymmärtämään pyynnön ja päättämään dynaamisesti, mitkä tiedot, aiheet ja toiminnot yhdistetään pyynnön toteuttamiseksi, mukaan lukien monivaiheisten toimintojen ketjutus.
 
 - **Toiminnot ja liittimet**. Agentit voivat *tehdä* asioita, eivät vain keskustella. Voit antaa agentille toimintoja, joita tukevat yli 1 500 valmiina oleva Power Platform -liitin, Power Automate -työnkulut, mukautetut REST API:t, kehotteet tai **Model Context Protocol (MCP)** -palvelimet.
 
-- **Autonomiset agentit**. Agentit eivät ole rajoittuneet vastaamaan chat-ikkunassa. Voit rakentaa **autonomisia agenteja**, joita laukaisevat tapahtumat — kuten uusi sähköposti, uusi tietue Dataversessa tai tiedoston lataus — ja jotka toimivat taustalla tehtävän suorittamiseksi.
+- **Autonomiset agentit**. Agentit eivät ole rajoittuneet vastaamaan chat-ikkunassa. Voit rakentaa **autonomisia agenteja**, joita laukaisevat tapahtumat - kuten uusi sähköposti, uusi tietue Dataversessa tai tiedoston lataus - ja jotka toimivat taustalla tehtävän suorittamiseksi.
 
 - **Moni-agenttien orkestrointi**. Agentit voivat kutsua muita agenteja. Copilot Studio -agentti voi siirtää tehtävän toiselle agentille tai laajentua muilla agenteilla, mukaan lukien Microsoft 365 Copilotissa julkaistut agentit ja Microsoft Foundryssä rakennetut agentit.
 
 - **Mallin valinta**. Sisäänrakennettujen mallien lisäksi voit tuoda malleja Microsoft Foundryn mallikatalogista räätälöidäksesi agenttisi päättelyä ja vastauksia.
 
-- **Julkaise missä tahansa**. Kun agentti on rakennettu, sen voi julkaista useisiin kanaviin — Microsoft Teamsiin, Microsoft 365 Copilotiin, verkkosivustolle tai mukautettuun sovellukseen ja muihin — turvallisuus, todennus ja analytiikka hallitaan Power Platformin hallintakokemuksen kautta.
+- **Julkaise missä tahansa**. Kun agentti on rakennettu, sen voi julkaista useisiin kanaviin - Microsoft Teamsiin, Microsoft 365 Copilotiin, verkkosivustolle tai mukautettuun sovellukseen ja muihin - turvallisuus, todennus ja analytiikka hallitaan Power Platformin hallintakokemuksen kautta.
 
 Voit aloittaa ensimmäisen agenttisi rakentamisen osoitteessa [copilotstudio.microsoft.com](https://copilotstudio.microsoft.com?WT.mc_id=academic-105485-koreyst) ja oppia lisää [Microsoft Copilot Studion dokumentaatiosta](https://learn.microsoft.com/microsoft-copilot-studio/?WT.mc_id=academic-105485-koreyst).
 
@@ -270,7 +270,7 @@ Jos haluat oppia, miten käyttää tätä tekoälymallia Power Automatessa, käy
 
 Tämän oppitunnin jälkeen tutustu [Generatiivisen tekoälyn oppimiskokoelmaamme](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) jatkaaksesi generatiivisen tekoälyn osaamisesi kehittämistä!
 
-Haluatko mukauttaa ja saada enemmän irti Copilotista? Tutustu [Awesome Copilot](https://github.com/github/awesome-copilot?WT.mc_id=academic-105485-koreyst) — yhteisön toimittamaan kokoelmaan ohjeita, agentteja, taitoja ja asetuksia, jotka auttavat sinua hyödyntämään GitHub Copilotin parhaalla mahdollisella tavalla.
+Haluatko mukauttaa ja saada enemmän irti Copilotista? Tutustu [Awesome Copilot](https://github.com/github/awesome-copilot?WT.mc_id=academic-105485-koreyst) - yhteisön toimittamaan kokoelmaan ohjeita, agentteja, taitoja ja asetuksia, jotka auttavat sinua hyödyntämään GitHub Copilotin parhaalla mahdollisella tavalla.
 
 Siirry Oppitunnille 11, jossa tarkastelemme, miten [integroida generatiivinen tekoäly funktion kutsumisen kanssa](../11-integrating-with-function-calling/README.md?WT.mc_id=academic-105485-koreyst)!
 

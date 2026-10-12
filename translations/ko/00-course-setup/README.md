@@ -42,7 +42,7 @@
 | 컨테이너 빌드가 10분 이상 멈춤             | **Codespaces ➜ “Rebuild Container”**                            |
 | `python: command not found` 오류            | 터미널이 연결되지 않음; **+** 클릭 ➜ *bash* 실행                |
 | OpenAI에서 `401 Unauthorized` 오류          | 잘못되었거나 만료된 `OPENAI_API_KEY`                             |
-| VS Code가 “Dev container mounting…” 표시   | 브라우저 탭 새로고침—Codespaces가 연결을 잃을 수 있음           |
+| VS Code가 “Dev container mounting…” 표시   | 브라우저 탭 새로고침-Codespaces가 연결을 잃을 수 있음           |
 | 노트북 커널이 없음                           | 노트북 메뉴 ➜ **Kernel ▸ Select Kernel ▸ Python 3**             |
 
    유닉스 기반 시스템:

@@ -149,7 +149,7 @@ Yllä olevassa koodissa luomme vastauksen ja annamme käytettävän mallin sekä
 
 ### Monikierroskeskustelut
 
-Responses API sopii hyvin sekä yksikkökierroksen tekstintuotantoon että monikierroksisiin chatbotteihin — annat `input`-kenttään viestilistan keskustelun rakentamiseksi:
+Responses API sopii hyvin sekä yksikkökierroksen tekstintuotantoon että monikierroksisiin chatbotteihin - annat `input`-kenttään viestilistan keskustelun rakentamiseksi:
 
 ```python
 from openai import OpenAI

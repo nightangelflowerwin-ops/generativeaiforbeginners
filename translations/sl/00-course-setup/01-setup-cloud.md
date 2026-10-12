@@ -30,13 +30,13 @@ To običajno traja **~2 minuti** ob prvem zagonu.
 
 ## 3. Dodajte vaš API ključ (varen način)
 
-### Možnost A Codespaces Secrets — Priporočeno
+### Možnost A Codespaces Secrets - Priporočeno
 
 1. ⚙️ Ikona zobnika -> Command Pallete -> Codespaces : Manage user secret -> Dodaj nov skrivni ključ.
 2. Ime: OPENAI_API_KEY
 3. Vrednost: prilepite vaš ključ → Dodaj skrivnost
 
-To je to—naša koda bo samodejno uporabila ta ključ.
+To je to-naša koda bo samodejno uporabila ta ključ.
 
 ### Možnost B datoteka .env (če jo res potrebujete)
 

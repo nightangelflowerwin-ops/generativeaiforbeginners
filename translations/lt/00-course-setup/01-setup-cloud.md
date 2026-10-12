@@ -30,13 +30,13 @@ Tai užtrunka **~2 minutes** pirmą kartą.
 
 ## 3. Pridėkite savo API raktą (saugus būdas)
 
-### A variantas: Codespaces Secrets — rekomenduojama
+### A variantas: Codespaces Secrets - rekomenduojama
 
 1. ⚙️ Pavarėlės ikonėlė -> Komandų paletė -> Codespaces : Valdyti vartotojo slaptus duomenis -> Pridėti naują slaptažodį.
 2. Pavadinimas: OPENAI_API_KEY
 3. Reikšmė: įdėkite savo raktą → Pridėti slaptažodį
 
-Viskas — mūsų kodas tai automatiškai paims.
+Viskas - mūsų kodas tai automatiškai paims.
 
 ### B variantas: .env failas (jei tikrai reikia)
 

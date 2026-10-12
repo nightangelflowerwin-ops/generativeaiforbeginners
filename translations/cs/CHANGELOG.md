@@ -5,7 +5,7 @@ Veškeré významné změny v kurzu Generativní AI pro začátečníky jsou zdo
 Formát je založen na [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Protože se jedná o
 výukový kurz místo verzovaného softwarového balíčku, jsou záznamy seskupeny podle data.
 
-## [2026-07-06] — Obnova modernizace obsahu
+## [2026-07-06] - Obnova modernizace obsahu
 
 Široká obnova pro udržení přesnosti kurikula pro rok 2026: moderní API, aktuální názvy produktů a
 modelů, aktualizované pokyny poskytovatelů a nové nástroje pro vývojářskou zkušenost.
@@ -18,11 +18,11 @@ modelů, aktualizované pokyny poskytovatelů a nové nástroje pro vývojářsk
 - **Foundry Local** zdokumentováno jako offline / na zařízení poskytovatel (vedle Ollama) v
   `00-course-setup/03-providers.md` a lekci `19-slm`.
 - **Pracovní toky kontinuální integrace**:
-  - `.github/workflows/code-quality.yml` — Ruff + Black (vynucováno na udržovaném modulu `shared/`
+  - `.github/workflows/code-quality.yml` - Ruff + Black (vynucováno na udržovaném modulu `shared/`
     , poradní kontrola v celém kurikulu), poradní průchod ESLint a práce pytest.
-  - `.github/workflows/security.yml` — analýza CodeQL (Python + JavaScript/TypeScript) a
+  - `.github/workflows/security.yml` - analýza CodeQL (Python + JavaScript/TypeScript) a
     kontrola závislostí při pull requestech.
-- **Testovací sada** v `tests/` — 41 testů pytest pokrývajících sdílený užitkový modul.
+- **Testovací sada** v `tests/` - 41 testů pytest pokrývajících sdílený užitkový modul.
 - **Dovednost migrace Azure OpenAI → Responses API** v
   `.github/skills/azure-openai-to-responses/` používaná k vedení migrace API.
 
@@ -57,13 +57,13 @@ modelů, aktualizované pokyny poskytovatelů a nové nástroje pro vývojářsk
 
 ### Opraveno
 
-- **`shared/python/input_validation.py`** — `validate_text_input(allow_empty=True)` nyní vrací
+- **`shared/python/input_validation.py`** - `validate_text_input(allow_empty=True)` nyní vrací
   prázdný řetězec pro vstupy pouze s bílými znaky namísto vyvolání chyby "příliš krátký" (v souladu s
   případem `None`). Bylo nalezeno a pokryto novou testovací sadou.
-- Ukázky obrázků v lekci 09 — opraveny skutečné chyby: `InvalidRequestError` → `BadRequestError`,
+- Ukázky obrázků v lekci 09 - opraveny skutečné chyby: `InvalidRequestError` → `BadRequestError`,
   `images.create` → `images.generate`, `Image.create_variation` → `client.images.create_variation`,
   a proměnná, která stínila modul `openai`.
-- Notebook RAG v lekci 15 — opraveno nastavení klienta, nahrazeno odstraněné `DataFrame.append`
+- Notebook RAG v lekci 15 - opraveno nastavení klienta, nahrazeno odstraněné `DataFrame.append`
   za `pd.concat` a modernizováno používání staršího SDK.
 - Zastaralé / ukončené názvy modelů (`gpt-3.5-turbo`, `gpt-35-turbo`) nahrazeny `gpt-4o-mini`
   v aktivních ukázkách; historické výsledky ladění v lekci 18 byly zachovány a okomentovány
@@ -72,8 +72,8 @@ modelů, aktualizované pokyny poskytovatelů a nové nástroje pro vývojářsk
 ### Zastaralé / Poznámky
 
 - Ukázky Microsoft Foundry Models používající `azure-ai-inference` / `@azure-rest/ai-inference`
-  SDK (`client.complete()`) — ukázky `githubmodels-*` a `js-githubmodels` a lekce 19, 20
-  a 21 — zůstávají na Model Inference API, které **nepodporuje** Responses API. Tyto zůstávají
+  SDK (`client.complete()`) - ukázky `githubmodels-*` a `js-githubmodels` a lekce 19, 20
+  a 21 - zůstávají na Model Inference API, které **nepodporuje** Responses API. Tyto zůstávají
   záměrně na tomto SDK.
 - `AzureOpenAI()` je záměrně ponecháno tam, kde je stále vhodné (embeddings a generování obrázků),
   protože tyto pracovní postupy nejsou součástí migrace na Responses API.

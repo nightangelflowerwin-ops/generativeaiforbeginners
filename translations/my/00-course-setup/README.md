@@ -42,7 +42,7 @@
 | Container တည်ဆောက်ခြင်း ၁၀ မိနစ် ကျော် ရပ်တနောက်               | **Codespaces ➜ “Rebuild Container”**                                  |
 | `python: command not found`            | Terminal က မတွဲနေပါဘူး; **+** ကိုနှိပ်ပြီး *bash* ရွေးပါ                   |
 | OpenAI မှ `401 Unauthorized` error      | မှားသည့် / ကုန်ဆုံးသွားသော `OPENAI_API_KEY`                              |
-| VS Code မှ “Dev container mounting...” ပြတယ်   | Browser tab ကို ပြန် Refresh လုပ်ပါ—Codespaces သည် connection ပျောက်သွားတတ်သည်      |
+| VS Code မှ “Dev container mounting...” ပြတယ်   | Browser tab ကို ပြန် Refresh လုပ်ပါ-Codespaces သည် connection ပျောက်သွားတတ်သည်      |
 | Notebook kernel မရှိပါ                       | Notebook မီနူး ➜ **Kernel ▸ Select Kernel ▸ Python 3**                  |
 
    Unix-based စနစ်များအတွက်:

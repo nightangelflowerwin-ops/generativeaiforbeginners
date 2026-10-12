@@ -30,13 +30,13 @@ Acest proces durează **~2 minute** prima dată.
 
 ## 3. Adaugă cheia API (în mod sigur)
 
-### Opțiunea A Secrets Codespaces — Recomandat
+### Opțiunea A Secrets Codespaces - Recomandat
 
 1. ⚙️ Iconița setări -> Command Palette-> Codespaces : Manage user secret -> Add a new secret.
 2. Nume: OPENAI_API_KEY
 3. Valoare: lipește cheia → Add secret
 
-Gata—codul nostru o va prelua automat.
+Gata-codul nostru o va prelua automat.
 
 ### Opțiunea B fișier .env (doar dacă chiar ai nevoie)
 

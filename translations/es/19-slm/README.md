@@ -54,7 +54,7 @@ Los SLM tienen una amplia gama de aplicaciones, incluyendo:
 
 **Tamaño**
   
-Una distinción principal entre LLM y SLM radica en la escala de los modelos. Los LLMs, como ChatGPT (GPT-4), pueden comprender un estimado de 1.76 billones de parámetros, mientras que los SLMs de código abierto como Mistral 7B están diseñados con parámetros significativamente menores—aproximadamente 7 mil millones. Esta disparidad se debe principalmente a las diferencias en la arquitectura del modelo y los procesos de entrenamiento. Por ejemplo, ChatGPT emplea un mecanismo de autoatención dentro de un marco encoder-decoder, mientras que Mistral 7B utiliza atención de ventana deslizante, que permite un entrenamiento más eficiente dentro de un modelo solo decoder. Esta variación arquitectónica tiene profundas implicaciones para la complejidad y el rendimiento de estos modelos.
+Una distinción principal entre LLM y SLM radica en la escala de los modelos. Los LLMs, como ChatGPT (GPT-4), pueden comprender un estimado de 1.76 billones de parámetros, mientras que los SLMs de código abierto como Mistral 7B están diseñados con parámetros significativamente menores-aproximadamente 7 mil millones. Esta disparidad se debe principalmente a las diferencias en la arquitectura del modelo y los procesos de entrenamiento. Por ejemplo, ChatGPT emplea un mecanismo de autoatención dentro de un marco encoder-decoder, mientras que Mistral 7B utiliza atención de ventana deslizante, que permite un entrenamiento más eficiente dentro de un modelo solo decoder. Esta variación arquitectónica tiene profundas implicaciones para la complejidad y el rendimiento de estos modelos.
 
 **Comprensión**
 
@@ -208,7 +208,7 @@ ollama run phi3.5
 
 **Foundry Local**
 
-[Foundry Local](https://foundrylocal.ai?WT.mc_id=academic-105485-koreyst) es el runtime offline y en dispositivo de Microsoft para ejecutar modelos como Phi totalmente en tu propio hardware — sin necesidad de suscripción a Azure, clave API o conexión de red. Automáticamente selecciona el mejor proveedor de ejecución disponible (NPU, GPU o CPU) y expone un endpoint compatible con OpenAI, para que el código existente del SDK `openai`/Azure AI Inference pueda apuntar a él con cambios mínimos. Consulta la [documentación de Foundry Local](https://learn.microsoft.com/azure/ai-foundry/foundry-local/get-started?WT.mc_id=academic-105485-koreyst) para comenzar.
+[Foundry Local](https://foundrylocal.ai?WT.mc_id=academic-105485-koreyst) es el runtime offline y en dispositivo de Microsoft para ejecutar modelos como Phi totalmente en tu propio hardware - sin necesidad de suscripción a Azure, clave API o conexión de red. Automáticamente selecciona el mejor proveedor de ejecución disponible (NPU, GPU o CPU) y expone un endpoint compatible con OpenAI, para que el código existente del SDK `openai`/Azure AI Inference pueda apuntar a él con cambios mínimos. Consulta la [documentación de Foundry Local](https://learn.microsoft.com/azure/ai-foundry/foundry-local/get-started?WT.mc_id=academic-105485-koreyst) para comenzar.
 
 ```bash
 

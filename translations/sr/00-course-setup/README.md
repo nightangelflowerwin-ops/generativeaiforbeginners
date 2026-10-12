@@ -42,7 +42,7 @@
 | Састављање контејнера заглављено > 10 мин | **Codespaces ➜ “Rebuild Container”**                            |
 | `python: command not found`               | Терминал се није прикључио; кликните **+** ➜ *bash*              |
 | `401 Unauthorized` од OpenAI              | Погрешан / истекао `OPENAI_API_KEY`                              |
-| VS Code показује “Dev container mounting…” | Освежите картицу претраживача — понекад Codespaces губи везу     |
+| VS Code показује “Dev container mounting…” | Освежите картицу претраживача - понекад Codespaces губи везу     |
 | Недостаје језгро за нотебоок              | Менy нотебоока ➜ **Kernel ▸ Select Kernel ▸ Python 3**            |
 
    Unix-базирани системи:

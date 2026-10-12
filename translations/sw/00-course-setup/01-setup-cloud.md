@@ -30,13 +30,13 @@ Hili huchukua takriban **dakika 2** mara ya kwanza.
 
 ## 3. Ongeza ufunguo wako wa API (njia salama)
 
-### Chaguo A Siri za Codespaces — Inapendekezwa
+### Chaguo A Siri za Codespaces - Inapendekezwa
 
 1. ⚙️ Ikoni ya gia -> Command Palette -> Codespaces : Manage user secret -> Ongeza siri mpya.
 2. Jina: OPENAI_API_KEY
 3. Thamani: bandika ufunguo wako → Ongeza siri
 
-Hilo ndilo tu—msimbo wetu utaichukua moja kwa moja.
+Hilo ndilo tu-msimbo wetu utaichukua moja kwa moja.
 
 ### Chaguo B Faili la .env (ikiwa unahitaji kwa dhati)
 

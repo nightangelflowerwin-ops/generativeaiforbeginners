@@ -4,7 +4,7 @@
 
 > _Faceți clic pe imaginea de mai sus pentru a viziona videoclipul acestei lecții_
 
-În lecția precedentă, am văzut cum Generative AI schimbă peisajul tehnologic, cum funcționează Modelele Mari de Limbaj (LLM-uri) și cum o afacere — precum startup-ul nostru — le poate aplica cazurilor sale de utilizare pentru a crește! În acest capitol ne propunem să comparăm și să diferențiem diferitele tipuri de modele mari de limbaj (LLM-uri) pentru a înțelege avantajele și dezavantajele lor.
+În lecția precedentă, am văzut cum Generative AI schimbă peisajul tehnologic, cum funcționează Modelele Mari de Limbaj (LLM-uri) și cum o afacere - precum startup-ul nostru - le poate aplica cazurilor sale de utilizare pentru a crește! În acest capitol ne propunem să comparăm și să diferențiem diferitele tipuri de modele mari de limbaj (LLM-uri) pentru a înțelege avantajele și dezavantajele lor.
 
 Pasul următor în călătoria startup-ului nostru este explorarea peisajului actual al LLM-urilor și înțelegerea celor potrivite pentru cazul nostru de utilizare.
 

@@ -6,9 +6,9 @@ AI代理是生成式AI中的一个令人兴奋的发展，使大型语言模型�
 
 本课程将涵盖以下内容：
 
-- 理解什么是AI代理——AI代理到底是什么？
-- 探索五种不同的AI代理框架——它们的独特之处是什么？
-- 将这些AI代理应用于不同的用例——我们什么时候应该使用AI代理？
+- 理解什么是AI代理--AI代理到底是什么？
+- 探索五种不同的AI代理框架--它们的独特之处是什么？
+- 将这些AI代理应用于不同的用例--我们什么时候应该使用AI代理？
 
 ## 学习目标
 
@@ -28,11 +28,11 @@ AI代理允许大型语言模型（LLM）通过访问<strong>状态</strong>和<
 
 我们来定义这些术语：
 
-<strong>大型语言模型</strong>——指本课程中提及的模型，如GPT-5、GPT-4o和Llama 3.3等。
+<strong>大型语言模型</strong>--指本课程中提及的模型，如GPT-5、GPT-4o和Llama 3.3等。
 
-<strong>状态</strong>——指LLM所工作的上下文。LLM利用其过去动作和当前的上下文，指导其后续动作的决策。AI代理框架让开发者更容易维护这个上下文。
+<strong>状态</strong>--指LLM所工作的上下文。LLM利用其过去动作和当前的上下文，指导其后续动作的决策。AI代理框架让开发者更容易维护这个上下文。
 
-<strong>工具</strong>——完成用户请求且由LLM规划的任务时，LLM需要访问工具。工具的例子包括数据库、API、外部应用甚至其他LLM！
+<strong>工具</strong>--完成用户请求且由LLM规划的任务时，LLM需要访问工具。工具的例子包括数据库、API、外部应用甚至其他LLM！
 
 这些定义希望能为您今后了解它们如何实现打下良好基础。我们一起来探索几种不同的AI代理框架：
 
@@ -56,7 +56,7 @@ LangChain提供了一个[工具目录](https://integrations.langchain.com/tools?
 
 下一个我们要讨论的AI代理框架是[AutoGen](https://microsoft.github.io/autogen/?WT.mc_id=academic-105485-koreyst)。AutoGen的主要关注点是对话。代理既是<strong>可对话的</strong>，也是<strong>可定制的</strong>。
 
-**可对话的——** LLM能够与另一个LLM发起并持续对话，以完成任务。这是通过创建`AssistantAgents`并给予它们特定的系统消息完成的。
+**可对话的--** LLM能够与另一个LLM发起并持续对话，以完成任务。这是通过创建`AssistantAgents`并给予它们特定的系统消息完成的。
 
 ```python
 
@@ -64,7 +64,7 @@ autogen.AssistantAgent( name="Coder", llm_config=llm_config, ) pm = autogen.Assi
 
 ```
 
-<strong>可定制的</strong>——代理不仅可以定义为LLM，还可以是用户或工具。作为开发者，您可以定义一个`UserProxyAgent`，负责与用户互动以获取完成任务的反馈。该反馈可以继续执行任务或停止任务。
+<strong>可定制的</strong>--代理不仅可以定义为LLM，还可以是用户或工具。作为开发者，您可以定义一个`UserProxyAgent`，负责与用户互动以获取完成任务的反馈。该反馈可以继续执行任务或停止任务。
 
 ```python
 user_proxy = UserProxyAgent(name="user_proxy")
@@ -112,15 +112,15 @@ chatbot (to user_proxy):
 
 ## Microsoft代理框架
 
-[Microsoft代理框架](https://learn.microsoft.com/agent-framework/?WT.mc_id=academic-105485-koreyst) 是微软开源的用于构建AI代理和多代理系统的SDK，支持<strong>Python</strong>和<strong>.NET</strong>。它融合了微软之前两个项目的优势——企业级功能的<strong>Semantic Kernel</strong>和多代理编排的<strong>AutoGen</strong>——整合成一个支持的框架。如果您今天开始一个新的代理项目，这是AutoGen的推荐后续方案。
+[Microsoft代理框架](https://learn.microsoft.com/agent-framework/?WT.mc_id=academic-105485-koreyst) 是微软开源的用于构建AI代理和多代理系统的SDK，支持<strong>Python</strong>和<strong>.NET</strong>。它融合了微软之前两个项目的优势--企业级功能的<strong>Semantic Kernel</strong>和多代理编排的<strong>AutoGen</strong>--整合成一个支持的框架。如果您今天开始一个新的代理项目，这是AutoGen的推荐后续方案。
 
 该框架可扩展至单个<strong>聊天代理</strong>，也支持复杂的<strong>多代理工作流</strong>，并且可直接与Microsoft Foundry、Azure OpenAI和OpenAI集成。它还通过OpenTelemetry提供内置可观测性，让您可以精确追踪代理的行为。
 
 ### 状态与工具
 
-<strong>状态</strong>——框架通过<strong>线程</strong>管理对话上下文。代理跟踪消息历史（用户请求、工具调用及其结果），每轮对话基于前一轮建立。线程可持久化，允许对话暂停和恢复。
+<strong>状态</strong>--框架通过<strong>线程</strong>管理对话上下文。代理跟踪消息历史（用户请求、工具调用及其结果），每轮对话基于前一轮建立。线程可持久化，允许对话暂停和恢复。
 
-<strong>工具</strong>——您通过传递普通Python函数给代理设置工具。带类型注释的参数会自动转换为模式(schema)，模型能知道如何及何时调用它们（函数调用）。框架也支持模型上下文协议(MCP)服务器和托管工具，如代码解释器。
+<strong>工具</strong>--您通过传递普通Python函数给代理设置工具。带类型注释的参数会自动转换为模式(schema)，模型能知道如何及何时调用它们（函数调用）。框架也支持模型上下文协议(MCP)服务器和托管工具，如代码解释器。
 
 下面是一个带自定义工具的单代理示例：
 

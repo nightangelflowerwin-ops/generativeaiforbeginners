@@ -42,7 +42,7 @@
 | কন্টেইনার বিল্ড ১০ মিনিটের বেশি আটকে রয়েছে | **Codespaces ➜ “Rebuild Container”**                            |
 | `python: command not found`               | টার্মিনাল সংযুক্ত হয়নি; ক্লিক করুন **+** ➜ *bash*                |
 | OpenAI থেকে `401 Unauthorized`             | ভুল / মেয়াদউত্তীর্ণ `OPENAI_API_KEY`                            |
-| VS Code দেখায় “Dev container mounting…”   | ব্রাউজার ট্যাব রিফ্রেশ করুন—কখনও কখনও Codespaces সংযোগ হারায়  |
+| VS Code দেখায় “Dev container mounting…”   | ব্রাউজার ট্যাব রিফ্রেশ করুন-কখনও কখনও Codespaces সংযোগ হারায়  |
 | নোটবুক কার্নেল অনুপস্থিত                   | নোটবুক মেনু ➜ **Kernel ▸ Select Kernel ▸ Python 3**               |
 
    ইউনিক্স-বেইজড সিস্টেম:

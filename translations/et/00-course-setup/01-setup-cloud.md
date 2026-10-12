@@ -30,13 +30,13 @@ Esimene kord võtab see umbes **2 minutit**.
 
 ## 3. Lisa oma API võti (ohutu meetod)
 
-### Variant A Codespaces Secrets — Soovitatav
+### Variant A Codespaces Secrets - Soovitatav
 
 1. ⚙️ Hammasratas -> Command Palette -> Codespaces : Manage user secret -> Lisa uus saladus.
 2. Nimi: OPENAI_API_KEY
 3. Väärtus: kleebi oma võti → Lisa saladus
 
-See on kõik—meie kood kasutab seda automaatselt.
+See on kõik-meie kood kasutab seda automaatselt.
 
 ### Variant B .env fail (kui tõesti vajad)
 

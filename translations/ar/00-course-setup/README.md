@@ -42,7 +42,7 @@
 | توقف بناء الحاوية لأكثر من 10 دقائق            | **Codespaces ➜ “إعادة بناء الحاوية”**                            |
 | `python: command not found`               | الطرفية لم تُربط؛ انقر **+** ➜ *bash*                    |
 | `401 Unauthorized` من OpenAI            | مفتاح `OPENAI_API_KEY` خاطئ أو منتهي الصلاحية                                |
-| VS Code يعرض “Dev container mounting…”   | حدث تحديث صفحة المتصفح—أحيانًا تفقد Codespaces الاتصال   |
+| VS Code يعرض “Dev container mounting…”   | حدث تحديث صفحة المتصفح-أحيانًا تفقد Codespaces الاتصال   |
 | فقدان نواة المفكرة                   | قائمة المفكرة ➜ **Kernel ▸ اختيار النواة ▸ Python 3**           |
 
    أنظمة تشغيل يونكس:

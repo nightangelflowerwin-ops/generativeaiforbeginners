@@ -1,4 +1,4 @@
-# 小型语言模型简介 —— 面向初学者的生成式人工智能
+# 小型语言模型简介 -- 面向初学者的生成式人工智能
 生成式人工智能是人工智能中一个引人入胜的领域，专注于创建能够生成新内容的系统。这些内容可以涵盖文本、图像、音乐，甚至完整的虚拟环境。生成式人工智能最令人兴奋的应用之一就是语言模型领域。
 
 ## 什么是小型语言模型？
@@ -210,7 +210,7 @@ ollama run phi3.5
 
 **Foundry Local**
 
-[Foundry Local](https://foundrylocal.ai?WT.mc_id=academic-105485-koreyst) 是微软提供的脱机设备端运行时，能让你在自己的硬件上运行例如 Phi 这样的模型——无需 Azure 订阅、API 密钥或网络连接。它会自动选择最佳执行提供者（NPU、GPU，或 CPU），并暴露一个兼容 OpenAI 的接口，因此现有的 `openai`/Azure AI 推理 SDK 代码只需做最小改动即可指向它。请参阅 [Foundry Local 文档](https://learn.microsoft.com/azure/ai-foundry/foundry-local/get-started?WT.mc_id=academic-105485-koreyst) 以开始使用。
+[Foundry Local](https://foundrylocal.ai?WT.mc_id=academic-105485-koreyst) 是微软提供的脱机设备端运行时，能让你在自己的硬件上运行例如 Phi 这样的模型--无需 Azure 订阅、API 密钥或网络连接。它会自动选择最佳执行提供者（NPU、GPU，或 CPU），并暴露一个兼容 OpenAI 的接口，因此现有的 `openai`/Azure AI 推理 SDK 代码只需做最小改动即可指向它。请参阅 [Foundry Local 文档](https://learn.microsoft.com/azure/ai-foundry/foundry-local/get-started?WT.mc_id=academic-105485-koreyst) 以开始使用。
 
 ```bash
 

@@ -54,7 +54,7 @@ SLM 適用於多種應用場合，包括：
 
 <strong>規模</strong>
   
-LLM 與 SLM 的主要區別在於模型規模。LLM，如 ChatGPT（GPT-4），可能包含約 1.76 兆個參數，而開源 SLM 如 Mistral 7B 則設計有明顯較少參數——約 70 億。這種差異主要源於模型架構和訓練過程的不同。例如，ChatGPT 採用編碼器-解碼器架構中的自注意力機制，而 Mistral 7B 使用滑動窗口注意力，使其能在解碼器專用模型中更有效訓練。此架構差異對模型的複雜度和性能有深遠影響。
+LLM 與 SLM 的主要區別在於模型規模。LLM，如 ChatGPT（GPT-4），可能包含約 1.76 兆個參數，而開源 SLM 如 Mistral 7B 則設計有明顯較少參數--約 70 億。這種差異主要源於模型架構和訓練過程的不同。例如，ChatGPT 採用編碼器-解碼器架構中的自注意力機制，而 Mistral 7B 使用滑動窗口注意力，使其能在解碼器專用模型中更有效訓練。此架構差異對模型的複雜度和性能有深遠影響。
 
 <strong>理解能力</strong>
 
@@ -208,7 +208,7 @@ ollama run phi3.5
 
 **Foundry Local**
 
-[Foundry Local](https://foundrylocal.ai?WT.mc_id=academic-105485-koreyst) 是微軟的離線本地模型運行時，可讓你完全在自家硬體上運行像 Phi 這樣的模型—無需 Azure 訂閱、API 金鑰或網路連接。它會自動選擇最佳的執行提供者（NPU、GPU 或 CPU），並暴露 OpenAI 兼容的端點，因此現有 `openai`/Azure AI 推理 SDK 代碼只需極少修改即可指向它。請參閱 [Foundry Local 文檔](https://learn.microsoft.com/azure/ai-foundry/foundry-local/get-started?WT.mc_id=academic-105485-koreyst) 以開始使用。
+[Foundry Local](https://foundrylocal.ai?WT.mc_id=academic-105485-koreyst) 是微軟的離線本地模型運行時，可讓你完全在自家硬體上運行像 Phi 這樣的模型-無需 Azure 訂閱、API 金鑰或網路連接。它會自動選擇最佳的執行提供者（NPU、GPU 或 CPU），並暴露 OpenAI 兼容的端點，因此現有 `openai`/Azure AI 推理 SDK 代碼只需極少修改即可指向它。請參閱 [Foundry Local 文檔](https://learn.microsoft.com/azure/ai-foundry/foundry-local/get-started?WT.mc_id=academic-105485-koreyst) 以開始使用。
 
 ```bash
 

@@ -149,7 +149,7 @@ Trong đoạn mã trên, ta tạo một response và truyền vào mô hình mu�
 
 ### Hội thoại nhiều lượt
 
-Responses API phù hợp cho cả tạo văn bản một lượt và chatbot nhiều lượt — bạn cung cấp một danh sách tin nhắn trong `input` để xây dựng cuộc hội thoại:
+Responses API phù hợp cho cả tạo văn bản một lượt và chatbot nhiều lượt - bạn cung cấp một danh sách tin nhắn trong `input` để xây dựng cuộc hội thoại:
 
 ```python
 from openai import OpenAI

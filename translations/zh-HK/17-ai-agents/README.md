@@ -112,7 +112,7 @@ chatbot (to user_proxy):
 
 ## Microsoft Agent Framework
 
-[Microsoft Agent Framework](https://learn.microsoft.com/agent-framework/?WT.mc_id=academic-105485-koreyst) 是微軟開源的 SDK，用於用 **Python** 和 **.NET** 構建 AI 代理及多代理系統。它整合了微軟兩個早期專案的優勢——企業特性的 **Semantic Kernel** 和多代理協調的 **AutoGen** ——成為一個獲得支援的框架。如果您今天開始一個新的代理專案，這是推薦的 AutoGen 後繼方案。
+[Microsoft Agent Framework](https://learn.microsoft.com/agent-framework/?WT.mc_id=academic-105485-koreyst) 是微軟開源的 SDK，用於用 **Python** 和 **.NET** 構建 AI 代理及多代理系統。它整合了微軟兩個早期專案的優勢--企業特性的 **Semantic Kernel** 和多代理協調的 **AutoGen** --成為一個獲得支援的框架。如果您今天開始一個新的代理專案，這是推薦的 AutoGen 後繼方案。
 
 該框架支持從單一<strong>聊天代理</strong>到複雜的<strong>多代理工作流程</strong>擴展，且可直接集成微軟 Foundry、Azure OpenAI、OpenAI。它還透過 OpenTelemetry 提供內建可觀察性，可精確追蹤代理的行為。
 

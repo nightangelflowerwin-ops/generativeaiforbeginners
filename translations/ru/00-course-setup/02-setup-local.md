@@ -2,7 +2,7 @@
 
 **Используйте это руководство, если предпочитаете запускать всё на своём ноутбуке.**   
 У вас есть два варианта: **(A) нативный Python + виртуальное окружение** или **(B) VS Code Dev Container с Docker**.  
-Выберите любой, какой покажется проще — оба ведут к одним и тем же урокам.
+Выберите любой, какой покажется проще - оба ведут к одним и тем же урокам.
 
 ## 1. Требования
 
@@ -33,7 +33,7 @@ source .venv/bin/activate     # macOS / Linux
 .\.venv\Scripts\activate      # Windows PowerShell
 ```
 
-✅ Теперь приглашение командной строки должно начинаться с (.venv) — значит, вы в виртуальном окружении.
+✅ Теперь приглашение командной строки должно начинаться с (.venv) - значит, вы в виртуальном окружении.
 
 ### Шаг 3 Установите зависимости
 
@@ -68,8 +68,8 @@ VS Code обнаружит `.devcontainer/` и покажет всплывающ
 
 ## 2. Вариант C – Miniconda
 
-[Miniconda](https://conda.io/en/latest/miniconda.html?WT.mc_id=academic-105485-koreyst) — лёгкий установщик для [Conda](https://docs.conda.io/en/latest?WT.mc_id=academic-105485-koreyst), Python и нескольких пакетов.
-Сам Conda — это менеджер пакетов, который облегчает создание и переключение между разными Python [виртуальными окружениями](https://docs.python.org/3/tutorial/venv.html?WT.mc_id=academic-105485-koreyst) и пакетами. Он также полезен для установки пакетов, отсутствующих в `pip`.
+[Miniconda](https://conda.io/en/latest/miniconda.html?WT.mc_id=academic-105485-koreyst) - лёгкий установщик для [Conda](https://docs.conda.io/en/latest?WT.mc_id=academic-105485-koreyst), Python и нескольких пакетов.
+Сам Conda - это менеджер пакетов, который облегчает создание и переключение между разными Python [виртуальными окружениями](https://docs.python.org/3/tutorial/venv.html?WT.mc_id=academic-105485-koreyst) и пакетами. Он также полезен для установки пакетов, отсутствующих в `pip`.
 
 ### Шаг 0 Установите Miniconda
 
@@ -196,7 +196,7 @@ jupyterhub
 
 Вот и всё! Вы успешно создали `.env` файл, добавили учетные данные Microsoft Foundry Models и загрузили их в Python-приложение.
 
-🔐 Никогда не коммитьте `.env` — он уже добавлен в `.gitignore`.
+🔐 Никогда не коммитьте `.env` - он уже добавлен в `.gitignore`.
 Полные инструкции от провайдера доступны в [`providers.md`](03-providers.md).
 
 ## 4. Что дальше?

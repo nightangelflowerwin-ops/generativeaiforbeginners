@@ -50,7 +50,7 @@
 
 В курсе 21 урок. Каждый урок охватывает свою тему, так что начинайте с любого!
 
-Уроки обозначены как «Изучение» — объясняющие концепцию Генеративного ИИ, или «Практика» — объясняющие концепцию и примеры кода как на **Python**, так и на **TypeScript**, где это возможно.
+Уроки обозначены как «Изучение» - объясняющие концепцию Генеративного ИИ, или «Практика» - объясняющие концепцию и примеры кода как на **Python**, так и на **TypeScript**, где это возможно.
 
 Для разработчиков .NET смотрите [Генеративный ИИ для начинающих (.NET Edition)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)!
 
@@ -59,11 +59,11 @@
 ## Что вам нужно
 ### Чтобы запускать код курса, вы можете использовать:
  - [Azure OpenAI Service](https://aka.ms/genai-beginners/azure-open-ai?WT.mc_id=academic-105485-koreyst) - **Уроки:** "aoai-assignment"
- - [Microsoft Foundry Models](https://ai.azure.com/catalog/models?WT.mc_id=academic-105485-koreyst) - **Уроки:** "githubmodels" (GitHub Models будет закрыт к концу июля 2026 — используйте Microsoft Foundry Models)
+ - [Microsoft Foundry Models](https://ai.azure.com/catalog/models?WT.mc_id=academic-105485-koreyst) - **Уроки:** "githubmodels" (GitHub Models будет закрыт к концу июля 2026 - используйте Microsoft Foundry Models)
  - [OpenAI API](https://aka.ms/genai-beginners/open-ai?WT.mc_id=academic-105485-koreyst) - **Уроки:** "oai-assignment"
  - [Foundry Local](https://foundrylocal.ai?WT.mc_id=academic-105485-koreyst) - Запускайте модели полностью офлайн на вашем устройстве, подписка на облако не требуется
    
-- Базовые знания Python или TypeScript полезны — \*Для абсолютных новичков ознакомьтесь с этими курсами по [Python](https://aka.ms/genai-beginners/python?WT.mc_id=academic-105485-koreyst) и [TypeScript](https://aka.ms/genai-beginners/typescript?WT.mc_id=academic-105485-koreyst)
+- Базовые знания Python или TypeScript полезны - \*Для абсолютных новичков ознакомьтесь с этими курсами по [Python](https://aka.ms/genai-beginners/python?WT.mc_id=academic-105485-koreyst) и [TypeScript](https://aka.ms/genai-beginners/typescript?WT.mc_id=academic-105485-koreyst)
 - Аккаунт GitHub для [форка этого репозитория целиком](https://aka.ms/genai-beginners/github?WT.mc_id=academic-105485-koreyst) в свой собственный аккаунт GitHub
 
 Мы создали урок **[Настройка курса](./00-course-setup/README.md?WT.mc_id=academic-105485-koreyst)**, чтобы помочь вам настроить среду разработки.

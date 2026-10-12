@@ -85,7 +85,7 @@ Overfitting is a specific case of a broader statistical problem called the Bias-
 * **Bias errors** occur when the algorithm can’t capture the relationship in the training data properly. This usually happens when the model is too simple (**underfitting**).
 * **Variance errors** happen when the model fits noise in the input data instead of the true relationship (**overfitting**).
 
-During training, bias error decreases as the model learns, but variance error increases. It’s important to stop training—either manually (when overfitting is detected) or automatically (using regularization)—to avoid overfitting.
+During training, bias error decreases as the model learns, but variance error increases. It’s important to stop training-either manually (when overfitting is detected) or automatically (using regularization)-to avoid overfitting.
 
 ## Conclusion
 

@@ -300,9 +300,9 @@ All translations are **complete** and generated automatically by the [Azure Co-o
 
 | Aspect | Status |
 |--------|--------|
-| Translation coverage | Complete — 50+ languages, all lessons |
+| Translation coverage | Complete - 50+ languages, all lessons |
 | Translation method | Automated via [Azure Co-op Translator](https://github.com/Azure/co-op-translator?WT.mc_id=academic-105485-koreyst) |
-| Kept in sync with English source | Yes — regenerated automatically |
+| Kept in sync with English source | Yes - regenerated automatically |
 
 ### 9.2 Accessibility Improvements
 

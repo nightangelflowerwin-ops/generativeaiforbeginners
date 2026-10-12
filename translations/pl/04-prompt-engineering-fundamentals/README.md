@@ -280,11 +280,11 @@ Inną techniką wykorzystania zawartości głównej jest dostarczanie _sygnałó
 
 ### Szablony promptów
 
-Szablon promptu to _zdefiniowany wcześniej przepis na prompt_, który można przechowywać i wykorzystywać wielokrotnie według potrzeby, aby zapewnić bardziej spójne doświadczenia użytkownika na dużą skalę. W najprostszej formie jest to po prostu zbiór przykładów promptów, takich jak [ten od OpenAI](https://cookbook.openai.com/examples/gpt4-1_prompting_guide?WT.mc_id=academic-105485-koreyst), który dostarcza zarówno interaktywne komponenty promptu (wiadomości użytkownika i systemu), jak i format zapytania sterowanego przez API — aby wspierać ponowne użycie.
+Szablon promptu to _zdefiniowany wcześniej przepis na prompt_, który można przechowywać i wykorzystywać wielokrotnie według potrzeby, aby zapewnić bardziej spójne doświadczenia użytkownika na dużą skalę. W najprostszej formie jest to po prostu zbiór przykładów promptów, takich jak [ten od OpenAI](https://cookbook.openai.com/examples/gpt4-1_prompting_guide?WT.mc_id=academic-105485-koreyst), który dostarcza zarówno interaktywne komponenty promptu (wiadomości użytkownika i systemu), jak i format zapytania sterowanego przez API - aby wspierać ponowne użycie.
 
 W bardziej złożonej formie, jak [ten przykład z LangChain](https://python.langchain.com/docs/concepts/prompt_templates/?WT.mc_id=academic-105485-koreyst), zawiera _miejsce na dane_ (placeholders), które można zastąpić danymi z różnych źródeł (wprowadzanymi przez użytkownika, kontekstem systemu, zewnętrznymi źródłami danych itd.), aby dynamicznie generować prompt. Pozwala to stworzyć bibliotekę wielokrotnego użytku promptów, które mogą być wykorzystywane do programowego tworzenia spójnych doświadczeń użytkownika na dużą skalę.
 
-Prawdziwa wartość szablonów polega wreszcie na możliwości tworzenia i publikowania _bibliotek promptów_ dla pionowych dziedzin zastosowań — gdzie szablon promptu jest _optymalizowany_, aby odzwierciedlać kontekst specyficzny dla aplikacji lub przykłady, które sprawiają, że odpowiedzi są bardziej istotne i precyzyjne dla docelowej grupy użytkowników. Repozytorium [Prompts For Edu](https://github.com/microsoft/prompts-for-edu?WT.mc_id=academic-105485-koreyst) jest doskonałym przykładem takiego podejścia — kuratoruje bibliotekę promptów dla edukacji, ze szczególnym naciskiem na kluczowe cele jak planowanie lekcji, projektowanie programu nauczania, tutoring uczniów itd.
+Prawdziwa wartość szablonów polega wreszcie na możliwości tworzenia i publikowania _bibliotek promptów_ dla pionowych dziedzin zastosowań - gdzie szablon promptu jest _optymalizowany_, aby odzwierciedlać kontekst specyficzny dla aplikacji lub przykłady, które sprawiają, że odpowiedzi są bardziej istotne i precyzyjne dla docelowej grupy użytkowników. Repozytorium [Prompts For Edu](https://github.com/microsoft/prompts-for-edu?WT.mc_id=academic-105485-koreyst) jest doskonałym przykładem takiego podejścia - kuratoruje bibliotekę promptów dla edukacji, ze szczególnym naciskiem na kluczowe cele jak planowanie lekcji, projektowanie programu nauczania, tutoring uczniów itd.
 
 ## Treść wspierająca
 
@@ -296,7 +296,7 @@ Na przykład: Mając katalog kursów z obszernymi metadanymi (nazwa, opis, pozio
 - możemy użyć głównej treści, aby podać kilka przykładów pożądanego wyniku
 - możemy użyć treści wtórnej, aby wskazać 5 najważniejszych „tagów” zainteresowania
 
-Teraz model może dostarczyć podsumowanie w formacie pokazanym przez kilka przykładów — ale jeśli wynik ma wiele tagów, może priorytetowo traktować 5 tagów zdefiniowanych w treści wtórnej.
+Teraz model może dostarczyć podsumowanie w formacie pokazanym przez kilka przykładów - ale jeśli wynik ma wiele tagów, może priorytetowo traktować 5 tagów zdefiniowanych w treści wtórnej.
 
 ---
 
@@ -313,7 +313,7 @@ Zilustruj to ćwiczeniami.
 
 ## Najlepsze praktyki w promptowaniu
 
-Teraz, gdy wiemy, jak prompt może być _zbudowany_, możemy zacząć myśleć, jak go _zaprojektować_, aby odzwierciedlić najlepsze praktyki. Możemy to rozważać dwojako — posiadając odpowiednie _nastawienie_ i stosując odpowiednie _techniki_.
+Teraz, gdy wiemy, jak prompt może być _zbudowany_, możemy zacząć myśleć, jak go _zaprojektować_, aby odzwierciedlić najlepsze praktyki. Możemy to rozważać dwojako - posiadając odpowiednie _nastawienie_ i stosując odpowiednie _techniki_.
 
 ### Nastawienie w inżynierii promptów
 
@@ -374,7 +374,7 @@ W naszym zadaniu skorzystamy z Jupyter Notebook z ćwiczeniami, które możesz w
 
 - Wybierz jądro środowiska uruchomieniowego. Jeśli korzystasz z opcji 1 lub 2, po prostu wybierz domyślne jądro Python 3.10.x zapewnione przez kontener deweloperski.
 
-Jesteś gotów do uruchomienia ćwiczeń. Zwróć uwagę, że tutaj nie ma _dobrych ani złych_ odpowiedzi — chodzi o eksplorację opcji metodą prób i błędów oraz zdobycie intuicji, co działa dla danego modelu i domeny zastosowania.
+Jesteś gotów do uruchomienia ćwiczeń. Zwróć uwagę, że tutaj nie ma _dobrych ani złych_ odpowiedzi - chodzi o eksplorację opcji metodą prób i błędów oraz zdobycie intuicji, co działa dla danego modelu i domeny zastosowania.
 
 _Z tego powodu w tej lekcji nie ma segmentów z rozwiązaniami kodu. Zamiast tego Notebook zawiera komórki Markdown zatytułowane "Moje rozwiązanie:", które pokazują jeden przykładowy wynik do odniesienia._
 

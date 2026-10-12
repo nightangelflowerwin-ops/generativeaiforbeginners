@@ -300,9 +300,9 @@ Minden fordítás **készen áll** és automatikusan készül az [Azure Co-op Tr
 
 | Szempont | Állapot |
 |--------|--------|
-| Fordítás lefedettség | Teljes — 50+ nyelv, minden lecke |
+| Fordítás lefedettség | Teljes - 50+ nyelv, minden lecke |
 | Fordítási módszer | Automatikus, az [Azure Co-op Translator](https://github.com/Azure/co-op-translator?WT.mc_id=academic-105485-koreyst) által |
-| Szinkron az angol forrással | Igen — automatikusan újragenerálva |
+| Szinkron az angol forrással | Igen - automatikusan újragenerálva |
 
 ### 9.2 Akadálymentesítési fejlesztések
 

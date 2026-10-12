@@ -5,7 +5,7 @@ Wszystkie znaczące zmiany w programie nauczania Generative AI for Beginners są
 Format opiera się na [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Ponieważ jest to
 program nauczania, a nie opakowanie oprogramowania z wersjami, wpisy są grupowane według daty.
 
-## [2026-07-16] — Walidacja treści + zasoby graficzne lekcji 09
+## [2026-07-16] - Walidacja treści + zasoby graficzne lekcji 09
 
 ### Zmiany
 
@@ -24,7 +24,7 @@ program nauczania, a nie opakowanie oprogramowania z wersjami, wpisy są grupowa
 
 ### Zweryfikowano
 
-- Przeprowadzono audyt plików README dla lekcji 01, 03, 05, 12, 14 i 16 — wszystkie aktualne (poprawne nazewnictwo i linki Microsoft Foundry);
+- Przeprowadzono audyt plików README dla lekcji 01, 03, 05, 12, 14 i 16 - wszystkie aktualne (poprawne nazewnictwo i linki Microsoft Foundry);
   brak konieczności zmian.
 - Przeprowadzono pełną walidację markdown we wszystkich 41 plikach markdown w repozytorium (z wyłączeniem tłumaczeń)
   względem przestarzałych ścieżek dokumentacji, lokalizacji Microsoft z `/en-us/`, przestarzałych nazw produktów/modeli,
@@ -32,7 +32,7 @@ program nauczania, a nie opakowanie oprogramowania z wersjami, wpisy są grupowa
   była luka w identyfikatorze śledzenia *Microsoft for Startups*; wszystkie inne zgłoszenia okazały się fałszywymi alarmami (automatycznie generowane linki do tłumaczeń,
   zakomentowane miejsca zastępcze oraz zewnętrzne strukturalne adresy URL `/en/`).
 
-## [2026-07-15] — Przepisanie lekcji 09 (Aplikacje graficzne) dla modeli GPT Image
+## [2026-07-15] - Przepisanie lekcji 09 (Aplikacje graficzne) dla modeli GPT Image
 
 ### Zmiany
 
@@ -63,7 +63,7 @@ program nauczania, a nie opakowanie oprogramowania z wersjami, wpisy są grupowa
 - Uruchomiono `aoai-app.py` end-to-end na wdrożonym modelu `gpt-image-1.5` i potwierdzono, że przepływ
   dekodowania/zapisywania base64 generuje plik PNG. Notatniki potwierdzono jako prawidłowy JSON.
 
-## [2026-07-14] — Aktualizacja domyślnego modelu + wskazówki dotyczące modelu rozumowania
+## [2026-07-14] - Aktualizacja domyślnego modelu + wskazówki dotyczące modelu rozumowania
 
 ### Zmiany
 
@@ -109,7 +109,7 @@ program nauczania, a nie opakowanie oprogramowania z wersjami, wpisy są grupowa
 - Przykłady z lekcji 20 (Mistral) i 21 (Meta) zachowują `temperature`/`max_tokens`, ponieważ dotyczą
   modeli Mistral/Llama, które obsługują te parametry.
 
-## [2026-07-06] — Odświeżenie treści i modernizacja
+## [2026-07-06] - Odświeżenie treści i modernizacja
 
 Szerokie odświeżenie, aby utrzymać aktualność programu nauczania na 2026 rok: nowoczesne API, aktualne nazwy produktów i
 modeli, zaktualizowane wskazówki dotyczące dostawców oraz nowe narzędzia poprawiające doświadczenie programisty.
@@ -122,11 +122,11 @@ modeli, zaktualizowane wskazówki dotyczące dostawców oraz nowe narzędzia pop
 - **Foundry Local** udokumentowane jako dostawca offline / na urządzeniu (obok Ollama) w
   `00-course-setup/03-providers.md` oraz lekcji `19-slm`.
 - **Przepływy pracy ciągłej integracji**:
-  - `.github/workflows/code-quality.yml` — Ruff + Black (egzekwowane na utrzymywanym module `shared/`,
+  - `.github/workflows/code-quality.yml` - Ruff + Black (egzekwowane na utrzymywanym module `shared/`,
     narzędzia doradcze dla całego programu nauczania), kontrola ESLint oraz zadanie pytest.
-  - `.github/workflows/security.yml` — analiza CodeQL (Python + JavaScript/TypeScript) oraz
+  - `.github/workflows/security.yml` - analiza CodeQL (Python + JavaScript/TypeScript) oraz
     przegląd zależności przy pull requestach.
-- **Zestaw testów** w `tests/` — 41 testów pytest obejmujących współdzielony moduł narzędziowy.
+- **Zestaw testów** w `tests/` - 41 testów pytest obejmujących współdzielony moduł narzędziowy.
 - **Zdolność migracji Azure OpenAI → Responses API** w
   `.github/skills/azure-openai-to-responses/` używana do prowadzenia migracji API.
 
@@ -162,13 +162,13 @@ modeli, zaktualizowane wskazówki dotyczące dostawców oraz nowe narzędzia pop
 
 ### Naprawione
 
-- **`shared/python/input_validation.py`** — `validate_text_input(allow_empty=True)` zwraca teraz
+- **`shared/python/input_validation.py`** - `validate_text_input(allow_empty=True)` zwraca teraz
   pusty ciąg dla wejścia zawierającego same białe znaki zamiast zgłaszania błędu "za krótki"
   (zgodnie z przypadkiem `None`). Znalezione i pokryte nowym zestawem testów.
-- **Przykłady obrazów z lekcji 09** — poprawiono rzeczywiste błędy: `InvalidRequestError` → `BadRequestError`,
+- **Przykłady obrazów z lekcji 09** - poprawiono rzeczywiste błędy: `InvalidRequestError` → `BadRequestError`,
   `images.create` → `images.generate`, `Image.create_variation` → `client.images.create_variation`,
   oraz zmienną, która zacieniała moduł `openai`.
-- **Notatnik RAG z lekcji 15** — naprawiono konfigurację klienta, zastąpiono usuniętą metodę `DataFrame.append`
+- **Notatnik RAG z lekcji 15** - naprawiono konfigurację klienta, zastąpiono usuniętą metodę `DataFrame.append`
   funkcją `pd.concat`, a także unowocześniono użycie przestarzałego SDK.
 - Przestarzałe / wycofane nazwy modeli (`gpt-3.5-turbo`, `gpt-35-turbo`) zostały zastąpione przez `gpt-4o-mini`
   w aktywnych przykładach; historyczne wyniki dostrajania z lekcji 18 zostały zachowane i opisane,
@@ -177,8 +177,8 @@ modeli, zaktualizowane wskazówki dotyczące dostawców oraz nowe narzędzia pop
 ### Przestarzałe / Uwagi
 
 - **Przykłady modeli Microsoft Foundry** używające SDK `azure-ai-inference` / `@azure-rest/ai-inference`
-  (`client.complete()`) — przykłady `githubmodels-*` i `js-githubmodels` oraz lekcje 19, 20,
-  oraz 21 — pozostają przy Model Inference API, które **nie** obsługuje API Responses. Te przykłady
+  (`client.complete()`) - przykłady `githubmodels-*` i `js-githubmodels` oraz lekcje 19, 20,
+  oraz 21 - pozostają przy Model Inference API, które **nie** obsługuje API Responses. Te przykłady
   celowo pozostawiono przy tym SDK.
 - `AzureOpenAI()` jest celowo zachowane tam, gdzie jest jeszcze stosowne (tworzenie embeddingów i generowanie obrazów),
   ponieważ te przepływy pracy nie są częścią migracji do Responses API.

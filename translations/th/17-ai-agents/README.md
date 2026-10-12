@@ -112,7 +112,7 @@ chatbot (to user_proxy):
 
 ## Microsoft Agent Framework
 
-[Microsoft Agent Framework](https://learn.microsoft.com/agent-framework/?WT.mc_id=academic-105485-koreyst) คือ SDK แบบโอเพนซอร์ซของ Microsoft สำหรับสร้าง AI Agents และระบบมัลติเอเย่นต์ในทั้ง **Python** และ **.NET** รวมจุดแข็งของโครงการ Microsoft สองตัวก่อนหน้า — คุณสมบัติองค์กรของ **Semantic Kernel** และการประสานงานมัลติเอเย่นต์ของ **AutoGen** — เป็นกรอบงานเดียวที่ได้รับการสนับสนุน หากคุณเริ่มโครงการเอเย่นต์ใหม่วันนี้ นี่คือทางเลือกที่แนะนำแทน AutoGen
+[Microsoft Agent Framework](https://learn.microsoft.com/agent-framework/?WT.mc_id=academic-105485-koreyst) คือ SDK แบบโอเพนซอร์ซของ Microsoft สำหรับสร้าง AI Agents และระบบมัลติเอเย่นต์ในทั้ง **Python** และ **.NET** รวมจุดแข็งของโครงการ Microsoft สองตัวก่อนหน้า - คุณสมบัติองค์กรของ **Semantic Kernel** และการประสานงานมัลติเอเย่นต์ของ **AutoGen** - เป็นกรอบงานเดียวที่ได้รับการสนับสนุน หากคุณเริ่มโครงการเอเย่นต์ใหม่วันนี้ นี่คือทางเลือกที่แนะนำแทน AutoGen
 
 กรอบงานนี้รองรับตั้งแต่ **เอเย่นต์แชท** ตัวเดียวจนถึง **เวิร์กโฟลว์มัลติเอเย่นต์** ที่ซับซ้อน และผสานรวมโดยตรงกับ Microsoft Foundry, Azure OpenAI และ OpenAI นอกจากนี้ยังมีการสังเกตการณ์ในตัวผ่าน OpenTelemetry เพื่อให้คุณติดตามได้ว่าเอเย่นต์ของคุณทำงานอย่างไรบ้าง
 

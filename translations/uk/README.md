@@ -50,7 +50,7 @@
 
 Цей курс складається з 21 уроку. Кожен урок присвячений окремій темі, тож починайте з будь-якого!
 
-Уроки позначені як "Learn" — навчальні уроки, що пояснюють концепцію генеративного AI, або "Build" — уроки з прикладами коду на **Python** та **TypeScript**, де це можливо.
+Уроки позначені як "Learn" - навчальні уроки, що пояснюють концепцію генеративного AI, або "Build" - уроки з прикладами коду на **Python** та **TypeScript**, де це можливо.
 
 Для .NET розробників перегляньте [Generative AI for Beginners (.NET Edition)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)!
 
@@ -59,7 +59,7 @@
 ## Що вам потрібно
 ### Для запуску коду цього курсу ви можете використати: 
  - [Azure OpenAI Service](https://aka.ms/genai-beginners/azure-open-ai?WT.mc_id=academic-105485-koreyst) - **Уроки:** "aoai-assignment"
- - [Microsoft Foundry Models](https://ai.azure.com/catalog/models?WT.mc_id=academic-105485-koreyst) - **Уроки:** "githubmodels" (GitHub Models буде виведено з експлуатації наприкінці липня 2026 — використовуйте Microsoft Foundry Models замість нього)
+ - [Microsoft Foundry Models](https://ai.azure.com/catalog/models?WT.mc_id=academic-105485-koreyst) - **Уроки:** "githubmodels" (GitHub Models буде виведено з експлуатації наприкінці липня 2026 - використовуйте Microsoft Foundry Models замість нього)
  - [OpenAI API](https://aka.ms/genai-beginners/open-ai?WT.mc_id=academic-105485-koreyst) - **Уроки:** "oai-assignment" 
  - [Foundry Local](https://foundrylocal.ai?WT.mc_id=academic-105485-koreyst) - Запускайте моделі повністю офлайн на власному пристрої, без необхідності у хмарній підписці
    

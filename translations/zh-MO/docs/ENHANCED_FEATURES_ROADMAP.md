@@ -300,9 +300,9 @@ jobs:
 
 | 方面 | 狀態 |
 |--------|--------|
-| 翻譯覆蓋率 | 完整 — 50 多種語言，所有課程 |
+| 翻譯覆蓋率 | 完整 - 50 多種語言，所有課程 |
 | 翻譯方式 | 透過 [Azure Co-op Translator](https://github.com/Azure/co-op-translator?WT.mc_id=academic-105485-koreyst) 自動化 |
-| 與英文原稿保持同步 | 是 — 自動重生成 |
+| 與英文原稿保持同步 | 是 - 自動重生成 |
 
 ### 9.2 可及性改進
 

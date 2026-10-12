@@ -18,7 +18,7 @@ source: https://github.com/Azure-Samples/azure-openai-to-responses
 
 # Migrate Python Apps from Azure OpenAI Chat Completions to Responses API
 
-> **AUTHORITATIVE GUIDANCE — FOLLOW EXACTLY**
+> **AUTHORITATIVE GUIDANCE - FOLLOW EXACTLY**
 >
 > This skill migrates Python codebases using Azure OpenAI Chat Completions
 > to the unified Responses API. Follow these instructions precisely.
@@ -47,7 +47,7 @@ uses the standard `OpenAI()` client instead of `AzureOpenAI()`, requires no
 | --- | --- |
 | `AzureOpenAI()` / `AsyncAzureOpenAI()` | `OpenAI(base_url=...)` / `AsyncOpenAI(base_url=...)` |
 | `azure_endpoint=...` | `base_url=f"{endpoint.rstrip('/')}/openai/v1/"` |
-| `api_version="2024-..."` | Remove entirely — `/openai/v1/` is stable |
+| `api_version="2024-..."` | Remove entirely - `/openai/v1/` is stable |
 | `azure_ad_token_provider=...` | `api_key=token_provider` |
 | `client.chat.completions.create(messages=...)` | `client.responses.create(input=...)` |
 | `resp.choices[0].message.content` | `resp.output_text` |
@@ -60,13 +60,13 @@ uses the standard `OpenAI()` client instead of `AzureOpenAI()`, requires no
 | `content[].type: "image_url"` + `{"url": "..."}` | `content[].type: "input_image"` + flat `"image_url": "..."` |
 | streaming `chunk.choices[0].delta.content` | `event.type == "response.output_text.delta"` → `event.delta` |
 
-## Model compatibility — CHECK FIRST
+## Model compatibility - CHECK FIRST
 
 Verify the deployed model supports the Responses API before migrating. GPT-4o and
 GPT-4 support Responses for basic text/chat/streaming/tools but not all features.
 Newer models (gpt-4.1+, gpt-5.x) have full support. **GitHub Models
 (`models.github.ai`, `models.inference.ai.azure.com`) do NOT support the Responses
-API** — remove those code paths and switch to Azure OpenAI, OpenAI, or a compatible
+API** - remove those code paths and switch to Azure OpenAI, OpenAI, or a compatible
 local endpoint.
 
 Smoke test:
@@ -145,9 +145,9 @@ rg "models\.github\.ai|models\.inference\.ai\.azure"  # GitHub Models: remove
 ## Acceptance criteria (all must pass)
 
 - Zero matches for `chat.completions.create|ChatCompletion.create|Completion.create`
-- Zero matches for `AzureOpenAI(|AsyncAzureOpenAI(` — all use `OpenAI`/`AsyncOpenAI` + v1 endpoint
+- Zero matches for `AzureOpenAI(|AsyncAzureOpenAI(` - all use `OpenAI`/`AsyncOpenAI` + v1 endpoint
 - Zero matches for `models.github.ai|models.inference.ai.azure`
-- Zero matches for `choices[0]` — all access uses `resp.output_text` / Responses schema
+- Zero matches for `choices[0]` - all access uses `resp.output_text` / Responses schema
 - No top-level `response_format`; structured output uses `text={"format": {...}}`
 - `openai>=1.108.1` in requirements; `store=False` on every call; no `api_version` in client construction
 - Tests updated (mocks use `kwargs.get("input")`, snapshots use Responses shape); `pytest` passes

@@ -42,7 +42,7 @@
 | Сборка контейнера застряла > 10 мин       | **Codespaces ➜ “Rebuild Container”**                            |
 | `python: command not found`                | Терминал не подключился; нажмите **+** ➜ *bash*                |
 | `401 Unauthorized` от OpenAI                | Неправильный / просроченный `OPENAI_API_KEY`                    |
-| VS Code показывает «Dev container mounting…» | Обновите вкладку браузера — Codespaces иногда теряет соединение |
+| VS Code показывает «Dev container mounting…» | Обновите вкладку браузера - Codespaces иногда теряет соединение |
 | Отсутствует ядро ноутбука                  | Меню ноутбука ➜ **Kernel ▸ Select Kernel ▸ Python 3**          |
 
    Системы на базе Unix:
@@ -109,8 +109,8 @@ cd generative-ai-for-beginners
 
 ### Установка Miniconda
 
-[Miniconda](https://conda.io/en/latest/miniconda.html?WT.mc_id=academic-105485-koreyst) — это легкий установщик для установки [Conda](https://docs.conda.io/en/latest?WT.mc_id=academic-105485-koreyst), Python и нескольких пакетов.
-Сам Conda — это менеджер пакетов, который облегчает настройку и переключение между разными [виртуальными окружениями](https://docs.python.org/3/tutorial/venv.html?WT.mc_id=academic-105485-koreyst) Python и пакетами. Также он пригодится для установки пакетов, недоступных через `pip`.
+[Miniconda](https://conda.io/en/latest/miniconda.html?WT.mc_id=academic-105485-koreyst) - это легкий установщик для установки [Conda](https://docs.conda.io/en/latest?WT.mc_id=academic-105485-koreyst), Python и нескольких пакетов.
+Сам Conda - это менеджер пакетов, который облегчает настройку и переключение между разными [виртуальными окружениями](https://docs.python.org/3/tutorial/venv.html?WT.mc_id=academic-105485-koreyst) Python и пакетами. Также он пригодится для установки пакетов, недоступных через `pip`.
 
 Вы можете следовать [руководству по установке MiniConda](https://docs.anaconda.com/free/miniconda/#quick-command-line-install?WT.mc_id=academic-105485-koreyst) для настройки.
 
@@ -140,7 +140,7 @@ dependencies:
 conda install -c microsoft azure-ai-ml
 ```
 
-Файл окружения указывает необходимые зависимости. `<environment-name>` — имя вашего Conda-окружения, `<python-version>` — версия Python, которую вы хотите использовать, например, `3` — последняя основная версия Python.
+Файл окружения указывает необходимые зависимости. `<environment-name>` - имя вашего Conda-окружения, `<python-version>` - версия Python, которую вы хотите использовать, например, `3` - последняя основная версия Python.
 
 После этого создайте окружение Conda, выполнив следующие команды в командной строке/терминале
 
@@ -183,16 +183,16 @@ jupyterhub
 
 ### Запуск в контейнере
 
-Альтернатива установке на компьютере или в Codespace — использование [контейнера](../../../00-course-setup/<https:/en.wikipedia.org/wiki/Containerization_(computing)?WT.mc_id=academic-105485-koreyst>). Специальная папка `.devcontainer` в репозитории курса позволяет VS Code настроить проект в контейнере. Вне Codespaces потребуется установка Docker, и, честно говоря, это немного сложнее, поэтому мы рекомендуем это только тем, кто уже имеет опыт работы с контейнерами.
+Альтернатива установке на компьютере или в Codespace - использование [контейнера](../../../00-course-setup/<https:/en.wikipedia.org/wiki/Containerization_(computing)?WT.mc_id=academic-105485-koreyst>). Специальная папка `.devcontainer` в репозитории курса позволяет VS Code настроить проект в контейнере. Вне Codespaces потребуется установка Docker, и, честно говоря, это немного сложнее, поэтому мы рекомендуем это только тем, кто уже имеет опыт работы с контейнерами.
 
-Один из лучших способов сохранить ваши API-ключи в безопасности при использовании GitHub Codespaces — использовать секреты Codespace. Ознакомьтесь с [руководством по управлению секретами Codespaces](https://docs.github.com/en/codespaces/managing-your-codespaces/managing-secrets-for-your-codespaces?WT.mc_id=academic-105485-koreyst), чтобы узнать больше.
+Один из лучших способов сохранить ваши API-ключи в безопасности при использовании GitHub Codespaces - использовать секреты Codespace. Ознакомьтесь с [руководством по управлению секретами Codespaces](https://docs.github.com/en/codespaces/managing-your-codespaces/managing-secrets-for-your-codespaces?WT.mc_id=academic-105485-koreyst), чтобы узнать больше.
 
 
 ## Уроки и технические требования
 
 В курсе есть уроки "Учимся", которые объясняют концепции генеративного ИИ, и уроки "Строим" с практическими примерами кода на **Python** и **TypeScript**, где это возможно.
 
-Для уроков по программированию мы используем Azure OpenAI в Microsoft Foundry. Вам понадобится подписка Azure и API-ключ. Доступ открыт — заявление не требуется — вы можете [создать ресурс Microsoft Foundry и развернуть модель](https://learn.microsoft.com/azure/ai-foundry/openai/how-to/create-resource?pivots=web-portal&WT.mc_id=academic-105485-koreyst), чтобы получить конечную точку и ключ.
+Для уроков по программированию мы используем Azure OpenAI в Microsoft Foundry. Вам понадобится подписка Azure и API-ключ. Доступ открыт - заявление не требуется - вы можете [создать ресурс Microsoft Foundry и развернуть модель](https://learn.microsoft.com/azure/ai-foundry/openai/how-to/create-resource?pivots=web-portal&WT.mc_id=academic-105485-koreyst), чтобы получить конечную точку и ключ.
 
 Каждый урок по программированию также включает файл `README.md`, в котором можно посмотреть код и результаты без запуска.
 
@@ -206,7 +206,7 @@ jupyterhub
 
 ## Познакомьтесь с другими учащимися
 
-Мы создали каналы в нашем официальном [Discord-сервере сообщества AI](https://aka.ms/genai-discord?WT.mc_id=academic-105485-koreyst) для знакомства с другими учениками. Это отличный способ познакомиться с единомышленниками — предпринимателями, разработчиками, студентами и всеми, кто хочет прокачать себя в генеративном ИИ.
+Мы создали каналы в нашем официальном [Discord-сервере сообщества AI](https://aka.ms/genai-discord?WT.mc_id=academic-105485-koreyst) для знакомства с другими учениками. Это отличный способ познакомиться с единомышленниками - предпринимателями, разработчиками, студентами и всеми, кто хочет прокачать себя в генеративном ИИ.
 
 [![Присоединиться к каналу discord](https://dcbadge.limes.pink/api/server/ByRwuEEgH4)](https://aka.ms/genai-discord?WT.mc_id=academic-105485-koreyst)
 
@@ -214,9 +214,9 @@ jupyterhub
 
 ## Вклад в проект
 
-Этот курс — проект с открытым исходным кодом. Если вы видите области для улучшения или ошибки, пожалуйста, создайте [Pull Request](https://github.com/microsoft/generative-ai-for-beginners/pulls?WT.mc_id=academic-105485-koreyst) или зарегистрируйте [GitHub issue](https://github.com/microsoft/generative-ai-for-beginners/issues?WT.mc_id=academic-105485-koreyst).
+Этот курс - проект с открытым исходным кодом. Если вы видите области для улучшения или ошибки, пожалуйста, создайте [Pull Request](https://github.com/microsoft/generative-ai-for-beginners/pulls?WT.mc_id=academic-105485-koreyst) или зарегистрируйте [GitHub issue](https://github.com/microsoft/generative-ai-for-beginners/issues?WT.mc_id=academic-105485-koreyst).
 
-Команда проекта отслеживает все вклады. Участие в open source — отличный способ построить карьеру в генеративном ИИ.
+Команда проекта отслеживает все вклады. Участие в open source - отличный способ построить карьеру в генеративном ИИ.
 
 Большинство вклады требуют согласия с Лицензионным соглашением для вклада (CLA), которое подтверждает, что вы имеете право и действительно предоставляете нам права на использование вашего вклада. Подробнее смотрите на сайте [CLA, Лицензионное соглашение для участников](https://cla.microsoft.com?WT.mc_id=academic-105485-koreyst).
 

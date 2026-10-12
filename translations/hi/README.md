@@ -50,7 +50,7 @@ Microsoft Cloud Advocates द्वारा हमारा 21-पाठ का
 
 इस कोर्स में 21 पाठ हैं। प्रत्येक पाठ अपने विषय को कवर करता है, इसलिए कहीं से भी शुरू करें जहाँ आप चाहें!
 
-पाठ "Learn" और "Build" के लेबल के साथ होते हैं — "Learn" पैराग्राफ जेनेरेटिव AI की अवधारणा समझाते हैं और "Build" पाठ अवधारणा तथा कोड उदाहरण **Python** और **TypeScript** दोनों में देते हैं जब संभव हो।
+पाठ "Learn" और "Build" के लेबल के साथ होते हैं - "Learn" पैराग्राफ जेनेरेटिव AI की अवधारणा समझाते हैं और "Build" पाठ अवधारणा तथा कोड उदाहरण **Python** और **TypeScript** दोनों में देते हैं जब संभव हो।
 
 .NET डेवलपर्स के लिए [Generative AI for Beginners (.NET Edition)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst) देखें!
 

@@ -141,7 +141,7 @@ AI 紅隊演練不是全能的，應視為補充額外控制措施的動作，�
 
 - [大型語言模型(LLMs)及其應用的紅隊規劃](https://learn.microsoft.com/azure/ai-foundry/openai/concepts/red-teaming?WT.mc_id=academic-105485-koreyst)
 - [什麼是 OpenAI 紅隊網絡？](https://openai.com/blog/red-teaming-network?WT.mc_id=academic-105485-koreyst)
-- [AI 紅隊演練 — 建構更安全與負責任 AI 解決方案的關鍵實務](https://rodtrent.substack.com/p/ai-red-teaming?WT.mc_id=academic-105485-koreyst)
+- [AI 紅隊演練 - 建構更安全與負責任 AI 解決方案的關鍵實務](https://rodtrent.substack.com/p/ai-red-teaming?WT.mc_id=academic-105485-koreyst)
 - MITRE [ATLAS (Adversarial Threat Landscape for Artificial-Intelligence Systems)](https://atlas.mitre.org/?WT.mc_id=academic-105485-koreyst)，一個有關現實攻擊中對 AI 系統使用的敵對策略與技術的知識庫。
 
 ## 知識檢核

@@ -42,7 +42,7 @@
 | コンテナのビルドが10分以上停止              | **Codespaces ➜ 「コンテナを再構築」**                            |
 | `python: command not found`               | ターミナルが接続されていません；<strong>+</strong>をクリック ➜ *bash* を選択   |
 | OpenAIからの`401 Unauthorized`            | 間違った、または期限切れの `OPENAI_API_KEY`                     |
-| VS Codeで「Dev container mounting…」と表示 | ブラウザタブをリフレッシュ—Codespacesが接続を失うことがある    |
+| VS Codeで「Dev container mounting…」と表示 | ブラウザタブをリフレッシュ-Codespacesが接続を失うことがある    |
 | ノートブックのカーネルが見つからない       | ノートブックメニュー ➜ **Kernel ▸ Select Kernel ▸ Python 3**     |
 
    Unix系システムの場合：

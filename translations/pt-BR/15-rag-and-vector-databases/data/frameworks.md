@@ -85,7 +85,7 @@ Overfitting é, na verdade, um caso de um problema mais geral em estatística ch
 * **Erros de viés** são causados pelo algoritmo não conseguir capturar corretamente a relação entre os dados de treinamento. Isso pode acontecer porque o modelo não é poderoso o suficiente (**underfitting**).
 * **Erros de variância** são causados pelo modelo aproximar o ruído dos dados de entrada em vez da relação significativa (**overfitting**).
 
-Durante o treinamento, o erro de viés diminui (à medida que o modelo aprende a aproximar os dados) e o erro de variância aumenta. É importante parar o treinamento — seja manualmente (quando detectamos overfitting) ou automaticamente (introduzindo regularização) — para evitar o overfitting.
+Durante o treinamento, o erro de viés diminui (à medida que o modelo aprende a aproximar os dados) e o erro de variância aumenta. É importante parar o treinamento - seja manualmente (quando detectamos overfitting) ou automaticamente (introduzindo regularização) - para evitar o overfitting.
 
 ## Conclusão
 

@@ -300,9 +300,9 @@ Tafsiri zote ni **kamili** na zimeundwa moja kwa moja na [Azure Co-op Translator
 
 | Kipengele | Hali |
 |--------|--------|
-| Ufadhili wa Tafsiri | Kamili — lugha 50+, masomo yote |
+| Ufadhili wa Tafsiri | Kamili - lugha 50+, masomo yote |
 | Njia ya Tafsiri | Imekamilishwa kiotomatiki kupitia [Azure Co-op Translator](https://github.com/Azure/co-op-translator?WT.mc_id=academic-105485-koreyst) |
-| Inalingana na chanzo cha Kiingereza | Ndiyo — inaibuliwa kiotomatiki |
+| Inalingana na chanzo cha Kiingereza | Ndiyo - inaibuliwa kiotomatiki |
 
 ### 9.2 Maboresho ya Upatikanaji
 

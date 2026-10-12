@@ -112,7 +112,7 @@ Löydät listan [AutoGenin koodiesimerkeistä](https://microsoft.github.io/autog
 
 ## Microsoft Agent Framework
 
-[Microsoft Agent Framework](https://learn.microsoft.com/agent-framework/?WT.mc_id=academic-105485-koreyst) on Microsoftin avoimen lähdekoodin SDK AI-agenttien ja moniaagenttijärjestelmien rakentamiseen sekä **Pythonilla** että **.NETillä**. Se yhdistää kahden aiemman Microsoft-projektin vahvuudet — yritysominaisuudet **Semantic Kernelissä** ja moniaagenttien orkestroinnin **AutoGenissä** — yhdeksi tuetuksi kehykseksi. Jos aloitat uuden agenttiprojektin tänään, tämä on suositeltu AutoGenin seuraaja.
+[Microsoft Agent Framework](https://learn.microsoft.com/agent-framework/?WT.mc_id=academic-105485-koreyst) on Microsoftin avoimen lähdekoodin SDK AI-agenttien ja moniaagenttijärjestelmien rakentamiseen sekä **Pythonilla** että **.NETillä**. Se yhdistää kahden aiemman Microsoft-projektin vahvuudet - yritysominaisuudet **Semantic Kernelissä** ja moniaagenttien orkestroinnin **AutoGenissä** - yhdeksi tuetuksi kehykseksi. Jos aloitat uuden agenttiprojektin tänään, tämä on suositeltu AutoGenin seuraaja.
 
 Kehys skaalautuu yhdestä **keskusteluagentista** aina monimutkaisiin **moniaagenttiprosesseihin** asti, ja se integroituu suoraan Microsoft Foundryn, Azure OpenAI:n ja OpenAI:n kanssa. Lisäksi se tarjoaa sisäänrakennetun havainnoitavuuden OpenTelemetryn kautta, jotta voit seurata tarkasti, mitä agenttisi tekevät.
 

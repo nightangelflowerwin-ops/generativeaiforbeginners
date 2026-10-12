@@ -92,7 +92,7 @@
 
 1. Перейдіть до [Azure Portal](https://portal.azure.com?WT.mc_id=academic-105485-koreyst)
 1. Клікніть опцію **Keys and Endpoint** у боковій панелі (меню зліва).
-1. Натисніть **Show Keys** — ви побачите таке: KEY 1, KEY 2 та Endpoint.
+1. Натисніть **Show Keys** - ви побачите таке: KEY 1, KEY 2 та Endpoint.
 1. Використайте значення KEY 1 як AZURE_OPENAI_API_KEY
 1. Використайте значення Endpoint як AZURE_OPENAI_ENDPOINT
 
@@ -108,8 +108,8 @@
 1. Перейдіть до [порталу Microsoft Foundry](https://ai.azure.com?WT.mc_id=academic-105485-koreyst) **з вашого ресурсу**, як описано вище.
 1. Виберіть вкладку **Deployments** (бокова панель, зліва) для перегляду поточно розгорнутих моделей.
 1. Якщо бажана модель не розгорнута, використайте **Deploy model** для її розгортання зі [каталогу моделей](https://ai.azure.com/catalog/models?WT.mc_id=academic-105485-koreyst).
-1. Вам потрібна модель _text-generation_ — рекомендуємо: **gpt-5-mini**
-1. Вам потрібна модель _text-embedding_ — рекомендуємо **text-embedding-3-small**
+1. Вам потрібна модель _text-generation_ - рекомендуємо: **gpt-5-mini**
+1. Вам потрібна модель _text-embedding_ - рекомендуємо **text-embedding-3-small**
 
 Тепер оновіть змінні середовища, щоб відобразити _ім’я розгортання_, яке було використано. Зазвичай воно співпадає з назвою моделі, якщо ви явно його не змінювали. Отже, як приклад, у вас може бути:
 

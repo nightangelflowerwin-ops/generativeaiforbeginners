@@ -30,13 +30,13 @@ To zajmuje **~2 minuty** za pierwszym razem.
 
 ## 3. Dodaj swój klucz API (bezpiecznie)
 
-### Opcja A Kody tajne Codespaces — zalecane
+### Opcja A Kody tajne Codespaces - zalecane
 
 1. ⚙️ Ikona koła zębatego -> Paleta poleceń -> Codespaces : Zarządzaj tajnymi danymi użytkownika -> Dodaj nowy sekret.
 2. Nazwa: OPENAI_API_KEY
 3. Wartość: wklej swój klucz → Dodaj sekret
 
-To wszystko — nasz kod automatycznie go odczyta.
+To wszystko - nasz kod automatycznie go odczyta.
 
 ### Opcja B plik .env (jeśli naprawdę potrzebujesz)
 

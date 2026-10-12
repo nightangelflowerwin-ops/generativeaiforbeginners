@@ -8,7 +8,7 @@ Kullanıcı deneyimi, uygulama geliştirmenin çok önemli bir yönüdür. Kulla
 
 ## Giriş
 
-Kullanıcı deneyimi, bir kullanıcının belirli bir ürün ya da hizmetle—bir sistem, araç ya da tasarım olabilir—nasıl etkileşimde bulunduğu ve kullandığıdır. AI uygulamaları geliştirilirken, geliştiriciler sadece kullanıcı deneyiminin etkili olmasına değil, aynı zamanda etik olmasına da odaklanır. Bu derste, kullanıcı ihtiyaçlarını ele alan Yapay Zeka (AI) uygulamalarının nasıl inşa edileceğini ele alacağız.
+Kullanıcı deneyimi, bir kullanıcının belirli bir ürün ya da hizmetle-bir sistem, araç ya da tasarım olabilir-nasıl etkileşimde bulunduğu ve kullandığıdır. AI uygulamaları geliştirilirken, geliştiriciler sadece kullanıcı deneyiminin etkili olmasına değil, aynı zamanda etik olmasına da odaklanır. Bu derste, kullanıcı ihtiyaçlarını ele alan Yapay Zeka (AI) uygulamalarının nasıl inşa edileceğini ele alacağız.
 
 Ders aşağıdaki konuları kapsayacaktır:
 

@@ -6,7 +6,7 @@ LLM 不僅僅是文本生成，您還可以根據文字描述生成影像。影�
 
 ## 介紹
 
-影像生成能讓您將自然語言提示轉換為圖片。在本課程中，我們將使用來自 OpenAI 的 **`gpt-image`** 系列模型——目前 Microsoft Foundry（**[Microsoft Foundry](https://ai.azure.com?WT.mc_id=academic-105485-koreyst)**）和 OpenAI 平台上可用的最新一代影像模型。這些模型取代了較舊的 DALL·E 模型（DALL·E 2/3 已屬於舊版）。
+影像生成能讓您將自然語言提示轉換為圖片。在本課程中，我們將使用來自 OpenAI 的 **`gpt-image`** 系列模型--目前 Microsoft Foundry（**[Microsoft Foundry](https://ai.azure.com?WT.mc_id=academic-105485-koreyst)**）和 OpenAI 平台上可用的最新一代影像模型。這些模型取代了較舊的 DALL·E 模型（DALL·E 2/3 已屬於舊版）。
 
 在整個課程中，我們使用一個虛構的初創公司 **Edu4All**，該公司開發學習工具。團隊希望為作業及學習材料生成插圖。
 
@@ -25,8 +25,8 @@ LLM 不僅僅是文本生成，您還可以根據文字描述生成影像。影�
 
 兩個知名的影像模型系列是：
 
-- **`gpt-image` (OpenAI)** — 本課使用的最新一代，支持文本生成影像及影像編輯（使用遮罩進行塗抹）。
-- **Midjourney** — 一個流行的第三方模型，具有自己的服務和基於 Discord 的工作流程。
+- **`gpt-image` (OpenAI)** - 本課使用的最新一代，支持文本生成影像及影像編輯（使用遮罩進行塗抹）。
+- **Midjourney** - 一個流行的第三方模型，具有自己的服務和基於 Discord 的工作流程。
 
 > 舊版 OpenAI 影像模型 - **DALL·E 2** 和 **DALL·E 3** - 皆為舊有版本。DALL·E 3 不再提供新部署，而類似 `create_variation` 的功能僅存在於 DALL·E 2。新的應用請使用 `gpt-image` 模型。
 
@@ -36,14 +36,14 @@ LLM 不僅僅是文本生成，您還可以根據文字描述生成影像。影�
 
 | 模型 | 備註 |
 | --- | --- |
-| **`gpt-image-2`** | 最新且最強大的影像模型 — 推薦的預設選擇。 |
+| **`gpt-image-2`** | 最新且最強大的影像模型 - 推薦的預設選擇。 |
 | `gpt-image-1.5` | 一般可用；成本較低但品質仍佳。 |
 | `gpt-image-1-mini` | 一般可用；速度最快 / 成本最低。 |
 | `gpt-image-1` | 僅供預覽。 |
 
 請隨時查看目前的 [Foundry 影像模型列表](https://learn.microsoft.com/azure/ai-foundry/openai/concepts/models?WT.mc_id=academic-105485-koreyst) 以確認可用性與區域。
 
-> **重要提示：** `gpt-image` 模型以 **base64** 格式（`b64_json`）返回生成的影像，而非影像網址。您的程式需要將 base64 字串解碼為位元組並保存——沒有可下載的影像 URL。
+> **重要提示：** `gpt-image` 模型以 **base64** 格式（`b64_json`）返回生成的影像，而非影像網址。您的程式需要將 base64 字串解碼為位元組並保存--沒有可下載的影像 URL。
 
 ## 設定
 
@@ -51,7 +51,7 @@ LLM 不僅僅是文本生成，您還可以根據文字描述生成影像。影�
 
 ### 1. 建立並部署模型
 
-請依照 [建立資源](https://learn.microsoft.com/azure/ai-foundry/openai/how-to/create-resource?pivots=web-portal&WT.mc_id=academic-105485-koreyst) 指南在 Microsoft Foundry 中建立資源，然後部署影像模型 — 建議使用 **`gpt-image-2`**。
+請依照 [建立資源](https://learn.microsoft.com/azure/ai-foundry/openai/how-to/create-resource?pivots=web-portal&WT.mc_id=academic-105485-koreyst) 指南在 Microsoft Foundry 中建立資源，然後部署影像模型 - 建議使用 **`gpt-image-2`**。
 
 ### 2. 配置 `.env`
 
@@ -172,7 +172,7 @@ prompt = f"{meta_prompt}\nCreate an image of a bunny on a horse, holding a lolli
 
 ## 作業 - 讓學生能使用影像生成
 
-Edu4All 的學生需要影像來做評量。建立一個應用程式，生成<strong>紀念碑</strong>的影像（紀念碑種類由你決定），並將它們放置於不同且有創意的場景中——例如夕陽下的著名地標旁有一個孩童觀望。
+Edu4All 的學生需要影像來做評量。建立一個應用程式，生成<strong>紀念碑</strong>的影像（紀念碑種類由你決定），並將它們放置於不同且有創意的場景中--例如夕陽下的著名地標旁有一個孩童觀望。
 
 請自行嘗試，然後參考以下範例解決方案：
 

@@ -35,7 +35,7 @@
 ![Model Cost](../../../translated_images/uk/model-price.3f5a3e4d32ae00b4.webp)
 Джерело: Artificial Analysis
 
-**Гнучкість** — Робота з відкритими моделями дозволяє бути гнучким у виборі різних моделей чи їх поєднанні. Прикладом цього є [HuggingChat Assistants](https://huggingface.co/chat?WT.mc_id=academic-105485-koreyst), де користувач може безпосередньо у інтерфейсі вибрати модель, що використовується:
+**Гнучкість** - Робота з відкритими моделями дозволяє бути гнучким у виборі різних моделей чи їх поєднанні. Прикладом цього є [HuggingChat Assistants](https://huggingface.co/chat?WT.mc_id=academic-105485-koreyst), де користувач може безпосередньо у інтерфейсі вибрати модель, що використовується:
 
 ![Choose Model](../../../translated_images/uk/choose-model.f095d15bbac92214.webp)
 
@@ -55,7 +55,7 @@
 
 ### Falcon
 
-[Falcon](https://huggingface.co/tiiuae?WT.mc_id=academic-105485-koreyst) — це великий мовний модель, створена Technology Innovation Institute (**TII**). Falcon-40B була навчена на 40 мільярдах параметрів і показала кращу продуктивність, ніж GPT-3, з меншими обчислювальними ресурсами. Це завдяки використанню алгоритму FlashAttention та multiquery attention, що дозволяє зменшити вимоги до пам’яті під час інференсу. З цим скороченим часом інференсу Falcon-40B підходить для чат-застосунків.
+[Falcon](https://huggingface.co/tiiuae?WT.mc_id=academic-105485-koreyst) - це великий мовний модель, створена Technology Innovation Institute (**TII**). Falcon-40B була навчена на 40 мільярдах параметрів і показала кращу продуктивність, ніж GPT-3, з меншими обчислювальними ресурсами. Це завдяки використанню алгоритму FlashAttention та multiquery attention, що дозволяє зменшити вимоги до пам’яті під час інференсу. З цим скороченим часом інференсу Falcon-40B підходить для чат-застосунків.
 
 Прикладами тонко налаштованих версій Falcon є [OpenAssistant](https://huggingface.co/OpenAssistant/falcon-40b-sft-top1-560?WT.mc_id=academic-105485-koreyst), помічник, створений на базі відкритих моделей, та [GPT4ALL](https://huggingface.co/nomic-ai/gpt4all-falcon?WT.mc_id=academic-105485-koreyst), що забезпечує кращу продуктивність, ніж базова модель.
 
@@ -72,7 +72,7 @@
 
 ## Наступні кроки
 
-Найкраща частина відкритих моделей — ви можете почати працювати з ними досить швидко. Ознайомтеся з [каталогом моделей Microsoft Foundry](https://ai.azure.com?WT.mc_id=academic-105485-koreyst), що містить спеціальну колекцію Hugging Face з моделями, про які ми тут говорили.
+Найкраща частина відкритих моделей - ви можете почати працювати з ними досить швидко. Ознайомтеся з [каталогом моделей Microsoft Foundry](https://ai.azure.com?WT.mc_id=academic-105485-koreyst), що містить спеціальну колекцію Hugging Face з моделями, про які ми тут говорили.
 
 ## Навчання не завершується тут, продовжуйте шлях
 

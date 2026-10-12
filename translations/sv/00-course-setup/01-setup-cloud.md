@@ -30,13 +30,13 @@ Detta tar **~2 minuter** första gången.
 
 ## 3. Lägg till din API-nyckel (det säkra sättet)
 
-### Alternativ A Codespaces Secrets — Rekommenderat
+### Alternativ A Codespaces Secrets - Rekommenderat
 
 1. ⚙️ Kugghjulsikon -> Kommandopalett -> Codespaces : Hantera användarhemlighet -> Lägg till en ny hemlighet.
 2. Namn: OPENAI_API_KEY
 3. Värde: klistra in din nyckel → Lägg till hemlighet
 
-Det är allt—vår kod plockar upp den automatiskt.
+Det är allt-vår kod plockar upp den automatiskt.
 
 ### Alternativ B .env-fil (om du verkligen behöver en)
 

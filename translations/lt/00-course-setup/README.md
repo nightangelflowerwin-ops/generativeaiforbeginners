@@ -42,7 +42,7 @@ Savo šakoje: **Code -> Codespaces -> New on main**
 | Konteinerio kūrimas užstringa > 10 min | **Codespaces ➜ “Rebuild Container”**                           |
 | `python: command not found`             | Terminalas neprisijungė; spauskite **+** ➜ *bash*             |
 | `401 Unauthorized` iš OpenAI             | Klaidingas / pasibaigęs `OPENAI_API_KEY`                       |
-| VS Code rodo „Dev container mounting…”  | Atnaujinkite naršyklės skirtuką — Codespaces kartais praranda ryšį |
+| VS Code rodo „Dev container mounting…”  | Atnaujinkite naršyklės skirtuką - Codespaces kartais praranda ryšį |
 | Trūksta užrašų knygos (notebook) šerdies| Užrašų knygos meniu ➜ **Kernel ▸ Select Kernel ▸ Python 3**     |
 
    Unix pagrindu veikiančios sistemos:

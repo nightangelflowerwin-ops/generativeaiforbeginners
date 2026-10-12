@@ -4,7 +4,7 @@
 
 Installed from [Azure-Samples/azure-openai-to-responses](https://github.com/Azure-Samples/azure-openai-to-responses) (MIT).
 
-## Client setup — API key
+## Client setup - API key
 
 ```python
 import os
@@ -16,7 +16,7 @@ client = OpenAI(
 )
 ```
 
-## Client setup — EntraID (recommended)
+## Client setup - EntraID (recommended)
 
 ```python
 import os
@@ -56,7 +56,7 @@ resp = client.responses.create(
 print(resp.output_text)
 ```
 
-## Full sync migration — before/after
+## Full sync migration - before/after
 
 Before (Chat Completions):
 ```python
@@ -134,7 +134,7 @@ async for event in stream:
         print()
 ```
 
-## Structured output — JSON Schema
+## Structured output - JSON Schema
 
 ```python
 resp = client.responses.create(
@@ -215,7 +215,7 @@ if tool_calls:
 ## Image input
 
 Before (Chat): `{"type": "image_url", "image_url": {"url": "..."}}`
-After (Responses): `{"type": "input_image", "image_url": "..."}` (flat string — HTTPS URL or `data:image/...;base64,...`). Also `{"type": "text"}` → `{"type": "input_text"}`.
+After (Responses): `{"type": "input_image", "image_url": "..."}` (flat string - HTTPS URL or `data:image/...;base64,...`). Also `{"type": "text"}` → `{"type": "input_text"}`.
 
 ```python
 resp = client.responses.create(

@@ -72,13 +72,13 @@ Power Automate'teki Copilot AI asistan özelliği, ihtiyacınız olan akış tü
 
 ## Microsoft Copilot Studio ile Akıllı Ajanlar Oluşturma
 
-[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst) (eski adıyla Power Virtual Agents), kullanıcılar adına soruları cevaplayabilen, eylemler gerçekleştirebilen ve görevleri otomatikleştirebilen **AI ajanları** — sohbet tabanlı copilots — oluşturmak için düşük kodlu bir Power Platform üyesidir. Power Platform’un diğer parçaları gibi, bu ajanları görsel ve doğal dil öncelikli bir deneyimde oluşturursunuz: ajanınızın ne yapmasını istediğinizi tarif edersiniz ve Copilot Studio, talimatlarını, bilgisini ve eylemlerini yapılandırmanızda yardımcı olur.
+[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst) (eski adıyla Power Virtual Agents), kullanıcılar adına soruları cevaplayabilen, eylemler gerçekleştirebilen ve görevleri otomatikleştirebilen **AI ajanları** - sohbet tabanlı copilots - oluşturmak için düşük kodlu bir Power Platform üyesidir. Power Platform’un diğer parçaları gibi, bu ajanları görsel ve doğal dil öncelikli bir deneyimde oluşturursunuz: ajanınızın ne yapmasını istediğinizi tarif edersiniz ve Copilot Studio, talimatlarını, bilgisini ve eylemlerini yapılandırmanızda yardımcı olur.
 
-Eğitim girişimimiz için, öğrencilerin derslerle ilgili sorularına cevap veren, ödev son teslim tarihlerine bakabilen ve hatta bir eğitmene e-posta gönderebilen — tüm bunları kod yazmadan yapabilen — bir ajan oluşturabilirsiniz.
+Eğitim girişimimiz için, öğrencilerin derslerle ilgili sorularına cevap veren, ödev son teslim tarihlerine bakabilen ve hatta bir eğitmene e-posta gönderebilen - tüm bunları kod yazmadan yapabilen - bir ajan oluşturabilirsiniz.
 
 İşte Copilot Studio’yu güçlü kılan en son özelliklerden bazıları:
 
-- **Bilgilerinize dayalı üretken cevaplar**. Her sohbeti elle yazmak yerine, **bilgi kaynakları** — halka açık web siteleri, SharePoint, OneDrive, Dataverse, yüklenen dosyalar veya bağlayıcılar yoluyla kurumsal veriler — bağlayabilir ve ajan bu kaynaklardan temellendirilmiş cevaplar oluşturur.
+- **Bilgilerinize dayalı üretken cevaplar**. Her sohbeti elle yazmak yerine, **bilgi kaynakları** - halka açık web siteleri, SharePoint, OneDrive, Dataverse, yüklenen dosyalar veya bağlayıcılar yoluyla kurumsal veriler - bağlayabilir ve ajan bu kaynaklardan temellendirilmiş cevaplar oluşturur.
 
 - **Üretken orkestrasyon**. Katı tetikleyici ifadelerine bağlı kalmak yerine, ajan bir isteği yapay zeka ile anlayıp, karşılamak için hangi bilgi, konu ve eylemlerin birleştirileceğine dinamik olarak karar verir, birkaç adımı zincirleme yapabilir.
 
@@ -90,7 +90,7 @@ Eğitim girişimimiz için, öğrencilerin derslerle ilgili sorularına cevap ve
 
 - **Model seçimi**. Yerleşik modellerin ötesinde, agentınızın nasıl düşünmesi ve yanıtlamasını özelleştirmek için Microsoft Foundry model kataloğundan modeller getirebilirsiniz.
 
-- **Her yere yayınlama**. Bir ajan oluşturulduktan sonra, Microsoft Teams, Microsoft 365 Copilot, bir web sitesi veya özel bir uygulama gibi birden çok kanala — güvenlik, kimlik doğrulama ve analitik Power Platform yönetim deneyimi üzerinden yönetilerek — yayınlanabilir.
+- **Her yere yayınlama**. Bir ajan oluşturulduktan sonra, Microsoft Teams, Microsoft 365 Copilot, bir web sitesi veya özel bir uygulama gibi birden çok kanala - güvenlik, kimlik doğrulama ve analitik Power Platform yönetim deneyimi üzerinden yönetilerek - yayınlanabilir.
 
 İlk ajanınızı oluşturmaya [copilotstudio.microsoft.com](https://copilotstudio.microsoft.com?WT.mc_id=academic-105485-koreyst) adresinden başlayabilir ve [Microsoft Copilot Studio dokümantasyonunda](https://learn.microsoft.com/microsoft-copilot-studio/?WT.mc_id=academic-105485-koreyst) daha fazla bilgi edinebilirsiniz.
 

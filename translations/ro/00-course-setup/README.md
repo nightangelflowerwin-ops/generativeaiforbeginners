@@ -42,7 +42,7 @@ Pentru a evita problemele cu dependențele când rulezi codul, recomandăm să r
 | Construirea containerului blocată > 10 min | **Codespaces ➜ “Rebuild Container”**                            |
 | `python: command not found`                  | Terminalul nu s-a atașat; apasă **+** ➜ *bash*                 |
 | `401 Unauthorized` de la OpenAI              | `OPENAI_API_KEY` incorectă / expirat                             |
-| VS Code afișează “Dev container mounting…”  | Reîncarcă fila browser-ului — uneori Codespaces pierde conexiunea|
+| VS Code afișează “Dev container mounting…”  | Reîncarcă fila browser-ului - uneori Codespaces pierde conexiunea|
 | Kernel-ul notebook-ului lipsește             | Meniul notebook ➜ **Kernel ▸ Select Kernel ▸ Python 3**          |
 
    Sisteme bazate pe Unix:

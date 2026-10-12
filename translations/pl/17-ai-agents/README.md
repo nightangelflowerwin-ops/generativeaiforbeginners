@@ -112,7 +112,7 @@ Możesz znaleźć listę [przykładów kodu AutoGen](https://microsoft.github.io
 
 ## Microsoft Agent Framework
 
-[Microsoft Agent Framework](https://learn.microsoft.com/agent-framework/?WT.mc_id=academic-105485-koreyst) to otwarte SDK Microsoftu do budowy Agentów AI i systemów wieloagentowych w **Python** i **.NET**. Łączy zalety dwóch wcześniejszych projektów Microsoftu — funkcje korporacyjne **Semantic Kernel** oraz orkiestrację wieloagentową **AutoGen** — w jeden wspierany framework. Jeśli zaczynasz nowy projekt agenta dzisiaj, jest to zalecany następca AutoGen.
+[Microsoft Agent Framework](https://learn.microsoft.com/agent-framework/?WT.mc_id=academic-105485-koreyst) to otwarte SDK Microsoftu do budowy Agentów AI i systemów wieloagentowych w **Python** i **.NET**. Łączy zalety dwóch wcześniejszych projektów Microsoftu - funkcje korporacyjne **Semantic Kernel** oraz orkiestrację wieloagentową **AutoGen** - w jeden wspierany framework. Jeśli zaczynasz nowy projekt agenta dzisiaj, jest to zalecany następca AutoGen.
 
 Framework skalowalny jest od pojedynczego **agenta czatu** aż po złożone **wieloagentowe przepływy pracy**, integruje się bezpośrednio z Microsoft Foundry, Azure OpenAI i OpenAI. Zapewnia też wbudowaną obserwowalność poprzez OpenTelemetry, dzięki czemu możesz śledzić dokładnie, co robią Twoi agenci.
 

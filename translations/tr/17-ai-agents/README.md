@@ -112,7 +112,7 @@ Başlamak için nasıl bir yol izleneceğini daha fazla keşfetmek amacıyla baz
 
 ## Microsoft Agent Framework
 
-[Microsoft Agent Framework](https://learn.microsoft.com/agent-framework/?WT.mc_id=academic-105485-koreyst), Microsoft'un hem **Python** hem de **.NET** için Yapay Zeka Ajanları ve çok ajanlı sistemler oluşturmak için açık kaynak SDK'sıdır. Bu, Microsoft'un önceki iki projesinin — **Semantic Kernel**'in kurumsal özellikleri ve **AutoGen**'in çok-ajan orkestrasyonu — güçlü yönlerini tek, desteklenen bir çerçevede birleştirir. Bugün yeni bir ajan projesine başlıyorsanız, AutoGen'in önerilen halefidir.
+[Microsoft Agent Framework](https://learn.microsoft.com/agent-framework/?WT.mc_id=academic-105485-koreyst), Microsoft'un hem **Python** hem de **.NET** için Yapay Zeka Ajanları ve çok ajanlı sistemler oluşturmak için açık kaynak SDK'sıdır. Bu, Microsoft'un önceki iki projesinin - **Semantic Kernel**'in kurumsal özellikleri ve **AutoGen**'in çok-ajan orkestrasyonu - güçlü yönlerini tek, desteklenen bir çerçevede birleştirir. Bugün yeni bir ajan projesine başlıyorsanız, AutoGen'in önerilen halefidir.
 
 Bu çerçeve, tek bir **sohbet ajanından** karmaşık **çok-ajan iş akışlarına** kadar ölçeklenir ve Microsoft Foundry, Azure OpenAI ve OpenAI ile doğrudan entegre olur. Ayrıca, ajanlarınızın tam olarak ne yaptığını izleyebilmeniz için OpenTelemetry aracılığıyla yerleşik gözlemlenebilirlik sunar.
 

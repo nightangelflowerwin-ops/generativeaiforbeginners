@@ -30,13 +30,13 @@ Dies dauert beim ersten Mal **ca. 2 Minuten**.
 
 ## 3. Fügen Sie Ihren API-Schlüssel hinzu (der sichere Weg)
 
-### Option A Codespaces Secrets — Empfohlen
+### Option A Codespaces Secrets - Empfohlen
 
 1. ⚙️ Zahnrad-Symbol -> Befehlspalette -> Codespaces : Benutzergeheimnis verwalten -> Neues Geheimnis hinzufügen.
 2. Name: OPENAI_API_KEY
 3. Wert: Fügen Sie Ihren Schlüssel ein → Geheimnis hinzufügen
 
-Das war’s — unser Code erkennt ihn automatisch.
+Das war’s - unser Code erkennt ihn automatisch.
 
 ### Option B .env-Datei (nur wenn wirklich nötig)
 

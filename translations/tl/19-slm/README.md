@@ -54,7 +54,7 @@ Ang mga SLMs ay may malawak na hanay ng mga aplikasyon, kabilang ang:
 
 **Sukat**
   
-Isang pangunahing pagkakaiba sa pagitan ng LLMs at SLMs ay ang sukat ng mga modelo. Ang mga LLM tulad ng ChatGPT (GPT-4) ay maaaring magkaroon ng tinatayang 1.76 trilyong parameters, habang ang open-source na mga SLM tulad ng Mistral 7B ay dinisenyo na may makabuluhang mas kaunting parameters—mga humigit-kumulang 7 bilyon. Ang pagkakaibang ito ay pangunahing dulot ng kaibahan sa arkitektura ng modelo at mga proseso ng pagsasanay. Halimbawa, ang ChatGPT ay gumagamit ng self-attention mechanism sa loob ng encoder-decoder framework, samantalang ang Mistral 7B ay gumagamit ng sliding window attention, na nagpapahintulot ng mas mahusay na pagsasanay sa loob ng decoder-only na modelo. Ang pagkakaibang arkitekturang ito ay may malalim na epekto sa pagiging komplikado at pagganap ng mga modelong ito.
+Isang pangunahing pagkakaiba sa pagitan ng LLMs at SLMs ay ang sukat ng mga modelo. Ang mga LLM tulad ng ChatGPT (GPT-4) ay maaaring magkaroon ng tinatayang 1.76 trilyong parameters, habang ang open-source na mga SLM tulad ng Mistral 7B ay dinisenyo na may makabuluhang mas kaunting parameters-mga humigit-kumulang 7 bilyon. Ang pagkakaibang ito ay pangunahing dulot ng kaibahan sa arkitektura ng modelo at mga proseso ng pagsasanay. Halimbawa, ang ChatGPT ay gumagamit ng self-attention mechanism sa loob ng encoder-decoder framework, samantalang ang Mistral 7B ay gumagamit ng sliding window attention, na nagpapahintulot ng mas mahusay na pagsasanay sa loob ng decoder-only na modelo. Ang pagkakaibang arkitekturang ito ay may malalim na epekto sa pagiging komplikado at pagganap ng mga modelong ito.
 
 **Pag-unawa**
 

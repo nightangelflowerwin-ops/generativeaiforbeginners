@@ -72,25 +72,25 @@ Copilot AI assistant feature for Power Automate dey make you fit explain wetin k
 
 ## Build Intelligent Agents with Microsoft Copilot Studio
 
-[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst) (wey before e be Power Virtual Agents) na low-code part of Power Platform to build **AI agents** — conversational copilots wey fit answer questions, do actions, and automate things for your users. Like all Power Platform, you build this agents for visual, natural language way: you talk wetin you want di agent to do, Copilot Studio go help make up instructions, knowledge and actions.
+[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst) (wey before e be Power Virtual Agents) na low-code part of Power Platform to build **AI agents** - conversational copilots wey fit answer questions, do actions, and automate things for your users. Like all Power Platform, you build this agents for visual, natural language way: you talk wetin you want di agent to do, Copilot Studio go help make up instructions, knowledge and actions.
 
-For our education startup, you fit build agent wey go answer student questions about courses, check assignment deadlines, even fit send email to teacher — all dis one you no need write code at all.
+For our education startup, you fit build agent wey go answer student questions about courses, check assignment deadlines, even fit send email to teacher - all dis one you no need write code at all.
 
 This na some powerfull features wey make Copilot Studio strong:
 
-- **Generative answers from your knowledge**. Instead of you write conversation by hand, you fit connect **knowledge sources** — public websites, SharePoint, OneDrive, Dataverse, uploaded files, or enterprise data through connectors — so agent go generate grounded answers from them.
+- **Generative answers from your knowledge**. Instead of you write conversation by hand, you fit connect **knowledge sources** - public websites, SharePoint, OneDrive, Dataverse, uploaded files, or enterprise data through connectors - so agent go generate grounded answers from them.
 
 - **Generative orchestration**. No need use fixed trigger phrases, agent use AI to sabi request plus decide dynamicaly which knowledge, topics and actions to join to touch ground, including to chain many steps together.
 
 - **Actions and connectors**. Agents fit *do* tins, no na only chat. You fit give agent actions backed by more than 1,500 prebuilt Power Platform connectors, Power Automate flows, custom REST APIs, prompts, or **Model Context Protocol (MCP)** servers.
 
-- **Autonomous agents**. Agents no just dey respond for chat window. You fit build **autonomous agents** wey fit start work by events — like new email, new record for Dataverse, or file upload — then dem go act for background complete task.
+- **Autonomous agents**. Agents no just dey respond for chat window. You fit build **autonomous agents** wey fit start work by events - like new email, new record for Dataverse, or file upload - then dem go act for background complete task.
 
 - **Multi-agent orchestration**. Agents fit call other agents. Copilot Studio agent fit handoff or extend to other agents, including agents wey dem publish for Microsoft 365 Copilot and agents wey dem build for Microsoft Foundry.
 
 - **Model choice**. Aside built-in models, you fit bring models from Microsoft Foundry model catalog to customize how your agent reason and answer.
 
-- **Publish anywhere**. Once agent finish wey, you fit publish am for many channels — Microsoft Teams, Microsoft 365 Copilot, website or custom app, and more — with security, authentication, and analytics controlled by Power Platform admin.
+- **Publish anywhere**. Once agent finish wey, you fit publish am for many channels - Microsoft Teams, Microsoft 365 Copilot, website or custom app, and more - with security, authentication, and analytics controlled by Power Platform admin.
 
 You fit start to build your first agent for [copilotstudio.microsoft.com](https://copilotstudio.microsoft.com?WT.mc_id=academic-105485-koreyst) and learn more for [Microsoft Copilot Studio documentation](https://learn.microsoft.com/microsoft-copilot-studio/?WT.mc_id=academic-105485-koreyst).
 
@@ -270,7 +270,7 @@ To sabi how to use dis AI Model for Power Automate, waka through di [Add intelli
 
 After you don finish dis lesson, check out our [Generative AI Learning collection](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) make you continue to level up your Generative AI knowledge!
 
-You wan customize and get more from Copilot? Check [Awesome Copilot](https://github.com/github/awesome-copilot?WT.mc_id=academic-105485-koreyst) — na community-contributed collection of instructions, agents, skills, and configurations wey go help you make the most of GitHub Copilot.
+You wan customize and get more from Copilot? Check [Awesome Copilot](https://github.com/github/awesome-copilot?WT.mc_id=academic-105485-koreyst) - na community-contributed collection of instructions, agents, skills, and configurations wey go help you make the most of GitHub Copilot.
 
 Go Lesson 11 where we go see how to [integrate Generative AI with Function Calling](../11-integrating-with-function-calling/README.md?WT.mc_id=academic-105485-koreyst)!
 

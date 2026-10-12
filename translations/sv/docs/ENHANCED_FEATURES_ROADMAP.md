@@ -300,9 +300,9 @@ Alla översättningar är **kompletta** och genereras automatiskt av [Azure Co-o
 
 | Aspekt | Status |
 |--------|--------|
-| Översättningstäckning | Komplett — 50+ språk, alla lektioner |
+| Översättningstäckning | Komplett - 50+ språk, alla lektioner |
 | Översättningsmetod | Automatisk via [Azure Co-op Translator](https://github.com/Azure/co-op-translator?WT.mc_id=academic-105485-koreyst) |
-| Hålls synkad med engelsk källa | Ja — regenereras automatiskt |
+| Hålls synkad med engelsk källa | Ja - regenereras automatiskt |
 
 ### 9.2 Tillgänglighetsförbättringar
 

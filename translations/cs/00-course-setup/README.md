@@ -42,7 +42,7 @@ Ve vašem forku: **Code -> Codespaces -> New on main**
 | Stavba kontejneru zamrzla > 10 min         | **Codespaces ➜ „Rebuild Container“**                          |
 | `python: command not found`                | Terminál se nepřipojil; klikněte na **+** ➜ *bash*             |
 | `401 Unauthorized` z OpenAI                 | Špatný / prošlý `OPENAI_API_KEY`                               |
-| VS Code zobrazuje „Dev container mounting…“ | Obnovte záložku prohlížeče — Codespaces někdy ztratí připojení  |
+| VS Code zobrazuje „Dev container mounting…“ | Obnovte záložku prohlížeče - Codespaces někdy ztratí připojení  |
 | Chybí kernel v notebooku                    | Menu notebooku ➜ **Kernel ▸ Select Kernel ▸ Python 3**          |
 
    Unixové systémy:

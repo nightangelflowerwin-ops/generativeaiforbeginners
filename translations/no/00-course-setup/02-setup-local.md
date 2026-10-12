@@ -2,7 +2,7 @@
 
 **Bruk denne veiledningen hvis du foretrekker å kjøre alt på din egen laptop.**   
 Du har to alternativer: **(A) native Python + virtual-env** eller **(B) VS Code Dev Container med Docker**.  
-Velg det som føles enklest—begge fører til de samme leksjonene.
+Velg det som føles enklest-begge fører til de samme leksjonene.
 
 ## 1.  Forutsetninger
 
@@ -33,7 +33,7 @@ source .venv/bin/activate     # macOS / Linux
 .\.venv\Scripts\activate      # Windows PowerShell
 ```
 
-✅ Ledeteksten skal nå starte med (.venv)—det betyr at du er inne i miljøet.
+✅ Ledeteksten skal nå starte med (.venv)-det betyr at du er inne i miljøet.
 
 ### Steg 3 Installer avhengigheter
 
@@ -196,7 +196,7 @@ Her er en trinn-for-trinn guide for hvordan lage en `.env` fil for Python og leg
 
 Det var det! Du har nå opprettet en `.env`-fil, lagt til dine Microsoft Foundry Models-legitimasjoner, og lastet dem inn i Python-applikasjonen din.
 
-🔐 Ikke push .env—den er allerede i .gitignore.
+🔐 Ikke push .env-den er allerede i .gitignore.
 Fullstendige leverandørinstruksjoner finnes i [`providers.md`](03-providers.md).
 
 ## 4. Hva nå?

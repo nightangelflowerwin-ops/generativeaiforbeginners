@@ -300,9 +300,9 @@ Visi vertimai yra **baigti** ir generuojami automatiškai naudojant [Azure Co-op
 
 | Aspektas | Būsena |
 |--------|--------|
-| Vertimo aprėptis | Baigta — 50+ kalbų, visos pamokos |
+| Vertimo aprėptis | Baigta - 50+ kalbų, visos pamokos |
 | Vertimo metodas | Automatizuotas per [Azure Co-op Translator](https://github.com/Azure/co-op-translator?WT.mc_id=academic-105485-koreyst) |
-| Sinchronizuojama su anglų šaltiniu | Taip — automatiškai regeneruojama |
+| Sinchronizuojama su anglų šaltiniu | Taip - automatiškai regeneruojama |
 
 ### 9.2 Prieinamumo patobulinimai
 

@@ -42,7 +42,7 @@ Fork’unuzda: **Code -> Codespaces -> New on main**
 | Container yapımı 10 dakikadan uzun sürüyor   | **Codespaces ➜ “Rebuild Container”**                           |
 | `python: command not found`                   | Terminal bağlanmadı; **+** tuşuna tıklayın ➜ *bash*             |
 | OpenAI’den `401 Unauthorized` hatası         | Yanlış veya süresi dolmuş `OPENAI_API_KEY`                      |
-| VS Code “Dev container mounting…” gösteriyor | Tarayıcı sekmesini yenileyin—Codespaces bazen bağlantıyı kaybeder |
+| VS Code “Dev container mounting…” gösteriyor | Tarayıcı sekmesini yenileyin-Codespaces bazen bağlantıyı kaybeder |
 | Notebook çekirdeği eksik                       | Notebook menüsü ➜ **Kernel ▸ Select Kernel ▸ Python 3**         |
 
    Unix tabanlı sistemlerde:
@@ -192,7 +192,7 @@ GitHub Codespaces kullanırken API anahtarlarınızı güvenli tutmanın en iyi 
 
 Kursta, Üretken AI kavramlarını açıklayan "Öğren" dersleri ve mümkün oldukça **Python** ve **TypeScript** ile uygulamalı kod örnekleri içeren "Inşa Et" dersleri vardır.
 
-Kodlama dersleri için Microsoft Foundry’de Azure OpenAI kullanıyoruz. Bir Azure aboneliği ve API anahtarına ihtiyacınız olacak. Erişim açıktır—başvuru gerekmez—böylece [Microsoft Foundry kaynağı oluşturup model dağıtabilirsiniz](https://learn.microsoft.com/azure/ai-foundry/openai/how-to/create-resource?pivots=web-portal&WT.mc_id=academic-105485-koreyst) ve uç noktası ile anahtarınızı alabilirsiniz.
+Kodlama dersleri için Microsoft Foundry’de Azure OpenAI kullanıyoruz. Bir Azure aboneliği ve API anahtarına ihtiyacınız olacak. Erişim açıktır-başvuru gerekmez-böylece [Microsoft Foundry kaynağı oluşturup model dağıtabilirsiniz](https://learn.microsoft.com/azure/ai-foundry/openai/how-to/create-resource?pivots=web-portal&WT.mc_id=academic-105485-koreyst) ve uç noktası ile anahtarınızı alabilirsiniz.
 
 Her kodlama dersi ayrıca kodu çalıştırmadan da kodu ve çıktıları görüntüleyebileceğiniz bir `README.md` dosyasına sahiptir.
 

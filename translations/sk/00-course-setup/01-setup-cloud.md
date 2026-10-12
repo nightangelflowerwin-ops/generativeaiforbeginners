@@ -30,13 +30,13 @@ Tento proces prvýkrát trvá **~2 minúty**.
 
 ## 3. Pridajte svoj API kľúč (bezpečná cesta)
 
-### Možnosť A Tajomstvá Codespaces — Odporúčané
+### Možnosť A Tajomstvá Codespaces - Odporúčané
 
 1. ⚙️ Ikona ozubeného kolieska -> Príkazová paleta -> Codespaces : Spravovať používateľské tajomstvo -> Pridať nové tajomstvo.
 2. Názov: OPENAI_API_KEY
 3. Hodnota: vložte svoj kľúč → Pridať tajomstvo
 
-To je všetko — náš kód ho automaticky načíta.
+To je všetko - náš kód ho automaticky načíta.
 
 ### Možnosť B .env súbor (ak ho naozaj potrebujete)
 

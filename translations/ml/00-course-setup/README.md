@@ -42,7 +42,7 @@
 | കണ്ടെയ്‌നർ നിർമ്മാണം 10 മിനിറ്റ് കഴിഞ്ഞും സ്തംഭിച്ചു | **Codespaces ➜ “Rebuild Container”**                            |
 | `python: command not found`               | ടെർമിനൽ ചേരാത്തത്; **+** ക്ലിക്കുചെയ്യുക ➜ *bash*               |
 | OpenAI-ൽ നിന്നുള്ള `401 Unauthorized`    | തെറ്റായ / കാലഹരണപ്പെട്ട `OPENAI_API_KEY`                        |
-| VS Code “Dev container mounting…” കാണിക്കുന്നു | ബ്രൗസർ ടാബ് റിഫ്രഷ് ചെയ്യുക—Codespaces ക sometimes വഴിയേ ബന്ധം നഷ്ടപ്പെടുത്തുന്നു  |
+| VS Code “Dev container mounting…” കാണിക്കുന്നു | ബ്രൗസർ ടാബ് റിഫ്രഷ് ചെയ്യുക-Codespaces ക sometimes വഴിയേ ബന്ധം നഷ്ടപ്പെടുത്തുന്നു  |
 | നോട്ട്‌ബുക്ക് കർണൽ കാണുന്നില്ല         | നോട്ട്‌ബുക്ക് മേനു ➜ **Kernel ▸ Select Kernel ▸ Python 3**         |
 
    Unix അടിസ്ഥാനമാക്കിയുള്ള സിസ്റ്റങ്ങൾ:

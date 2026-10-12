@@ -72,7 +72,7 @@ Power AutomateのCopilot AIアシスタント機能では、必要なフロー�
 
 ## Microsoft Copilot Studioを使ったインテリジェントエージェントの構築
 
-[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst)（旧Power Virtual Agents）は、Power Platformのローコード製品であり、**AIエージェント**——ユーザーの質問に答え、操作を行い、タスクを自動化する対話型コパイロットを作成できます。Power Platformの他の製品と同様に、ビジュアルで自然言語中心の体験でこれらのエージェントを構築します。やりたいことを記述すると、Copilot Studioが指示、知識、アクションの枠組み作りを支援します。
+[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst)（旧Power Virtual Agents）は、Power Platformのローコード製品であり、**AIエージェント**--ユーザーの質問に答え、操作を行い、タスクを自動化する対話型コパイロットを作成できます。Power Platformの他の製品と同様に、ビジュアルで自然言語中心の体験でこれらのエージェントを構築します。やりたいことを記述すると、Copilot Studioが指示、知識、アクションの枠組み作りを支援します。
 
 教育系スタートアップのために、学生のコースに関する質問に答え、課題の締切を確認し、講師にメールを送るようなエージェントをノーコードで作成できます。
 

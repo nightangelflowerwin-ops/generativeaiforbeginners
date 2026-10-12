@@ -141,7 +141,7 @@ AI 红队并非万能，应该作为补充措施，与[基于角色的访问控�
 
 - [大语言模型（LLM）及其应用的红队规划](https://learn.microsoft.com/azure/ai-foundry/openai/concepts/red-teaming?WT.mc_id=academic-105485-koreyst)
 - [什么是 OpenAI 红队网络？](https://openai.com/blog/red-teaming-network?WT.mc_id=academic-105485-koreyst)
-- [AI 红队——构建更安全、更负责任 AI 方案的关键实践](https://rodtrent.substack.com/p/ai-red-teaming?WT.mc_id=academic-105485-koreyst)
+- [AI 红队--构建更安全、更负责任 AI 方案的关键实践](https://rodtrent.substack.com/p/ai-red-teaming?WT.mc_id=academic-105485-koreyst)
 - MITRE [ATLAS（针对 AI 系统的对抗威胁态势）](https://atlas.mitre.org/?WT.mc_id=academic-105485-koreyst)，一个描述现实攻击中对手所用战术和技术的知识库。
 
 ## 知识检测

@@ -42,7 +42,7 @@ Katika nakala yako: **Code -> Codespaces -> New on main**
 | Ujenzi wa kontena unazidi dakika 10         | **Codespaces ➜ “Rebuild Container”**                            |
 | `python: command not found`               | Terminal haikuwa imeshikamana; bonyeza **+** ➜ *bash*                    |
 | `401 Unauthorized` kutoka OpenAI            | `OPENAI_API_KEY` si sahihi / imeisha muda wa uhalali                                |
-| VS Code inaonyesha “Dev container mounting…”   | Futa ukurasa wa kivinjari—Codespaces wakati mwingine hupoteza muunganisho   |
+| VS Code inaonyesha “Dev container mounting…”   | Futa ukurasa wa kivinjari-Codespaces wakati mwingine hupoteza muunganisho   |
 | Kernel ya daftari la kumbukumbu haipo  | Menyu ya daftari ➜ **Kernel ▸ Chagua Kernel ▸ Python 3**           |
 
    Mfumo wa Unix:

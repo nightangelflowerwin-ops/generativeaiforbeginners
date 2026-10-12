@@ -5,7 +5,7 @@ Todos los cambios notables en el plan de estudios de IA Generativa para Principi
 El formato se basa en [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Como este es un
 plan de estudios de aprendizaje en lugar de un paquete de software versionado, las entradas están agrupadas por fecha.
 
-## [2026-07-16] — Validación de contenido + Recursos de imágenes de la lección 09
+## [2026-07-16] - Validación de contenido + Recursos de imágenes de la lección 09
 
 ### Cambiado
 
@@ -24,7 +24,7 @@ plan de estudios de aprendizaje en lugar de un paquete de software versionado, l
 
 ### Validado
 
-- Auditado los README de las lecciones 01, 03, 05, 12, 14 y 16 — todos actuales (nombres y enlaces correctos de Microsoft Foundry);
+- Auditado los README de las lecciones 01, 03, 05, 12, 14 y 16 - todos actuales (nombres y enlaces correctos de Microsoft Foundry);
   no se requieren cambios.
 - Ejecutada una validación completa de markdown en los 41 archivos markdown del repositorio (excluidas traducciones)
   para rutas de documentación obsoletas, locales Microsoft `/en-us/`, nombres antiguos de productos/modelos,
@@ -32,7 +32,7 @@ plan de estudios de aprendizaje en lugar de un paquete de software versionado, l
   seguimiento *Microsoft for Startups*; todas las demás señales fueron confirmadas como falsos positivos (enlaces de traducción automáticos,
   marcadores desactivados y URLs estructurales de terceros `/en/`).
 
-## [2026-07-15] — Reescritura de la lección 09 (Aplicaciones de Imagen) para modelos de imagen GPT
+## [2026-07-15] - Reescritura de la lección 09 (Aplicaciones de Imagen) para modelos de imagen GPT
 
 ### Cambiado
 
@@ -63,7 +63,7 @@ plan de estudios de aprendizaje en lugar de un paquete de software versionado, l
 - Ejecutado `aoai-app.py` de extremo a extremo contra un modelo desplegado `gpt-image-1.5` y confirmado que el flujo de
   decodificación/guardado base64 produce un PNG. Cuadernos confirmados como JSON válido.
 
-## [2026-07-14] — Actualización del modelo predeterminado + Guía de modelo de razonamiento
+## [2026-07-14] - Actualización del modelo predeterminado + Guía de modelo de razonamiento
 
 ### Cambiado
 
@@ -100,7 +100,7 @@ plan de estudios de aprendizaje en lugar de un paquete de software versionado, l
   la muestra `06` `js-githubmodels` la leen (usando `Llama-3.3-70B-Instruct` como fallback) y mantienen
   sus demos de `temperature`/`top_p`/`max_tokens`.
 - **Muestras JS / .NET actualizadas para GPT-5.** Se eliminaron `temperature`/`top_p`/`max_tokens` de las
-  muestras GPT-5 (`06` `recipe-app` TypeScript, `06` `.dib` .NET — que también eleva `MaxOutputTokenCount`
+  muestras GPT-5 (`06` `recipe-app` TypeScript, `06` `.dib` .NET - que también eleva `MaxOutputTokenCount`
   para que la salida de razonamiento no se trunque). La muestra `06` `js-githubmodels` ahora usa Llama para mantener
   su demo de temperature. El `.dib` señala que `Azure.AI.Inference` + un modelo Llama es la forma de
   demostrar `Temperature` en .NET.
@@ -109,7 +109,7 @@ plan de estudios de aprendizaje en lugar de un paquete de software versionado, l
 - Las muestras de la lección 20 (Mistral) y 21 (Meta) mantienen `temperature`/`max_tokens` porque apuntan a
   modelos Mistral/Llama, que soportan esos parámetros.
 
-## [2026-07-06] — Actualización de modernización de contenido
+## [2026-07-06] - Actualización de modernización de contenido
 
 Una actualización amplia para mantener el currículo preciso para 2026: APIs modernas, nombres actuales de productos y
 nombres de modelos, guía actualizada para proveedores, y nuevas herramientas para la experiencia del desarrollador.
@@ -122,11 +122,11 @@ nombres de modelos, guía actualizada para proveedores, y nuevas herramientas pa
 - Documentado **Foundry Local** como proveedor offline/en dispositivo (junto a Ollama) en
   `00-course-setup/03-providers.md` y la lección `19-slm`.
 - **Flujos de trabajo de integración continua**:
-  - `.github/workflows/code-quality.yml` — Ruff + Black (aplicado en el módulo mantenido `shared/`,
+  - `.github/workflows/code-quality.yml` - Ruff + Black (aplicado en el módulo mantenido `shared/`,
     asesoría en el resto del currículo), una pasada asesora ESLint, y un trabajo pytest.
-  - `.github/workflows/security.yml` — Análisis CodeQL (Python + JavaScript/TypeScript) y
+  - `.github/workflows/security.yml` - Análisis CodeQL (Python + JavaScript/TypeScript) y
     revisión de dependencias en pull requests.
-- **Suite de pruebas** bajo `tests/` — 41 tests pytest que cubren el módulo utilitario compartido.
+- **Suite de pruebas** bajo `tests/` - 41 tests pytest que cubren el módulo utilitario compartido.
 - Habilidad **Migración Azure OpenAI → Responses API** bajo
   `.github/skills/azure-openai-to-responses/` usada para guiar la migración de la API.
 
@@ -162,13 +162,13 @@ nombres de modelos, guía actualizada para proveedores, y nuevas herramientas pa
 
 ### Arreglado
 
-- **`shared/python/input_validation.py`** — `validate_text_input(allow_empty=True)` ahora devuelve una
+- **`shared/python/input_validation.py`** - `validate_text_input(allow_empty=True)` ahora devuelve una
   cadena vacía para entradas que solo contienen espacios en blanco en lugar de generar un error de "demasiado corto" (consistente con el
   caso `None`). Encontrado y cubierto por la nueva suite de pruebas.
-- **Muestras de imágenes de la Lección 09** — se corrigieron errores reales: `InvalidRequestError` → `BadRequestError`,
+- **Muestras de imágenes de la Lección 09** - se corrigieron errores reales: `InvalidRequestError` → `BadRequestError`,
   `images.create` → `images.generate`, `Image.create_variation` → `client.images.create_variation`,
   y una variable que enmascaraba el módulo `openai`.
-- **Cuaderno RAG de la Lección 15** — se reparó la configuración del cliente, se reemplazó el `DataFrame.append` eliminado
+- **Cuaderno RAG de la Lección 15** - se reparó la configuración del cliente, se reemplazó el `DataFrame.append` eliminado
   con `pd.concat`, y se modernizó el uso del SDK antiguo.
 - Nombres de modelos obsoletos / retirados (`gpt-3.5-turbo`, `gpt-35-turbo`) reemplazados por `gpt-4o-mini`
   en muestras activas; las salidas históricas de fine-tuning en la lección 18 se preservaron y anotaron
@@ -177,8 +177,8 @@ nombres de modelos, guía actualizada para proveedores, y nuevas herramientas pa
 ### Obsoletos / Notas
 
 - **Muestras de modelos Microsoft Foundry** que usan el SDK `azure-ai-inference` / `@azure-rest/ai-inference`
-  (`client.complete()`) — las muestras `githubmodels-*` y `js-githubmodels` y las lecciones 19, 20,
-  y 21 — permanecen en la API de Inferencia de Modelos, que **no** soporta la API de Respuestas. Estos se
+  (`client.complete()`) - las muestras `githubmodels-*` y `js-githubmodels` y las lecciones 19, 20,
+  y 21 - permanecen en la API de Inferencia de Modelos, que **no** soporta la API de Respuestas. Estos se
   dejaron intencionalmente en ese SDK.
 - `AzureOpenAI()` se mantiene intencionalmente donde aún es apropiado (embeddings y generación de imágenes),
   ya que esos flujos de trabajo no forman parte de la migración a la API de Respuestas.

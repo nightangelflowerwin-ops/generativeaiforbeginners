@@ -42,7 +42,7 @@
 | Η κατασκευή κοντέινερ κολλάει > 10 λεπτά | **Codespaces ➜ “Rebuild Container”**                         |
 | `python: command not found`               | Το τερματικό δεν συνδέθηκε· κάντε κλικ στο **+** ➜ *bash*    |
 | `401 Unauthorized` από OpenAI             | Λάθος / ληγμένο `OPENAI_API_KEY`                             |
-| Το VS Code δείχνει “Dev container mounting…” | Ανανέωση της καρτέλας του browser — μερικές φορές Codespaces χάνει τη σύνδεση |
+| Το VS Code δείχνει “Dev container mounting…” | Ανανέωση της καρτέλας του browser - μερικές φορές Codespaces χάνει τη σύνδεση |
 | Λείπει ο πυρήνας του Notebook             | Μενού Notebook ➜ **Kernel ▸ Select Kernel ▸ Python 3**       |
 
    Unix-based συστήματα:

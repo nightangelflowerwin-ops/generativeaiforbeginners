@@ -72,7 +72,7 @@ Power Automate의 Copilot AI 조수 기능은 필요한 플로우의 종류와 �
 
 ## Microsoft Copilot Studio로 지능형 에이전트 구축하기
 
-[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst)(구 Power Virtual Agents)는 Power Platform의 로우 코드 멤버로, **AI 에이전트** — 질문에 답하고, 조치를 취하며, 사용자 대신 작업을 자동화하는 대화형 코파일럿 — 를 구축할 수 있습니다. Power Platform의 다른 구성원들과 마찬가지로, 시각적이고 자연어 중심의 경험으로 에이전트를 구축합니다: 에이전트가 할 일을 설명하면, Copilot Studio가 명령, 지식, 작업을 스캐폴딩하는 데 도움을 줍니다.
+[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst)(구 Power Virtual Agents)는 Power Platform의 로우 코드 멤버로, **AI 에이전트** - 질문에 답하고, 조치를 취하며, 사용자 대신 작업을 자동화하는 대화형 코파일럿 - 를 구축할 수 있습니다. Power Platform의 다른 구성원들과 마찬가지로, 시각적이고 자연어 중심의 경험으로 에이전트를 구축합니다: 에이전트가 할 일을 설명하면, Copilot Studio가 명령, 지식, 작업을 스캐폴딩하는 데 도움을 줍니다.
 
 교육 스타트업에서는, 학생들의 코스 관련 질문에 답변하거나, 과제 마감일을 확인하고, 심지어 강사에게 이메일을 보내는 에이전트를 코드 작성 없이 구축할 수 있습니다.
 

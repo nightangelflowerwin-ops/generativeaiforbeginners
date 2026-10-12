@@ -149,7 +149,7 @@ print(response.output_text)
 
 ### 多輪對話
 
-Responses API 非常適合單輪文字生成和多輪聊天機器人——你在 `input` 裡提供訊息列表以建立對話：
+Responses API 非常適合單輪文字生成和多輪聊天機器人--你在 `input` 裡提供訊息列表以建立對話：
 
 ```python
 from openai import OpenAI
@@ -162,7 +162,7 @@ print(response.output_text)
 
 這部分功能會在後續章節做更深入介紹。
 
-## 練習 — 你的第一個文字生成應用程式
+## 練習 - 你的第一個文字生成應用程式
 
 既然我們已學到如何設定並配置 openai，現在是時候建立你的第一個文字生成應用程式。請依照以下步驟進行：
 
@@ -373,7 +373,7 @@ Shopping List:
 
 這就是不含大蒜的五道食譜，並且有依據你家中已有食材的購物清單。
 
-## 練習 — 建立食譜產生器
+## 練習 - 建立食譜產生器
 
 現在我們模擬了一個情境，開始撰寫符合示範情景的程式碼。照以下步驟操作：
 
@@ -604,7 +604,7 @@ Shopping List:
 
   > 注意，溫度越接近 1.0，輸出變化越大。
 
-- **推理模型不使用 `temperature`<strong>。這是 2026 年的重要變革。微軟 Foundry 上目前非棄用的模型都是 </strong>推理模型<strong>（GPT-5 家族、o 系列），他們 </strong>不支援 `temperature` 也不支援 `top_p`**（也不支援 `max_tokens`，請用 `max_output_tokens`）。如果你對 `gpt-5-mini` 傳送 `temperature` 參數，會收到「參數不支援」錯誤。所以如果想試上面溫度示例，要用仍支援抽樣控制的模型——例如開放的 **Llama** 模型，如來自 [Microsoft Foundry 模型目錄](https://ai.azure.com/catalog/models?WT.mc_id=academic-105485-koreyst) 的 `Llama-3.3-70B-Instruct`，透過 Foundry Models / Azure AI 推理端點呼叫（與 `githubmodels-*` 範例相同方式）。像 GPT-5 這類推理模型的輸出控制，改用其他方式：
+- **推理模型不使用 `temperature`<strong>。這是 2026 年的重要變革。微軟 Foundry 上目前非棄用的模型都是 </strong>推理模型<strong>（GPT-5 家族、o 系列），他們 </strong>不支援 `temperature` 也不支援 `top_p`**（也不支援 `max_tokens`，請用 `max_output_tokens`）。如果你對 `gpt-5-mini` 傳送 `temperature` 參數，會收到「參數不支援」錯誤。所以如果想試上面溫度示例，要用仍支援抽樣控制的模型--例如開放的 **Llama** 模型，如來自 [Microsoft Foundry 模型目錄](https://ai.azure.com/catalog/models?WT.mc_id=academic-105485-koreyst) 的 `Llama-3.3-70B-Instruct`，透過 Foundry Models / Azure AI 推理端點呼叫（與 `githubmodels-*` 範例相同方式）。像 GPT-5 這類推理模型的輸出控制，改用其他方式：
   - <strong>提示工程</strong> - 清楚的指示、範例和結構化輸出（請參考課程 [04 - Prompt Engineering](../04-prompt-engineering-fundamentals/README.md?WT.mc_id=academic-105485-koreyst)）取代了過去的抽樣調整功能。
   - <strong>推理控制</strong> - 使用諸如推理努力或冗長度等參數，在推理深度與延遲和成本之間做取捨。
 

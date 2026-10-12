@@ -5,7 +5,7 @@ Alla märkbara ändringar i Generative AI for Beginners-kursplanen dokumenteras 
 Formatet är baserat på [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Eftersom detta är en
 utbildningsplan snarare än ett versionshanterat mjukvarupaket, är poster grupperade efter datum.
 
-## [2026-07-16] — Innehållsvalidering + Bildresurser för Lektion 09
+## [2026-07-16] - Innehållsvalidering + Bildresurser för Lektion 09
 
 ### Ändrat
 
@@ -24,7 +24,7 @@ utbildningsplan snarare än ett versionshanterat mjukvarupaket, är poster grupp
 
 ### Validerat
 
-- Granskade README-filerna för lektionerna 01, 03, 05, 12, 14 och 16 — alla aktuella (korrekta Microsoft Foundry
+- Granskade README-filerna för lektionerna 01, 03, 05, 12, 14 och 16 - alla aktuella (korrekta Microsoft Foundry
   namn och länkar); inga ändringar krävdes.
 - Körde en fullständig markdown-validering över alla 41 markdown-filer i repo (exklusive översättningar) för
   utgångna dokumentsökvägar, `/en-us/` Microsoft-lokaler, föråldrade produkt-/modnamn, saknade spårnings-
@@ -32,7 +32,7 @@ utbildningsplan snarare än ett versionshanterat mjukvarupaket, är poster grupp
   var åtgärdbart; alla andra flaggor bekräftades som falska positiva (automatiskt genererade översättningslänkar,
   kommenterade platshållare och tredjeparts `/en/` strukturella URL:er).
 
-## [2026-07-15] — Omskrivning av Lektion 09 (Bildapplikationer) för GPT Bildmodeller
+## [2026-07-15] - Omskrivning av Lektion 09 (Bildapplikationer) för GPT Bildmodeller
 
 ### Ändrat
 
@@ -62,7 +62,7 @@ utbildningsplan snarare än ett versionshanterat mjukvarupaket, är poster grupp
 - Körde `aoai-app.py` helt och hållet mot en distribuerad `gpt-image-1.5`-modell och bekräftade att base64
   dekodnings-/sparflödet producerar en PNG. Assignmentsböcker bekräftades vara giltig JSON.
 
-## [2026-07-14] — Standardmodelluppdatering + Riktlinjer för resonemangsmodeller
+## [2026-07-14] - Standardmodelluppdatering + Riktlinjer för resonemangsmodeller
 
 ### Ändrat
 
@@ -106,7 +106,7 @@ utbildningsplan snarare än ett versionshanterat mjukvarupaket, är poster grupp
 - Lektion 20 (Mistral) och 21 (Meta) exemplen behåller `temperature`/`max_tokens` eftersom de riktar sig till
   Mistral/Llama modeller, som stödjer dessa parametrar.
 
-## [2026-07-06] — Uppdatering och Förnyelse av Innehåll
+## [2026-07-06] - Uppdatering och Förnyelse av Innehåll
 
 En bred förnyelse för att hålla kursplanen korrekt för 2026: moderna API:er, aktuella produktnamn och
 modellnamn, uppdaterade leverantörsriktlinjer och nytt utvecklarverktyg.
@@ -119,11 +119,11 @@ modellnamn, uppdaterade leverantörsriktlinjer och nytt utvecklarverktyg.
 - **Foundry Local** dokumenterat som en offline-/på-enheten-leverantör (tillsammans med Ollama) i
   `00-course-setup/03-providers.md` och lektion `19-slm`.
 - **Integrationsarbetsflöden:**
-  - `.github/workflows/code-quality.yml` — Ruff + Black (tillämpas på det underhållna `shared/`
+  - `.github/workflows/code-quality.yml` - Ruff + Black (tillämpas på det underhållna `shared/`
     modulen, rådgivande för resten av kursplanen), en rådgivande ESLint-pass och ett pytest-jobb.
-  - `.github/workflows/security.yml` — CodeQL-analys (Python + JavaScript/TypeScript) och
+  - `.github/workflows/security.yml` - CodeQL-analys (Python + JavaScript/TypeScript) och
     beroendegranskning vid pull-förfrågningar.
-- **Testsvit** under `tests/` — 41 pytest-tester som täcker den delade hjälpfunktionmodulen.
+- **Testsvit** under `tests/` - 41 pytest-tester som täcker den delade hjälpfunktionmodulen.
 - **Färdighet för migration Azure OpenAI → Responses API** under
   `.github/skills/azure-openai-to-responses/` som används för att vägleda API-migreringen.
 
@@ -159,13 +159,13 @@ modellnamn, uppdaterade leverantörsriktlinjer och nytt utvecklarverktyg.
 
 ### Fikserade
 
-- **`shared/python/input_validation.py`** — `validate_text_input(allow_empty=True)` returnerar nu en
+- **`shared/python/input_validation.py`** - `validate_text_input(allow_empty=True)` returnerar nu en
   tom sträng för inmatning som bara innehåller blanksteg istället för att kasta ett "för kort" fel (i enlighet med
   fallet `None`). Upptäckt och täckt av den nya testsviten.
-- **Bildexempel från Lesson 09** — korrigerade verkliga buggar: `InvalidRequestError` → `BadRequestError`,
+- **Bildexempel från Lesson 09** - korrigerade verkliga buggar: `InvalidRequestError` → `BadRequestError`,
   `images.create` → `images.generate`, `Image.create_variation` → `client.images.create_variation`,
   och en variabel som skuggade `openai`-modulen.
-- **Lesson 15 RAG notebook** — reparerade klientuppställningen, ersatte den borttagna `DataFrame.append`
+- **Lesson 15 RAG notebook** - reparerade klientuppställningen, ersatte den borttagna `DataFrame.append`
   med `pd.concat`, och moderniserade den äldre SDK-användningen.
 - Föråldrade / pensionerade modellnamn (`gpt-3.5-turbo`, `gpt-35-turbo`) ersatta med `gpt-4o-mini`
   i aktiva exempel; historiska fine-tuning-resultat i lesson 18 bevarades och annoterades
@@ -174,8 +174,8 @@ modellnamn, uppdaterade leverantörsriktlinjer och nytt utvecklarverktyg.
 ### Föråldrade / Anmärkningar
 
 - **Microsoft Foundry Models-exempel** som använder `azure-ai-inference` / `@azure-rest/ai-inference`
-  SDK:n (`client.complete()`) — `githubmodels-*` och `js-githubmodels`-exemplen och lesson 19, 20,
-  och 21 — ligger kvar på Model Inference API:n, som **inte** stödjer Responses API. Dessa är
+  SDK:n (`client.complete()`) - `githubmodels-*` och `js-githubmodels`-exemplen och lesson 19, 20,
+  och 21 - ligger kvar på Model Inference API:n, som **inte** stödjer Responses API. Dessa är
   medvetet kvar på den SDK:n.
 - `AzureOpenAI()` behålls medvetet där det fortfarande är lämpligt (embeddingar och bildgenerering),
   eftersom dessa arbetsflöden inte ingår i Responses API-migreringen.

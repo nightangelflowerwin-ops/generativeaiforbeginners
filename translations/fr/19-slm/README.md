@@ -54,7 +54,7 @@ Les SLM ont un large éventail d'applications, notamment :
 
 **Taille**
   
-Une distinction principale entre LLM et SLM réside dans l'échelle des modèles. Les LLM, tels que ChatGPT (GPT-4), peuvent comporter un nombre estimé à 1,76 trillion de paramètres, tandis que des SLM open source comme Mistral 7B sont conçus avec beaucoup moins de paramètres — environ 7 milliards. Cette disparité provient principalement des différences d’architecture de modèle et des processus d'entraînement. Par exemple, ChatGPT utilise un mécanisme d'attention auto-référente dans une architecture encodeur-décodeur, alors que Mistral 7B utilise une attention à fenêtre coulissante, permettant un entraînement plus efficace dans un modèle uniquement décodeur. Cette variance architecturale a des implications profondes sur la complexité et la performance de ces modèles.
+Une distinction principale entre LLM et SLM réside dans l'échelle des modèles. Les LLM, tels que ChatGPT (GPT-4), peuvent comporter un nombre estimé à 1,76 trillion de paramètres, tandis que des SLM open source comme Mistral 7B sont conçus avec beaucoup moins de paramètres - environ 7 milliards. Cette disparité provient principalement des différences d’architecture de modèle et des processus d'entraînement. Par exemple, ChatGPT utilise un mécanisme d'attention auto-référente dans une architecture encodeur-décodeur, alors que Mistral 7B utilise une attention à fenêtre coulissante, permettant un entraînement plus efficace dans un modèle uniquement décodeur. Cette variance architecturale a des implications profondes sur la complexité et la performance de ces modèles.
 
 **Compréhension**
 

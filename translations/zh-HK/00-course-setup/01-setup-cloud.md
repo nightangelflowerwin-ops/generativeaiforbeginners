@@ -30,13 +30,13 @@ Codespaces 提供免費的瀏覽器版 VS Code 實例，並預先安裝所有相
 
 ## 3. 新增你的 API 金鑰（安全方式）
 
-### 選項 A Codespaces Secrets — 推薦
+### 選項 A Codespaces Secrets - 推薦
 
 1. ⚙️ 齒輪圖示 -> 指令面板 -> Codespaces : 管理使用者密碼 -> 新增密碼。
 2. 名稱: OPENAI_API_KEY
 3. 值: 貼上你的金鑰 → 新增密碼
 
-完成了 — 我們的程式碼會自動讀取它。
+完成了 - 我們的程式碼會自動讀取它。
 
 ### 選項 B .env 檔案（如果你真的需要）
 

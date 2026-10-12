@@ -72,25 +72,25 @@ Ciri pembantu AI Copilot dalam Power Automate membolehkan anda menerangkan jenis
 
 ## Membina Ejen Pintar dengan Microsoft Copilot Studio
 
-[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst) (dahulunya Power Virtual Agents) adalah ahli kod rendah Power Platform untuk membina **ejen AI** — copilots perbualan yang boleh menjawab soalan, mengambil tindakan, dan mengautomasikan tugas bagi pihak pengguna anda. Sama seperti selebihnya Power Platform, anda membina ejen ini dalam pengalaman visual yang mengutamakan bahasa semula jadi: anda menerangkan apa yang anda mahu ejen lakukan, dan Copilot Studio membantu merangka arahan, pengetahuan, dan tindakan ejen.
+[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst) (dahulunya Power Virtual Agents) adalah ahli kod rendah Power Platform untuk membina **ejen AI** - copilots perbualan yang boleh menjawab soalan, mengambil tindakan, dan mengautomasikan tugas bagi pihak pengguna anda. Sama seperti selebihnya Power Platform, anda membina ejen ini dalam pengalaman visual yang mengutamakan bahasa semula jadi: anda menerangkan apa yang anda mahu ejen lakukan, dan Copilot Studio membantu merangka arahan, pengetahuan, dan tindakan ejen.
 
-Untuk startup pendidikan kami, anda boleh membina ejen yang menjawab soalan pelajar tentang kursus, memeriksa tarikh akhir tugasan, dan malah menghantar e-mel kepada pengajar — semua ini tanpa menulis kod.
+Untuk startup pendidikan kami, anda boleh membina ejen yang menjawab soalan pelajar tentang kursus, memeriksa tarikh akhir tugasan, dan malah menghantar e-mel kepada pengajar - semua ini tanpa menulis kod.
 
 Berikut adalah beberapa keupayaan terkini yang menjadikan Copilot Studio berkuasa:
 
-- **Jawapan generatif daripada pengetahuan anda**. Daripada menulis setiap perbualan secara manual, anda boleh menyambung **sumber pengetahuan** — laman web awam, SharePoint, OneDrive, Dataverse, fail yang dimuat naik, atau data perusahaan melalui penyambung — dan ejen menjana jawapan berpandukan sumber tersebut.
+- **Jawapan generatif daripada pengetahuan anda**. Daripada menulis setiap perbualan secara manual, anda boleh menyambung **sumber pengetahuan** - laman web awam, SharePoint, OneDrive, Dataverse, fail yang dimuat naik, atau data perusahaan melalui penyambung - dan ejen menjana jawapan berpandukan sumber tersebut.
 
 - **Orkestrasi generatif**. Daripada bergantung pada frasa pencetus yang kaku, ejen menggunakan AI untuk memahami permintaan dan secara dinamik memutuskan pengetahuan, topik, dan tindakan apa yang hendak digabungkan untuk memenuhinya, termasuk menggabungkan beberapa langkah bersama.
 
 - **Tindakan dan penyambung**. Ejen boleh *melakukan* perkara, bukan sekadar berbual. Anda boleh memberi ejen tindakan yang disokong oleh lebih 1,500 penyambung Power Platform yang terbina, aliran Power Automate, API REST khusus, arahan, atau pelayan **Model Context Protocol (MCP)**.
 
-- **Ejen autonomi**. Ejen tidak terhad untuk memberi respons di dalam tetingkap sembang. Anda boleh membina **ejen autonomi** yang dicetuskan oleh peristiwa — seperti e-mel baru, rekod baru di Dataverse, atau fail yang dimuat naik — dan kemudian bertindak di latar belakang untuk melengkapkan tugas.
+- **Ejen autonomi**. Ejen tidak terhad untuk memberi respons di dalam tetingkap sembang. Anda boleh membina **ejen autonomi** yang dicetuskan oleh peristiwa - seperti e-mel baru, rekod baru di Dataverse, atau fail yang dimuat naik - dan kemudian bertindak di latar belakang untuk melengkapkan tugas.
 
 - **Orkestrasi pelbagai ejen**. Ejen boleh memanggil ejen lain. Ejen Copilot Studio boleh menyerahkan tugas kepada, atau diperluas oleh, ejen lain, termasuk ejen yang diterbitkan ke Microsoft 365 Copilot dan ejen yang dibina dalam Microsoft Foundry.
 
 - **Pilihan model**. Selain model terbina dalam, anda boleh membawa model daripada katalog model Microsoft Foundry untuk menyesuaikan cara ejen anda berfikir dan memberi respons.
 
-- **Terbit di mana-mana**. Setelah dibina, ejen boleh diterbitkan ke pelbagai saluran — Microsoft Teams, Microsoft 365 Copilot, laman web atau aplikasi khusus, dan lain-lain — dengan keselamatan, pengesahan, dan analitik diurus melalui pengalaman pentadbir Power Platform.
+- **Terbit di mana-mana**. Setelah dibina, ejen boleh diterbitkan ke pelbagai saluran - Microsoft Teams, Microsoft 365 Copilot, laman web atau aplikasi khusus, dan lain-lain - dengan keselamatan, pengesahan, dan analitik diurus melalui pengalaman pentadbir Power Platform.
 
 Anda boleh mula membina ejen pertama anda di [copilotstudio.microsoft.com](https://copilotstudio.microsoft.com?WT.mc_id=academic-105485-koreyst) dan belajar lebih lanjut dalam [dokumentasi Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/?WT.mc_id=academic-105485-koreyst).
 
@@ -270,7 +270,7 @@ Untuk belajar cara menggunakan Model AI ini dalam Power Automate, ikuti modul [T
 
 Selepas menamatkan pelajaran ini, lihat koleksi [Pembelajaran AI Generatif kami](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) untuk terus meningkatkan pengetahuan AI Generatif anda!
 
-Mahu mengubah suai dan mendapatkan lebih banyak dari Copilot? Terokai [Awesome Copilot](https://github.com/github/awesome-copilot?WT.mc_id=academic-105485-koreyst) — satu koleksi arahan, ejen, kemahiran, dan konfigurasi yang disumbangkan oleh komuniti untuk membantu anda memanfaatkan sepenuhnya GitHub Copilot.
+Mahu mengubah suai dan mendapatkan lebih banyak dari Copilot? Terokai [Awesome Copilot](https://github.com/github/awesome-copilot?WT.mc_id=academic-105485-koreyst) - satu koleksi arahan, ejen, kemahiran, dan konfigurasi yang disumbangkan oleh komuniti untuk membantu anda memanfaatkan sepenuhnya GitHub Copilot.
 
 Pergi ke Pelajaran 11 di mana kita akan melihat cara untuk [mengintegrasikan AI Generatif dengan Panggilan Fungsi](../11-integrating-with-function-calling/README.md?WT.mc_id=academic-105485-koreyst)!
 

@@ -300,9 +300,9 @@ Semua terjemahan adalah **lengkap** dan dihasilkan secara automatik oleh [Azure 
 
 | Aspek | Status |
 |--------|--------|
-| Liputan terjemahan | Lengkap — 50+ bahasa, semua pelajaran |
+| Liputan terjemahan | Lengkap - 50+ bahasa, semua pelajaran |
 | Kaedah terjemahan | Automatik melalui [Azure Co-op Translator](https://github.com/Azure/co-op-translator?WT.mc_id=academic-105485-koreyst) |
-| Disegerakkan dengan sumber Inggeris | Ya — dijana semula secara automatik |
+| Disegerakkan dengan sumber Inggeris | Ya - dijana semula secara automatik |
 
 ### 9.2 Penambahbaikan Kebolehcapaian
 

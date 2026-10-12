@@ -112,7 +112,7 @@ chatbot (to user_proxy):
 
 ## Microsoft Agent Framework
 
-[Microsoft Agent Framework](https://learn.microsoft.com/agent-framework/?WT.mc_id=academic-105485-koreyst) е отворен SDK на Microsoft за изграждане на AI агенти и мулти агент системи както в **Python**, така и в **.NET**. Той обединява силните страни на два по-ранни проекта на Microsoft — корпоративните характеристики на **Semantic Kernel** и мулти агентната оркестрация на **AutoGen** — в една поддържана рамка. Ако стартирате нов проект за агент днес, това е препоръчителният наследник на AutoGen.
+[Microsoft Agent Framework](https://learn.microsoft.com/agent-framework/?WT.mc_id=academic-105485-koreyst) е отворен SDK на Microsoft за изграждане на AI агенти и мулти агент системи както в **Python**, така и в **.NET**. Той обединява силните страни на два по-ранни проекта на Microsoft - корпоративните характеристики на **Semantic Kernel** и мулти агентната оркестрация на **AutoGen** - в една поддържана рамка. Ако стартирате нов проект за агент днес, това е препоръчителният наследник на AutoGen.
 
 Рамката се мащабира от един **чат агент** до сложни **мулти агентни работни потоци** и се интегрира директно с Microsoft Foundry, Azure OpenAI и OpenAI. Осигурява и вградена наблюдаемост чрез OpenTelemetry, така че да можете точно да проследявате какво правят вашите агенти.
 

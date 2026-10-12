@@ -42,7 +42,7 @@ Di fork Anda: **Code -> Codespaces -> New on main**
 | Build container terhenti > 10 menit    | **Codespaces ➜ “Rebuild Container”**                            |
 | `python: command not found`             | Terminal tidak terpasang; klik **+** ➜ *bash*                    |
 | `401 Unauthorized` dari OpenAI          | `OPENAI_API_KEY` salah / kadaluarsa                              |
-| VS Code menunjukkan “Dev container mounting…” | Segarkan tab browser—Kadang Codespaces kehilangan koneksi     |
+| VS Code menunjukkan “Dev container mounting…” | Segarkan tab browser-Kadang Codespaces kehilangan koneksi     |
 | Kernel notebook hilang                  | Menu Notebook ➜ **Kernel ▸ Select Kernel ▸ Python 3**           |
 
    Sistem berbasis Unix:

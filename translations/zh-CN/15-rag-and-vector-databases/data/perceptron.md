@@ -65,7 +65,7 @@ def train(positive_examples, negative_examples, num_iterations = 100, eta = 1):
 
 ## 总结
 
-本课中，你了解了感知器——一种二分类模型，以及如何通过权重向量来训练它。
+本课中，你了解了感知器--一种二分类模型，以及如何通过权重向量来训练它。
 
 ## 🚀 挑战
 

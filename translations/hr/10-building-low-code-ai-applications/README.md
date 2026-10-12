@@ -72,25 +72,25 @@ Značajka AI asistenta copilota u Power Automate omogućuje vam opisivanje vrste
 
 ## Izgradnja inteligentnih agenata s Microsoft Copilot Studiom
 
-[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst) (nekada Power Virtual Agents) je low-code član Power Platforme za izradu **AI agenata** — razgovornih copilota koji mogu odgovarati na pitanja, poduzimati radnje i automatizirati zadatke u ime vaših korisnika. Kao i ostatak Power Platforme, ove agente gradite u vizualnom iskustvu usmjerenom na prirodni jezik: opisujete što želite da agent radi, a Copilot Studio pomaže u strukturiranju uputa, znanja i radnji.
+[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst) (nekada Power Virtual Agents) je low-code član Power Platforme za izradu **AI agenata** - razgovornih copilota koji mogu odgovarati na pitanja, poduzimati radnje i automatizirati zadatke u ime vaših korisnika. Kao i ostatak Power Platforme, ove agente gradite u vizualnom iskustvu usmjerenom na prirodni jezik: opisujete što želite da agent radi, a Copilot Studio pomaže u strukturiranju uputa, znanja i radnji.
 
-Za naš obrazovni startup mogli biste izraditi agenta koji odgovara na studentska pitanja o tečajevima, provjerava rokove zadataka, pa čak šalje e-poštu instruktoru — sve bez pisanja koda.
+Za naš obrazovni startup mogli biste izraditi agenta koji odgovara na studentska pitanja o tečajevima, provjerava rokove zadataka, pa čak šalje e-poštu instruktoru - sve bez pisanja koda.
 
 Evo nekih od najnovijih mogućnosti koje čine Copilot Studio moćnim:
 
-- **Generativni odgovori iz vašeg znanja**. Umjesto ručnog sastavljanja svake konverzacije, možete povezati **izvore znanja** — javne web stranice, SharePoint, OneDrive, Dataverse, učitane datoteke ili korporativne podatke putem konektora — i agent generira utemeljene odgovore iz njih.
+- **Generativni odgovori iz vašeg znanja**. Umjesto ručnog sastavljanja svake konverzacije, možete povezati **izvore znanja** - javne web stranice, SharePoint, OneDrive, Dataverse, učitane datoteke ili korporativne podatke putem konektora - i agent generira utemeljene odgovore iz njih.
 
 - **Generativna orkestracija**. Umjesto oslanjanja na rigidne okidačke fraze, agent koristi AI da razumije zahtjev i dinamički odluči koje kombinacije znanja, tema i radnji upotrijebiti za ispunjenje, uključujući povezivanje nekoliko koraka.
 
 - **Radnje i konektori**. Agenti mogu *činjenje*, ne samo chat. Možete agentu dati radnje potpomognute s više od 1.500 unaprijed izrađenih konektora Power Platforme, tijekova rada Power Automate, prilagođenih REST API-ja, promptova ili **Model Context Protocol (MCP)** servera.
 
-- **Autonomni agenti**. Agenti nisu ograničeni na odgovaranje u chat prozoru. Možete izraditi **autonomne agente** koji se aktiviraju događajima — poput nove e-pošte, novog zapisa u Dataverseu ili učitavanja datoteke — te zatim djeluju u pozadini za dovršetak zadatka.
+- **Autonomni agenti**. Agenti nisu ograničeni na odgovaranje u chat prozoru. Možete izraditi **autonomne agente** koji se aktiviraju događajima - poput nove e-pošte, novog zapisa u Dataverseu ili učitavanja datoteke - te zatim djeluju u pozadini za dovršetak zadatka.
 
 - **Orkestracija više agenata**. Agenti mogu pozvati druge agente. Copilot Studio agent može predati upravljanje ili se proširiti drugim agentima, uključujući agente objavljene u Microsoft 365 Copilotu i agente izrađene u Microsoft Foundryju.
 
 - **Izbor modela**. Osim ugrađenih modela, možete donijeti modele iz Microsoft Foundry kataloga modela kako biste prilagodili način na koji vaš agent rezonira i odgovara.
 
-- **Objavljivanje bilo gdje**. Kad je agent izrađen, može se objaviti na više kanala — Microsoft Teams, Microsoft 365 Copilot, web stranici ili prilagođenoj aplikaciji i više — s upravljanjem sigurnošću, autentifikacijom i analizom putem administrativnog iskustva Power Platforme.
+- **Objavljivanje bilo gdje**. Kad je agent izrađen, može se objaviti na više kanala - Microsoft Teams, Microsoft 365 Copilot, web stranici ili prilagođenoj aplikaciji i više - s upravljanjem sigurnošću, autentifikacijom i analizom putem administrativnog iskustva Power Platforme.
 
 Svoj prvi agent možete početi graditi na [copilotstudio.microsoft.com](https://copilotstudio.microsoft.com?WT.mc_id=academic-105485-koreyst) i saznati više u [Microsoft Copilot Studio dokumentaciji](https://learn.microsoft.com/microsoft-copilot-studio/?WT.mc_id=academic-105485-koreyst).
 
@@ -270,7 +270,7 @@ Da naučite kako koristiti ovaj AI model u Power Automate, provedite se kroz mod
 
 Nakon što završite ovu lekciju, pogledajte našu [Generativnu AI zbirku za učenje](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) kako biste nastavili nadograđivati svoje znanje o Generativnoj AI!
 
-Želite li prilagoditi i izvući više iz Copilota? Istražite [Awesome Copilot](https://github.com/github/awesome-copilot?WT.mc_id=academic-105485-koreyst) — zbirku uputa, agenata, vještina i konfiguracija koju doprinosi zajednica, kako biste maksimalno iskoristili GitHub Copilot.
+Želite li prilagoditi i izvući više iz Copilota? Istražite [Awesome Copilot](https://github.com/github/awesome-copilot?WT.mc_id=academic-105485-koreyst) - zbirku uputa, agenata, vještina i konfiguracija koju doprinosi zajednica, kako biste maksimalno iskoristili GitHub Copilot.
 
 Krenite na Lekciju 11 gdje ćemo pogledati kako [integrirati Generativnu AI s Function Calling](../11-integrating-with-function-calling/README.md?WT.mc_id=academic-105485-koreyst)!
 

@@ -300,9 +300,9 @@ Tất cả bản dịch đều **hoàn thành** và được tạo tự động 
 
 | Khía cạnh | Trạng thái |
 |----------|----------|
-| Phủ sóng Dịch thuật | Hoàn thành — 50+ ngôn ngữ, toàn bộ bài học |
+| Phủ sóng Dịch thuật | Hoàn thành - 50+ ngôn ngữ, toàn bộ bài học |
 | Phương pháp Dịch thuật | Tự động qua [Azure Co-op Translator](https://github.com/Azure/co-op-translator?WT.mc_id=academic-105485-koreyst) |
-| Đồng bộ với bản tiếng Anh | Có — tự động tái tạo |
+| Đồng bộ với bản tiếng Anh | Có - tự động tái tạo |
 
 ### 9.2 Các Cải Tiến Truy cập
 

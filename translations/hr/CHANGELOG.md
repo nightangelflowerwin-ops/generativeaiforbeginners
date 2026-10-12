@@ -5,7 +5,7 @@ Sve značajne promjene u kurikulumu Generativna AI za početnike dokumentirane s
 Format je temeljen na [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Budući da se radi o
 kurikulumu za učenje, a ne verzioniranom softverskom paketu, unosi su grupirani prema datumu.
 
-## [2026-07-06] — Modernizacija sadržaja
+## [2026-07-06] - Modernizacija sadržaja
 
 Opsežan osvježavanje za održavanje točnosti kurikuluma za 2026: moderni API-ji, trenutačna imena proizvoda i
 imena modela, ažurirane smjernice pružatelja i novi alati za iskustvo programera.
@@ -18,11 +18,11 @@ imena modela, ažurirane smjernice pružatelja i novi alati za iskustvo programe
 - **Foundry Local** dokumentiran kao offline / na uređaju pružatelj (zajedno s Ollama) u
   `00-course-setup/03-providers.md` i lekciji `19-slm`.
 - **Tijekovi kontinuirane integracije**:
-  - `.github/workflows/code-quality.yml` — Ruff + Black (primjenjivano na održavani `shared/`
+  - `.github/workflows/code-quality.yml` - Ruff + Black (primjenjivano na održavani `shared/`
     modul, savjetodavno u ostatku kurikuluma), savjetodavni ESLint prolaz i pytest zadatak.
-  - `.github/workflows/security.yml` — CodeQL analiza (Python + JavaScript/TypeScript) i
+  - `.github/workflows/security.yml` - CodeQL analiza (Python + JavaScript/TypeScript) i
     pregled ovisnosti na zahtjevima za povlačenje.
-- **Skup testova** pod `tests/` — 41 pytest test pokrivajući zajednički korisnički modul.
+- **Skup testova** pod `tests/` - 41 pytest test pokrivajući zajednički korisnički modul.
 - **Vještina migracije Azure OpenAI → Responses API** pod
   `.github/skills/azure-openai-to-responses/` korištena za vođenje migracije API-ja.
 
@@ -57,13 +57,13 @@ imena modela, ažurirane smjernice pružatelja i novi alati za iskustvo programe
 
 ### Ispravljeno
 
-- **`shared/python/input_validation.py`** — `validate_text_input(allow_empty=True)` sada vraća
+- **`shared/python/input_validation.py`** - `validate_text_input(allow_empty=True)` sada vraća
   prazan niz za unos koji je samo razmak umjesto da baci grešku "prekratak unos" (dosljedno s
   slučajem `None`). Pronađeno i obuhvaćeno novim skupom testova.
-- **Primjeri za slike u lekciji 09** — ispravljene stvarne pogreške: `InvalidRequestError` → `BadRequestError`,
+- **Primjeri za slike u lekciji 09** - ispravljene stvarne pogreške: `InvalidRequestError` → `BadRequestError`,
   `images.create` → `images.generate`, `Image.create_variation` → `client.images.create_variation`,
   i varijabla koja je zasjenjivala `openai` modul.
-- **Bilježnica RAG u lekciji 15** — popravljen setup klijenta, zamijenjen uklonjeni `DataFrame.append`
+- **Bilježnica RAG u lekciji 15** - popravljen setup klijenta, zamijenjen uklonjeni `DataFrame.append`
   s `pd.concat` i modernizirana upotreba naslijeđenog SDK-ja.
 - Zastarjela / povučena imena modela (`gpt-3.5-turbo`, `gpt-35-turbo`) zamijenjena s `gpt-4o-mini`
   u aktivnim primjerima; povijesni rezultati prilagođavanja u lekciji 18 sačuvani i označeni
@@ -72,8 +72,8 @@ imena modela, ažurirane smjernice pružatelja i novi alati za iskustvo programe
 ### Zastarjelo / Napomene
 
 - Primjeri **Microsoft Foundry Models** koji koriste SDK `azure-ai-inference` / `@azure-rest/ai-inference`
-  (`client.complete()`) — primjeri `githubmodels-*` i `js-githubmodels` i lekcije 19, 20,
-  i 21 — ostaju na Model Inference API-ju koji **ne podržava** Responses API. Namjerno su
+  (`client.complete()`) - primjeri `githubmodels-*` i `js-githubmodels` i lekcije 19, 20,
+  i 21 - ostaju na Model Inference API-ju koji **ne podržava** Responses API. Namjerno su
   ostavljeni na tom SDK-ju.
 - `AzureOpenAI()` ostaje zadržan gdje je još prikladno (ugradnje i generiranje slika),
   jer ti tijekovi rada nisu dio migracije Responses API-ja.

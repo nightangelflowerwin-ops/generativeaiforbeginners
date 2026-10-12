@@ -2,7 +2,7 @@
 
 **Utilisez ce guide si vous préférez tout exécuter sur votre propre ordinateur portable.**   
 Vous avez deux options : **(A) Python natif + virtual-env** ou **(B) Conteneur de développement VS Code avec Docker**.  
-Choisissez celle qui vous semble la plus simple — les deux mènent aux mêmes leçons.
+Choisissez celle qui vous semble la plus simple - les deux mènent aux mêmes leçons.
 
 ## 1. Prérequis
 
@@ -33,7 +33,7 @@ source .venv/bin/activate     # macOS / Linux
 .\.venv\Scripts\activate      # Windows PowerShell
 ```
 
-✅ L’invite devrait maintenant commencer par (.venv) — cela signifie que vous êtes dans l’environnement.
+✅ L’invite devrait maintenant commencer par (.venv) - cela signifie que vous êtes dans l’environnement.
 
 ### Étape 3 Installer les dépendances
 
@@ -196,7 +196,7 @@ Voici un guide étape par étape pour créer un fichier `.env` en Python et ajou
 
 C’est tout ! Vous avez créé avec succès un fichier `.env`, ajouté vos identifiants Microsoft Foundry Models, et chargé ces variables dans votre application Python.
 
-🔐 Ne commettez jamais le fichier .env — il est déjà dans .gitignore.
+🔐 Ne commettez jamais le fichier .env - il est déjà dans .gitignore.
 Les instructions complètes des fournisseurs se trouvent dans [`providers.md`](03-providers.md).
 
 ## 4. Et après ?

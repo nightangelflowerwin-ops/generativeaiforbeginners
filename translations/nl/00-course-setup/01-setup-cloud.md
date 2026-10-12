@@ -30,13 +30,13 @@ Dit duurt de eerste keer ongeveer **~2 minuten**.
 
 ## 3. Voeg je API-sleutel toe (de veilige manier)
 
-### Optie A Codespaces Secrets — Aanbevolen
+### Optie A Codespaces Secrets - Aanbevolen
 
 1. ⚙️ Tandwielicoon -> Command Pallet -> Codespaces : Manage user secret -> Voeg een nieuwe secret toe.
 2. Naam: OPENAI_API_KEY
 3. Waarde: plak je sleutel → Voeg secret toe
 
-Dat is alles—onze code zal het automatisch oppikken.
+Dat is alles-onze code zal het automatisch oppikken.
 
 ### Optie B .env bestand (als je er echt eentje nodig hebt)
 

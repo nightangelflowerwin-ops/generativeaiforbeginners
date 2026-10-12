@@ -300,9 +300,9 @@ Kõik tõlked on **täielikud** ja genereeritud automaatselt [Azure Co-op Transl
 
 | Aspekt | Staatus |
 |--------|--------|
-| Tõlke katvus | Täielik — üle 50 keele, kõik õppetunnid |
+| Tõlke katvus | Täielik - üle 50 keele, kõik õppetunnid |
 | Tõlke meetod | Automatiseeritud [Azure Co-op Translator'i](https://github.com/Azure/co-op-translator?WT.mc_id=academic-105485-koreyst) abil |
-| Inglise lähtekoodiga sünkroonis | Jah — automaatselt uuendatud |
+| Inglise lähtekoodiga sünkroonis | Jah - automaatselt uuendatud |
 
 ### 9.2 Juurdepääsetavuse parandused
 

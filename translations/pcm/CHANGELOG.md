@@ -5,7 +5,7 @@ All di important changes wey happen for di Generative AI for Beginners curriculu
 Di format base on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Becos na learning curriculum e be, no be versioned software package, di entries group by date.
 
 
-## [2026-07-16] — Content Validation + Lesson 09 Image Assets
+## [2026-07-16] - Content Validation + Lesson 09 Image Assets
 
 ### Changed
 
@@ -24,7 +24,7 @@ Di format base on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Beco
 
 ### Validated
 
-- Check di READMEs for lessons 01, 03, 05, 12, 14, and 16 — all correct (Microsoft Foundry
+- Check di READMEs for lessons 01, 03, 05, 12, 14, and 16 - all correct (Microsoft Foundry
   naming and links); no changes needed.
 - Do one full markdown validation for all 41 in-repo markdown files (translation no count) to check
   deprecated doc paths, `/en-us/` Microsoft locales, old product/model names, missing tracking
@@ -32,7 +32,7 @@ Di format base on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Beco
   e be real; all other worries be false alarms (auto-generated translation links,
   commented-out placeholders, and third-party `/en/` structural URLs).
 
-## [2026-07-15] — Lesson 09 (Image Applications) Rewrite for GPT Image Models
+## [2026-07-15] - Lesson 09 (Image Applications) Rewrite for GPT Image Models
 
 ### Changed
 
@@ -62,7 +62,7 @@ Di format base on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Beco
 - Run `aoai-app.py` end-to-end against one deployed `gpt-image-1.5` model and confirm say di base64
   decode/save flow fit produce PNG. Notebooks confirm be valid JSON.
 
-## [2026-07-14] — Default Model Update + Reasoning-Model Guidance
+## [2026-07-14] - Default Model Update + Reasoning-Model Guidance
 
 ### Changed
 
@@ -106,7 +106,7 @@ Di format base on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Beco
 - Di lesson 20 (Mistral) and 21 (Meta) samples still keep `temperature`/`max_tokens` because dem target
   Mistral/Llama models, wey support those parameters.
 
-## [2026-07-06] — Content Modernization Refresh
+## [2026-07-06] - Content Modernization Refresh
 
 Big refresh to keep di curriculum correct for 2026: modern APIs, current product names and
 model names, updated provider guidance, and new developer-experience tools.
@@ -119,11 +119,11 @@ model names, updated provider guidance, and new developer-experience tools.
 - **Foundry Local** document am as offline / on-device provider (side by side with Ollama) for
   `00-course-setup/03-providers.md` and lesson `19-slm`.
 - **Continuous integration workflows**:
-  - `.github/workflows/code-quality.yml` — Ruff + Black (enforced on di maintained `shared/`
+  - `.github/workflows/code-quality.yml` - Ruff + Black (enforced on di maintained `shared/`
     module, advisory across di rest of di curriculum), advisory ESLint run, and pytest job.
-  - `.github/workflows/security.yml` — CodeQL analysis (Python + JavaScript/TypeScript) and
+  - `.github/workflows/security.yml` - CodeQL analysis (Python + JavaScript/TypeScript) and
     dependency review on pull requests.
-- **Test suite** for `tests/` — 41 pytest tests wey cover shared utility module.
+- **Test suite** for `tests/` - 41 pytest tests wey cover shared utility module.
 - **Azure OpenAI → Responses API migration skill** for
   `.github/skills/azure-openai-to-responses/` wey guide API migration.
 
@@ -159,13 +159,13 @@ model names, updated provider guidance, and new developer-experience tools.
 
 ### Fix
 
-- **`shared/python/input_validation.py`** — `validate_text_input(allow_empty=True)` now dey return
+- **`shared/python/input_validation.py`** - `validate_text_input(allow_empty=True)` now dey return
   empty string if input na only whitespace instead make e throw "too short" error (dis one
   consistent with di `None` case). E show for new test wey dem do.
-- **Lesson 09 image samples** — true bugs don fix: `InvalidRequestError` → `BadRequestError`,
+- **Lesson 09 image samples** - true bugs don fix: `InvalidRequestError` → `BadRequestError`,
   `images.create` → `images.generate`, `Image.create_variation` → `client.images.create_variation`,
   plus one variable wey shadow di `openai` module.
-- **Lesson 15 RAG notebook** — fix client setup, comot di old `DataFrame.append`
+- **Lesson 15 RAG notebook** - fix client setup, comot di old `DataFrame.append`
   put `pd.concat`, plus update di old SDK waka.
 - Deprecated / retire model names (`gpt-3.5-turbo`, `gpt-35-turbo`) don change to `gpt-4o-mini`
   for active samples; historical fine-tuning output for lesson 18 still dey and e get note
@@ -174,8 +174,8 @@ model names, updated provider guidance, and new developer-experience tools.
 ### Deprecated / Notes
 
 - **Microsoft Foundry Models samples** wey use `azure-ai-inference` / `@azure-rest/ai-inference`
-  SDK (`client.complete()`) — di `githubmodels-*` and `js-githubmodels` samples plus lessons 19, 20,
-  and 21 — still dey use Model Inference API, wey no dey support Responses API. Dem purposely
+  SDK (`client.complete()`) - di `githubmodels-*` and `js-githubmodels` samples plus lessons 19, 20,
+  and 21 - still dey use Model Inference API, wey no dey support Responses API. Dem purposely
   leave am for dat SDK.
 - `AzureOpenAI()` still dey for where e still make sense (embeddings and image generation),
   as those workflow no be part of Responses API migration.

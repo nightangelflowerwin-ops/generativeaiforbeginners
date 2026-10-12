@@ -300,9 +300,9 @@ Vsi prevodi so **popolni** in avtomatsko ustvarjeni z [Azure Co-op Translator](h
 
 | Vidik | Status |
 |--------|--------|
-| Pokritost prevodov | Popolno — več kot 50 jezikov, vse lekcije |
+| Pokritost prevodov | Popolno - več kot 50 jezikov, vse lekcije |
 | Metoda prevoda | Avtomatizirano prek [Azure Co-op Translator](https://github.com/Azure/co-op-translator?WT.mc_id=academic-105485-koreyst) |
-| Sinhronizacija z angleškim izvirnikom | Da — samodejno obnovljeno |
+| Sinhronizacija z angleškim izvirnikom | Da - samodejno obnovljeno |
 
 ### 9.2 Izboljšave dostopnosti
 

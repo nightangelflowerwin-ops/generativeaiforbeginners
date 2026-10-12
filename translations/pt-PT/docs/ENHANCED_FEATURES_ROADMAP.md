@@ -300,9 +300,9 @@ Todas as traduções estão **completas** e geradas automaticamente pelo [Azure 
 
 | Aspeto | Estado |
 |--------|--------|
-| Cobertura da tradução | Completa — 50+ línguas, todas as aulas |
+| Cobertura da tradução | Completa - 50+ línguas, todas as aulas |
 | Método de tradução | Automatizado via [Azure Co-op Translator](https://github.com/Azure/co-op-translator?WT.mc_id=academic-105485-koreyst) |
-| Mantido sincronizado com a fonte em inglês | Sim — regenerado automaticamente |
+| Mantido sincronizado com a fonte em inglês | Sim - regenerado automaticamente |
 
 ### 9.2 Melhorias de Acessibilidade
 

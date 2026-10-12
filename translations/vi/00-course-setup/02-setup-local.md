@@ -2,7 +2,7 @@
 
 **Sử dụng hướng dẫn này nếu bạn muốn chạy mọi thứ trên laptop của mình.**   
 Bạn có hai lựa chọn: **(A) Python bản gốc + virtual-env** hoặc **(B) VS Code Dev Container với Docker**.  
-Chọn cách nào thấy dễ hơn—cả hai đều dẫn đến cùng bài học.
+Chọn cách nào thấy dễ hơn-cả hai đều dẫn đến cùng bài học.
 
 ## 1.  Yêu Cầu Trước
 
@@ -33,7 +33,7 @@ source .venv/bin/activate     # macOS / Linux
 .\.venv\Scripts\activate      # Windows PowerShell
 ```
 
-✅ Dấu nhắc lệnh giờ nên bắt đầu với (.venv)—tức là bạn đã vào trong môi trường.
+✅ Dấu nhắc lệnh giờ nên bắt đầu với (.venv)-tức là bạn đã vào trong môi trường.
 
 ### Bước 3 Cài đặt phụ thuộc
 
@@ -196,7 +196,7 @@ Giữ khóa API an toàn rất quan trọng khi xây dựng ứng dụng. Chúng
 
 Xong rồi! Bạn đã tạo file `.env`, thêm thông tin Microsoft Foundry Models và tải vào ứng dụng Python thành công.
 
-🔐 Không bao giờ commit .env—nó đã nằm trong .gitignore rồi.
+🔐 Không bao giờ commit .env-nó đã nằm trong .gitignore rồi.
 Hướng dẫn đầy đủ của nhà cung cấp nằm trong [`providers.md`](03-providers.md).
 
 ## 4. Tiếp theo là gì?

@@ -42,7 +42,7 @@
 | 容器構建卡住超過 10 分鐘                 | **Codespaces ➜ “重新構建容器”**                           |
 | 顯示 `python: command not found`       | 終端機未附加；點擊 **+** ➜ *bash*                        |
 | 由 OpenAI 回傳 `401 Unauthorized`     | `OPENAI_API_KEY` 錯誤或已過期                              |
-| VS Code 顯示 “開發容器裝載中…”            | 重新整理瀏覽器分頁 — Codespaces 有時會斷線                |
+| VS Code 顯示 “開發容器裝載中…”            | 重新整理瀏覽器分頁 - Codespaces 有時會斷線                |
 | 筆記本內核缺失                        | 筆記本菜單 ➜ **核心 ▸ 選擇核心 ▸ Python 3**               |
 
    基於 Unix 的系統：

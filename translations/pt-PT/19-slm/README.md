@@ -54,7 +54,7 @@ Os SLMs têm uma vasta gama de aplicações, incluindo:
 
 **Tamanho**
   
-Uma distinção principal entre LLMs e SLMs reside na escala dos modelos. Os LLMs, como o ChatGPT (GPT-4), podem conter aproximadamente 1.76 triliões de parâmetros, enquanto os SLMs open-source como o Mistral 7B são projetados com significativamente menos parâmetros — aproximadamente 7 mil milhões. Esta disparidade deve-se principalmente às diferenças na arquitetura do modelo e nos processos de treino. Por exemplo, o ChatGPT emprega um mecanismo de autoatenção dentro de um framework encoder-decoder, enquanto o Mistral 7B usa atenção em janela deslizante, o que permite um treino mais eficiente num modelo apenas decoder. Esta variação arquitetónica tem implicações profundas na complexidade e desempenho destes modelos.
+Uma distinção principal entre LLMs e SLMs reside na escala dos modelos. Os LLMs, como o ChatGPT (GPT-4), podem conter aproximadamente 1.76 triliões de parâmetros, enquanto os SLMs open-source como o Mistral 7B são projetados com significativamente menos parâmetros - aproximadamente 7 mil milhões. Esta disparidade deve-se principalmente às diferenças na arquitetura do modelo e nos processos de treino. Por exemplo, o ChatGPT emprega um mecanismo de autoatenção dentro de um framework encoder-decoder, enquanto o Mistral 7B usa atenção em janela deslizante, o que permite um treino mais eficiente num modelo apenas decoder. Esta variação arquitetónica tem implicações profundas na complexidade e desempenho destes modelos.
 
 **Compreensão**
 

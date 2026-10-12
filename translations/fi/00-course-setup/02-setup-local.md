@@ -2,7 +2,7 @@
 
 **Käytä tätä opasta, jos haluat ajaa kaiken omalla kannettavallasi.**  
 Sinulla on kaksi vaihtoehtoa: **(A) natiivi Python + virtual-env** tai **(B) VS Code Dev Container Dockerilla**.  
-Valitse se, mikä tuntuu helpommalta—molemmat johtavat samoihin oppitunteihin.
+Valitse se, mikä tuntuu helpommalta-molemmat johtavat samoihin oppitunteihin.
 
 ## 1. Esivaatimukset
 
@@ -33,7 +33,7 @@ source .venv/bin/activate     # macOS / Linux
 .\.venv\Scripts\activate      # Windows PowerShell
 ```
 
-✅ Kehote alkaa nyt (.venv)—se tarkoittaa, että olet ympäristössä.
+✅ Kehote alkaa nyt (.venv)-se tarkoittaa, että olet ympäristössä.
 
 ### Vaihe 3 Asenna riippuvuudet
 
@@ -196,7 +196,7 @@ Tässä on yksityiskohtainen opas siitä, miten luot `.env`-tiedoston Pythonille
 
 Siinä kaikki! Olet onnistuneesti luonut `.env`-tiedoston, lisännyt Microsoft Foundry Models -tunnistautumistietosi ja ladannut ne Python-sovellukseen.
 
-🔐 Älä koskaan commitoi `.env`-tiedostoa—se on jo .gitignore-tiedostossa.
+🔐 Älä koskaan commitoi `.env`-tiedostoa-se on jo .gitignore-tiedostossa.
 Täydelliset tarjoajaohjeet löytyvät tiedostosta [`providers.md`](03-providers.md).
 
 ## 4. Mitä seuraavaksi?

@@ -42,7 +42,7 @@
 | ਕੰਟੇਨਰ ਬਣਾਉਣਾ 10 ਮਿੰਟ ਤੋਂ ਜ਼ਿਆਦਾ ਰੁਕਿਆ | **Codespaces ➜ “Rebuild Container”**                             |
 | `python: command not found`             | ਟਰਮੀਨਲ ਜੁੜਿਆ ਨਹੀਂ; **+** ਤੇ ਕਲਿੱਕ ਕਰੋ ➜ *bash*                 |
 | OpenAI ਤੋਂ `401 Unauthorized`            | ਗਲਤ / ਮਿਆਦ ਮੁਕੰਮਲ ਹੋਈ `OPENAI_API_KEY`                         |
-| VS Code 'Dev container mounting...' ਦਿਖਾ ਰਿਹਾ ਹੈ | ਬਰਾਊਜ਼ਰ ਟੈਬ ਰਿਫਰੇਸ਼ ਕਰੋ—Codespaces ਕਈ ਵਾਰੀ ਕਨੇਕਸ਼ਨ ਗੁਆਉਂਦਾ ਹੈ   |
+| VS Code 'Dev container mounting...' ਦਿਖਾ ਰਿਹਾ ਹੈ | ਬਰਾਊਜ਼ਰ ਟੈਬ ਰਿਫਰੇਸ਼ ਕਰੋ-Codespaces ਕਈ ਵਾਰੀ ਕਨੇਕਸ਼ਨ ਗੁਆਉਂਦਾ ਹੈ   |
 | ਨੋਟਬੁੱਕ ਕੰਨੈਕਸ਼ਨ ਗੁੰਮ ਹੈ                | ਨੋਟਬੁੱਕ ਮੀਨੂ ➜ **Kernel ▸ Select Kernel ▸ Python 3**              |
 
    Unix ਬੇਸਡ ਸਿਸਟਮ:

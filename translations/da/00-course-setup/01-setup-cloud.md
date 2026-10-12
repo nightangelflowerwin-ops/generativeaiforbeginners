@@ -30,13 +30,13 @@ Dette tager **~2 minutter** første gang.
 
 ## 3. Tilføj din API-nøgle (den sikre måde)
 
-### Mulighed A Codespaces Secrets — Anbefalet
+### Mulighed A Codespaces Secrets - Anbefalet
 
 1. ⚙️ Tandhjulsikon -> Kommandopalette -> Codespaces : Administrer brugerhemmelighed -> Tilføj en ny hemmelighed.
 2. Navn: OPENAI_API_KEY
 3. Værdi: indsæt din nøgle → Tilføj hemmelighed
 
-Det var det—vores kode vil automatisk hente den.
+Det var det-vores kode vil automatisk hente den.
 
 ### Mulighed B .env-fil (hvis du virkelig har brug for en)
 

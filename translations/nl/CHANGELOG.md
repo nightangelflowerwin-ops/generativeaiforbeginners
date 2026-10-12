@@ -5,7 +5,7 @@ Alle opmerkelijke wijzigingen aan het Generative AI for Beginners curriculum zij
 Het formaat is gebaseerd op [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Omdat dit een
 leercurriculum is in plaats van een versioned softwarepakket, zijn de entries gegroepeerd op datum.
 
-## [2026-07-16] — Inhoudsvalidatie + Les 09 afbeeldingsassets
+## [2026-07-16] - Inhoudsvalidatie + Les 09 afbeeldingsassets
 
 ### Gewijzigd
 
@@ -24,7 +24,7 @@ leercurriculum is in plaats van een versioned softwarepakket, zijn de entries ge
 
 ### Gevalideerd
 
-- Gecontroleerd de README’s van lessen 01, 03, 05, 12, 14, en 16 — allen actueel (correcte Microsoft Foundry
+- Gecontroleerd de README’s van lessen 01, 03, 05, 12, 14, en 16 - allen actueel (correcte Microsoft Foundry
   naamgevingen en links); geen wijzigingen nodig.
 - Uitgevoerd een volledige markdownvalidatie door alle 41 in-repo markdownbestanden (vertalingen uitgezonderd) voor
   verouderde documentpaden, `/en-us/` Microsoft locale, verouderde product/modelnamen, ontbrekende tracking
@@ -32,7 +32,7 @@ leercurriculum is in plaats van een versioned softwarepakket, zijn de entries ge
   actie; alle andere meldingen bleken false positives (automatisch gegenereerde vertalingslinks,
   uitge-commentarieerde tijdelijke aanduidingen, en derde partij `/en/` structurele URL’s).
 
-## [2026-07-15] — Les 09 (Afbeeldingstoepassingen) herschreven voor GPT afbeeldingsmodellen
+## [2026-07-15] - Les 09 (Afbeeldingstoepassingen) herschreven voor GPT afbeeldingsmodellen
 
 ### Gewijzigd
 
@@ -62,7 +62,7 @@ leercurriculum is in plaats van een versioned softwarepakket, zijn de entries ge
 - `aoai-app.py` end-to-end uitgevoerd tegen een gedeployd `gpt-image-1.5` model en bevestigd dat de base64
   decodeer/save flow een PNG produceert. Notebooks bevestigd valide JSON.
 
-## [2026-07-14] — Standaard Model Update + Redeneringsmodel Richtlijnen
+## [2026-07-14] - Standaard Model Update + Redeneringsmodel Richtlijnen
 
 ### Gewijzigd
 
@@ -106,7 +106,7 @@ leercurriculum is in plaats van een versioned softwarepakket, zijn de entries ge
 - Les 20 (Mistral) en 21 (Meta) voorbeelden behouden `temperature`/`max_tokens` omdat zij gericht zijn
   op Mistral/Llama modellen, die deze parameters ondersteunen.
 
-## [2026-07-06] — Inhoudsmodernisering Vernieuwing
+## [2026-07-06] - Inhoudsmodernisering Vernieuwing
 
 Een brede vernieuwing om het curriculum accuraat te houden voor 2026: moderne API’s, actuele productnamen en
 modelnamen, bijgewerkte providerrichtlijnen en nieuwe tooling voor ontwikkelaarservaring.
@@ -119,11 +119,11 @@ modelnamen, bijgewerkte providerrichtlijnen en nieuwe tooling voor ontwikkelaars
 - **Foundry Local** gedocumenteerd als een offline / on-device provider (naast Ollama) in
   `00-course-setup/03-providers.md` en les `19-slm`.
 - **Continuous integration workflows**:
-  - `.github/workflows/code-quality.yml` — Ruff + Black (afgedwongen op de onderhouden `shared/`
+  - `.github/workflows/code-quality.yml` - Ruff + Black (afgedwongen op de onderhouden `shared/`
     module, advies over de rest van het curriculum), een adviserende ESLint run, en een pytest taak.
-  - `.github/workflows/security.yml` — CodeQL analyse (Python + JavaScript/TypeScript) en
+  - `.github/workflows/security.yml` - CodeQL analyse (Python + JavaScript/TypeScript) en
     dependency review bij pull requests.
-- **Testsuite** onder `tests/` — 41 pytest tests die de gedeelde utiliteitsmodule dekken.
+- **Testsuite** onder `tests/` - 41 pytest tests die de gedeelde utiliteitsmodule dekken.
 - **Azure OpenAI → Responses API migratievaardigheid** onder
   `.github/skills/azure-openai-to-responses/` gebruikt om de API migratie te begeleiden.
 
@@ -159,13 +159,13 @@ modelnamen, bijgewerkte providerrichtlijnen en nieuwe tooling voor ontwikkelaars
 
 ### Gerepareerd
 
-- **`shared/python/input_validation.py`** — `validate_text_input(allow_empty=True)` retourneert nu een
+- **`shared/python/input_validation.py`** - `validate_text_input(allow_empty=True)` retourneert nu een
   lege string voor invoer die alleen uit witruimte bestaat in plaats van een "te kort" fout te geven (consitent met het
   `None` geval). Gevonden en gedekt door de nieuwe testsuite.
-- **Afbeeldingsvoorbeelden les 09** — echte bugs gecorrigeerd: `InvalidRequestError` → `BadRequestError`,
+- **Afbeeldingsvoorbeelden les 09** - echte bugs gecorrigeerd: `InvalidRequestError` → `BadRequestError`,
   `images.create` → `images.generate`, `Image.create_variation` → `client.images.create_variation`,
   en een variabele die het `openai` module overschaduwde.
-- **Les 15 RAG notebook** — client setup gerepareerd, de verwijderde `DataFrame.append` vervangen
+- **Les 15 RAG notebook** - client setup gerepareerd, de verwijderde `DataFrame.append` vervangen
   door `pd.concat`, en het oude SDK-gebruik gemoderniseerd.
 - Verouderde / gepensioneerde modelnamen (`gpt-3.5-turbo`, `gpt-35-turbo`) vervangen door `gpt-4o-mini`
   in actieve voorbeelden; historische fine-tuning resultaten in les 18 zijn bewaard en
@@ -174,8 +174,8 @@ modelnamen, bijgewerkte providerrichtlijnen en nieuwe tooling voor ontwikkelaars
 ### Verouderd / Opmerkingen
 
 - **Microsoft Foundry Models voorbeelden** die de `azure-ai-inference` / `@azure-rest/ai-inference`
-  SDK (`client.complete()`) gebruiken — de `githubmodels-*` en `js-githubmodels` voorbeelden en lessen 19, 20,
-  en 21 — blijven op de Model Inference API, welke **niet** de Responses API ondersteunt. Deze zijn
+  SDK (`client.complete()`) gebruiken - de `githubmodels-*` en `js-githubmodels` voorbeelden en lessen 19, 20,
+  en 21 - blijven op de Model Inference API, welke **niet** de Responses API ondersteunt. Deze zijn
   opzettelijk op die SDK gelaten.
 - `AzureOpenAI()` wordt opzettelijk behouden waar nog gepast (embeddings en beeldgeneratie),
   omdat die workflows geen deel uitmaken van de Responses API migratie.

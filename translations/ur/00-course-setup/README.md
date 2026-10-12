@@ -42,7 +42,7 @@
 | کنٹینر بلڈ 10 منٹ سے زیادہ رک گیا    | **Codespaces ➜ "Rebuild Container”**                            |
 | `python: command not found`            | ٹرمینل منسلک نہیں ہوا؛ **+** ➜ *bash* پر کلک کریں                |
 | OpenAI سے `401 Unauthorized`           | غلط / معیاد ختم شدہ `OPENAI_API_KEY`                            |
-| VS Code پر “Dev container mounting…” ظاہر ہو رہا ہے | براؤزر ٹیب کو ریفریش کریں—Codespaces کبھی کبھار کنکشن کھو دیتا ہے   |
+| VS Code پر “Dev container mounting…” ظاہر ہو رہا ہے | براؤزر ٹیب کو ریفریش کریں-Codespaces کبھی کبھار کنکشن کھو دیتا ہے   |
 | نوٹ بک کرنل غائب ہے                   | نوٹ بک مینو ➜ **Kernel ▸ Select Kernel ▸ Python 3**               |
 
    یونکس پر مبنی سسٹمز کے لیے:

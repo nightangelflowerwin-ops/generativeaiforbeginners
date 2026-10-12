@@ -300,7 +300,7 @@ jobs:
 
 | 項目 | 状態 |
 |--------|--------|
-| 翻訳のカバレッジ | 完了 — 50以上の言語、全レッスン |
+| 翻訳のカバレッジ | 完了 - 50以上の言語、全レッスン |
 | 翻訳方法 | [Azure Co-op Translator](https://github.com/Azure/co-op-translator?WT.mc_id=academic-105485-koreyst)による自動化 |
 | 英語オリジナルとの同期状況 | 自動再生成で常に同期 |
 

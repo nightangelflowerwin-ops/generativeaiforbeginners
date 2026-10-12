@@ -186,11 +186,11 @@ Illustré avec des exemples.
 
 ## Construction du prompt
 
-Nous avons vu pourquoi le prompt engineering est important — maintenant comprenons comment les prompts sont _construits_ pour pouvoir évaluer différentes techniques pour une conception de prompt plus efficace.
+Nous avons vu pourquoi le prompt engineering est important - maintenant comprenons comment les prompts sont _construits_ pour pouvoir évaluer différentes techniques pour une conception de prompt plus efficace.
 
 ### Prompt simple
 
-Commençons par le prompt simple : une entrée textuelle envoyée au modèle sans autre contexte. Voici un exemple — lorsque nous envoyons les premiers mots de l’hymne national américain à l’[API Completion](https://platform.openai.com/docs/api-reference/completions?WT.mc_id=academic-105485-koreyst) d’OpenAI, il _complète_ instantanément la réponse avec les prochaines lignes, illustrant le comportement de prédiction de base.
+Commençons par le prompt simple : une entrée textuelle envoyée au modèle sans autre contexte. Voici un exemple - lorsque nous envoyons les premiers mots de l’hymne national américain à l’[API Completion](https://platform.openai.com/docs/api-reference/completions?WT.mc_id=academic-105485-koreyst) d’OpenAI, il _complète_ instantanément la réponse avec les prochaines lignes, illustrant le comportement de prédiction de base.
 
 | Prompt (Entrée)     | Complétion (Sortie)                                                                                                                        |
 | :----------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |

@@ -142,7 +142,7 @@ A: 1, because chain-of-thought is about showing the LLM how to solve a problem b
 
 ## 🚀 Challenge
 
-You just applied the self-refine technique in the assignment. Take any program you've created and think about the improvements you'd like to make. Now use the self-refine technique to implement the proposed changes. What do you think of the result—was it better or worse?
+You just applied the self-refine technique in the assignment. Take any program you've created and think about the improvements you'd like to make. Now use the self-refine technique to implement the proposed changes. What do you think of the result-was it better or worse?
 
 ## Great Work! Continue Your Learning
 

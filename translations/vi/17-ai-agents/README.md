@@ -112,7 +112,7 @@ Bạn có thể tìm thấy danh sách [mẫu mã AutoGen](https://microsoft.git
 
 ## Khung đại lý Microsoft
 
-[Microsoft Agent Framework](https://learn.microsoft.com/agent-framework/?WT.mc_id=academic-105485-koreyst) là SDK mã nguồn mở của Microsoft để xây dựng Đại lý AI và hệ thống đa đại lý trong cả **Python** và **.NET**. Nó kết hợp sức mạnh của hai dự án Microsoft trước đây — các tính năng doanh nghiệp của **Semantic Kernel** và điều phối đa đại lý của **AutoGen** — thành một khung duy nhất được hỗ trợ. Nếu bạn đang bắt đầu một dự án đại lý mới hôm nay, đây là người kế nhiệm được khuyến nghị của AutoGen.
+[Microsoft Agent Framework](https://learn.microsoft.com/agent-framework/?WT.mc_id=academic-105485-koreyst) là SDK mã nguồn mở của Microsoft để xây dựng Đại lý AI và hệ thống đa đại lý trong cả **Python** và **.NET**. Nó kết hợp sức mạnh của hai dự án Microsoft trước đây - các tính năng doanh nghiệp của **Semantic Kernel** và điều phối đa đại lý của **AutoGen** - thành một khung duy nhất được hỗ trợ. Nếu bạn đang bắt đầu một dự án đại lý mới hôm nay, đây là người kế nhiệm được khuyến nghị của AutoGen.
 
 Khung này mở rộng từ một **đại lý trò chuyện** đơn đến các **quy trình làm việc đa đại lý** phức tạp, và tích hợp trực tiếp với Microsoft Foundry, Azure OpenAI, và OpenAI. Nó cũng cung cấp khả năng quan sát tích hợp thông qua OpenTelemetry để bạn có thể theo dõi chính xác những gì đại lý của bạn đang làm.
 

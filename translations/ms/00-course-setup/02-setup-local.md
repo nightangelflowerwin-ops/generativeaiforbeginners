@@ -2,7 +2,7 @@
 
 **Gunakan panduan ini jika anda lebih suka menjalankan semuanya di komputer riba anda sendiri.**   
 Anda mempunyai dua pilihan: **(A) Python asli + virtual-env** atau **(B) VS Code Dev Container dengan Docker**.  
-Pilih yang mana-mana yang anda rasa lebih mudah—kedua-duanya membawa ke pelajaran yang sama.
+Pilih yang mana-mana yang anda rasa lebih mudah-kedua-duanya membawa ke pelajaran yang sama.
 
 ## 1.  Prasyarat
 
@@ -33,7 +33,7 @@ source .venv/bin/activate     # macOS / Linux
 .\.venv\Scripts\activate      # Windows PowerShell
 ```
 
-✅ Prompt kini harus bermula dengan (.venv)—itu bermaksud anda sudah berada dalam env.
+✅ Prompt kini harus bermula dengan (.venv)-itu bermaksud anda sudah berada dalam env.
 
 ### Langkah 3 Pasang kebergantungan
 
@@ -196,7 +196,7 @@ Berikut adalah panduan langkah demi langkah tentang cara membuat fail `.env` unt
 
 Itu sahaja! Anda telah berjaya mencipta fail `.env`, menambah kelayakan Microsoft Foundry Models anda, dan memuatkannya ke dalam aplikasi Python anda.
 
-🔐 Jangan sesekali commit .env—ia sudah disenaraikan dalam .gitignore.
+🔐 Jangan sesekali commit .env-ia sudah disenaraikan dalam .gitignore.
 Arahan penuh penyedia ada dalam [`providers.md`](03-providers.md).
 
 ## 4. Apa seterusnya?

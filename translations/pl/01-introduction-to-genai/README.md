@@ -4,7 +4,7 @@
 
 _(Kliknij powyższy obraz, aby obejrzeć wideo z tej lekcji)_
 
-Generatywna SI to sztuczna inteligencja zdolna do generowania tekstu, obrazów i innych typów treści. To, co czyni tę technologię fantastyczną, to fakt, że demokratyzuje SI — każdy może jej używać z pomocą zaledwie prostego polecenia tekstowego, zdania napisanego w języku naturalnym. Nie musisz uczyć się języków takich jak Java czy SQL, aby zrobić coś wartościowego, wystarczy użyć swojego języka, określić, co chcesz, a otrzymujesz sugestię od modelu SI. Zastosowania i wpływ tej technologii są ogromne, możesz pisać lub rozumieć raporty, tworzyć aplikacje i wiele więcej, wszystko w kilka sekund.
+Generatywna SI to sztuczna inteligencja zdolna do generowania tekstu, obrazów i innych typów treści. To, co czyni tę technologię fantastyczną, to fakt, że demokratyzuje SI - każdy może jej używać z pomocą zaledwie prostego polecenia tekstowego, zdania napisanego w języku naturalnym. Nie musisz uczyć się języków takich jak Java czy SQL, aby zrobić coś wartościowego, wystarczy użyć swojego języka, określić, co chcesz, a otrzymujesz sugestię od modelu SI. Zastosowania i wpływ tej technologii są ogromne, możesz pisać lub rozumieć raporty, tworzyć aplikacje i wiele więcej, wszystko w kilka sekund.
 
 W tym kursie przyjrzymy się, jak nasz startup wykorzystuje generatywną SI, aby otworzyć nowe scenariusze w świecie edukacji oraz jak radzimy sobie z nieuniknionymi wyzwaniami związanymi z społecznymi konsekwencjami jej zastosowania i ograniczeniami technologicznymi.
 

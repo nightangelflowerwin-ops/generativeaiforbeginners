@@ -30,13 +30,13 @@ Codespaces ให้คุณใช้งาน VS Code บนเบราว์
 
 ## 3. เพิ่ม API key ของคุณ (วิธีที่ปลอดภัย)
 
-### ตัวเลือก A Codespaces Secrets — แนะนำ
+### ตัวเลือก A Codespaces Secrets - แนะนำ
 
 1. ⚙️ ไอคอนรูปเฟือง -> Command Palette-> Codespaces : Manage user secret -> Add a new secret
 2. ชื่อ: OPENAI_API_KEY
 3. ค่า: วางคีย์ของคุณ → Add secret
 
-เพียงเท่านี้—โค้ดของเราจะดึงค่าไปใช้อัตโนมัติ
+เพียงเท่านี้-โค้ดของเราจะดึงค่าไปใช้อัตโนมัติ
 
 ### ตัวเลือก B ไฟล์ .env (ถ้าคุณต้องการจริงๆ)
 

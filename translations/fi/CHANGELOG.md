@@ -5,7 +5,7 @@ Kaikki merkittävät muutokset Generative AI for Beginners -oppimateriaaliin on 
 Muoto perustuu [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Koska kyseessä on
 oppimateriaali, ei versioitu ohjelmistopaketti, merkinnät on ryhmitelty päivämäärän mukaan.
 
-## [2026-07-16] — Sisällön tarkistus + Oppitunti 09 Kuvavarasto
+## [2026-07-16] - Sisällön tarkistus + Oppitunti 09 Kuvavarasto
 
 ### Muutettu
 
@@ -24,7 +24,7 @@ oppimateriaali, ei versioitu ohjelmistopaketti, merkinnät on ryhmitelty päivä
 
 ### Vahvistettu
 
-- Tarkistettiin oppituntien 01, 03, 05, 12, 14 ja 16 README-tiedostot — kaikki ajan tasalla (oikeat Microsoft Foundryn
+- Tarkistettiin oppituntien 01, 03, 05, 12, 14 ja 16 README-tiedostot - kaikki ajan tasalla (oikeat Microsoft Foundryn
   nimet ja linkit); muutoksia ei tarvittu.
 - Suoritettiin täydellinen markdownin tarkistus kaikissa 41 repossa olevassa markdown-tiedostossa (käännökset pois lukien)
   vanhentuneiden dokumenttipolkujen, `/en-us/` Microsoft paikallisten, vanhentuneiden tuote-/mallinimien,
@@ -32,7 +32,7 @@ oppimateriaali, ei versioitu ohjelmistopaketti, merkinnät on ryhmitelty päivä
   korjattava; muut havainnot olivat virheellisiä (automaattisesti luodut käännöslinkit,
   kommentoidut paikanvaraukset ja kolmannen osapuolen `/en/` rakenteelliset URLit).
 
-## [2026-07-15] — Oppitunti 09 (Kuvakäyttöliittymät) Uudelleen kirjoitus GPT Image -malleille
+## [2026-07-15] - Oppitunti 09 (Kuvakäyttöliittymät) Uudelleen kirjoitus GPT Image -malleille
 
 ### Muutettu
 
@@ -62,7 +62,7 @@ oppimateriaali, ei versioitu ohjelmistopaketti, merkinnät on ryhmitelty päivä
 - Ajettiin `aoai-app.py` päältä loppuun käyttämällä käyttöön otettua `gpt-image-1.5` mallia ja
   varmennettiin base64 purku/talletus tuottaa PNG:n. Muistikirjat vahvistettiin kelvollisiksi JSON-tiedostoiksi.
 
-## [2026-07-14] — Oletusmallin päivitys + Päättelymallin ohjeistus
+## [2026-07-14] - Oletusmallin päivitys + Päättelymallin ohjeistus
 
 ### Muutettu
 
@@ -106,7 +106,7 @@ oppimateriaali, ei versioitu ohjelmistopaketti, merkinnät on ryhmitelty päivä
 - Oppituntien 20 (Mistral) ja 21 (Meta) esimerkit säilyttävät `temperature`/`max_tokens`, koska ne kohdistuvat
   Mistral/Llama malleihin, jotka tukevat näitä parametreja.
 
-## [2026-07-06] — Sisällön modernisointipäivitys
+## [2026-07-06] - Sisällön modernisointipäivitys
 
 Laaja päivitys kurssin ajantasaisuuden ylläpitämiseksi vuodelle 2026: modernit rajapinnat, ajantasaiset tuote- ja
 mallinimet, päivitetyt tarjoajaohjeet ja uudet kehittäjäkokemuksen työkalut.
@@ -119,11 +119,11 @@ mallinimet, päivitetyt tarjoajaohjeet ja uudet kehittäjäkokemuksen työkalut.
 - **Foundry Local** dokumentoitu offline / paikallisena tarjoajana (Ollaman rinnalla) tiedostossa
   `00-course-setup/03-providers.md` ja oppitunnilla `19-slm`.
 - **Jatkuvan integraation työnkulut**:
-  - `.github/workflows/code-quality.yml` — Ruff + Black (pakollinen ylläpidetylle `shared/`
+  - `.github/workflows/code-quality.yml` - Ruff + Black (pakollinen ylläpidetylle `shared/`
     moduulille, muille kurssin osille on neuvova ESLint-tarkistus sekä pytest-tehtävä).
-  - `.github/workflows/security.yml` — CodeQL analyysi (Python + JavaScript/TypeScript) ja
+  - `.github/workflows/security.yml` - CodeQL analyysi (Python + JavaScript/TypeScript) ja
     riippuvuuskatselmointi vedä-pyyntöihin.
-- **Testisalkku** hakemistossa `tests/` — 41 pytest-testiä, jotka kattavat jaetun apumoduulin.
+- **Testisalkku** hakemistossa `tests/` - 41 pytest-testiä, jotka kattavat jaetun apumoduulin.
 - **Azure OpenAI → Responses API siirtotaito** hakemistossa
   `.github/skills/azure-openai-to-responses/`, joka ohjaa API-migraatiota.
 
@@ -159,13 +159,13 @@ mallinimet, päivitetyt tarjoajaohjeet ja uudet kehittäjäkokemuksen työkalut.
 
 ### Korjattu
 
-- **`shared/python/input_validation.py`** — `validate_text_input(allow_empty=True)` palauttaa nyt
+- **`shared/python/input_validation.py`** - `validate_text_input(allow_empty=True)` palauttaa nyt
   tyhjän merkkijonon pelkkiä välilyöntejä sisältävälle syötteelle sen sijaan, että antaisi "liian lyhyt" -virheen
   (yhteneväinen `None`-tapauksen kanssa). Löydetty ja katettu uudella testikattavuudella.
-- **Lesson 09 kuvanäytteet** — korjattiin oikeat virheet: `InvalidRequestError` → `BadRequestError`,
+- **Lesson 09 kuvanäytteet** - korjattiin oikeat virheet: `InvalidRequestError` → `BadRequestError`,
   `images.create` → `images.generate`, `Image.create_variation` → `client.images.create_variation`,
   ja muuttuja, joka varjosti `openai`-moduulia.
-- **Lesson 15 RAG -muistikirja** — korjattiin clientin asetukset, korvattiin poistettu `DataFrame.append`
+- **Lesson 15 RAG -muistikirja** - korjattiin clientin asetukset, korvattiin poistettu `DataFrame.append`
   `pd.concat`illa ja modernisoitiin vanhaa SDK:n käyttöä.
 - Vanhentuneet / luopuneet mallinimet (`gpt-3.5-turbo`, `gpt-35-turbo`) korvattiin `gpt-4o-mini`
   aktiivisissa näytteissä; historian hienosäätötulokset opetus 18:lla säilytettiin ja niihin lisättiin
@@ -174,8 +174,8 @@ mallinimet, päivitetyt tarjoajaohjeet ja uudet kehittäjäkokemuksen työkalut.
 ### Vanhentuneet / Huomautuksia
 
 - **Microsoft Foundry Models -näytteet**, jotka käyttävät `azure-ai-inference` / `@azure-rest/ai-inference`
-  SDK:ta (`client.complete()`) — `githubmodels-*` ja `js-githubmodels` näytteet sekä opetus 19, 20,
-  ja 21 — pysyvät Model Inference API:ssa, joka **ei** tue Responses API:ta. Nämä on
+  SDK:ta (`client.complete()`) - `githubmodels-*` ja `js-githubmodels` näytteet sekä opetus 19, 20,
+  ja 21 - pysyvät Model Inference API:ssa, joka **ei** tue Responses API:ta. Nämä on
   tarkoituksella jätetty tälle SDK:lle.
 - `AzureOpenAI()` on tarkoituksella säilytetty siellä, missä se on edelleen sopiva (upotukset ja kuvanluonti),
   koska nämä työnkulut eivät kuulu Responses API -migraatioon.

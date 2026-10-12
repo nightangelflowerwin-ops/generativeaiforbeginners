@@ -2,7 +2,7 @@
 
 **Tumia mwongozo huu ikiwa unapendelea kuendesha kila kitu kwenye kompyuta yako binafsi.**   
 Una njia mbili: **(A) Python ya asili + virtual-env** au **(B) VS Code Dev Container na Docker**.  
-Chagua ile yoyote inayohisi rahisi—zote zinapeleka kwenye somo moja.
+Chagua ile yoyote inayohisi rahisi-zote zinapeleka kwenye somo moja.
 
 ## 1. Mahitaji ya Awali
 
@@ -33,7 +33,7 @@ source .venv/bin/activate     # macOS / Linux
 .\.venv\Scripts\activate      # Windows PowerShell
 ```
 
-✅ Kidokezo sasa kinapaswa kuanza na (.venv)—hii inamaanisha uko ndani ya mazingira.
+✅ Kidokezo sasa kinapaswa kuanza na (.venv)-hii inamaanisha uko ndani ya mazingira.
 
 ### Hatua 3 Sakinisha utegemezi
 
@@ -196,7 +196,7 @@ Hapa kuna mwongozo hatua kwa hatua wa jinsi ya kuunda faili `.env` ya Python na 
 
 Hiyo ndiyo! Umefanikiwa kuunda faili `.env`, kuongeza maelezo yako ya mikopo ya Microsoft Foundry Models, na kwaya yao ndani ya programu yako ya Python.
 
-🔐 Usawili faili .env—tayari ipo kwenye .gitignore.
+🔐 Usawili faili .env-tayari ipo kwenye .gitignore.
 Maelekezo kamili ya mtoa huduma yako yapo katika [`providers.md`](03-providers.md).
 
 ## 4. Nini kinachofuata?

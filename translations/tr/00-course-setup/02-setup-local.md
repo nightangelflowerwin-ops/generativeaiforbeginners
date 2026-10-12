@@ -2,7 +2,7 @@
 
 **Her şeyi kendi dizüstü bilgisayarınızda çalıştırmayı tercih ediyorsanız bu rehberi kullanın.**   
 İki yolunuz var: **(A) yerel Python + virtual-env** veya **(B) Docker ile VS Code Geliştirme Konteyneri**.  
-Hangisi daha kolay gelirse onu seçin—ikisi de aynı derslere götürür.
+Hangisi daha kolay gelirse onu seçin-ikisi de aynı derslere götürür.
 
 ## 1. Önkoşullar
 
@@ -33,7 +33,7 @@ source .venv/bin/activate     # macOS / Linux
 .\.venv\Scripts\activate      # Windows PowerShell
 ```
 
-✅ Komut satırı şimdi (.venv) ile başlamalı—bu, ortamın içinde olduğunuz anlamına gelir.
+✅ Komut satırı şimdi (.venv) ile başlamalı-bu, ortamın içinde olduğunuz anlamına gelir.
 
 ### Adım 3 Bağımlılıkları yükleyin
 
@@ -196,7 +196,7 @@ API anahtarlarınızı güvenli tutmak, herhangi bir uygulama geliştirirken ön
 
 İşte bu kadar! `.env` dosyası oluşturdunuz, Microsoft Foundry Modelleri kimlik bilgilerinizi eklediniz ve Python uygulamanıza yüklediniz.
 
-🔐 `.env` dosyasını asla commit etmeyin—zaten `.gitignore` içinde.
+🔐 `.env` dosyasını asla commit etmeyin-zaten `.gitignore` içinde.
 Sağlayıcıya özel talimatlar [`providers.md`](03-providers.md) dosyasında mevcut.
 
 ## 4. Sonraki Adım?

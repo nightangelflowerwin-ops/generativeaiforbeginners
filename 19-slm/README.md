@@ -54,7 +54,7 @@ SLMs have a wide range of applications, including:
 
 **Size**
   
-A primary distinction between LLMs and SLMs lies in the scale of the models. LLMs, such as ChatGPT (GPT-4), can comprise an estimated 1.76 trillion parameters, while open-source SLMs like Mistral 7B are designed with significantly fewer parameters—approximately 7 billion. This disparity is primarily due to differences in model architecture and training processes. For instance, ChatGPT employs a self-attention mechanism within an encoder-decoder framework, whereas Mistral 7B uses sliding window attention, which enables more efficient training within a decoder-only model. This architectural variance has profound implications for the complexity and performance of these models.
+A primary distinction between LLMs and SLMs lies in the scale of the models. LLMs, such as ChatGPT (GPT-4), can comprise an estimated 1.76 trillion parameters, while open-source SLMs like Mistral 7B are designed with significantly fewer parameters-approximately 7 billion. This disparity is primarily due to differences in model architecture and training processes. For instance, ChatGPT employs a self-attention mechanism within an encoder-decoder framework, whereas Mistral 7B uses sliding window attention, which enables more efficient training within a decoder-only model. This architectural variance has profound implications for the complexity and performance of these models.
 
 **Comprehension**
 

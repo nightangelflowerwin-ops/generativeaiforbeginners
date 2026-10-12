@@ -72,25 +72,25 @@ Kipengele cha msaidizi wa AI Copilot katika Power Automate kinakuruhusu kuelezea
 
 ## Kujenga Mawakala wa Akili kwa Microsoft Copilot Studio
 
-[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst) (zamani Power Virtual Agents) ni mshiriki wa low-code wa Power Platform kwa ajili ya kujenga **mawakala wa AI** — mawakala wa mazungumzo wanaoweza kujibu maswali, kuchukua hatua, na kuendesha kazi kwa niaba ya watumiaji wako. Kama ilivyo kwa Power Platform yote, unajenga mawakala hawa kupitia uzoefu wa kuona, wa kwanza kwa lugha ya asili: unaelezea unachotaka wakala afanye, na Copilot Studio husaidia kupanga maelekezo, maarifa, na vitendo vyake.
+[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst) (zamani Power Virtual Agents) ni mshiriki wa low-code wa Power Platform kwa ajili ya kujenga **mawakala wa AI** - mawakala wa mazungumzo wanaoweza kujibu maswali, kuchukua hatua, na kuendesha kazi kwa niaba ya watumiaji wako. Kama ilivyo kwa Power Platform yote, unajenga mawakala hawa kupitia uzoefu wa kuona, wa kwanza kwa lugha ya asili: unaelezea unachotaka wakala afanye, na Copilot Studio husaidia kupanga maelekezo, maarifa, na vitendo vyake.
 
-Kwa startup yetu ya elimu, unaweza kujenga wakala anayeweza kujibu maswali ya wanafunzi kuhusu kozi, kuangalia tarehe za kazi za nyumbani, na hata kutuma barua pepe kwa mwalimu — yote haya bila kuandika nambari.
+Kwa startup yetu ya elimu, unaweza kujenga wakala anayeweza kujibu maswali ya wanafunzi kuhusu kozi, kuangalia tarehe za kazi za nyumbani, na hata kutuma barua pepe kwa mwalimu - yote haya bila kuandika nambari.
 
 Hapa kuna baadhi ya uwezo wa hivi karibuni unaofanya Copilot Studio kuwa na nguvu:
 
-- **Majibu yanayotokana na maarifa yako**. Badala ya kuandika mazungumzo yote kwa mkono, unaweza kuunganisha **vyanzo vya maarifa** — tovuti za umma, SharePoint, OneDrive, Dataverse, faili zilizoingizwa, au data za shirika kupitia viunganishi — na wakala hutengeneza majibu yanayotokana na vyanzo hivyo.
+- **Majibu yanayotokana na maarifa yako**. Badala ya kuandika mazungumzo yote kwa mkono, unaweza kuunganisha **vyanzo vya maarifa** - tovuti za umma, SharePoint, OneDrive, Dataverse, faili zilizoingizwa, au data za shirika kupitia viunganishi - na wakala hutengeneza majibu yanayotokana na vyanzo hivyo.
 
 - **Utaratibu wa uzalishaji**. Badala ya kutegemea misemo thabiti ya kuanzisha, wakala hutumia AI kuelewa ombi na kuamua kwa nguvu vyanzo vya maarifa, mada, na vitendo vinavyochanganywa kutekeleza ombi hilo, ikiwa ni pamoja na kuunganisha hatua kadhaa pamoja.
 
 - **Vitendo na viunganishi**. Mawakala wanaweza *kutenda* mambo, si mazungumzo tu. Unaweza kumpa wakala vitendo vinavyotegemea viunganishi vya Power Platform zaidi ya 1,500, mitiririko ya Power Automate, APA za REST za kawaida, maagizo, au seva za **Model Context Protocol (MCP)**.
 
-- **Mawakala huru**. Mawakala hayana kikomo cha kujibu tu kwenye dirisha la mazungumzo. Unaweza kujenga **mawakala huru** wanaochochewa na matukio — kama barua pepe mpya, rekodi mpya katika Dataverse, au faili lililoingizwa — kisha wafanye kazi kwa siri kukamilisha kazi.
+- **Mawakala huru**. Mawakala hayana kikomo cha kujibu tu kwenye dirisha la mazungumzo. Unaweza kujenga **mawakala huru** wanaochochewa na matukio - kama barua pepe mpya, rekodi mpya katika Dataverse, au faili lililoingizwa - kisha wafanye kazi kwa siri kukamilisha kazi.
 
 - **Utaratibu wa mawakala wengi**. Mawakala wanaweza kumpigia simu wakala wengine. Wakala katika Copilot Studio anaweza kuhamisha kazi au kupanuliwa na mawakala wengine, wakiwemo mawakala waliotangazwa kwa Microsoft 365 Copilot na mawakala waliotengenezwa katika Microsoft Foundry.
 
 - **Chaguo la modeli**. Zaidi ya modeli zilizojengwa ndani, unaweza kuleta modeli kutoka kwenye katalo ya modeli ya Microsoft Foundry kubinafsisha jinsi wakala wako anavyofikiria na kujibu.
 
-- **Chapisha mahali popote**. Mara baada ya kujengwa, wakala anaweza kuchapishwa katika njia nyingi — Microsoft Teams, Microsoft 365 Copilot, tovuti au programu maalum, na zaidi — na usalama, uthibitisho, na uchambuzi vinadhibitiwa kupitia uzoefu wa msimamizi wa Power Platform.
+- **Chapisha mahali popote**. Mara baada ya kujengwa, wakala anaweza kuchapishwa katika njia nyingi - Microsoft Teams, Microsoft 365 Copilot, tovuti au programu maalum, na zaidi - na usalama, uthibitisho, na uchambuzi vinadhibitiwa kupitia uzoefu wa msimamizi wa Power Platform.
 
 Unaweza kuanza kujenga wakala wako wa kwanza kwenye [copilotstudio.microsoft.com](https://copilotstudio.microsoft.com?WT.mc_id=academic-105485-koreyst) na kujifunza zaidi katika [nyaraka za Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/?WT.mc_id=academic-105485-koreyst).
 
@@ -270,7 +270,7 @@ Ili kujifunza jinsi ya kutumia Hali hii ya AI katika Power Automate, pitia modul
 
 Baada ya kukamilisha somo hili, angalia [Mkusanyiko wa Kujifunza AI ya Kizazi](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) ili kuendelea kuongeza maarifa yako ya AI ya Kizazi!
 
-Unataka kubinafsisha na kupata zaidi kutoka Copilot? Chunguza [Awesome Copilot](https://github.com/github/awesome-copilot?WT.mc_id=academic-105485-koreyst) — mkusanyiko wa jamii uliochangia wa maagizo, mawakala, ujuzi, na usanidi ili kukusaidia kutumia GitHub Copilot vizuri zaidi.
+Unataka kubinafsisha na kupata zaidi kutoka Copilot? Chunguza [Awesome Copilot](https://github.com/github/awesome-copilot?WT.mc_id=academic-105485-koreyst) - mkusanyiko wa jamii uliochangia wa maagizo, mawakala, ujuzi, na usanidi ili kukusaidia kutumia GitHub Copilot vizuri zaidi.
 
 Nenda kwenye Somo la 11 ambapo tutaangalia jinsi ya [kuunganisha AI ya Kizazi na Function Calling](../11-integrating-with-function-calling/README.md?WT.mc_id=academic-105485-koreyst)!
 

@@ -5,7 +5,7 @@ Semua perubahan penting pada kurikulum Generative AI untuk Pemula didokumentasik
 Format ini didasarkan pada [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Karena ini adalah
 kurikulum pembelajaran, bukan paket perangkat lunak yang versi, entri dikelompokkan berdasarkan tanggal.
 
-## [2026-07-16] — Validasi Konten + Aset Gambar Pelajaran 09
+## [2026-07-16] - Validasi Konten + Aset Gambar Pelajaran 09
 
 ### Diubah
 
@@ -24,7 +24,7 @@ kurikulum pembelajaran, bukan paket perangkat lunak yang versi, entri dikelompok
 
 ### Diverifikasi
 
-- Mengaudit README untuk pelajaran 01, 03, 05, 12, 14, dan 16 — semuanya terbaru (nama dan tautan Microsoft Foundry
+- Mengaudit README untuk pelajaran 01, 03, 05, 12, 14, dan 16 - semuanya terbaru (nama dan tautan Microsoft Foundry
   yang benar); tidak ada perubahan yang diperlukan.
 - Melakukan validasi markdown penuh pada semua 41 berkas markdown dalam repositori (kecuali terjemahan) untuk
   jalur dokumen yang usang, lokal Microsoft `/en-us/`, nama produk/model yang ketinggalan zaman, ID pelacakan yang hilang,
@@ -32,7 +32,7 @@ kurikulum pembelajaran, bukan paket perangkat lunak yang versi, entri dikelompok
   dapat ditindaklanjuti; semua tanda lainnya dikonfirmasi sebagai positif palsu (tautan terjemahan yang dihasilkan otomatis,
   placeholder yang dikomentari, dan URL struktural pihak ketiga `/en/`).
 
-## [2026-07-15] — Penulisan Ulang Pelajaran 09 (Aplikasi Gambar) untuk Model Gambar GPT
+## [2026-07-15] - Penulisan Ulang Pelajaran 09 (Aplikasi Gambar) untuk Model Gambar GPT
 
 ### Diubah
 
@@ -62,7 +62,7 @@ kurikulum pembelajaran, bukan paket perangkat lunak yang versi, entri dikelompok
 - Menjalankan `aoai-app.py` dari awal hingga akhir terhadap model `gpt-image-1.5` yang telah diterapkan dan memastikan alur decode/save base64 menghasilkan PNG. Notebook dikonfirmasi sebagai JSON yang valid.
 
 
-## [2026-07-14] — Pembaruan Model Default + Panduan Model Penalaran
+## [2026-07-14] - Pembaruan Model Default + Panduan Model Penalaran
 
 ### Diubah
 
@@ -106,7 +106,7 @@ kurikulum pembelajaran, bukan paket perangkat lunak yang versi, entri dikelompok
 - Sampel pelajaran 20 (Mistral) dan 21 (Meta) mempertahankan `temperature`/`max_tokens` karena mereka menargetkan
   model Mistral/Llama, yang mendukung parameter tersebut.
 
-## [2026-07-06] — Penyegaran Modernisasi Konten
+## [2026-07-06] - Penyegaran Modernisasi Konten
 
 Penyegaran luas untuk menjaga kurikulum akurat pada 2026: API modern, nama produk dan
 model terkini, panduan penyedia yang diperbarui, dan alat pengalaman pengembang baru.
@@ -119,11 +119,11 @@ model terkini, panduan penyedia yang diperbarui, dan alat pengalaman pengembang 
 - **Foundry Local** didokumentasikan sebagai penyedia offline / di perangkat (bersama Ollama) di
   `00-course-setup/03-providers.md` dan pelajaran `19-slm`.
 - **Alur kerja continuous integration**:
-  - `.github/workflows/code-quality.yml` — Ruff + Black (ditegakkan pada modul `shared/` yang dipelihara,
+  - `.github/workflows/code-quality.yml` - Ruff + Black (ditegakkan pada modul `shared/` yang dipelihara,
     advisori di sisa kurikulum), pemeriksaan ESLint, dan job pytest.
-  - `.github/workflows/security.yml` — analisis CodeQL (Python + JavaScript/TypeScript) dan
+  - `.github/workflows/security.yml` - analisis CodeQL (Python + JavaScript/TypeScript) dan
     tinjauan dependensi pada pull request.
-- **Suite pengujian** di bawah `tests/` — 41 pengujian pytest yang meliputi modul utilitas bersama.
+- **Suite pengujian** di bawah `tests/` - 41 pengujian pytest yang meliputi modul utilitas bersama.
 - **Kemampuan migrasi Azure OpenAI → Responses API** di
   `.github/skills/azure-openai-to-responses/` yang digunakan untuk memandu migrasi API.
 
@@ -158,13 +158,13 @@ model terkini, panduan penyedia yang diperbarui, dan alat pengalaman pengembang 
 
 ### Diperbaiki
 
-- **`shared/python/input_validation.py`** — `validate_text_input(allow_empty=True)` sekarang mengembalikan
+- **`shared/python/input_validation.py`** - `validate_text_input(allow_empty=True)` sekarang mengembalikan
   string kosong untuk input yang hanya berisi spasi daripada mengeluarkan kesalahan "terlalu pendek" (konsisten dengan kasus
   `None`). Ditemukan dan dijaga oleh rangkaian pengujian baru.
-- **Contoh gambar Lesson 09** — memperbaiki bug nyata: `InvalidRequestError` → `BadRequestError`,
+- **Contoh gambar Lesson 09** - memperbaiki bug nyata: `InvalidRequestError` → `BadRequestError`,
   `images.create` → `images.generate`, `Image.create_variation` → `client.images.create_variation`,
   dan sebuah variabel yang menimpa modul `openai`.
-- **Notebook Lesson 15 RAG** — memperbaiki pengaturan klien, menggantikan `DataFrame.append` yang dihapus
+- **Notebook Lesson 15 RAG** - memperbaiki pengaturan klien, menggantikan `DataFrame.append` yang dihapus
   dengan `pd.concat`, dan memodernisasi penggunaan SDK lama.
 - Nama model yang sudah kedaluwarsa / pensiun (`gpt-3.5-turbo`, `gpt-35-turbo`) diganti dengan `gpt-4o-mini`
   pada contoh aktif; keluaran fine-tuning historis di lesson 18 dipertahankan dan diberi anotasi
@@ -173,8 +173,8 @@ model terkini, panduan penyedia yang diperbarui, dan alat pengalaman pengembang 
 ### Kadaluwarsa / Catatan
 
 - **Contoh Microsoft Foundry Models** yang menggunakan `azure-ai-inference` / `@azure-rest/ai-inference`
-  SDK (`client.complete()`) — contoh `githubmodels-*` dan `js-githubmodels` dan lesson 19, 20,
-  serta 21 — tetap menggunakan Model Inference API, yang **tidak** mendukung Responses API. Contoh ini
+  SDK (`client.complete()`) - contoh `githubmodels-*` dan `js-githubmodels` dan lesson 19, 20,
+  serta 21 - tetap menggunakan Model Inference API, yang **tidak** mendukung Responses API. Contoh ini
   sengaja dibiarkan pada SDK tersebut.
 - `AzureOpenAI()` sengaja dipertahankan jika masih sesuai (embedding dan pembuatan gambar),
   karena alur kerja tersebut bukan bagian dari migrasi Responses API.

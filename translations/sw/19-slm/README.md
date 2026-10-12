@@ -54,7 +54,7 @@ SLM zina matumizi mengi, yakiwemo:
 
 **Ukubwa**
   
-Tofauti kuu kati ya LLM na SLM iko katika kiwango cha modeli. LLM, kama ChatGPT (GPT-4), zina makadirio ya vigezo 1.76 trillion, wakati SLM za chanzo huria kama Mistral 7B zimeundwa na vigezo vidogo zaidi—takriban bilioni 7. Tofauti hii ni kutokana na tofauti za usanifu wa modeli na michakato ya mafunzo. Kwa mfano, ChatGPT hutumia utaratibu wa usikivu wa mwenyewe ndani ya mfumo wa encoder-decoder, wakati Mistral 7B hutumia usikivu wa dirisha inayosogea, ambao hutoa mafunzo yenye ufanisi zaidi ndani ya modeli ya decoder peke yake. Tofauti hii ya usanifu ina athari kubwa kwa ugumu na utendaji wa modeli hizi.
+Tofauti kuu kati ya LLM na SLM iko katika kiwango cha modeli. LLM, kama ChatGPT (GPT-4), zina makadirio ya vigezo 1.76 trillion, wakati SLM za chanzo huria kama Mistral 7B zimeundwa na vigezo vidogo zaidi-takriban bilioni 7. Tofauti hii ni kutokana na tofauti za usanifu wa modeli na michakato ya mafunzo. Kwa mfano, ChatGPT hutumia utaratibu wa usikivu wa mwenyewe ndani ya mfumo wa encoder-decoder, wakati Mistral 7B hutumia usikivu wa dirisha inayosogea, ambao hutoa mafunzo yenye ufanisi zaidi ndani ya modeli ya decoder peke yake. Tofauti hii ya usanifu ina athari kubwa kwa ugumu na utendaji wa modeli hizi.
 
 **Uelewa**
 

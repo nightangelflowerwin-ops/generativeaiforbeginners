@@ -2,7 +2,7 @@
 
 **Folosește acest ghid dacă preferi să rulezi totul pe propriul laptop.**   
 Ai două opțiuni: **(A) Python nativ + virtual-env** sau **(B) Container VS Code Dev cu Docker**.  
-Alege ce ți se pare mai ușor—ambele duc la aceleași lecții.
+Alege ce ți se pare mai ușor-ambele duc la aceleași lecții.
 
 ## 1.  Cerințe preliminare
 
@@ -33,7 +33,7 @@ source .venv/bin/activate     # macOS / Linux
 .\.venv\Scripts\activate      # Windows PowerShell
 ```
 
-✅ Promptul ar trebui acum să înceapă cu (.venv)—asta înseamnă că ești în mediul virtual.
+✅ Promptul ar trebui acum să înceapă cu (.venv)-asta înseamnă că ești în mediul virtual.
 
 ### Pasul 3 Instalează dependențele
 
@@ -196,7 +196,7 @@ Iată un ghid pas cu pas pentru a crea un fișier `.env` pentru Python și a ad�
 
 Gata! Ai creat cu succes un fișier `.env`, ai adăugat acreditările Microsoft Foundry Models și le-ai încărcat în aplicația ta Python.
 
-🔐 Nu comite niciodată `.env`—este deja în `.gitignore`.
+🔐 Nu comite niciodată `.env`-este deja în `.gitignore`.
 Instrucțiunile complete ale furnizorului sunt în [`providers.md`](03-providers.md).
 
 ## 4. Ce urmează?

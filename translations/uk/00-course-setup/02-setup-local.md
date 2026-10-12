@@ -2,7 +2,7 @@
 
 **Використовуйте цей посібник, якщо ви віддаєте перевагу запускати все на власному ноутбуці.**  
 У вас є два шляхи: **(A) нативний Python + virtual-env** або **(B) VS Code Dev Container з Docker**.  
-Обирайте той, який здається легшим — обидва ведуть до тих самих уроків.
+Обирайте той, який здається легшим - обидва ведуть до тих самих уроків.
 
 ## 1. Передумови
 
@@ -33,7 +33,7 @@ source .venv/bin/activate     # macOS / Linux
 .\.venv\Scripts\activate      # Windows PowerShell
 ```
 
-✅ Тепер у підказці має бути (.venv) — це означає, що ви в середовищі.
+✅ Тепер у підказці має бути (.venv) - це означає, що ви в середовищі.
 
 ### Крок 3 Встановити залежності
 
@@ -68,8 +68,8 @@ VS Code виявляє .devcontainer/ та відобразить підказк
 
 ## 2. Варіант C – Miniconda
 
-[Miniconda](https://conda.io/en/latest/miniconda.html?WT.mc_id=academic-105485-koreyst) — це легкий інсталятор для встановлення [Conda](https://docs.conda.io/en/latest?WT.mc_id=academic-105485-koreyst), Python, а також кількох пакетів.
-Conda — це менеджер пакетів, який полегшує налаштування та перемикання між різними Python [**віртуальними середовищами**](https://docs.python.org/3/tutorial/venv.html?WT.mc_id=academic-105485-koreyst) і пакетами. Він також корисний для встановлення пакетів, які недоступні через `pip`.
+[Miniconda](https://conda.io/en/latest/miniconda.html?WT.mc_id=academic-105485-koreyst) - це легкий інсталятор для встановлення [Conda](https://docs.conda.io/en/latest?WT.mc_id=academic-105485-koreyst), Python, а також кількох пакетів.
+Conda - це менеджер пакетів, який полегшує налаштування та перемикання між різними Python [**віртуальними середовищами**](https://docs.python.org/3/tutorial/venv.html?WT.mc_id=academic-105485-koreyst) і пакетами. Він також корисний для встановлення пакетів, які недоступні через `pip`.
 
 ### Крок 0 Встановіть Miniconda
 
@@ -196,7 +196,7 @@ jupyterhub
 
 Ось і все! Ви успішно створили файл `.env`, додали облікові дані Microsoft Foundry Models та завантажили їх у ваш Python додаток.
 
-🔐 Ніколи не комітьте .env — він уже в .gitignore.
+🔐 Ніколи не комітьте .env - він уже в .gitignore.
 Повні інструкції провайдера знаходяться в [`providers.md`](03-providers.md).
 
 ## 4. Що далі?

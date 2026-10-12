@@ -42,7 +42,7 @@
 | కంటైనర్ నిర్మాణం 10 నిమిషాలు గడిచినా ఉండటం  | **Codespaces ➜ “Rebuild Container”**                                    |
 | `python: command not found`               | టెర్మినల్ అంటిచేయలేదు; క్లిక్ చేయండి **+** ➜ *bash*                      |
 | OpenAI నుండి `401 Unauthorized`           | తప్పు / కాలం పూర్తయిన `OPENAI_API_KEY`                                  |
-| VS Code "Dev container mounting…" చూపిస్తే | బ్రౌజర్ ట్యాబ్ రిఫ్రెష్ చేయండి — Codespaces కొన్ని సార్లు కనెక్షన్ కోల్పోతుంది | // 
+| VS Code "Dev container mounting…" చూపిస్తే | బ్రౌజర్ ట్యాబ్ రిఫ్రెష్ చేయండి - Codespaces కొన్ని సార్లు కనెక్షన్ కోల్పోతుంది | // 
 | నోట్బుక్ కర్నల్ గాయపడింది              | నోట్బుక్ మెనూ ➜ **Kernel ▸ Select Kernel ▸ Python 3**                     |
 
    యూనిక్స్ ఆధారిత వ్యవస్థలు:

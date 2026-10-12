@@ -300,9 +300,9 @@ Tüm çeviriler, müfredatın İngilizce kaynağı ile senkronize edilen 50'den 
 
 | Kapsam | Durum |
 |--------|--------|
-| Çeviri kapsamı | Tamamlandı — 50+ dil, tüm dersler |
+| Çeviri kapsamı | Tamamlandı - 50+ dil, tüm dersler |
 | Çeviri yöntemi | Otomatik, [Azure Co-op Translator](https://github.com/Azure/co-op-translator?WT.mc_id=academic-105485-koreyst) aracılığıyla |
-| İngilizce kaynakla senkron | Evet — otomatik yeniden üretim |
+| İngilizce kaynakla senkron | Evet - otomatik yeniden üretim |
 
 ### 9.2 Erişilebilirlik İyileştirmeleri
 

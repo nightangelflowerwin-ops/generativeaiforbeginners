@@ -36,7 +36,7 @@ Dette tar **~2 minutter** første gangen.
 2. Navn: OPENAI_API_KEY
 3. Verdi: lim inn nøkkelen din → Legg til hemmelighet
 
-Det er det—vår kode vil hente den automatisk.
+Det er det-vår kode vil hente den automatisk.
 
 ### Alternativ B .env-fil (hvis du virkelig trenger en)
 

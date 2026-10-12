@@ -30,13 +30,13 @@ Tatagal ito ng **~2 minuto** sa unang pagkakataon.
 
 ## 3. Idagdag ang iyong API key (ang ligtas na paraan)
 
-### Option A Codespaces Secrets — Inirerekomenda
+### Option A Codespaces Secrets - Inirerekomenda
 
 1. ⚙️ Gear icon -> Command Palette -> Codespaces : Manage user secret -> Add a new secret.
 2. Pangalan: OPENAI_API_KEY
 3. Halaga: i-paste ang iyong key → Add secret
 
-Iyan na—kusang kukunin ito ng aming code.
+Iyan na-kusang kukunin ito ng aming code.
 
 ### Option B .env file (kung talagang kailangan mo)
 

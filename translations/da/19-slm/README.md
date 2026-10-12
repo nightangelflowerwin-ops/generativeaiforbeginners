@@ -54,7 +54,7 @@ SLM'er har et bredt anvendelsesområde, herunder:
 
 **Størrelse**
   
-En primær forskel mellem LLM'er og SLM'er ligger i modellernes skala. LLM'er, såsom ChatGPT (GPT-4), kan bestå af anslået 1,76 billioner parametre, mens open-source SLM'er som Mistral 7B er designet med betydeligt færre parametre — cirka 7 milliarder. Denne forskel skyldes primært forskelle i modelarkitektur og træningsprocesser. For eksempel anvender ChatGPT en selvopmærksomhedsmekanisme inden for en encoder-decoder-ramme, mens Mistral 7B benytter sliding window attention, hvilket muliggør mere effektiv træning i en decoder-only model. Denne arkitektoniske variation har dybtgående konsekvenser for modellernes kompleksitet og ydeevne.
+En primær forskel mellem LLM'er og SLM'er ligger i modellernes skala. LLM'er, såsom ChatGPT (GPT-4), kan bestå af anslået 1,76 billioner parametre, mens open-source SLM'er som Mistral 7B er designet med betydeligt færre parametre - cirka 7 milliarder. Denne forskel skyldes primært forskelle i modelarkitektur og træningsprocesser. For eksempel anvender ChatGPT en selvopmærksomhedsmekanisme inden for en encoder-decoder-ramme, mens Mistral 7B benytter sliding window attention, hvilket muliggør mere effektiv træning i en decoder-only model. Denne arkitektoniske variation har dybtgående konsekvenser for modellernes kompleksitet og ydeevne.
 
 **Forståelse**
 

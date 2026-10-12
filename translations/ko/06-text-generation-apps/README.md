@@ -604,11 +604,11 @@ Shopping List:
 
   > 참고로 1.0에 가까울수록 출력이 더 다양해집니다.
 
-- **추론 모델은 `temperature`를 사용하지 않습니다**. 이는 2026년의 중요한 변화입니다. Microsoft Foundry에서 현재 사용되는 비폐기 모델들은 추론 모델 (GPT-5 계열, o-시리즈)이며, 이들은 `temperature`나 `top_p` (또한 `max_tokens` 대신 `max_output_tokens`)를 지원하지 않습니다. `gpt-5-mini`에 `temperature`를 전달하면 "지원하지 않는 매개변수" 오류가 발생합니다. 따라서 위 온도 예제를 시도하려면 샘플링 제어를 아직 지원하는 모델—예를 들어 [Microsoft Foundry 모델 카탈로그](https://ai.azure.com/catalog/models?WT.mc_id=academic-105485-koreyst)의 오픈 Llama 모델 `Llama-3.3-70B-Instruct` 같은 모델을 사용하세요. GPT-5 같은 추론 모델의 경우 출력 제어는 다음 방식으로 합니다:
+- **추론 모델은 `temperature`를 사용하지 않습니다**. 이는 2026년의 중요한 변화입니다. Microsoft Foundry에서 현재 사용되는 비폐기 모델들은 추론 모델 (GPT-5 계열, o-시리즈)이며, 이들은 `temperature`나 `top_p` (또한 `max_tokens` 대신 `max_output_tokens`)를 지원하지 않습니다. `gpt-5-mini`에 `temperature`를 전달하면 "지원하지 않는 매개변수" 오류가 발생합니다. 따라서 위 온도 예제를 시도하려면 샘플링 제어를 아직 지원하는 모델-예를 들어 [Microsoft Foundry 모델 카탈로그](https://ai.azure.com/catalog/models?WT.mc_id=academic-105485-koreyst)의 오픈 Llama 모델 `Llama-3.3-70B-Instruct` 같은 모델을 사용하세요. GPT-5 같은 추론 모델의 경우 출력 제어는 다음 방식으로 합니다:
   - **프롬프트 엔지니어링** - 명확한 지시, 예제, 구조화된 출력 (레슨 [04 - Prompt Engineering](../04-prompt-engineering-fundamentals/README.md?WT.mc_id=academic-105485-koreyst) 참조)이 샘플링 제어 기능을 대신합니다.
   - **추론 제어** - 추론 노력 및 장황함과 같은 매개변수들은 추론 깊이와 지연 및 비용의 균형을 맞춥니다.
 
-  요약하자면: `temperature`/`top_p`는 아직 많은 모델(Llama, Mistral, Phi, GPT-4.x 계열—단 GPT-4.x는 폐기 중)에 유효하지만, 추론 모델인 GPT-5 쪽은 프롬프트 엔지니어링과 추론 제어 방향으로 나아가고 있습니다.
+  요약하자면: `temperature`/`top_p`는 아직 많은 모델(Llama, Mistral, Phi, GPT-4.x 계열-단 GPT-4.x는 폐기 중)에 유효하지만, 추론 모델인 GPT-5 쪽은 프롬프트 엔지니어링과 추론 제어 방향으로 나아가고 있습니다.
 
 ## 과제
 

@@ -21,7 +21,7 @@ Pronto? Vamos começar.
 
 ## Guia Ilustrado
 
-Quer obter uma visão geral do que vamos cobrir antes de começar? Consulte este guia ilustrado que descreve a jornada de aprendizagem para esta lição — desde aprender os conceitos centrais e a motivação para o ajuste fino, até compreender o processo e as melhores práticas para executar a tarefa de ajuste fino. Este é um tema fascinante para explorar, por isso não se esqueça de consultar a página [Recursos](./RESOURCES.md?WT.mc_id=academic-105485-koreyst) para links adicionais que apoiem a sua aprendizagem autónoma!
+Quer obter uma visão geral do que vamos cobrir antes de começar? Consulte este guia ilustrado que descreve a jornada de aprendizagem para esta lição - desde aprender os conceitos centrais e a motivação para o ajuste fino, até compreender o processo e as melhores práticas para executar a tarefa de ajuste fino. Este é um tema fascinante para explorar, por isso não se esqueça de consultar a página [Recursos](./RESOURCES.md?WT.mc_id=academic-105485-koreyst) para links adicionais que apoiem a sua aprendizagem autónoma!
 
 ![Guia Ilustrado para Ajuste Fino de Modelos de Linguagem](../../../translated_images/pt-PT/18-fine-tuning-sketchnote.11b21f9ec8a70346.webp)
 
@@ -34,7 +34,7 @@ Uma técnica popular de engenharia de prompts envolve dar ao modelo mais orienta
 - Limites de tokens do modelo podem restringir o número de exemplos que pode fornecer e limitar a eficácia.
 - Custos por token do modelo podem tornar caro adicionar exemplos a cada prompt e limitar a flexibilidade.
 
-O ajuste fino é uma prática comum em sistemas de machine learning onde pegamos num modelo pré-treinado e o retreinamos com novos dados para melhorar o seu desempenho numa tarefa específica. No contexto dos modelos de linguagem, podemos ajustar finamente o modelo pré-treinado _com um conjunto selecionado de exemplos para uma dada tarefa ou domínio de aplicação_ para criar um **modelo personalizado** que pode ser mais exato e relevante para essa tarefa ou domínio específico. Um benefício secundário do ajuste fino é que também pode reduzir o número de exemplos necessários para o few-shot learning — reduzindo o uso de tokens e custos relacionados.
+O ajuste fino é uma prática comum em sistemas de machine learning onde pegamos num modelo pré-treinado e o retreinamos com novos dados para melhorar o seu desempenho numa tarefa específica. No contexto dos modelos de linguagem, podemos ajustar finamente o modelo pré-treinado _com um conjunto selecionado de exemplos para uma dada tarefa ou domínio de aplicação_ para criar um **modelo personalizado** que pode ser mais exato e relevante para essa tarefa ou domínio específico. Um benefício secundário do ajuste fino é que também pode reduzir o número de exemplos necessários para o few-shot learning - reduzindo o uso de tokens e custos relacionados.
 
 ## Quando e porquê devemos ajustar finamente modelos?
 
@@ -73,11 +73,11 @@ Para ajustar finamente um modelo pré-treinado, precisa de:
 
 ## Ajuste Fino na Microsoft Foundry
 
-[Microsoft Foundry](https://ai.azure.com?WT.mc_id=academic-105485-koreyst) é onde ajusta finamente, implementa e gere modelos personalizados na Azure hoje (reúne o que antes era Azure OpenAI Studio e Azure AI Studio). Antes de iniciar um trabalho, é útil compreender as escolhas que a Foundry lhe oferece — e as melhores práticas recomendadas pela plataforma. Por trás das cortinas, a Foundry usa **LoRA (low-rank adaptation)** para ajustar modelos eficientemente, o que mantém o treino mais rápido e mais acessível que retreinar cada peso.
+[Microsoft Foundry](https://ai.azure.com?WT.mc_id=academic-105485-koreyst) é onde ajusta finamente, implementa e gere modelos personalizados na Azure hoje (reúne o que antes era Azure OpenAI Studio e Azure AI Studio). Antes de iniciar um trabalho, é útil compreender as escolhas que a Foundry lhe oferece - e as melhores práticas recomendadas pela plataforma. Por trás das cortinas, a Foundry usa **LoRA (low-rank adaptation)** para ajustar modelos eficientemente, o que mantém o treino mais rápido e mais acessível que retreinar cada peso.
 
 ### Passo 1: Escolher uma técnica de treino
 
-A Foundry suporta três técnicas de ajuste fino. **Comece com SFT** — cobre a maior variedade de cenários.
+A Foundry suporta três técnicas de ajuste fino. **Comece com SFT** - cobre a maior variedade de cenários.
 
 | Técnica | O que faz | Quando usar |
 | --- | --- | --- |
@@ -102,13 +102,13 @@ Modelos ajustáveis incluem OpenAI `gpt-4o-mini`, `gpt-4o`, `gpt-4.1`, `gpt-4.1-
 ### Melhores práticas da Foundry
 
 - **Primeiro a linha de base.** Meça o modelo base com engenharia de prompt e RAG _antes_ de ajustar finamente, para provar a melhoria.
-- **Comece pequeno, depois escale.** Comece com 50-100 exemplos de alta qualidade para validar a abordagem, depois aumente para 500+ para produção. Qualidade vence quantidade — elimine exemplos de baixa qualidade.
+- **Comece pequeno, depois escale.** Comece com 50-100 exemplos de alta qualidade para validar a abordagem, depois aumente para 500+ para produção. Qualidade vence quantidade - elimine exemplos de baixa qualidade.
 - **Formate os dados corretamente.** Os ficheiros de treino e validação devem ser JSONL, UTF-8 **com BOM**, abaixo de 512 MB, usando o formato de mensagem chat-completions. Inclua sempre um ficheiro de validação para monitorizar o sobreajuste.
 - **Mantenha o prompt de sistema no treino durante a inferência.** Use a mesma mensagem de sistema quando chamar o modelo que usou no treino.
-- **Avalie checkpoints — não implemente cegamente o último.** A Foundry guarda os últimos três epochs como checkpoints implementáveis; escolha aquele que generaliza melhor observando `train_loss` / `valid_loss` e acurácia de token.
+- **Avalie checkpoints - não implemente cegamente o último.** A Foundry guarda os últimos três epochs como checkpoints implementáveis; escolha aquele que generaliza melhor observando `train_loss` / `valid_loss` e acurácia de token.
 - **Meça custo em tokens juntamente com qualidade** ao comparar o modelo ajustado com a linha de base.
 - **Itere com ajuste fino contínuo.** Pode ajustar finamente um modelo já ajustado em novos dados (suportado para modelos OpenAI).
-- **Tenha atenção aos custos de hospedagem.** Um modelo personalizado implementado cobra por hora, e uma implementação inativa é removida após 15 dias — limpe o que não precisa.
+- **Tenha atenção aos custos de hospedagem.** Um modelo personalizado implementado cobra por hora, e uma implementação inativa é removida após 15 dias - limpe o que não precisa.
 
 Percorra o tutorial completo em [Personalizar um modelo com ajuste fino](https://learn.microsoft.com/azure/ai-foundry/openai/how-to/fine-tuning?WT.mc_id=academic-105485-koreyst), e veja os guias para [DPO](https://learn.microsoft.com/azure/ai-foundry/openai/how-to/fine-tuning-direct-preference-optimization?WT.mc_id=academic-105485-koreyst) e [RFT](https://learn.microsoft.com/azure/ai-foundry/openai/how-to/reinforcement-fine-tuning?WT.mc_id=academic-105485-koreyst) quando estiver pronto para as outras técnicas.
 

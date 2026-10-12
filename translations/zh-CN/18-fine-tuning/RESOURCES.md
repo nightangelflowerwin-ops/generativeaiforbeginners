@@ -6,11 +6,11 @@
 
 | 标题/链接 | 描述 |
 | :--- | :--- |
-| [使用 OpenAI 模型进行微调](https://platform.openai.com/docs/guides/fine-tuning?WT.mc_id=academic-105485-koreyst) | 微调通过训练比提示中能容纳的更多样本，提升少量示例学习的效果——节省成本，提升响应质量，并实现更低延迟的请求。**了解 OpenAI 的微调概述。** |
-| [何时使用 Microsoft Foundry 微调](https://learn.microsoft.com/azure/ai-foundry/openai/concepts/fine-tuning-considerations?WT.mc_id=academic-105485-koreyst) | 理解<strong>什么是微调（概念）</strong>，为什么要考虑微调，使用哪些数据，以及如何衡量质量——并了解何时适合使用 SFT、DPO 或 RFT。 |
+| [使用 OpenAI 模型进行微调](https://platform.openai.com/docs/guides/fine-tuning?WT.mc_id=academic-105485-koreyst) | 微调通过训练比提示中能容纳的更多样本，提升少量示例学习的效果--节省成本，提升响应质量，并实现更低延迟的请求。**了解 OpenAI 的微调概述。** |
+| [何时使用 Microsoft Foundry 微调](https://learn.microsoft.com/azure/ai-foundry/openai/concepts/fine-tuning-considerations?WT.mc_id=academic-105485-koreyst) | 理解<strong>什么是微调（概念）</strong>，为什么要考虑微调，使用哪些数据，以及如何衡量质量--并了解何时适合使用 SFT、DPO 或 RFT。 |
 | [使用微调自定义模型](https://learn.microsoft.com/azure/ai-foundry/openai/how-to/fine-tuning?WT.mc_id=academic-105485-koreyst) | Microsoft Foundry 中微调的端到端<strong>操作流程（流程）</strong>，涵盖使用门户、OpenAI / Foundry Python SDK 或 REST API 进行数据准备、训练、检查点和部署。 |
 | [持续微调](https://learn.microsoft.com/azure/ai-foundry/openai/how-to/fine-tuning?WT.mc_id=academic-105485-koreyst#perform-continuous-fine-tuning) | 选取已微调模型作为基础模型，并在新训练样本上<strong>进一步微调</strong>的迭代过程。 |
-| [带工具（函数）调用的微调](https://learn.microsoft.com/azure/ai-foundry/openai/how-to/fine-tuning-functions?WT.mc_id=academic-105485-koreyst) | 使用<strong>带工具调用示例</strong>微调模型，提升输出——生成更准确、一致、格式相似的响应，并使用更少的提示令牌。 |
+| [带工具（函数）调用的微调](https://learn.microsoft.com/azure/ai-foundry/openai/how-to/fine-tuning-functions?WT.mc_id=academic-105485-koreyst) | 使用<strong>带工具调用示例</strong>微调模型，提升输出--生成更准确、一致、格式相似的响应，并使用更少的提示令牌。 |
 | [微调模型：Microsoft Foundry 指南](https://learn.microsoft.com/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure?WT.mc_id=academic-105485-koreyst#fine-tuning-models) | 查询<strong>哪些模型可微调</strong>，它们支持的方法（SFT / DPO / RFT）及其可用区域。 |
 | [微调概述：技术和模式](https://learn.microsoft.com/azure/ai-foundry/concepts/fine-tuning-overview?WT.mc_id=academic-105485-koreyst) | 对比三种训练技术（SFT、DPO、RFT）和两种模式（无服务器与托管计算），提供选择基础模型和入门指导。 |
 | <strong>教程</strong>: [在 Microsoft Foundry 中微调模型](https://learn.microsoft.com/azure/ai-foundry/openai/tutorials/fine-tune?WT.mc_id=academic-105485-koreyst) | 创建示例数据集，准备微调，在当前支持的模型如 `gpt-4.1-mini` 上运行微调任务，并在 Azure 上部署微调模型。 |

@@ -108,8 +108,8 @@ Azure OpenAI 端點與金鑰可在 [Azure 入口網站](https://portal.azure.com
 1. 按上述方法從你的資源進入 [Microsoft Foundry 入口網站](https://ai.azure.com?WT.mc_id=academic-105485-koreyst)。
 1. 點擊側邊欄（左側）中的 <strong>部署</strong> 分頁，查看目前已部署的模型。
 1. 若目標模型尚未部署，使用 <strong>部署模型</strong> 從 [模型目錄](https://ai.azure.com/catalog/models?WT.mc_id=academic-105485-koreyst) 部署。
-1. 你將需要一個 _文字生成_ 模型—我們推薦：**gpt-5-mini**
-1. 你將需要一個 _文字嵌入_ 模型—我們推薦 **text-embedding-3-small**
+1. 你將需要一個 _文字生成_ 模型-我們推薦：**gpt-5-mini**
+1. 你將需要一個 _文字嵌入_ 模型-我們推薦 **text-embedding-3-small**
 
 現在更新環境變數，以反映使用的 _部署名稱_。通常這與模型名稱相同，除非你有明確更改。例如，你可能有：
 

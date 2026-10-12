@@ -300,9 +300,9 @@ Všetky preklady sú **úplné** a generované automaticky pomocou [Azure Co-op 
 
 | Aspekt | Stav |
 |--------|--------|
-| Pokrytie prekladom | Úplné — 50+ jazykov, všetky lekcie |
+| Pokrytie prekladom | Úplné - 50+ jazykov, všetky lekcie |
 | Metóda prekladu | Automatizované cez [Azure Co-op Translator](https://github.com/Azure/co-op-translator?WT.mc_id=academic-105485-koreyst) |
-| Synchronizované s anglickým zdrojom | Áno — automatická regenerácia |
+| Synchronizované s anglickým zdrojom | Áno - automatická regenerácia |
 
 ### 9.2 Vylepšenia prístupnosti
 

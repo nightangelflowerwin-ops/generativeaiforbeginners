@@ -300,9 +300,9 @@ Alle vertalingen zijn **voltooid** en worden automatisch gegenereerd door de [Az
 
 | Aspect | Status |
 |--------|--------|
-| Vertaaldekkingsgraad | Volledig — 50+ talen, alle lessen |
+| Vertaaldekkingsgraad | Volledig - 50+ talen, alle lessen |
 | Vertaalmethode | Geautomatiseerd via [Azure Co-op Translator](https://github.com/Azure/co-op-translator?WT.mc_id=academic-105485-koreyst) |
-| Gesynchroniseerd met Engelse bron | Ja — automatisch opnieuw gegenereerd |
+| Gesynchroniseerd met Engelse bron | Ja - automatisch opnieuw gegenereerd |
 
 ### 9.2 Verbeteringen voor toegankelijkheid
 

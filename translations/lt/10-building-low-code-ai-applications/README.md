@@ -36,13 +36,13 @@ Iki šios pamokos pabaigos jūs sugebėsite:
 
 Šios pamokos metu naudosite šiuos įrankius ir technologijas:
 
-- **Power Apps** — Studentų Užduočių Sekimo programėlei kurti, kuri suteikia žemo kodo kūrimo aplinką programėlių kūrimui, skirtų duomenų sekimui, valdymui ir sąveikai.
+- **Power Apps** - Studentų Užduočių Sekimo programėlei kurti, kuri suteikia žemo kodo kūrimo aplinką programėlių kūrimui, skirtų duomenų sekimui, valdymui ir sąveikai.
 
-- **Dataverse** — duomenų saugojimui Studentų Užduočių Sekimo programėlėje. Dataverse suteikia žemo kodo duomenų platformą programėlės duomenų saugojimui.
+- **Dataverse** - duomenų saugojimui Studentų Užduočių Sekimo programėlėje. Dataverse suteikia žemo kodo duomenų platformą programėlės duomenų saugojimui.
 
-- **Power Automate** — Sąskaitų Apdorojimo srautui, kur turėsite žemo kodo kūrimo aplinką darbo procesų kūrimui, automatizuojančiam sąskaitų apdorojimo procesą.
+- **Power Automate** - Sąskaitų Apdorojimo srautui, kur turėsite žemo kodo kūrimo aplinką darbo procesų kūrimui, automatizuojančiam sąskaitų apdorojimo procesą.
 
-- **AI Builder** — Sąskaitų Apdorojimo AI modeliui, kur naudosite iš anksto sukurtus AI modelius mūsų startuolio sąskaitoms apdoroti.
+- **AI Builder** - Sąskaitų Apdorojimo AI modeliui, kur naudosite iš anksto sukurtus AI modelius mūsų startuolio sąskaitoms apdoroti.
 
 ## Generuojamasis AI Power Platformoje
 
@@ -72,25 +72,25 @@ Copilot AI asistento funkcija Power Automate leidžia jums aprašyti, kokio tipo
 
 ## Protingų agentų kūrimas su Microsoft Copilot Studio
 
-[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst) (anksčiau Power Virtual Agents) yra žemo kodo Power Platform narys, skirtas kurti **AI agentus** — pokalbių palydovus, galinčius atsakyti į klausimus, atlikti veiksmus ir automatizuoti užduotis jūsų vartotojams. Kaip ir visa Power Platform, šiuos agentus kuriate vizualioje, natūralios kalbos prioritetą teikiančioje patirtyje: jūs aprašote, ką norite, kad agentas darytų, o Copilot Studio padeda struktūrizuoti jo nurodymus, žinias ir veiksmus.
+[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst) (anksčiau Power Virtual Agents) yra žemo kodo Power Platform narys, skirtas kurti **AI agentus** - pokalbių palydovus, galinčius atsakyti į klausimus, atlikti veiksmus ir automatizuoti užduotis jūsų vartotojams. Kaip ir visa Power Platform, šiuos agentus kuriate vizualioje, natūralios kalbos prioritetą teikiančioje patirtyje: jūs aprašote, ką norite, kad agentas darytų, o Copilot Studio padeda struktūrizuoti jo nurodymus, žinias ir veiksmus.
 
-Mūsų švietimo startuoliui galite sukurti agentą, kuris atsako į studentų klausimus apie kursus, tikrina užduočių terminus ir net siunčia elektroninius laiškus dėstytojui — visa tai nerašant kodo.
+Mūsų švietimo startuoliui galite sukurti agentą, kuris atsako į studentų klausimus apie kursus, tikrina užduočių terminus ir net siunčia elektroninius laiškus dėstytojui - visa tai nerašant kodo.
 
 Štai keletas naujausių funkcijų, kurios daro Copilot Studio galingą:
 
-- **Generuojami atsakymai iš jūsų žinių**. Vietoj to, kad rašytumėte kiekvieną pokalbį rankomis, galite prijungti **žinių šaltinius** — viešas svetaines, SharePoint, OneDrive, Dataverse, įkeltus failus ar įmonės duomenis per jungtis — ir agentas generuoja pagrįstus atsakymus iš jų.
+- **Generuojami atsakymai iš jūsų žinių**. Vietoj to, kad rašytumėte kiekvieną pokalbį rankomis, galite prijungti **žinių šaltinius** - viešas svetaines, SharePoint, OneDrive, Dataverse, įkeltus failus ar įmonės duomenis per jungtis - ir agentas generuoja pagrįstus atsakymus iš jų.
 
 - **Generuojama orkestracija**. Vietoj griežtų pažadinimo frazių agentas naudoja AI, kad suprastų užklausą ir dinamiškai nuspręstų, kurią informaciją, temas ir veiksmus derinti, įskaitant kelių žingsnių sujungimą.
 
 - **Veiksmai ir jungtys**. Agentai gali *daryti* dalykus, ne tik pokalbius. Galite suteikti agentui veiksmus, remiamus daugiau nei 1,500 iš anksto sukurtų Power Platform jungčių, Power Automate srautų, pasirinktinių REST API, užklausų arba **Model Context Protocol (MCP)** serverių.
 
-- **Autonominiai agentai**. Agentai nėra ribojami tik pokalbių lange atsakyti. Galite kurti **autonominius agentus**, kurie yra paleidžiami įvykių — pavyzdžiui, naujo el. laiško, įrašo Dataverse arba failo įkėlimo — ir tada veikia fone, kad užbaigtų užduotį.
+- **Autonominiai agentai**. Agentai nėra ribojami tik pokalbių lange atsakyti. Galite kurti **autonominius agentus**, kurie yra paleidžiami įvykių - pavyzdžiui, naujo el. laiško, įrašo Dataverse arba failo įkėlimo - ir tada veikia fone, kad užbaigtų užduotį.
 
 - **Daugiagentinė orkestracija**. Agentai gali kviesti kitus agentus. Copilot Studio agentas gali perduoti arba būti papildytas kitų agentų, įskaitant agentus, paskelbtus Microsoft 365 Copilot, ir agentus, sukurtus Microsoft Foundry.
 
 - **Modelių pasirinkimas**. Be įmontuotų modelių, galite įtraukti modelius iš Microsoft Foundry modelių katalogo, kad pritaikytumėte, kaip jūsų agentas mąsto ir atsako.
 
-- **Publikavimas bet kur**. Sukurtas agentas gali būti publikuojamas keliose kanalų vietose — Microsoft Teams, Microsoft 365 Copilot, svetainėje arba pasirinktoje programėlėje ir kt. — su saugumo, autentifikavimo ir analizės valdymu per Power Platform administravimo patirtį.
+- **Publikavimas bet kur**. Sukurtas agentas gali būti publikuojamas keliose kanalų vietose - Microsoft Teams, Microsoft 365 Copilot, svetainėje arba pasirinktoje programėlėje ir kt. - su saugumo, autentifikavimo ir analizės valdymu per Power Platform administravimo patirtį.
 
 Galite pradėti kurti savo pirmąjį agentą adresu [copilotstudio.microsoft.com](https://copilotstudio.microsoft.com?WT.mc_id=academic-105485-koreyst) ir sužinoti daugiau [Microsoft Copilot Studio dokumentacijoje](https://learn.microsoft.com/microsoft-copilot-studio/?WT.mc_id=academic-105485-koreyst).
 
@@ -270,7 +270,7 @@ Norėdami sužinoti, kaip naudoti šį AI modelį Power Automate, pereikite per 
 
 Baigę šią pamoką, peržiūrėkite mūsų [Generatyvios AI mokymosi kolekciją](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst), kad toliau gilintumėte žinias apie generatyvią AI!
 
-Norite suasmeninti ir gauti daugiau naudos iš Copilot? Išnagrinėkite [Awesome Copilot](https://github.com/github/awesome-copilot?WT.mc_id=academic-105485-koreyst) — bendruomenės siūlomą instrukcijų, agentų, įgūdžių ir konfigūracijų rinkinį, padedantį geriau išnaudoti GitHub Copilot.
+Norite suasmeninti ir gauti daugiau naudos iš Copilot? Išnagrinėkite [Awesome Copilot](https://github.com/github/awesome-copilot?WT.mc_id=academic-105485-koreyst) - bendruomenės siūlomą instrukcijų, agentų, įgūdžių ir konfigūracijų rinkinį, padedantį geriau išnaudoti GitHub Copilot.
 
 Eikite į 11 pamoką, kurioje sužinosime, kaip [integruoti generatyvią AI su funkcijų kvietimu](../11-integrating-with-function-calling/README.md?WT.mc_id=academic-105485-koreyst)!
 

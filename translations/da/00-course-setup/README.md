@@ -42,7 +42,7 @@ I din fork: **Kode -> Codespaces -> Ny på main**
 | Container build sidder fast > 10 min     | **Codespaces ➜ “Genopbyg container”**                        |
 | `python: kommando ikke fundet`            | Terminalen blev ikke tilknyttet; klik **+** ➜ *bash*          |
 | `401 Unauthorized` fra OpenAI              | Forkert / udløbet `OPENAI_API_KEY`                            |
-| VS Code viser “Dev container mounting…”    | Opdater browserfanen—Codespaces mister nogle gange forbindelsen |
+| VS Code viser “Dev container mounting…”    | Opdater browserfanen-Codespaces mister nogle gange forbindelsen |
 | Notebook-kerne mangler                    | Notebook-menu ➜ **Kernel ▸ Vælg Kernel ▸ Python 3**           |
 
    Unix-baserede systemer:

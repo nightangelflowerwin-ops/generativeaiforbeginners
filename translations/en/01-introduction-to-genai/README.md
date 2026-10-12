@@ -85,7 +85,7 @@ Now that we have a better understanding of the inner working of a large language
 We said that the main capability of a Large Language Model is _generating a text from scratch, starting from a textual input, written in natural language_.
 
 But what kind of textual input and output?
-The input of a large language model is known as a prompt, while the output is known as a completion—a term that refers to the model mechanism of generating the next token to complete the current input. We are going to dive deep into what a prompt is and how to design it in a way to get the most out of our model. But for now, let’s just say that a prompt may include:
+The input of a large language model is known as a prompt, while the output is known as a completion-a term that refers to the model mechanism of generating the next token to complete the current input. We are going to dive deep into what a prompt is and how to design it in a way to get the most out of our model. But for now, let’s just say that a prompt may include:
 
 - An **instruction** specifying the type of output we expect from the model. This instruction sometimes might embed some examples or some additional data.
 

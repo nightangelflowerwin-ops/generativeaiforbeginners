@@ -136,7 +136,7 @@ Tämän oppitunnin suorittamisen jälkeen tutustu [Generatiivisen tekoälyn oppi
 
 Onnittelut!! Olet suorittanut tämän kurssin v2-sarjan viimeisen oppitunnin! Älä lopeta oppimista ja rakentamista. \*\*Tutustu [RESURSSIT](RESOURCES.md?WT.mc_id=academic-105485-koreyst) -sivuun saadaksesi listan lisäehdotuksista juuri tähän aiheeseen liittyen.
 
-Myös v1-sarjaamme on päivitetty lisää tehtäviä ja käsitteitä. Joten ota hetki kerrataksesi tietosi — ja ole hyvä, [jaa kysymyksesi ja palautteesi](https://github.com/microsoft/generative-ai-for-beginners/issues?WT.mc_id=academic-105485-koreyst) auttaaksesi meitä parantamaan näitä oppitunteja yhteisölle.
+Myös v1-sarjaamme on päivitetty lisää tehtäviä ja käsitteitä. Joten ota hetki kerrataksesi tietosi - ja ole hyvä, [jaa kysymyksesi ja palautteesi](https://github.com/microsoft/generative-ai-for-beginners/issues?WT.mc_id=academic-105485-koreyst) auttaaksesi meitä parantamaan näitä oppitunteja yhteisölle.
 
 ---
 

@@ -270,7 +270,7 @@ Ha meg szeretné tanulni, hogyan használja ezt a mesterséges intelligencia mod
 
 A lecke elvégzése után nézze meg a [Generatív MI tanulási gyűjteményünket](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst), hogy tovább fejlessze generatív MI tudását!
 
-Szeretné testre szabni és többet kihozni a Copilotból? Fedezze fel az [Awesome Copilot](https://github.com/github/awesome-copilot?WT.mc_id=academic-105485-koreyst) gyűjteményt — egy közösség által hozzájárult utasítások, ügynökök, készségek és konfigurációk gyűjteményét, amely segít a GitHub Copilot maximális kihasználásában.
+Szeretné testre szabni és többet kihozni a Copilotból? Fedezze fel az [Awesome Copilot](https://github.com/github/awesome-copilot?WT.mc_id=academic-105485-koreyst) gyűjteményt - egy közösség által hozzájárult utasítások, ügynökök, készségek és konfigurációk gyűjteményét, amely segít a GitHub Copilot maximális kihasználásában.
 
 Ugorjon át a 11. leckére, ahol megnézzük, hogyan lehet [integrálni a generatív MI-t függvényhívással](../11-integrating-with-function-calling/README.md?WT.mc_id=academic-105485-koreyst)!
 

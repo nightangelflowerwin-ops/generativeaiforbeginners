@@ -2,7 +2,7 @@
 
 **Kasuta seda juhendit, kui eelistad kõike oma sülearvutis jooksutada.**   
 Sul on kaks võimalust: **(A) natiivne Python + virtual-env** või **(B) VS Code arenduskonteiner Dockeriga**.  
-Vali see, mis tundub lihtsam — mõlemad viivad samade õppetükkideni.
+Vali see, mis tundub lihtsam - mõlemad viivad samade õppetükkideni.
 
 ## 1.  Eelnõuded
 
@@ -33,7 +33,7 @@ source .venv/bin/activate     # macOS / Linux
 .\.venv\Scripts\activate      # Windows PowerShell
 ```
 
-✅ Käsklus tuleb nüüd alustada (.venv)—see tähendab, et oled keskkonnas sees.
+✅ Käsklus tuleb nüüd alustada (.venv)-see tähendab, et oled keskkonnas sees.
 
 ### 3. samm Paigalda sõltuvused
 
@@ -196,7 +196,7 @@ Järgnev on samm-sammuline juhend, kuidas luua Pythonile `.env` fail ja lisada M
 
 See ongi kõik! Sa lõid edukalt `.env` faili, lisasid sinna Microsoft Foundry mudelite mandaadid ja laadisid need oma Python rakendusse.
 
-🔐 Ära kunagi commiti .env faili — see on juba .gitignore's.
+🔐 Ära kunagi commiti .env faili - see on juba .gitignore's.
 Täielikud teenusepakkuja juhised on saadaval failis [`providers.md`](03-providers.md).
 
 ## 4. Mis järgmiseks?

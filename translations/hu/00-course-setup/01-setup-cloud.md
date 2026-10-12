@@ -30,13 +30,13 @@ Ez az első alkalommal **kb. 2 percet** vesz igénybe.
 
 ## 3. Add meg az API kulcsodat (biztonságos mód)
 
-### A lehetőség Codespaces Secrets — Ajánlott
+### A lehetőség Codespaces Secrets - Ajánlott
 
 1. ⚙️ Fogaskerék ikon -> Parancs paletta -> Codespaces : Manage user secret -> Új titok hozzáadása.
 2. Név: OPENAI_API_KEY
 3. Érték: illeszd be a kulcsod → Titok hozzáadása
 
-Ennyi az egész — a kódunk automatikusan megtalálja.
+Ennyi az egész - a kódunk automatikusan megtalálja.
 
 ### B lehetőség .env fájl (ha tényleg szükséged van rá)
 

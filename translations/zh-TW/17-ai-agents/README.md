@@ -112,7 +112,7 @@ chatbot (to user_proxy):
 
 ## Microsoft 代理框架
 
-[Microsoft 代理框架](https://learn.microsoft.com/agent-framework/?WT.mc_id=academic-105485-koreyst) 是微軟的開源 SDK，用於在 **Python** 和 **.NET** 中構建 AI 代理和多代理系統。它集合了兩個早期微軟專案的優勢——企業級的 **Semantic Kernel** 與多代理協作的 **AutoGen**——成為單一支援框架。若你今天開始新代理項目，這是推薦的 AutoGen 接班人。
+[Microsoft 代理框架](https://learn.microsoft.com/agent-framework/?WT.mc_id=academic-105485-koreyst) 是微軟的開源 SDK，用於在 **Python** 和 **.NET** 中構建 AI 代理和多代理系統。它集合了兩個早期微軟專案的優勢--企業級的 **Semantic Kernel** 與多代理協作的 **AutoGen**--成為單一支援框架。若你今天開始新代理項目，這是推薦的 AutoGen 接班人。
 
 該框架可擴展從單一<strong>聊天代理</strong>到複雜的<strong>多代理工作流程</strong>，並且直接整合 Microsoft Foundry、Azure OpenAI 及 OpenAI。它也透過 OpenTelemetry 提供內建的可觀察性，讓你追蹤代理的確切行動。
 

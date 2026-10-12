@@ -42,7 +42,7 @@ U vašem fork-u: **Code -> Codespaces -> New on main**
 | Gradnja kontejnera stoji > 10 min         | **Codespaces ➜ “Rebuild Container”**                            |
 | `python: command not found`                | Terminal se nije priključio; kliknite **+** ➜ *bash*            |
 | `401 Unauthorized` s OpenAI                | Pogrešan / istekao `OPENAI_API_KEY`                              |
-| VS Code prikazuje “Dev container mounting…” | Osvježite karticu preglednika—Codespaces ponekad gubi vezu    |
+| VS Code prikazuje “Dev container mounting…” | Osvježite karticu preglednika-Codespaces ponekad gubi vezu    |
 | Nedostaje kernel u bilježnici              | Izbornik bilježnice ➜ **Kernel ▸ Select Kernel ▸ Python 3**      |
 
    Sustavi temeljeni na Unixu:

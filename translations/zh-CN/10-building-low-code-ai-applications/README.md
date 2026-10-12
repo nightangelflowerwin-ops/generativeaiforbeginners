@@ -72,13 +72,13 @@ Power Automate 中的 Copilot AI 助手功能允许您描述需要什么样的�
 
 ## 使用 Microsoft Copilot Studio 构建智能代理
 
-[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst)（前身为 Power Virtual Agents）是 Power Platform 的低代码成员，用于构建<strong>AI 代理</strong>——对话式 Copilot，能够回答问题、执行操作并代表用户自动化任务。与 Power Platform 其他部分一样，您在一个以视觉和自然语言为先的体验中构建这些代理：您描述代理所需做的事情，Copilot Studio 帮助搭建其指令、知识和操作框架。
+[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst)（前身为 Power Virtual Agents）是 Power Platform 的低代码成员，用于构建<strong>AI 代理</strong>--对话式 Copilot，能够回答问题、执行操作并代表用户自动化任务。与 Power Platform 其他部分一样，您在一个以视觉和自然语言为先的体验中构建这些代理：您描述代理所需做的事情，Copilot Studio 帮助搭建其指令、知识和操作框架。
 
-对于我们的教育创业公司，您可以构建一个代理，回答学生关于课程的问题，检查作业截止日期，甚至给讲师发送电子邮件——所有这些都无需编写代码。
+对于我们的教育创业公司，您可以构建一个代理，回答学生关于课程的问题，检查作业截止日期，甚至给讲师发送电子邮件--所有这些都无需编写代码。
 
 以下是使 Copilot Studio 功能强大的部分最新能力：
 
-- <strong>从您的知识生成答案</strong>。无需手动撰写每段对话，您可以连接<strong>知识源</strong>——公共网站、SharePoint、OneDrive、Dataverse、上传的文件或通过连接器接入的企业数据——代理将从中生成有根据的答案。
+- <strong>从您的知识生成答案</strong>。无需手动撰写每段对话，您可以连接<strong>知识源</strong>--公共网站、SharePoint、OneDrive、Dataverse、上传的文件或通过连接器接入的企业数据--代理将从中生成有根据的答案。
 
 - <strong>生成式协调</strong>。代理不依赖严格的触发短语，而是使用 AI 理解请求，并动态决定组合哪些知识、主题和操作来满足请求，包括串联多个步骤。
 
@@ -90,7 +90,7 @@ Power Automate 中的 Copilot AI 助手功能允许您描述需要什么样的�
 
 - <strong>模型选择</strong>。除了内置模型，您还可以从 Microsoft Foundry 模型目录引入模型，定制代理的推理和响应方式。
 
-- <strong>多渠道发布</strong>。构建完成后，代理可以发布到多个渠道——Microsoft Teams、Microsoft 365 Copilot、网站或自定义应用等，安全性、身份验证和分析通过 Power Platform 管理体验管理。
+- <strong>多渠道发布</strong>。构建完成后，代理可以发布到多个渠道--Microsoft Teams、Microsoft 365 Copilot、网站或自定义应用等，安全性、身份验证和分析通过 Power Platform 管理体验管理。
 
 您可以在 [copilotstudio.microsoft.com](https://copilotstudio.microsoft.com?WT.mc_id=academic-105485-koreyst) 开始构建您的第一个代理，并在[Microsoft Copilot Studio 文档](https://learn.microsoft.com/microsoft-copilot-studio/?WT.mc_id=academic-105485-koreyst)了解更多。
 
@@ -270,7 +270,7 @@ GPT 模型经过海量数据的广泛训练，能够根据提示生成近似人�
 
 完成本课程后，请查看我们的 [生成式 AI 学习合集](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst)，继续提升您的生成式 AI 知识！
 
-想要自定义并充分利用 Copilot 吗？探索 [Awesome Copilot](https://github.com/github/awesome-copilot?WT.mc_id=academic-105485-koreyst) — 一个社区贡献的指令、代理、技能和配置集合，助您最大化利用 GitHub Copilot。
+想要自定义并充分利用 Copilot 吗？探索 [Awesome Copilot](https://github.com/github/awesome-copilot?WT.mc_id=academic-105485-koreyst) - 一个社区贡献的指令、代理、技能和配置集合，助您最大化利用 GitHub Copilot。
 
 前往第 11 课，我们将学习如何 [将生成式 AI 与函数调用集成](../11-integrating-with-function-calling/README.md?WT.mc_id=academic-105485-koreyst)！
 

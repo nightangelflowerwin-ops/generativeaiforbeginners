@@ -54,7 +54,7 @@ KDM'ler aşağıdaki alanlarda yaygın olarak kullanılır:
 
 **Boyut**
  
-BDM ile KDM arasındaki temel farklardan biri model ölçeğidir. ChatGPT (GPT-4) gibi BDM'ler yaklaşık 1,76 trilyon parametreye sahip olabilirken, açık kaynaklı KDM'ler, örneğin Mistral 7B, çok daha az parametreyle tasarlanmıştır — yaklaşık 7 milyar. Bu fark öncelikle model mimarisi ve eğitim süreçlerinden kaynaklanır. Örneğin, ChatGPT, kod çözücü-şifreleyici yapısı içinde kendine dikkat mekanizması kullanırken, Mistral 7B ise sadece kod çözücü modelinde daha verimli eğitim sağlayan kaydırmalı pencere dikkat mekanizması kullanır. Bu mimari farklılıklar, modellerin karmaşıklığı ve performans üzerinde derin etkiler yaratır.
+BDM ile KDM arasındaki temel farklardan biri model ölçeğidir. ChatGPT (GPT-4) gibi BDM'ler yaklaşık 1,76 trilyon parametreye sahip olabilirken, açık kaynaklı KDM'ler, örneğin Mistral 7B, çok daha az parametreyle tasarlanmıştır - yaklaşık 7 milyar. Bu fark öncelikle model mimarisi ve eğitim süreçlerinden kaynaklanır. Örneğin, ChatGPT, kod çözücü-şifreleyici yapısı içinde kendine dikkat mekanizması kullanırken, Mistral 7B ise sadece kod çözücü modelinde daha verimli eğitim sağlayan kaydırmalı pencere dikkat mekanizması kullanır. Bu mimari farklılıklar, modellerin karmaşıklığı ve performans üzerinde derin etkiler yaratır.
 
 **Anlama**
 

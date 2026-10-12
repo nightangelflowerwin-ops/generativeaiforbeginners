@@ -300,9 +300,9 @@ Kaikki käännökset ovat **valmiit** ja tuotettu automaattisesti [Azure Co-op T
 
 | Näkökulma | Tila |
 |--------|--------|
-| Käännösten kattavuus | Täydellinen — yli 50 kieltä, kaikki oppitunnit |
+| Käännösten kattavuus | Täydellinen - yli 50 kieltä, kaikki oppitunnit |
 | Käännösmenetelmä | Automaattinen Azure Co-op Translatorin kautta |
-| Synkronoitu englanninkielisen lähteen kanssa | Kyllä — uudelleenluotu automaattisesti |
+| Synkronoitu englanninkielisen lähteen kanssa | Kyllä - uudelleenluotu automaattisesti |
 
 ### 9.2 Saavutettavuuden parannukset
 

@@ -21,7 +21,7 @@ Siap? Mari kita mulai.
 
 ## Panduan Bergambar
 
-Ingin mendapatkan gambaran besar tentang apa yang akan kita bahas sebelum mendalaminya? Lihat panduan bergambar ini yang menjelaskan perjalanan pembelajaran untuk pelajaran ini—dari mempelajari konsep inti dan motivasi untuk fine-tuning, hingga memahami proses dan praktik terbaik untuk melaksanakan tugas fine-tuning. Ini adalah topik yang menarik untuk dijelajahi, jadi jangan lupa untuk memeriksa halaman [Resources](./RESOURCES.md?WT.mc_id=academic-105485-koreyst) untuk tautan tambahan yang mendukung perjalanan pembelajaran Anda secara mandiri!
+Ingin mendapatkan gambaran besar tentang apa yang akan kita bahas sebelum mendalaminya? Lihat panduan bergambar ini yang menjelaskan perjalanan pembelajaran untuk pelajaran ini-dari mempelajari konsep inti dan motivasi untuk fine-tuning, hingga memahami proses dan praktik terbaik untuk melaksanakan tugas fine-tuning. Ini adalah topik yang menarik untuk dijelajahi, jadi jangan lupa untuk memeriksa halaman [Resources](./RESOURCES.md?WT.mc_id=academic-105485-koreyst) untuk tautan tambahan yang mendukung perjalanan pembelajaran Anda secara mandiri!
 
 ![Panduan Bergambar untuk Fine Tuning Model Bahasa](../../../translated_images/id/18-fine-tuning-sketchnote.11b21f9ec8a70346.webp)
 
@@ -34,7 +34,7 @@ Teknik rekayasa prompt yang populer melibatkan memberikan model lebih banyak pan
 - Batas token model dapat membatasi jumlah contoh yang dapat Anda berikan, dan mengurangi efektivitasnya.
 - Biaya token model dapat membuatnya mahal untuk menambahkan contoh ke setiap prompt, dan membatasi fleksibilitas.
 
-Fine-tuning adalah praktik umum dalam sistem pembelajaran mesin di mana kita mengambil model yang sudah dilatih sebelumnya dan melatih ulang dengan data baru untuk meningkatkan kinerjanya pada tugas spesifik. Dalam konteks model bahasa, kita dapat melakukan fine-tuning pada model yang sudah dilatih _dengan kumpulan contoh yang dikurasi untuk tugas atau domain aplikasi tertentu_ untuk membuat **model khusus** yang mungkin lebih akurat dan relevan untuk tugas atau domain tersebut. Manfaat tambahan dari fine-tuning adalah dapat mengurangi jumlah contoh yang diperlukan untuk few-shot learning—mengurangi penggunaan token dan biaya terkait.
+Fine-tuning adalah praktik umum dalam sistem pembelajaran mesin di mana kita mengambil model yang sudah dilatih sebelumnya dan melatih ulang dengan data baru untuk meningkatkan kinerjanya pada tugas spesifik. Dalam konteks model bahasa, kita dapat melakukan fine-tuning pada model yang sudah dilatih _dengan kumpulan contoh yang dikurasi untuk tugas atau domain aplikasi tertentu_ untuk membuat **model khusus** yang mungkin lebih akurat dan relevan untuk tugas atau domain tersebut. Manfaat tambahan dari fine-tuning adalah dapat mengurangi jumlah contoh yang diperlukan untuk few-shot learning-mengurangi penggunaan token dan biaya terkait.
 
 ## Kapan dan mengapa kita harus melakukan fine-tuning model?
 
@@ -73,7 +73,7 @@ Untuk melakukan fine-tuning model pre-trained, Anda perlu memiliki:
 
 ## Fine-Tuning di Microsoft Foundry
 
-[Microsoft Foundry](https://ai.azure.com?WT.mc_id=academic-105485-koreyst) adalah tempat Anda melakukan fine-tuning, menerapkan, dan mengelola model khusus di Azure saat ini (menggabungkan apa yang dulu dikenal sebagai Azure OpenAI Studio dan Azure AI Studio). Sebelum memulai pekerjaan, ada baiknya memahami pilihan yang diberikan Foundry—dan praktik terbaik yang direkomendasikan platform. Di balik layar, Foundry menggunakan **LoRA (low-rank adaptation)** untuk melakukan fine-tuning model secara efisien, yang membuat pelatihan lebih cepat dan lebih terjangkau dibandingkan melatih ulang setiap bobot.
+[Microsoft Foundry](https://ai.azure.com?WT.mc_id=academic-105485-koreyst) adalah tempat Anda melakukan fine-tuning, menerapkan, dan mengelola model khusus di Azure saat ini (menggabungkan apa yang dulu dikenal sebagai Azure OpenAI Studio dan Azure AI Studio). Sebelum memulai pekerjaan, ada baiknya memahami pilihan yang diberikan Foundry-dan praktik terbaik yang direkomendasikan platform. Di balik layar, Foundry menggunakan **LoRA (low-rank adaptation)** untuk melakukan fine-tuning model secara efisien, yang membuat pelatihan lebih cepat dan lebih terjangkau dibandingkan melatih ulang setiap bobot.
 
 ### Langkah 1: Pilih teknik pelatihan
 

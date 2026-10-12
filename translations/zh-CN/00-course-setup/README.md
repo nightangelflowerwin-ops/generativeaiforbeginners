@@ -42,7 +42,7 @@
 | 容器构建卡住超过 10 分钟               | **Codespaces ➜ “重新构建容器”**                                  |
 | 终端显示 `python: command not found` | 终端未连接；点击 **+** ➜ *bash*                                 |
 | OpenAI 返回 `401 Unauthorized`         | `OPENAI_API_KEY` 错误或过期                                     |
-| VS Code 显示 “Dev container mounting…” | 刷新浏览器标签页——Codespaces 有时会断开连接                    |
+| VS Code 显示 “Dev container mounting…” | 刷新浏览器标签页--Codespaces 有时会断开连接                    |
 | Notebook 内核丢失                      | Notebook 菜单 ➜ **Kernel ▸ 选择内核 ▸ Python 3**                  |
 
    Unix 系统：

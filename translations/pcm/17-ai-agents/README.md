@@ -112,7 +112,7 @@ You fit find list of [AutoGen code samples](https://microsoft.github.io/autogen/
 
 ## Microsoft Agent Framework
 
-[Microsoft Agent Framework](https://learn.microsoft.com/agent-framework/?WT.mc_id=academic-105485-koreyst) na Microsoft's open-source SDK to build AI Agents and multi-agent systems for both **Python** and **.NET**. E join two Microsoft projects together — enterprise features of **Semantic Kernel** and multi-agent orchestration of **AutoGen** — into one framework wey dem dey support well. If you dey start new agent project now, na this one dem recommend pass AutoGen.
+[Microsoft Agent Framework](https://learn.microsoft.com/agent-framework/?WT.mc_id=academic-105485-koreyst) na Microsoft's open-source SDK to build AI Agents and multi-agent systems for both **Python** and **.NET**. E join two Microsoft projects together - enterprise features of **Semantic Kernel** and multi-agent orchestration of **AutoGen** - into one framework wey dem dey support well. If you dey start new agent project now, na this one dem recommend pass AutoGen.
 
 The framework fit handle from one **chat agent** reach **complex multi-agent workflows**, e dey connect directly with Microsoft Foundry, Azure OpenAI, and OpenAI. E get built-in observability with OpenTelemetry so you fit trace exactly wetin your agents dey do.
 

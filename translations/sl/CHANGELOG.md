@@ -32,7 +32,7 @@ Oblika temelji na [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Ker 
   napačne pozitivne (samodejno ustvarjene povezave za prevode, skriti rezervirani elementi in
   tretjišolske `/en/` strukturne URL-je).
 
-## [2026-07-15] — Prepis lekcije 09 (Uporaba slik) za GPT slikovne modele
+## [2026-07-15] - Prepis lekcije 09 (Uporaba slik) za GPT slikovne modele
 
 ### Spremenjeno
 
@@ -62,7 +62,7 @@ Oblika temelji na [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Ker 
 - Zagnan `aoai-app.py` kompletno na nameščenem modelu `gpt-image-1.5` in potrjeno, da proces dekodiranja/shranjevanja base64
   ustvari PNG sliko. Noteboki potrjeni kot veljavni JSON.
 
-## [2026-07-14] — Posodobitev privzetega modela + navodila za model razmišljanja
+## [2026-07-14] - Posodobitev privzetega modela + navodila za model razmišljanja
 
 ### Spremenjeno
 
@@ -106,7 +106,7 @@ Oblika temelji na [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Ker 
 - Vzorce lekcij 20 (Mistral) in 21 (Meta) ohranjata `temperature`/`max_tokens`, ker ciljata
   modele Mistral/Llama, ki podpirajo te parametre.
 
-## [2026-07-06] — Osvežitev posodobitve vsebine
+## [2026-07-06] - Osvežitev posodobitve vsebine
 
 Obsežna osvežitev za ohranitev točnosti učnega načrta za leto 2026: sodobni API-ji, trenutna imena izdelkov in
 imen modelov, posodobljena navodila za ponudnike in nova orodja za razvijalce.
@@ -119,11 +119,11 @@ imen modelov, posodobljena navodila za ponudnike in nova orodja za razvijalce.
 - **Foundry Local** dokumentiran kot ponudnik brez povezave / na napravah (ob Ollami) v
   `00-course-setup/03-providers.md` in lekciji `19-slm`.
 - **Delovni tokovi za neprekinjeno integracijo**:
-  - `.github/workflows/code-quality.yml` — Ruff + Black (prisilno na vzdrževanem modulu `shared/`,
+  - `.github/workflows/code-quality.yml` - Ruff + Black (prisilno na vzdrževanem modulu `shared/`,
     opozorilo za preostali učni načrt), preverjanje ESLint in opravilo pytest.
-  - `.github/workflows/security.yml` — analiza CodeQL (Python + JavaScript/TypeScript) in
+  - `.github/workflows/security.yml` - analiza CodeQL (Python + JavaScript/TypeScript) in
     pregled odvisnosti pri pull requestih.
-- **Testni niz** pod `tests/` — 41 pytest testov, ki pokrivajo skupni uporabniški modul.
+- **Testni niz** pod `tests/` - 41 pytest testov, ki pokrivajo skupni uporabniški modul.
 - **Sposobnost migracije Azure OpenAI → Responses API** pod
   `.github/skills/azure-openai-to-responses/`, ki vodi pri migraciji API-ja.
 
@@ -158,13 +158,13 @@ imen modelov, posodobljena navodila za ponudnike in nova orodja za razvijalce.
 
 ### Popravljeno
 
-- **`shared/python/input_validation.py`** — `validate_text_input(allow_empty=True)` zdaj vrne
+- **`shared/python/input_validation.py`** - `validate_text_input(allow_empty=True)` zdaj vrne
   prazen niz za vnos, ki vsebuje samo presledke, namesto da sproži napako "prekratko" (skladno s primerom `None`).
   Najdeno in zajeto z novo zbirko testov.
-- **Primeri slik pri Lekciji 09** — popravljene resnične napake: `InvalidRequestError` → `BadRequestError`,
+- **Primeri slik pri Lekciji 09** - popravljene resnične napake: `InvalidRequestError` → `BadRequestError`,
   `images.create` → `images.generate`, `Image.create_variation` → `client.images.create_variation`,
   in spremenljivka, ki je prekrila modul `openai`.
-- **Lekcija 15 RAG zvezek** — popravljen nastavitev odjemalca, zamenjan odstranjeni `DataFrame.append`
+- **Lekcija 15 RAG zvezek** - popravljen nastavitev odjemalca, zamenjan odstranjeni `DataFrame.append`
   z `pd.concat` in posodobljena uporaba starega SDK.
 - Zastarele / upokojene oznake modelov (`gpt-3.5-turbo`, `gpt-35-turbo`) zamenjane z `gpt-4o-mini`
   v aktivnih primerih; zgodovinski izhodi finotuningov v lekciji 18 so ostali ohranjeni in označeni,
@@ -173,8 +173,8 @@ imen modelov, posodobljena navodila za ponudnike in nova orodja za razvijalce.
 ### Zastarelo / Opombe
 
 - **Vzorec Microsoft Foundry modelov**, ki uporablja `azure-ai-inference` / `@azure-rest/ai-inference`
-  SDK (`client.complete()`) — vzorci `githubmodels-*` in `js-githubmodels` ter lekcije 19, 20,
-  in 21 — ostajajo na Model Inference API, ki **ne** podpira Responses API. Ti so
+  SDK (`client.complete()`) - vzorci `githubmodels-*` in `js-githubmodels` ter lekcije 19, 20,
+  in 21 - ostajajo na Model Inference API, ki **ne** podpira Responses API. Ti so
   namensko pustjeni na tem SDK.
 - `AzureOpenAI()` je namensko ohranjen tam, kjer je še primeren (ugnezditve in generiranje slik),
   saj ti poteki dela niso del migracije na Responses API.

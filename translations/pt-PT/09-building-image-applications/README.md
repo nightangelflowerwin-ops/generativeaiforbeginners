@@ -6,7 +6,7 @@ Há mais nos LLM do que a geração de texto. Também pode gerar imagens a parti
 
 ## Introdução
 
-A geração de imagens permite transformar um prompt em linguagem natural numa imagem. Nesta lição, trabalhamos com a família de modelos **`gpt-image`** da OpenAI — a geração atual de modelos de imagem disponível na **[Microsoft Foundry](https://ai.azure.com?WT.mc_id=academic-105485-koreyst)** e na plataforma OpenAI. Estes modelos substituem os modelos mais antigos DALL·E (DALL·E 2/3 são legado).
+A geração de imagens permite transformar um prompt em linguagem natural numa imagem. Nesta lição, trabalhamos com a família de modelos **`gpt-image`** da OpenAI - a geração atual de modelos de imagem disponível na **[Microsoft Foundry](https://ai.azure.com?WT.mc_id=academic-105485-koreyst)** e na plataforma OpenAI. Estes modelos substituem os modelos mais antigos DALL·E (DALL·E 2/3 são legado).
 
 Ao longo da lição usamos uma startup fictícia, a **Edu4All**, que desenvolve ferramentas de aprendizagem. A equipa quer gerar ilustrações para trabalhos e materiais de estudo.
 

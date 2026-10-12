@@ -208,7 +208,7 @@ ollama run phi3.5
 
 **Foundry Local**
 
-[Foundry Local](https://foundrylocal.ai?WT.mc_id=academic-105485-koreyst) 是微軟的離線本地裝置執行環境，可在你自己的硬體上完全運行像 Phi 這樣的模型——無需 Azure 訂閱、API 金鑰或網路連線。它會自動選擇最佳的執行提供者（NPU、GPU 或 CPU），並提供相容 OpenAI 的端點，使現有的 `openai`/Azure AI Inference SDK 程式碼只需少量修改即可指向該端點。請參閱 [Foundry Local 文件](https://learn.microsoft.com/azure/ai-foundry/foundry-local/get-started?WT.mc_id=academic-105485-koreyst) 開始使用。
+[Foundry Local](https://foundrylocal.ai?WT.mc_id=academic-105485-koreyst) 是微軟的離線本地裝置執行環境，可在你自己的硬體上完全運行像 Phi 這樣的模型--無需 Azure 訂閱、API 金鑰或網路連線。它會自動選擇最佳的執行提供者（NPU、GPU 或 CPU），並提供相容 OpenAI 的端點，使現有的 `openai`/Azure AI Inference SDK 程式碼只需少量修改即可指向該端點。請參閱 [Foundry Local 文件](https://learn.microsoft.com/azure/ai-foundry/foundry-local/get-started?WT.mc_id=academic-105485-koreyst) 開始使用。
 
 ```bash
 

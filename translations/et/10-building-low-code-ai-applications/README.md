@@ -72,25 +72,25 @@ Copilot AI assistendi funktsioon Power Automatess võimaldab teil kirjeldada, mi
 
 ## Tarkade agentide loomine Microsoft Copilot Studio abil
 
-[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst) (endine Power Virtual Agents) on Power Platvormi vähekoodi liige, mis võimaldab ehitada **AI-agente** — vestluskaaslasi, kes suudavad vastata küsimustele, võtta meetmeid ja automatiseerida ülesandeid teie kasutajate nimel. Nagu ülejäänud Power Platvorm, ehitate neid agente visuaalse, loomulikul keelel põhineva kogemuse kaudu: kirjeldage, mida agent tegema peab, ja Copilot Studio aitab juhiste, teadmiste ja toimingute skeemi koostada.
+[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst) (endine Power Virtual Agents) on Power Platvormi vähekoodi liige, mis võimaldab ehitada **AI-agente** - vestluskaaslasi, kes suudavad vastata küsimustele, võtta meetmeid ja automatiseerida ülesandeid teie kasutajate nimel. Nagu ülejäänud Power Platvorm, ehitate neid agente visuaalse, loomulikul keelel põhineva kogemuse kaudu: kirjeldage, mida agent tegema peab, ja Copilot Studio aitab juhiste, teadmiste ja toimingute skeemi koostada.
 
-Meie haridusettevõtte jaoks võiksite ehitada agendi, kes vastab õpilaste küsimustele kursuste kohta, kontrollib ülesannete tähtaegu ja saadab isegi e-kirju juhendajale — kõik ilma koodi kirjutamata.
+Meie haridusettevõtte jaoks võiksite ehitada agendi, kes vastab õpilaste küsimustele kursuste kohta, kontrollib ülesannete tähtaegu ja saadab isegi e-kirju juhendajale - kõik ilma koodi kirjutamata.
 
 Siin on mõned uusimad võimalused, mis teevad Copilot Studio võimsaks:
 
-- **Generatiivsed vastused teie teadmistest**. Selle asemel, et iga vestlust käsitsi kirjutada, saate ühendada **teadmiste allikad** — avalikud veebisaidid, SharePoint, OneDrive, Dataverse, üleslaaditud failid või ettevõtte andmed konnektorite kaudu — ja agent genereerib neist põhjendatud vastused.
+- **Generatiivsed vastused teie teadmistest**. Selle asemel, et iga vestlust käsitsi kirjutada, saate ühendada **teadmiste allikad** - avalikud veebisaidid, SharePoint, OneDrive, Dataverse, üleslaaditud failid või ettevõtte andmed konnektorite kaudu - ja agent genereerib neist põhjendatud vastused.
 
 - **Generatiivne orkestreerimine**. Selle asemel, et tugineda jäikadele käivitusfraasidele, kasutab agent AI-d päringu mõistmiseks ja dünaamiliselt otsustab, milliseid teadmisi, teemasid ja toiminguid kombineerida selle täitmiseks, sealhulgas mitme sammu ahelat.
 
 - **Toimingud ja konnektorid**. Agendid saavad *tegutseda*, mitte ainult vestelda. Võite anda agendile toiminguid, mida toetavad 1500+ eelnevalt ehitatud Power Platvormi konnektorid, Power Automate vood, kohandatud REST API-d, promptid või **Model Context Protocol (MCP)** serverid.
 
-- **Iseseisvad agendid**. Agendid ei ole piiratud vaid vestlusaknas vastamisega. Võite ehitada **iseseisvaid agente**, keda käivitavad sündmused — näiteks uus e-kiri, uus kirje Dataverse'is või faili üleslaadimine — ja kes siis taustal tegutsevad, et ülesande lõpetada.
+- **Iseseisvad agendid**. Agendid ei ole piiratud vaid vestlusaknas vastamisega. Võite ehitada **iseseisvaid agente**, keda käivitavad sündmused - näiteks uus e-kiri, uus kirje Dataverse'is või faili üleslaadimine - ja kes siis taustal tegutsevad, et ülesande lõpetada.
 
 - **Mitme agendi orkestreerimine**. Agendid saavad kutsuda teisi agente. Copilot Studio agent saab üle anda või seda laiendada teiste agentidega, sealhulgas agentidega, mis on avaldatud Microsoft 365 Copilot'is ja Microsoft Foundrys loodud agentidega.
 
 - **Mudeli valik**. Lisaks sisseehitatud mudelitele saate tuua mudeleid Microsoft Foundry mudelikataloogist, et kohandada, kuidas teie agent mõtleb ja vastab.
 
-- **Avalda kõikjal**. Kui agent on loodud, saab selle avaldada mitmel kanalil — Microsoft Teams, Microsoft 365 Copilot, veebisaitil või kohandatud rakenduses ja mujal — koos turvalisuse, autentimise ja analüütika haldamisega läbi Power Platvormi haldustööriistade.
+- **Avalda kõikjal**. Kui agent on loodud, saab selle avaldada mitmel kanalil - Microsoft Teams, Microsoft 365 Copilot, veebisaitil või kohandatud rakenduses ja mujal - koos turvalisuse, autentimise ja analüütika haldamisega läbi Power Platvormi haldustööriistade.
 
 Esimese agendi loomisega saate alustada aadressil [copilotstudio.microsoft.com](https://copilotstudio.microsoft.com?WT.mc_id=academic-105485-koreyst) ja lisateavet leiate [Microsoft Copilot Studio dokumentatsioonist](https://learn.microsoft.com/microsoft-copilot-studio/?WT.mc_id=academic-105485-koreyst).
 
@@ -270,7 +270,7 @@ Selle AI-mudeli kasutamise õppimiseks Power Automates, vaadake läbi [Lisa inte
 
 Pärast selle õppetüki läbimist vaata meie [Generatiivse AI õppimise kollektsiooni](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst), et jätkata oma generatiivse AI teadmiste tõstmist!
 
-Kas soovid kohandada ja saada Copilotist rohkem kasu? Avastage [Awesome Copilot](https://github.com/github/awesome-copilot?WT.mc_id=academic-105485-koreyst) — kogukonna panustatud juhiste, agentide, oskuste ja konfiguratsioonide kogu, mis aitab teil GitHub Copilotist maksimumi võtta.
+Kas soovid kohandada ja saada Copilotist rohkem kasu? Avastage [Awesome Copilot](https://github.com/github/awesome-copilot?WT.mc_id=academic-105485-koreyst) - kogukonna panustatud juhiste, agentide, oskuste ja konfiguratsioonide kogu, mis aitab teil GitHub Copilotist maksimumi võtta.
 
 Liigu õppetüki 11 juurde, kus vaatame, kuidas [integreerida generatiivset AI funktsioonikõnega](../11-integrating-with-function-calling/README.md?WT.mc_id=academic-105485-koreyst)!
 

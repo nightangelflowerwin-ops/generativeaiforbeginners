@@ -5,7 +5,7 @@ Visas reikšmingas pakeitimas Generative AI for Beginners mokymų programoje dok
 Šis formatas yra paremtas [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Kadangi tai yra
 mokymų programa, o ne versijuojama programinė įranga, įrašai grupuojami pagal datą.
 
-## [2026-07-16] — Turinys patvirtinimas + 9 pamokos atvaizdų turtas
+## [2026-07-16] - Turinys patvirtinimas + 9 pamokos atvaizdų turtas
 
 ### Pakeista
 
@@ -24,7 +24,7 @@ mokymų programa, o ne versijuojama programinė įranga, įrašai grupuojami pag
 
 ### Patvirtinta
 
-- Patikrinti README failai 1, 3, 5, 12, 14 ir 16 pamokoms — visi dabartiniai (teisingi Microsoft Foundry
+- Patikrinti README failai 1, 3, 5, 12, 14 ir 16 pamokoms - visi dabartiniai (teisingi Microsoft Foundry
   pavadinimai ir nuorodos); jokių pakeitimų nereikia.
 - Atliktas pilnas markdown validavimas visiems 41 įrašytiems markdown failams (be vertimų) dėl
   pasenusių dokumentų kelių, `/en-us/` Microsoft lokalizacijų, pasenusį produktų/modelių pavadinimų,
@@ -32,7 +32,7 @@ mokymų programa, o ne versijuojama programinė įranga, įrašai grupuojami pag
   sekimo ID buvo reikšmingas; visi kiti žymėjimai patvirtinti klaidingais teigiamais (automatiškai generuotos
   vertimų nuorodos, komentarais uždaryti rezerviniai elementai ir trečių šalių `/en/` struktūriniai URL).
 
-## [2026-07-15] — 9 pamokos (Atvaizdų programos) pertvarkymas GPT Atvaizdų modeliams
+## [2026-07-15] - 9 pamokos (Atvaizdų programos) pertvarkymas GPT Atvaizdų modeliams
 
 ### Pakeista
 
@@ -62,7 +62,7 @@ mokymų programa, o ne versijuojama programinė įranga, įrašai grupuojami pag
 - Vykdytas `aoai-app.py` pilnas testavimas su įdiegtu `gpt-image-1.5` modeliu, patvirtinant base64
   dekodavimo / saugojimo srautą, kuris sukuria PNG formatą. Užrašinės patvirtintos kaip teisingas JSON.
 
-## [2026-07-14] — Numatyto modelio atnaujinimas + loginio modelio gairės
+## [2026-07-14] - Numatyto modelio atnaujinimas + loginio modelio gairės
 
 ### Pakeista
 
@@ -107,7 +107,7 @@ mokymų programa, o ne versijuojama programinė įranga, įrašai grupuojami pag
 - Pamokos 20 (Mistral) ir 21 (Meta) pavyzdžiai palaiko `temperature`/`max_tokens`, nes jie orientuoti į
   Mistral/Llama modelius, kurie palaiko šiuos parametrus.
 
-## [2026-07-06] — Turinys atnaujintas pagal naujausias tendencijas
+## [2026-07-06] - Turinys atnaujintas pagal naujausias tendencijas
 
 Platus atnaujinimas, siekiant išlaikyti mokymo programą tikslią 2026 metams: modernizuoti API, dabartinės produkto pavadinimai ir
 modelių pavadinimai, atnaujintos paslaugų teikėjo gairės ir naujos kūrėjo patirties įrankių priemonės.
@@ -121,11 +121,11 @@ modelių pavadinimai, atnaujintos paslaugų teikėjo gairės ir naujos kūrėjo 
 - **Foundry Local** dokumentuota kaip neprisijungęs / įrenginyje esantis tiekėjas (kartu su Ollama) faile
   `00-course-setup/03-providers.md` ir pamokoje `19-slm`.
 - **Nuolatinės integracijos darbo eigos**:
-  - `.github/workflows/code-quality.yml` — Ruff + Black (taikoma prižiūrimam `shared/`
+  - `.github/workflows/code-quality.yml` - Ruff + Black (taikoma prižiūrimam `shared/`
     moduliui, rekomendacinis kitiems kurso dalių moduliams), rekomendacinis ESLint praeinamumas ir pytest užduotis.
-  - `.github/workflows/security.yml` — CodeQL analizė (Python + JavaScript/TypeScript) ir
+  - `.github/workflows/security.yml` - CodeQL analizė (Python + JavaScript/TypeScript) ir
     priklausomybių peržiūra pull užklausose.
-- **Testų rinkinys** kataloge `tests/` — 41 pytest testas, apimantis bendrą utilitinių modulių naudojimą.
+- **Testų rinkinys** kataloge `tests/` - 41 pytest testas, apimantis bendrą utilitinių modulių naudojimą.
 - **Azure OpenAI → Responses API migracijos įgūdis** kataloge
   `.github/skills/azure-openai-to-responses/`, naudojamas vadovauti API migracijai.
 
@@ -161,13 +161,13 @@ modelių pavadinimai, atnaujintos paslaugų teikėjo gairės ir naujos kūrėjo 
 
 ### Ištaisyta
 
-- **`shared/python/input_validation.py`** — `validate_text_input(allow_empty=True)` dabar grąžina
+- **`shared/python/input_validation.py`** - `validate_text_input(allow_empty=True)` dabar grąžina
   tuščią eilutę, jei įvestis susideda tik iš tarpelio, užuot išmetęs klaidą „per trumpa“ (atitinka
   `None` atvejį). Surasta ir padengta naujų testų rinkiniu.
-- **9 pamokos paveikslėlių pavyzdžiai** — ištaisyti tikri klaidų atvejai: `InvalidRequestError` → `BadRequestError`,
+- **9 pamokos paveikslėlių pavyzdžiai** - ištaisyti tikri klaidų atvejai: `InvalidRequestError` → `BadRequestError`,
   `images.create` → `images.generate`, `Image.create_variation` → `client.images.create_variation`,
   ir kintamasis, kuris užgožė `openai` modulį.
-- **15 pamokos RAG sąsiuvinis** — sutvarkytas kliento nustatymas, pašalintas pašalintas `DataFrame.append`
+- **15 pamokos RAG sąsiuvinis** - sutvarkytas kliento nustatymas, pašalintas pašalintas `DataFrame.append`
   pakeistas `pd.concat`, atnaujinta senstelėjusi SDK naudojimo dalis.
 - Nebenaudojamų / pasenusių modelių pavadinimai (`gpt-3.5-turbo`, `gpt-35-turbo`) pakeisti į `gpt-4o-mini`
   aktyviuose pavyzdžiuose; istoriniai fine-tuning rezultatai 18 pamokoje išlaikyti ir pažymėti,
@@ -176,8 +176,8 @@ modelių pavadinimai, atnaujintos paslaugų teikėjo gairės ir naujos kūrėjo 
 ### Pasenę / Pastabos
 
 - **Microsoft Foundry modelių pavyzdžiai**, naudojantys `azure-ai-inference` / `@azure-rest/ai-inference`
-  SDK (`client.complete()`) — `githubmodels-*` ir `js-githubmodels` pavyzdžiai bei 19, 20,
-  ir 21 pamokos — išlieka su Model Inference API, kuris **nepalaiko** Responses API. Šie
+  SDK (`client.complete()`) - `githubmodels-*` ir `js-githubmodels` pavyzdžiai bei 19, 20,
+  ir 21 pamokos - išlieka su Model Inference API, kuris **nepalaiko** Responses API. Šie
   tyčia palikti ant to SDK.
 - `AzureOpenAI()` tyčia išlaikytas ten, kur dar tinkamas (embeddingai ir paveikslėlių generavimas),
   nes šie procesai nėra dalis Responses API migracijos.

@@ -21,7 +21,7 @@ Valmis? Alustame.
 
 ## Illustreeritud juhend
 
-Kas soovid enne süvenemist saada ülevaadet sellest, mida me käsitleme? Vaata seda illustreeritud juhendit, mis kirjeldab õppe teekonda — alates peenhäälestamise põhikontseptsioonide ja motivatsiooni õppimisest kuni protsessi ja parimate tavade mõistmiseni selle ülesande täitmisel. See on põnev teema avastamiseks, nii et ära unusta lisalinkide ja iseseisva õppimise toe saamiseks vaadata [ressursside](./RESOURCES.md?WT.mc_id=academic-105485-koreyst) lehte!
+Kas soovid enne süvenemist saada ülevaadet sellest, mida me käsitleme? Vaata seda illustreeritud juhendit, mis kirjeldab õppe teekonda - alates peenhäälestamise põhikontseptsioonide ja motivatsiooni õppimisest kuni protsessi ja parimate tavade mõistmiseni selle ülesande täitmisel. See on põnev teema avastamiseks, nii et ära unusta lisalinkide ja iseseisva õppimise toe saamiseks vaadata [ressursside](./RESOURCES.md?WT.mc_id=academic-105485-koreyst) lehte!
 
 ![Illustreeritud juhend keelemudelite peenhäälestamiseks](../../../translated_images/et/18-fine-tuning-sketchnote.11b21f9ec8a70346.webp)
 
@@ -34,7 +34,7 @@ Populaarne promptide inseneritöö tehnika hõlmab mudeli juhendamist, mida vast
 - Mudeli sümbolite limiidid võivad piirata seda, kui palju näiteid saad anda, ning piirata efektiivsust.
 - Mudeli sümboli maksumus võib teha näidete lisamise iga prompti juurde kulukaks ja piirata paindlikkust.
 
-Peenhäälestamine on masinõppes levinud tava, kus me võtame eelnevalt treenitud mudeli ja täiendõpime seda uute andmetega, et parandada selle jõudlust kindlal ülesandel. Keelemudelite kontekstis võime peenhäälestada eelnevalt treenitud mudelit _valitud näidiste komplektiga antud ülesande või rakenduse valdkonna jaoks_, et luua **kohandatud mudel**, mis võib olla täpsem ja asjakohasem antud ülesande või valdkonna jaoks. Peenhäälestamise lisaboonusena võib see vähendada ka mõnenäitelise õppimise jaoks vajalike näidiste hulka — vähendades sümbolite kasutust ja sellega seotud kulusid.
+Peenhäälestamine on masinõppes levinud tava, kus me võtame eelnevalt treenitud mudeli ja täiendõpime seda uute andmetega, et parandada selle jõudlust kindlal ülesandel. Keelemudelite kontekstis võime peenhäälestada eelnevalt treenitud mudelit _valitud näidiste komplektiga antud ülesande või rakenduse valdkonna jaoks_, et luua **kohandatud mudel**, mis võib olla täpsem ja asjakohasem antud ülesande või valdkonna jaoks. Peenhäälestamise lisaboonusena võib see vähendada ka mõnenäitelise õppimise jaoks vajalike näidiste hulka - vähendades sümbolite kasutust ja sellega seotud kulusid.
 
 ## Millal ja miks peaksime mudeleid peenhäälestama?
 
@@ -49,14 +49,14 @@ Nii et enne kui õpid, "kuidas" keelemudeleid peenhäälestada, pead teadma "mik
   - Promptide inseneritöö: proovi tehnikaid nagu mõnenäitelised promptid näidetega asjakohastest vastustest. Hinda vastuste kvaliteeti.
   - Tagasiside abil täiendamine: proovi promptide täiendamist päringutulemustega, mis on sinu andmetest otsitud. Hinda vastuste kvaliteeti.
 - **Kulud**: Kas oled kindlaks määranud peenhäälestamise kulud?
-  - Häälestatavus — kas eelnevalt treenitud mudel on peenhäälestamiseks saadaval?
-  - Pingutus — koolitusandmete ettevalmistamine, mudeli hindamine ja täiustamine.
-  - Arvutusjõud — peenhäälestustööde jooksutamine ja peenhäälestatud mudeli juurutamine.
-  - Andmed — juurdepääs piisava kvaliteediga näidistele peenhäälestamise mõjuks.
+  - Häälestatavus - kas eelnevalt treenitud mudel on peenhäälestamiseks saadaval?
+  - Pingutus - koolitusandmete ettevalmistamine, mudeli hindamine ja täiustamine.
+  - Arvutusjõud - peenhäälestustööde jooksutamine ja peenhäälestatud mudeli juurutamine.
+  - Andmed - juurdepääs piisava kvaliteediga näidistele peenhäälestamise mõjuks.
 - **Tulemused**: Kas oled kinnitanud peenhäälestamise eelised?
-  - Kvaliteet — kas peenhäälestatud mudel ületas baasmudeli?
-  - Kulu — kas see vähendab sümbolite kasutust, lihtsustades promte?
-  - Laiendatavus — kas baasmudelit saab uutes valdkondades ümber kasutada?
+  - Kvaliteet - kas peenhäälestatud mudel ületas baasmudeli?
+  - Kulu - kas see vähendab sümbolite kasutust, lihtsustades promte?
+  - Laiendatavus - kas baasmudelit saab uutes valdkondades ümber kasutada?
 
 Nendele küsimustele vastates peaksid suutma otsustada, kas peenhäälestamine on sinu kasutusjuhtumi jaoks õige lähenemine. Tähtis on, et see oleks mõistlik vaid juhul, kui eelised kaaluvad üles kulud. Kui otsustad jätkata, on aeg mõelda, _kuidas_ saad eelnevalt treenitud mudelit peenhäälestada.
 
@@ -77,7 +77,7 @@ Eelnevalt treenitud mudeli peenhäälestamiseks vajad:
 
 ### 1. samm: vali koolitustehnika
 
-Foundry toetab kolme peenhäälestustehnikat. **Alusta SFT-st** — see hõlmab kõige laiemat olukordade spektrit.
+Foundry toetab kolme peenhäälestustehnikat. **Alusta SFT-st** - see hõlmab kõige laiemat olukordade spektrit.
 
 | Tehnika | Mida see teeb | Millal kasutada |
 | --- | --- | --- |
@@ -89,9 +89,9 @@ Foundry toetab kolme peenhäälestustehnikat. **Alusta SFT-st** — see hõlmab 
 
 Foundry võimaldab valida, kuidas ja kus koolitus toimub:
 
-- **Standard** — koolitab sinu ressursi regiooni piires ning tagab andmete asukohatõusu. Kasuta, kui andmed peavad jääma kindlasse regiooni.
-- **Globaalne** — odavam ja kiirem järjekorda panna, kasutades ressursse väljaspool sinu regiooni (andmed ja kaalud kopeeritakse koolitusregiooni). Hea vaikimisi valik, kui andmete asukoht pole piiratud.
-- **Arendaja** — madalaim hind, kasutades seisvaid ressursside mahtu ilma latentsuse/SLA garantiita (töid võidakse peatada ja jätkata). Ideaalne eksperimenteerimiseks.
+- **Standard** - koolitab sinu ressursi regiooni piires ning tagab andmete asukohatõusu. Kasuta, kui andmed peavad jääma kindlasse regiooni.
+- **Globaalne** - odavam ja kiirem järjekorda panna, kasutades ressursse väljaspool sinu regiooni (andmed ja kaalud kopeeritakse koolitusregiooni). Hea vaikimisi valik, kui andmete asukoht pole piiratud.
+- **Arendaja** - madalaim hind, kasutades seisvaid ressursside mahtu ilma latentsuse/SLA garantiita (töid võidakse peatada ja jätkata). Ideaalne eksperimenteerimiseks.
 
 ### 3. samm: vali baas mudel
 
@@ -102,13 +102,13 @@ Peenhäälestatavad mudelid hõlmavad OpenAI `gpt-4o-mini`, `gpt-4o`, `gpt-4.1`,
 ### Foundry parimad tavad
 
 - **Alusta baasmudelist.** Mõõda baasmudelit promptide inseneritöö ja RAG abil _enne_ peenhäälestamist, et tõestada parandust.
-- **Alusta väikesest ja suurenda.** Alusta 50–100 kvaliteetse näitega lähenemise valideerimiseks, kasvata seejärel tootmises 500+ näiteni. Kvaliteet loeb rohkem kui kvantiteet — lõika madala kvaliteediga näited välja.
+- **Alusta väikesest ja suurenda.** Alusta 50–100 kvaliteetse näitega lähenemise valideerimiseks, kasvata seejärel tootmises 500+ näiteni. Kvaliteet loeb rohkem kui kvantiteet - lõika madala kvaliteediga näited välja.
 - **Formateeri andmed õigesti.** Koolitus- ja valideerimisfailid peavad olema JSONL-vormingus, UTF-8 **BOM-iga**, kuni 512 MB, kasutades jutuvastusformaati. Sisalda alati valideerimisfail, et jälgida ületreenimist.
 - **Hoia koolitussüsteemi prompti inferentsi ajal.** Kasuta sama süsteemisõnumit mudeli kutsumisel, mida kasutati koolitamisel.
-- **Hinda kontrollpunkte — ära paigalda pimesi viimast.** Foundry hoiab viimased kolm epohhi paigaldusvalmis kontrollpunktidena; vali see, mis üldistab kõige paremini, jälgides `train_loss` / `valid_loss` ja sümbolite täpsust.
+- **Hinda kontrollpunkte - ära paigalda pimesi viimast.** Foundry hoiab viimased kolm epohhi paigaldusvalmis kontrollpunktidena; vali see, mis üldistab kõige paremini, jälgides `train_loss` / `valid_loss` ja sümbolite täpsust.
 - **Mõõda tokeni kulu koos kvaliteediga** peenhäälestatud mudelit võrreldes baasmudeliga.
 - **Itereeri pideva peenhäälestamisega.** Võid peenhäälestada juba peenhäälestatud mudelit uute andmetega (toetatud OpenAI mudelite puhul).
-- **Jälgi majutuskulusid.** Juurutatud kohandatud mudel arveldab tundide kaupa ning kasutamata juurutus eemaldatakse 15 päeva möödumisel — puhasta, mida ei vaja.
+- **Jälgi majutuskulusid.** Juurutatud kohandatud mudel arveldab tundide kaupa ning kasutamata juurutus eemaldatakse 15 päeva möödumisel - puhasta, mida ei vaja.
 
 Läbi kogu protsessi samm-sammult juhendi [Mudeli kohandamine peenhäälestamisega](https://learn.microsoft.com/azure/ai-foundry/openai/how-to/fine-tuning?WT.mc_id=academic-105485-koreyst), ning vaata juhendeid [DPO](https://learn.microsoft.com/azure/ai-foundry/openai/how-to/fine-tuning-direct-preference-optimization?WT.mc_id=academic-105485-koreyst) ja [RFT](https://learn.microsoft.com/azure/ai-foundry/openai/how-to/reinforcement-fine-tuning?WT.mc_id=academic-105485-koreyst) puhul, kui oled valmis teiste tehnikate jaoks.
 

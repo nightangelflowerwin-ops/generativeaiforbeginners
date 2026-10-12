@@ -21,7 +21,7 @@ Pronto? Vamos começar.
 
 ## Guia Ilustrado
 
-Quer ter uma visão geral do que vamos cobrir antes de começar? Veja este guia ilustrado que descreve a jornada de aprendizado para esta lição — desde aprender os conceitos básicos e a motivação para o fine-tuning até entender o processo e as melhores práticas para executar esta tarefa. Este é um tema fascinante para exploração, então não esqueça de visitar a página de [Recursos](./RESOURCES.md?WT.mc_id=academic-105485-koreyst) para links adicionais que apoiam sua jornada de aprendizado autodidata!
+Quer ter uma visão geral do que vamos cobrir antes de começar? Veja este guia ilustrado que descreve a jornada de aprendizado para esta lição - desde aprender os conceitos básicos e a motivação para o fine-tuning até entender o processo e as melhores práticas para executar esta tarefa. Este é um tema fascinante para exploração, então não esqueça de visitar a página de [Recursos](./RESOURCES.md?WT.mc_id=academic-105485-koreyst) para links adicionais que apoiam sua jornada de aprendizado autodidata!
 
 ![Guia Ilustrado para Fine Tuning de Modelos de Linguagem](../../../translated_images/pt-BR/18-fine-tuning-sketchnote.11b21f9ec8a70346.webp)
 

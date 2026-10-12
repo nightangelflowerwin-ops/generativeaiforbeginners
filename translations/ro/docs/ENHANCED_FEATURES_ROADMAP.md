@@ -300,9 +300,9 @@ Toate traducerile sunt **complete** și generate automat de [Azure Co-op Transla
 
 | Aspect | Stare |
 |--------|--------|
-| Acoperire traduceri | Completă — peste 50 de limbi, toate lecțiile |
+| Acoperire traduceri | Completă - peste 50 de limbi, toate lecțiile |
 | Metoda traducerii | Automatizată prin [Azure Co-op Translator](https://github.com/Azure/co-op-translator?WT.mc_id=academic-105485-koreyst) |
-| Menținut sincronizat cu sursa în engleză | Da — regenerat automat |
+| Menținut sincronizat cu sursa în engleză | Da - regenerat automat |
 
 ### 9.2 Îmbunătățiri pentru accesibilitate
 

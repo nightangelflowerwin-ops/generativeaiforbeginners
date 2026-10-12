@@ -33,7 +33,7 @@ source .venv/bin/activate     # macOS / Linux
 .\.venv\Scripts\activate      # Windows PowerShell
 ```
 
-✅ El prompt debería iniciar ahora con (.venv)—eso significa que estás dentro del entorno.
+✅ El prompt debería iniciar ahora con (.venv)-eso significa que estás dentro del entorno.
 
 ### Paso 3 Instala dependencias
 
@@ -196,7 +196,7 @@ Aquí hay una guía paso a paso para crear un archivo `.env` para Python y agreg
 
 ¡Eso es todo! Has creado correctamente un archivo `.env`, agregado tus credenciales de Microsoft Foundry Models y cargado esas variables en tu aplicación Python.
 
-🔐 Nunca comites .env—ya está en .gitignore.
+🔐 Nunca comites .env-ya está en .gitignore.
 Las instrucciones completas del proveedor están en [`providers.md`](03-providers.md).
 
 ## 4. ¿Qué sigue?

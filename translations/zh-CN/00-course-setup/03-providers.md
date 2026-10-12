@@ -92,7 +92,7 @@ Azure OpenAI 的端点和密钥值可以在 [Azure 门户](https://portal.azure.
 
 1. 访问 [Azure 门户](https://portal.azure.com?WT.mc_id=academic-105485-koreyst)
 1. 点击侧边栏（左侧菜单）中的 <strong>密钥和端点</strong> 选项。
-1. 点击 <strong>显示密钥</strong> — 您应能看到以下内容：密钥 1、密钥 2 和端点。
+1. 点击 <strong>显示密钥</strong> - 您应能看到以下内容：密钥 1、密钥 2 和端点。
 1. 使用密钥 1 的内容作为 AZURE_OPENAI_API_KEY
 1. 使用端点内容作为 AZURE_OPENAI_ENDPOINT
 
@@ -108,8 +108,8 @@ Azure OpenAI 的端点和密钥值可以在 [Azure 门户](https://portal.azure.
 1. 按上述说明从您的资源进入 [Microsoft Foundry 门户](https://ai.azure.com?WT.mc_id=academic-105485-koreyst)。
 1. 点击 <strong>部署</strong> 选项卡（侧栏，左侧）查看当前已部署模型。
 1. 如果还未部署所需模型，可通过 <strong>部署模型</strong> 从 [模型目录](https://ai.azure.com/catalog/models?WT.mc_id=academic-105485-koreyst) 中部署它。
-1. 您需要一个 _文本生成_ 模型 — 推荐：**gpt-5-mini**
-1. 您需要一个 _文本嵌入_ 模型 — 推荐：**text-embedding-3-small**
+1. 您需要一个 _文本生成_ 模型 - 推荐：**gpt-5-mini**
+1. 您需要一个 _文本嵌入_ 模型 - 推荐：**text-embedding-3-small**
 
 现在更新环境变量以反映所用的 _部署名称_。通常该名称与模型名称相同，除非您显式修改过。举例如下：
 

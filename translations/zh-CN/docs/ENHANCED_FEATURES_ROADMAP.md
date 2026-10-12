@@ -300,9 +300,9 @@ jobs:
 
 | 方面 | 状态 |
 |--------|--------|
-| 翻译覆盖 | 完整 — 50+ 语言，涵盖全部课程 |
+| 翻译覆盖 | 完整 - 50+ 语言，涵盖全部课程 |
 | 翻译方式 | 由 [Azure Co-op Translator](https://github.com/Azure/co-op-translator?WT.mc_id=academic-105485-koreyst) 自动完成 |
-| 与英文原版同步 | 是 — 自动再生成 |
+| 与英文原版同步 | 是 - 自动再生成 |
 
 ### 9.2 无障碍改进
 

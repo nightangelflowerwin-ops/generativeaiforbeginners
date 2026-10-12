@@ -112,7 +112,7 @@ Megtalálható egy lista [AutoGen kódmintákról](https://microsoft.github.io/a
 
 ## Microsoft Agent Framework
 
-A [Microsoft Agent Framework](https://learn.microsoft.com/agent-framework/?WT.mc_id=academic-105485-koreyst) a Microsoft nyílt forráskódú SDK-ja AI ügynökök és többügynökös rendszerek építésére **Python**-ban és **.NET**-ben. Egyesíti a korábbi Microsoft projektek erősségeit — az **Semantic Kernel** vállalati funkcióit és az **AutoGen** többügynökös összehangolását — egyetlen, támogatott keretrendszerbe. Ha ma kezdesz új ügynök projektbe, ez az ajánlott utódja az AutoGennek.
+A [Microsoft Agent Framework](https://learn.microsoft.com/agent-framework/?WT.mc_id=academic-105485-koreyst) a Microsoft nyílt forráskódú SDK-ja AI ügynökök és többügynökös rendszerek építésére **Python**-ban és **.NET**-ben. Egyesíti a korábbi Microsoft projektek erősségeit - az **Semantic Kernel** vállalati funkcióit és az **AutoGen** többügynökös összehangolását - egyetlen, támogatott keretrendszerbe. Ha ma kezdesz új ügynök projektbe, ez az ajánlott utódja az AutoGennek.
 
 A keretrendszer skálázható az egyetlen **csevegőügynöktől** a bonyolult **többügynökös munkafolyamatokig**, és közvetlenül integrálható a Microsoft Foundry-val, Azure OpenAI-val és OpenAI-val. Beépített megfigyelhetőséget is nyújt OpenTelemetry-n keresztül, így pontosan nyomon követheted, mit csinálnak az ügynökeid.
 

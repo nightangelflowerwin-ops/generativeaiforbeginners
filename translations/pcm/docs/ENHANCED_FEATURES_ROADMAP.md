@@ -300,9 +300,9 @@ All translations don finish and dem dey automatically done by [Azure Co-op Trans
 
 | Aspect | Status |
 |--------|--------|
-| Translation coverage | Complete — 50+ languages, all lessons |
+| Translation coverage | Complete - 50+ languages, all lessons |
 | Translation method | Automated via [Azure Co-op Translator](https://github.com/Azure/co-op-translator?WT.mc_id=academic-105485-koreyst) |
-| Kept in sync with English source | Yes — e dey regenerate automatically |
+| Kept in sync with English source | Yes - e dey regenerate automatically |
 
 ### 9.2 Accessibility Improvements
 

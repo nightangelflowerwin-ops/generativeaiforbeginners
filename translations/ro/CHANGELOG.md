@@ -5,7 +5,7 @@ Toate schimbările notabile din curriculumul Generative AI for Beginners sunt do
 Formatul se bazează pe [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Deoarece acesta este un
 curriculum de învățare și nu un pachet software versionat, înregistrările sunt grupate după dată.
 
-## [2026-07-16] — Validarea conținutului + resurse imagini lecția 09
+## [2026-07-16] - Validarea conținutului + resurse imagini lecția 09
 
 ### Modificat
 
@@ -24,7 +24,7 @@ curriculum de învățare și nu un pachet software versionat, înregistrările 
 
 ### Validat
 
-- Auditat fișierele README pentru lecțiile 01, 03, 05, 12, 14 și 16 — toate actualizate (nomenclatură corectă și linkuri Microsoft Foundry);
+- Auditat fișierele README pentru lecțiile 01, 03, 05, 12, 14 și 16 - toate actualizate (nomenclatură corectă și linkuri Microsoft Foundry);
   nu sunt necesare modificări.
 - Rulat o validare completă markdown pentru toate cele 41 de fișiere markdown din depozit (excluzând traducerile) pentru
   căi documentație învechite, locale Microsoft `/en-us/`, denumiri de produse/modele depășite, ID-uri de urmărire lipsă,
@@ -32,7 +32,7 @@ curriculum de învățare și nu un pachet software versionat, înregistrările 
   toate celelalte semnale au fost confirmate ca fals pozitive (linkuri automate de traducere,
   placeholder-e comentate, și URL-uri structurale terțe `/en/`).
 
-## [2026-07-15] — Rescriere lecția 09 (Aplicații imagini) pentru modelele GPT Image
+## [2026-07-15] - Rescriere lecția 09 (Aplicații imagini) pentru modelele GPT Image
 
 ### Modificat
 
@@ -63,7 +63,7 @@ curriculum de învățare și nu un pachet software versionat, înregistrările 
 - A fost rulat `aoai-app.py` complet pe un model `gpt-image-1.5` implementat și confirmat că fluxul de
   decodare/salvare base64 produce un PNG. Caietele au fost confirmate ca JSON valid.
 
-## [2026-07-14] — Actualizare Model Implicit + Ghidare prin Model de Raționament
+## [2026-07-14] - Actualizare Model Implicit + Ghidare prin Model de Raționament
 
 ### Modificat
 
@@ -109,7 +109,7 @@ curriculum de învățare și nu un pachet software versionat, înregistrările 
 - Exemplele lecțiilor 20 (Mistral) și 21 (Meta) păstrează `temperature`/`max_tokens` deoarece vizează
   modelele Mistral/Llama, care suportă acești parametri.
 
-## [2026-07-06] — Reîmprospătare a conținutului
+## [2026-07-06] - Reîmprospătare a conținutului
 
 O reîmprospătare extinsă pentru menținerea acurateței curriculumului în 2026: API-uri moderne, nume actuale de produse și
 nume de modele, ghiduri actualizate pentru furnizori și noi unelte pentru experiența dezvoltatorului.
@@ -122,11 +122,11 @@ nume de modele, ghiduri actualizate pentru furnizori și noi unelte pentru exper
 - **Foundry Local** documentat ca furnizor offline / pe dispozitiv (alături de Ollama) în
   `00-course-setup/03-providers.md` și lecția `19-slm`.
 - **Fluxuri de integrare continuă**:
-  - `.github/workflows/code-quality.yml` — Ruff + Black (impuse modulului `shared/` menținut,
+  - `.github/workflows/code-quality.yml` - Ruff + Black (impuse modulului `shared/` menținut,
     recomandare peste restul curriculumului), o trecere ESLint recomandativă și un job pytest.
-  - `.github/workflows/security.yml` — Analiză CodeQL (Python + JavaScript/TypeScript) și
+  - `.github/workflows/security.yml` - Analiză CodeQL (Python + JavaScript/TypeScript) și
     revizuire de dependențe la pull request-uri.
-- **Suită de teste** sub `tests/` — 41 teste pytest care acoperă modulul de utilitare partajat.
+- **Suită de teste** sub `tests/` - 41 teste pytest care acoperă modulul de utilitare partajat.
 - **Competență de migrare Azure OpenAI → Responses API** în
   `.github/skills/azure-openai-to-responses/` folosită pentru a ghida migrarea API.
 
@@ -162,13 +162,13 @@ nume de modele, ghiduri actualizate pentru furnizori și noi unelte pentru exper
 
 ### Corectat
 
-- **`shared/python/input_validation.py`** — `validate_text_input(allow_empty=True)` acum returnează un
+- **`shared/python/input_validation.py`** - `validate_text_input(allow_empty=True)` acum returnează un
   șir gol pentru intrarea formată numai din spații albe în loc să ridice o eroare de tip "prea scurt" (consistent cu
   cazul `None`). Identificat și acoperit de noua suită de teste.
-- **Eșantioane imagine Lecția 09** — corectate erori reale: `InvalidRequestError` → `BadRequestError`,
+- **Eșantioane imagine Lecția 09** - corectate erori reale: `InvalidRequestError` → `BadRequestError`,
   `images.create` → `images.generate`, `Image.create_variation` → `client.images.create_variation`,
   și o variabilă care masca modulul `openai`.
-- **Notebook Lecția 15 RAG** — reparat setup-ul clientului, înlocuit `DataFrame.append` eliminat
+- **Notebook Lecția 15 RAG** - reparat setup-ul clientului, înlocuit `DataFrame.append` eliminat
   cu `pd.concat` și modernizată utilizarea SDK-ului vechi.
 - Numele modelelor depreciate/retras (`gpt-3.5-turbo`, `gpt-35-turbo`) înlocuite cu `gpt-4o-mini`
   în eșantioanele active; ieșirile fine-tuning istorice din lecția 18 au fost păstrate și anotate
@@ -177,8 +177,8 @@ nume de modele, ghiduri actualizate pentru furnizori și noi unelte pentru exper
 ### Depreciate / Note
 
 - **Eșantioane Microsoft Foundry Models** care utilizează SDK-ul `azure-ai-inference` / `@azure-rest/ai-inference`
-  (`client.complete()`) — eșantioanele `githubmodels-*` și `js-githubmodels` și lecțiile 19, 20,
-  și 21 — rămân pe Model Inference API, care nu suportă API-ul Răspunsurilor. Acestea sunt
+  (`client.complete()`) - eșantioanele `githubmodels-*` și `js-githubmodels` și lecțiile 19, 20,
+  și 21 - rămân pe Model Inference API, care nu suportă API-ul Răspunsurilor. Acestea sunt
   lăsate intenționat pe acel SDK.
 - `AzureOpenAI()` este reținut intenționat acolo unde încă este potrivit (embedding-uri și generare imagini),
   deoarece acele fluxuri de lucru nu fac parte din migrarea API-ului Răspunsurilor.

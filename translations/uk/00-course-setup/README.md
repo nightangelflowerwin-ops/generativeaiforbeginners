@@ -42,7 +42,7 @@
 | Затримка побудови контейнера > 10 хв    | **Codespaces ➜ “Rebuild Container”**                                |
 | `python: command not found`             | Терминал не підключився; натисніть **+** ➜ *bash*                   |
 | `401 Unauthorized` від OpenAI           | Неправильний / прострочений `OPENAI_API_KEY`                         |
-| VS Code показує “Dev container mounting…” | Оновіть вкладку браузера — іноді Codespaces втрачає з’єднання       |
+| VS Code показує “Dev container mounting…” | Оновіть вкладку браузера - іноді Codespaces втрачає з’єднання       |
 | Відсутнє ядро ноутбука                   | Меню ноутбука ➜ **Kernel ▸ Select Kernel ▸ Python 3**               |
 
    Unix-подібні системи:
@@ -109,8 +109,8 @@ cd generative-ai-for-beginners
 
 ### Встановлення Miniconda
 
-[Miniconda](https://conda.io/en/latest/miniconda.html?WT.mc_id=academic-105485-koreyst) — легкий інсталятор для встановлення [Conda](https://docs.conda.io/en/latest?WT.mc_id=academic-105485-koreyst), Python та кількох пакетів.
-Conda — це менеджер пакетів, який полегшує налаштування та перемикання між різними Python [віртуальними середовищами](https://docs.python.org/3/tutorial/venv.html?WT.mc_id=academic-105485-koreyst) та пакетами. Він також зручний для встановлення пакетів, які недоступні через `pip`.
+[Miniconda](https://conda.io/en/latest/miniconda.html?WT.mc_id=academic-105485-koreyst) - легкий інсталятор для встановлення [Conda](https://docs.conda.io/en/latest?WT.mc_id=academic-105485-koreyst), Python та кількох пакетів.
+Conda - це менеджер пакетів, який полегшує налаштування та перемикання між різними Python [віртуальними середовищами](https://docs.python.org/3/tutorial/venv.html?WT.mc_id=academic-105485-koreyst) та пакетами. Він також зручний для встановлення пакетів, які недоступні через `pip`.
 
 Ви можете слідувати [інструкції з встановлення MiniConda](https://docs.anaconda.com/free/miniconda/#quick-command-line-install?WT.mc_id=academic-105485-koreyst) для налаштування.
 
@@ -140,7 +140,7 @@ dependencies:
 conda install -c microsoft azure-ai-ml
 ```
 
-Файл середовища містить потрібні залежності. `<environment-name>` — це назва, яку ви хочете використати для свого середовища Conda, а `<python-version>` — версія Python, яку ви хочете використовувати, наприклад `3` — це остання основна версія Python.
+Файл середовища містить потрібні залежності. `<environment-name>` - це назва, яку ви хочете використати для свого середовища Conda, а `<python-version>` - версія Python, яку ви хочете використовувати, наприклад `3` - це остання основна версія Python.
 
 Після цього можна створити ваше Conda-середовище, виконавши наведені команди у командному рядку/терміналі
 
@@ -192,7 +192,7 @@ jupyterhub
 
 У курсі є уроки «Learn», що пояснюють концепції Генеративного ШІ, та уроки «Build» із практичними прикладами коду на **Python** і **TypeScript**, якщо можливо.
 
-Для уроків кодування ми використовуємо Azure OpenAI у Microsoft Foundry. Вам потрібна підписка Azure і API-ключ. Доступ відкритий — заявка не потрібна — тому ви можете [створити ресурс Microsoft Foundry і розгорнути модель](https://learn.microsoft.com/azure/ai-foundry/openai/how-to/create-resource?pivots=web-portal&WT.mc_id=academic-105485-koreyst), щоб отримати свою кінцеву точку та ключ.
+Для уроків кодування ми використовуємо Azure OpenAI у Microsoft Foundry. Вам потрібна підписка Azure і API-ключ. Доступ відкритий - заявка не потрібна - тому ви можете [створити ресурс Microsoft Foundry і розгорнути модель](https://learn.microsoft.com/azure/ai-foundry/openai/how-to/create-resource?pivots=web-portal&WT.mc_id=academic-105485-koreyst), щоб отримати свою кінцеву точку та ключ.
 
 Кожен урок із кодування також містить файл `README.md`, де ви можете переглянути код і результати, не запускаючи нічого.
 
@@ -206,7 +206,7 @@ jupyterhub
 
 ## Познайомтесь з іншими учнями
 
-Ми створили канали в нашому офіційному [AI Community Discord сервері](https://aka.ms/genai-discord?WT.mc_id=academic-105485-koreyst) для знайомства з іншими учнями. Це чудова можливість налагодити зв’язки з іншими однодумцями — підприємцями, розробниками, студентами та всіма, хто хоче покращити свої навички у Генеративному ШІ.
+Ми створили канали в нашому офіційному [AI Community Discord сервері](https://aka.ms/genai-discord?WT.mc_id=academic-105485-koreyst) для знайомства з іншими учнями. Це чудова можливість налагодити зв’язки з іншими однодумцями - підприємцями, розробниками, студентами та всіма, хто хоче покращити свої навички у Генеративному ШІ.
 
 [![Приєднатися до Discord каналу](https://dcbadge.limes.pink/api/server/ByRwuEEgH4)](https://aka.ms/genai-discord?WT.mc_id=academic-105485-koreyst)
 
@@ -214,9 +214,9 @@ jupyterhub
 
 ## Внесок
 
-Цей курс — ініціатива з відкритим кодом. Якщо ви бачите області для покращення або проблеми, створіть будь ласка [Pull Request](https://github.com/microsoft/generative-ai-for-beginners/pulls?WT.mc_id=academic-105485-koreyst) або зареєструйте [GitHub issue](https://github.com/microsoft/generative-ai-for-beginners/issues?WT.mc_id=academic-105485-koreyst).
+Цей курс - ініціатива з відкритим кодом. Якщо ви бачите області для покращення або проблеми, створіть будь ласка [Pull Request](https://github.com/microsoft/generative-ai-for-beginners/pulls?WT.mc_id=academic-105485-koreyst) або зареєструйте [GitHub issue](https://github.com/microsoft/generative-ai-for-beginners/issues?WT.mc_id=academic-105485-koreyst).
 
-Команда проєкту відслідковуватиме всі внески. Внесок у відкритий код — це чудовий шлях для побудови вашої кар’єри у Генеративному ШІ.
+Команда проєкту відслідковуватиме всі внески. Внесок у відкритий код - це чудовий шлях для побудови вашої кар’єри у Генеративному ШІ.
 
 Більшість внесків вимагають погодження з Ліцензійною угодою для учасників (CLA), що підтверджує, що ви маєте право і дійсно надаєте нам права використовувати ваш внесок. Детальніше на сайті [CLA, Contributor License Agreement](https://cla.microsoft.com?WT.mc_id=academic-105485-koreyst).
 

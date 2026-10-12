@@ -54,7 +54,7 @@ Az SLM-ek számos területen alkalmazhatók, például:
 
 **Méret**
   
-Az LLM-ek és az SLM-ek közötti legfőbb különbség a modellek méretében rejlik. Az LLM-ek, mint például a ChatGPT (GPT-4), becslések szerint 1,76 billió paramétert tartalmazhatnak, míg az olyan nyílt forráskódú SLM-ek, mint a Mistral 7B, jóval kevesebb paraméterrel készülnek — körülbelül 7 milliárddal. Ez a különbség elsősorban a modellarchitektúra és a tanítási folyamatok eltéréseiből adódik. Például a ChatGPT egy önfigyelő mechanizmust alkalmaz egy kódoló-dekódoló keretrendszeren belül, míg a Mistral 7B csúszóablakos figyelmet használ, ami lehetővé teszi hatékonyabb tanítást egy csak dekóderes modellben. Ez az építészeti különbség mélyreható hatással van a modellek összetettségére és teljesítményére.
+Az LLM-ek és az SLM-ek közötti legfőbb különbség a modellek méretében rejlik. Az LLM-ek, mint például a ChatGPT (GPT-4), becslések szerint 1,76 billió paramétert tartalmazhatnak, míg az olyan nyílt forráskódú SLM-ek, mint a Mistral 7B, jóval kevesebb paraméterrel készülnek - körülbelül 7 milliárddal. Ez a különbség elsősorban a modellarchitektúra és a tanítási folyamatok eltéréseiből adódik. Például a ChatGPT egy önfigyelő mechanizmust alkalmaz egy kódoló-dekódoló keretrendszeren belül, míg a Mistral 7B csúszóablakos figyelmet használ, ami lehetővé teszi hatékonyabb tanítást egy csak dekóderes modellben. Ez az építészeti különbség mélyreható hatással van a modellek összetettségére és teljesítményére.
 
 **Megértés**
 

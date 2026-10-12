@@ -2,7 +2,7 @@
 
 **Koristite ovaj vodič ako radije sve pokrećete na vlastitom laptopu.**   
 Imate dva puta: **(A) nativni Python + virtual-env** ili **(B) VS Code Dev Container s Dockerom**.  
-Odaberite što vam je lakše—obje opcije vode do istih lekcija.
+Odaberite što vam je lakše-obje opcije vode do istih lekcija.
 
 ## 1.  Preduvjeti
 
@@ -33,7 +33,7 @@ source .venv/bin/activate     # macOS / Linux
 .\.venv\Scripts\activate      # Windows PowerShell
 ```
 
-✅ Prompt sada treba početi s (.venv)—to znači da ste unutar okruženja.
+✅ Prompt sada treba početi s (.venv)-to znači da ste unutar okruženja.
 
 ### Korak 3 Instalirajte ovisnosti
 
@@ -196,7 +196,7 @@ Evo korak-po-korak vodiča kako kreirati `.env` datoteku za Python i dodati svoj
 
 To je to! Uspješno ste kreirali `.env` datoteku, dodali svoje Microsoft Foundry modele akreditive i učitali ih u svoju Python aplikaciju.
 
-🔐 Nikada ne commitajte `.env`—već je u `.gitignore`.
+🔐 Nikada ne commitajte `.env`-već je u `.gitignore`.
 Cjelovite upute za providere nalaze se u [`providers.md`](03-providers.md).
 
 ## 4. Što slijedi?

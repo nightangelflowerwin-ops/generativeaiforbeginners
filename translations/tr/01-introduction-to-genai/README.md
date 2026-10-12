@@ -55,7 +55,7 @@ Son yıllarda, daha büyük veri ve daha karmaşık hesaplamaları işleyebilen 
 
 Sinir ağları (özellikle Yinelemeli Sinir Ağları – RNN’ler), doğal dil işlemede önemli gelişmeler sağladı; kelimenin bir cümledeki bağlamını dikkate alarak metnin anlamını daha anlamlı biçimde temsil etmeye olanak tanıdı.
 
-Bu teknoloji, yeni yüzyılın ilk on yılında doğan sanal asistanları güçlendirdi; insan dilini yorumlamakta, ihtiyaçları tespit etmekte ve onu karşılamak için eylemde bulunmakta çok başarılıydılar—örneğin, önceden tanımlanmış senaryolarla yanıt vermek veya 3. taraf hizmetleri kullanmak gibi.
+Bu teknoloji, yeni yüzyılın ilk on yılında doğan sanal asistanları güçlendirdi; insan dilini yorumlamakta, ihtiyaçları tespit etmekte ve onu karşılamak için eylemde bulunmakta çok başarılıydılar-örneğin, önceden tanımlanmış senaryolarla yanıt vermek veya 3. taraf hizmetleri kullanmak gibi.
 
 ### Günümüz: Üretken Yapay Zekâ
 
@@ -65,7 +65,7 @@ Bu teknoloji, yeni yüzyılın ilk on yılında doğan sanal asistanları güçl
 
 Yapay zeka alanındaki onlarca yıllık araştırmanın ardından, _Transformer_ adı verilen yeni bir model mimarisi, RNN'lerin sınırlarını aşarak çok daha uzun metin dizilerini girdi olarak alabilme yeteneğine kavuştu. Transformerlar, modele aldığı girdilere farklı ağırlıklar verme olanağı sağlayan dikkat mekanizmasına dayanır; en ilgili bilgilerin yoğunlaştığı yere ‘daha fazla dikkat’ gösterir, metin dizisindeki sıralama önemli olmaksızın.
 
-Son üretken yapay zeka modellerinin çoğu—metinsel giriş ve çıkışlarla çalışan Büyük Dil Modelleri (LLM'ler) olarak da bilinir—gerçekten de bu mimariye dayanmaktadır. Bu modellerin ilginç yanı, kitaplar, makaleler ve web siteleri gibi çeşitli kaynaklardan büyük miktarda etiketlenmemiş veri üzerinde eğitilmiş olmalarıdır. Böylece çok çeşitli görevlere uyarlanabilirler ve dil bilgisi açısından doğru, bir ölçüde yaratıcılık hissi veren metinler üretebilirler. Bu modeller yalnızca bir makinenin bir girdiyi ‘anlama’ kapasitesini inanılmaz derecede artırmakla kalmaz, aynı zamanda insan diliyle özgün bir yanıt oluşturabilme yeteneği kazandırır.
+Son üretken yapay zeka modellerinin çoğu-metinsel giriş ve çıkışlarla çalışan Büyük Dil Modelleri (LLM'ler) olarak da bilinir-gerçekten de bu mimariye dayanmaktadır. Bu modellerin ilginç yanı, kitaplar, makaleler ve web siteleri gibi çeşitli kaynaklardan büyük miktarda etiketlenmemiş veri üzerinde eğitilmiş olmalarıdır. Böylece çok çeşitli görevlere uyarlanabilirler ve dil bilgisi açısından doğru, bir ölçüde yaratıcılık hissi veren metinler üretebilirler. Bu modeller yalnızca bir makinenin bir girdiyi ‘anlama’ kapasitesini inanılmaz derecede artırmakla kalmaz, aynı zamanda insan diliyle özgün bir yanıt oluşturabilme yeteneği kazandırır.
 
 ## Büyük dil modelleri nasıl çalışır?
 
@@ -77,7 +77,7 @@ Sonraki bölümde farklı Üretken Yapay Zekâ modellerini araştıracağız, an
 
 - **Çıktı tokenlarını tahmin etme**: n adet token girdi olarak verildiğinde (max n modelden modele değişir), model bir token çıktı olarak tahmin eder. Bu token, bir sonraki iterasyonun girdisine, genişleyen bir pencere şeklinde dahil edilir, böylece bir (veya birden çok) cümlenin yanıt olarak alınması sağlanır. Bu nedenle, ChatGPT ile oynadıysanız, bazen cümlenin ortasında durduğunu fark etmiş olabilirsiniz.
 
-- **Seçim süreci, olasılık dağılımı**: Çıktı tokenı, model tarafından mevcut metin dizisinden sonra oluşma olasılığına göre seçilir. Model, eğitim verilerine dayanarak tüm ‘sonraki tokenlar’ için bir olasılık dağılımı tahmin eder. Ancak her zaman dağılımdan en yüksek olasılığa sahip token seçilmez. Bu seçim sürecine rastgelelik derecesi eklenir; model, doğrusal olmayan davranır—aynı girdi için her zaman aynı çıktıyı vermez. Bu rastgelelik, yaratıcı düşünce sürecini simüle etmek için eklenir ve sıcaklık (temperature) adlı model parametresi ile ayarlanabilir.
+- **Seçim süreci, olasılık dağılımı**: Çıktı tokenı, model tarafından mevcut metin dizisinden sonra oluşma olasılığına göre seçilir. Model, eğitim verilerine dayanarak tüm ‘sonraki tokenlar’ için bir olasılık dağılımı tahmin eder. Ancak her zaman dağılımdan en yüksek olasılığa sahip token seçilmez. Bu seçim sürecine rastgelelik derecesi eklenir; model, doğrusal olmayan davranır-aynı girdi için her zaman aynı çıktıyı vermez. Bu rastgelelik, yaratıcı düşünce sürecini simüle etmek için eklenir ve sıcaklık (temperature) adlı model parametresi ile ayarlanabilir.
 
 ## Startup’ımız Büyük Dil Modellerinden nasıl faydalanabilir?
 

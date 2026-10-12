@@ -112,7 +112,7 @@ Unaweza kupata orodha ya [mifano ya msimbo ya AutoGen](https://microsoft.github.
 
 ## Mfumo wa Wakala wa Microsoft
 
-[Mfumo wa Wakala wa Microsoft](https://learn.microsoft.com/agent-framework/?WT.mc_id=academic-105485-koreyst) ni SDK ya chanzo wazi ya Microsoft kwa kujenga Wakala wa AI na mifumo ya mawakala wengi katika **Python** na **.NET**. Inaleta pamoja nguvu za miradi miwili ya awali ya Microsoft — vipengele vya biashara vya **Semantic Kernel** na usimamizi wa mawakala wengi wa **AutoGen** — katika mfumo mmoja unaounga mkono. Ikiwa unaanza mradi mpya wa wakala leo, huu ndio mrithi anayependekezwa wa AutoGen.
+[Mfumo wa Wakala wa Microsoft](https://learn.microsoft.com/agent-framework/?WT.mc_id=academic-105485-koreyst) ni SDK ya chanzo wazi ya Microsoft kwa kujenga Wakala wa AI na mifumo ya mawakala wengi katika **Python** na **.NET**. Inaleta pamoja nguvu za miradi miwili ya awali ya Microsoft - vipengele vya biashara vya **Semantic Kernel** na usimamizi wa mawakala wengi wa **AutoGen** - katika mfumo mmoja unaounga mkono. Ikiwa unaanza mradi mpya wa wakala leo, huu ndio mrithi anayependekezwa wa AutoGen.
 
 Mfumo huu unaweza kupanuka kutoka kwa **wakala mmoja wa mazungumzo** hadi **mchakato wa mawakala wengi tata**, na unaunganisha moja kwa moja na Microsoft Foundry, Azure OpenAI, na OpenAI. Pia hutoa ufuatiliaji uliojengewa ndani kupitia OpenTelemetry ili uweze kufuatilia hasa kile mawakala wako wanachofanya.
 

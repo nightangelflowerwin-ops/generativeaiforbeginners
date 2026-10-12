@@ -158,7 +158,7 @@ Fuente de la imagen: [Four Ways that Enterprises Deploy LLMs | Fiddler AI Blog](
 
 Los LLM preentrenados funcionan muy bien en tareas de lenguaje natural generalizadas, incluso llamándolos con un prompt corto, como una frase para completar o una pregunta, el llamado aprendizaje “zero-shot”.
 
-Sin embargo, cuanto más pueda el usuario enmarcar su consulta, con una solicitud detallada y ejemplos — el Contexto — más precisa y cercana a las expectativas del usuario será la respuesta. En este caso, hablamos de aprendizaje “one-shot” si el prompt incluye solo un ejemplo y de “few-shot learning” si incluye varios ejemplos.
+Sin embargo, cuanto más pueda el usuario enmarcar su consulta, con una solicitud detallada y ejemplos - el Contexto - más precisa y cercana a las expectativas del usuario será la respuesta. En este caso, hablamos de aprendizaje “one-shot” si el prompt incluye solo un ejemplo y de “few-shot learning” si incluye varios ejemplos.
 La ingeniería de prompts con contexto es el enfoque más rentable para comenzar.
 
 ### Generación aumentada por recuperación (RAG)

@@ -42,7 +42,7 @@ In your fork: **Code -> Codespaces -> New on main**
 | Container build stuck > 10 min            | **Codespaces ➜ “Rebuild Container”**                            |
 | `python: command not found`               | Terminal didn’t attach; click **+** ➜ *bash*                    |
 | `401 Unauthorized` from OpenAI            | Wrong / expired `OPENAI_API_KEY`                                |
-| VS Code shows “Dev container mounting…”   | Refresh the browser tab—Codespaces sometimes loses connection   |
+| VS Code shows “Dev container mounting…”   | Refresh the browser tab-Codespaces sometimes loses connection   |
 | Notebook kernel missing                   | Notebook menu ➜ **Kernel ▸ Select Kernel ▸ Python 3**           |
 
    Unix-based systems:

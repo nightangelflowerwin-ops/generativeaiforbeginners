@@ -8,7 +8,7 @@ Oppgaver **kan** også settes opp for å fungere mot en eller flere store språk
  - [Hugging Face](https://huggingface.co/docs/hub/index?WT.mc_id=academic-105485-koreyst) for åpen kildekode-modeller og inferens-server
  - [Foundry Local](https://foundrylocal.ai?WT.mc_id=academic-105485-koreyst) eller [Ollama](https://ollama.com/?WT.mc_id=academic-105485-koreyst) hvis du heller vil kjøre modeller helt offline på din egen enhet, uten behov for skysubscription
 
-**Du må bruke dine egne kontoer for disse øvelsene**. Oppgavene er valgfrie, så du kan velge å sette opp én, alle — eller ingen — av leverandørene basert på dine interesser. Noe veiledning for registrering:
+**Du må bruke dine egne kontoer for disse øvelsene**. Oppgavene er valgfrie, så du kan velge å sette opp én, alle - eller ingen - av leverandørene basert på dine interesser. Noe veiledning for registrering:
 
 | Registrering | Kostnad | API-nøkkel | Prøveområde | Kommentarer |
 |:---|:---|:---|:---|:---|
@@ -108,8 +108,8 @@ Dette tar deg til Microsoft Foundry-portalen, hvor vi finner de andre verdiene s
 1. Naviger til [Microsoft Foundry-portalen](https://ai.azure.com?WT.mc_id=academic-105485-koreyst) **fra din ressurs** som beskrevet ovenfor.
 1. Klikk på fanen **Deployments** (sidemeny, venstre) for å se nåværende implementerte modeller.
 1. Hvis ønsket modell ikke er implementert, bruk **Deploy model** for å implementere den fra [modellkatalogen](https://ai.azure.com/catalog/models?WT.mc_id=academic-105485-koreyst).
-1. Du trenger en _tekstgenerering_-modell — vi anbefaler: **gpt-5-mini**
-1. Du trenger en _tekst-embedding_-modell — vi anbefaler **text-embedding-3-small**
+1. Du trenger en _tekstgenerering_-modell - vi anbefaler: **gpt-5-mini**
+1. Du trenger en _tekst-embedding_-modell - vi anbefaler **text-embedding-3-small**
 
 Oppdater nå miljøvariablene for å reflektere det _Implementeringsnavnet_ som brukes. Dette vil vanligvis være det samme som modellnavnet med mindre det er endret eksplisitt. For eksempel kan du ha:
 

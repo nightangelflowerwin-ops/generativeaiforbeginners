@@ -42,7 +42,7 @@ V svoji razvezi: **Code -> Codespaces -> New on main**
 | Gradnja kontejnerja se zatakne > 10 min  | **Codespaces ➜ “Rebuild Container”**                         |
 | `python: command not found`               | Terminal ni bil pritrjen; klikni **+** ➜ *bash*              |
 | `401 Unauthorized` iz OpenAI              | Napačen / potekel `OPENAI_API_KEY`                            |
-| VS Code prikazuje “Dev container mounting…” | Osveži zavihke v brskalniku — Codespaces včasih izgubi povezavo |
+| VS Code prikazuje “Dev container mounting…” | Osveži zavihke v brskalniku - Codespaces včasih izgubi povezavo |
 | Jedro zvezka manjka                       | Meni zvezka ➜ **Kernel ▸ Izberi jedro ▸ Python 3**            |
 
    Sistemi na osnovi Unix:

@@ -300,9 +300,9 @@ Svi prijevodi su **dovršeni** i generirani automatski putem [Azure Co-op Transl
 
 | Aspekt | Status |
 |--------|--------|
-| Pokrivenost prijevoda | Potpuna — 50+ jezika, sve lekcije |
+| Pokrivenost prijevoda | Potpuna - 50+ jezika, sve lekcije |
 | Metoda prijevoda | Automatizirana putem [Azure Co-op Translator](https://github.com/Azure/co-op-translator?WT.mc_id=academic-105485-koreyst) |
-| Održava sinkronizaciju s izvornim engleskim sadržajem | Da — automatski regenerirana |
+| Održava sinkronizaciju s izvornim engleskim sadržajem | Da - automatski regenerirana |
 
 ### 9.2 Poboljšanja pristupačnosti
 

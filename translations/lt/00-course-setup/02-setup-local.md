@@ -2,7 +2,7 @@
 
 **Naudokite šį vadovą, jei norite viską paleisti savo nešiojamajame kompiuteryje.**   
 Turite du kelius: **(A) gimtasis Python + virtual-env** arba **(B) VS Code Dev konteineris su Docker**.  
-Pasirinkite, kas atrodo paprasčiau—abu veda į tas pačias pamokas.
+Pasirinkite, kas atrodo paprasčiau-abu veda į tas pačias pamokas.
 
 ## 1.  Prieš tai
 
@@ -33,7 +33,7 @@ source .venv/bin/activate     # macOS / Linux
 .\.venv\Scripts\activate      # Windows PowerShell
 ```
 
-✅ Komandinės eilutės pradžioje dabar turi būti (.venv)—tai reiškia, kad esate aplinkoje.
+✅ Komandinės eilutės pradžioje dabar turi būti (.venv)-tai reiškia, kad esate aplinkoje.
 
 ### 3 žingsnis Įdiekite priklausomybes
 
@@ -196,7 +196,7 @@ Svarbu saugiai laikyti API raktus kuriant bet kokią programėlę. Rekomenduojam
 
 Viskas! Sėkmingai sukūrėte `.env` failą, pridėjote Microsoft Foundry Models kredencialus ir įkėlėte juos į Python programą.
 
-🔐 Niekuomet nekelkite .env į git—jis jau įrašytas .gitignore.
+🔐 Niekuomet nekelkite .env į git-jis jau įrašytas .gitignore.
 Pilnas tiekėjų nurodymų rinkinys yra [`providers.md`](03-providers.md).
 
 ## 4. Kas toliau?

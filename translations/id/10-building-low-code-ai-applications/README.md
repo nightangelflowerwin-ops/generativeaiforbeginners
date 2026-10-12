@@ -72,25 +72,25 @@ Fitur asisten AI Copilot di Power Automate memungkinkan Anda menjelaskan jenis a
 
 ## Membangun Agen Cerdas dengan Microsoft Copilot Studio
 
-[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst) (sebelumnya Power Virtual Agents) adalah anggota low-code dari Power Platform untuk membangun **agen AI** — copilot percakapan yang dapat menjawab pertanyaan, mengambil tindakan, dan mengotomatisasi tugas atas nama pengguna Anda. Sama seperti bagian lain dari Power Platform, Anda membangun agen ini dalam pengalaman visual yang mengutamakan bahasa alami: Anda mendeskripsikan apa yang ingin dilakukan agen, dan Copilot Studio membantu membangun instruksi, pengetahuan, dan tindakannya.
+[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst) (sebelumnya Power Virtual Agents) adalah anggota low-code dari Power Platform untuk membangun **agen AI** - copilot percakapan yang dapat menjawab pertanyaan, mengambil tindakan, dan mengotomatisasi tugas atas nama pengguna Anda. Sama seperti bagian lain dari Power Platform, Anda membangun agen ini dalam pengalaman visual yang mengutamakan bahasa alami: Anda mendeskripsikan apa yang ingin dilakukan agen, dan Copilot Studio membantu membangun instruksi, pengetahuan, dan tindakannya.
 
-Untuk startup pendidikan kami, Anda bisa membangun agen yang menjawab pertanyaan mahasiswa tentang kursus, memeriksa tenggat tugas, dan bahkan mengirim email ke pengajar — semua tanpa menulis kode.
+Untuk startup pendidikan kami, Anda bisa membangun agen yang menjawab pertanyaan mahasiswa tentang kursus, memeriksa tenggat tugas, dan bahkan mengirim email ke pengajar - semua tanpa menulis kode.
 
 Berikut ini beberapa kemampuan terbaru yang membuat Copilot Studio kuat:
 
-- **Jawaban generatif dari pengetahuan Anda**. Alih-alih menyusun setiap percakapan secara manual, Anda dapat menghubungkan **sumber pengetahuan** — situs web publik, SharePoint, OneDrive, Dataverse, file yang diunggah, atau data perusahaan melalui konektor — dan agen menghasilkan jawaban yang didasarkan pada sumber tersebut.
+- **Jawaban generatif dari pengetahuan Anda**. Alih-alih menyusun setiap percakapan secara manual, Anda dapat menghubungkan **sumber pengetahuan** - situs web publik, SharePoint, OneDrive, Dataverse, file yang diunggah, atau data perusahaan melalui konektor - dan agen menghasilkan jawaban yang didasarkan pada sumber tersebut.
 
 - **Orkestrasi generatif**. Alih-alih bergantung pada frasa pemicu yang kaku, agen menggunakan AI untuk memahami permintaan dan secara dinamis memutuskan pengetahuan, topik, dan tindakan mana yang dikombinasikan untuk memenuhinya, termasuk menggabungkan beberapa langkah.
 
 - **Tindakan dan konektor**. Agen bisa *melakukan* sesuatu, tidak hanya mengobrol. Anda dapat memberikan agen tindakan yang didukung oleh lebih dari 1.500 konektor Power Platform yang sudah dibangun, alur Power Automate, API REST kustom, prompt, atau server **Model Context Protocol (MCP)**.
 
-- **Agen otonom**. Agen tidak terbatas hanya merespon di jendela obrolan. Anda dapat membangun **agen otonom** yang dipicu oleh peristiwa — seperti email baru, catatan baru di Dataverse, atau file yang diunggah — dan kemudian bertindak di latar belakang untuk menyelesaikan tugas.
+- **Agen otonom**. Agen tidak terbatas hanya merespon di jendela obrolan. Anda dapat membangun **agen otonom** yang dipicu oleh peristiwa - seperti email baru, catatan baru di Dataverse, atau file yang diunggah - dan kemudian bertindak di latar belakang untuk menyelesaikan tugas.
 
 - **Orkestrasi multi-agen**. Agen dapat memanggil agen lain. Agen Copilot Studio dapat menyerahkan tugas ke, atau diperluas dengan, agen lain, termasuk agen yang dipublikasikan ke Microsoft 365 Copilot dan agen yang dibangun di Microsoft Foundry.
 
 - **Pilihan model**. Selain model bawaan, Anda dapat membawa model dari katalog model Microsoft Foundry untuk menyesuaikan cara agen Anda berpikir dan merespon.
 
-- **Publikasi di mana saja**. Setelah dibangun, agen dapat dipublikasikan ke beberapa saluran — Microsoft Teams, Microsoft 365 Copilot, situs web atau aplikasi kustom, dan lainnya — dengan keamanan, autentikasi, dan analitik yang dikelola melalui pengalaman admin Power Platform.
+- **Publikasi di mana saja**. Setelah dibangun, agen dapat dipublikasikan ke beberapa saluran - Microsoft Teams, Microsoft 365 Copilot, situs web atau aplikasi kustom, dan lainnya - dengan keamanan, autentikasi, dan analitik yang dikelola melalui pengalaman admin Power Platform.
 
 Anda dapat mulai membangun agen pertama Anda di [copilotstudio.microsoft.com](https://copilotstudio.microsoft.com?WT.mc_id=academic-105485-koreyst) dan mempelajari lebih lanjut di [dokumentasi Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/?WT.mc_id=academic-105485-koreyst).
 
@@ -270,7 +270,7 @@ Untuk mempelajari cara menggunakan Model AI ini di Power Automate, melalui modul
 
 Setelah menyelesaikan pelajaran ini, lihat koleksi [Pembelajaran AI Generatif](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) kami untuk terus meningkatkan pengetahuan AI Generatif Anda!
 
-Ingin menyesuaikan dan mendapatkan lebih banyak dari Copilot? Jelajahi [Awesome Copilot](https://github.com/github/awesome-copilot?WT.mc_id=academic-105485-koreyst) — sebuah koleksi kontribusi komunitas berisi instruksi, agen, keterampilan, dan konfigurasi untuk membantu Anda memaksimalkan GitHub Copilot.
+Ingin menyesuaikan dan mendapatkan lebih banyak dari Copilot? Jelajahi [Awesome Copilot](https://github.com/github/awesome-copilot?WT.mc_id=academic-105485-koreyst) - sebuah koleksi kontribusi komunitas berisi instruksi, agen, keterampilan, dan konfigurasi untuk membantu Anda memaksimalkan GitHub Copilot.
 
 Pergi ke Pelajaran 11 di mana kita akan melihat cara [mengintegrasikan AI Generatif dengan Function Calling](../11-integrating-with-function-calling/README.md?WT.mc_id=academic-105485-koreyst)!
 

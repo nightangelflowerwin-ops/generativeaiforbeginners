@@ -159,7 +159,7 @@ LESSON TEMPLATE:
 
 讓我們透過一個案例研究來了解提示工程在現實解決方案中的應用：[GitHub Copilot](https://github.com/features/copilot?WT.mc_id=academic-105485-koreyst)。
 
-GitHub Copilot 是你的「AI 搭檔程式設計師」— 它將文字提示轉換為程式碼補全，並整合於你的開發環境中（例如 Visual Studio Code），帶來無縫的使用體驗。正如以下系列部落格所記錄的，最早版本基於 OpenAI Codex 模型，工程師們快速意識到需要微調模型和開發更好的提示工程技術以提升程式碼品質。七月，他們[推出了超越 Codex 的改進 AI 模型](https://github.blog/2023-07-28-smarter-more-efficient-coding-github-copilot-goes-beyond-codex-with-improved-ai-model/?WT.mc_id=academic-105485-koreyst)，以提供更快速的建議。
+GitHub Copilot 是你的「AI 搭檔程式設計師」- 它將文字提示轉換為程式碼補全，並整合於你的開發環境中（例如 Visual Studio Code），帶來無縫的使用體驗。正如以下系列部落格所記錄的，最早版本基於 OpenAI Codex 模型，工程師們快速意識到需要微調模型和開發更好的提示工程技術以提升程式碼品質。七月，他們[推出了超越 Codex 的改進 AI 模型](https://github.blog/2023-07-28-smarter-more-efficient-coding-github-copilot-goes-beyond-codex-with-improved-ai-model/?WT.mc_id=academic-105485-koreyst)，以提供更快速的建議。
 
 按順序閱讀這些文章，以追蹤他們的學習歷程。
 
@@ -186,7 +186,7 @@ LESSON TEMPLATE:
 
 ## 提示構造
 
-我們已了解提示工程的重要性—現在讓我們理解提示如何被 _構造_，以評估不同技術來達成更有效的提示設計。
+我們已了解提示工程的重要性-現在讓我們理解提示如何被 _構造_，以評估不同技術來達成更有效的提示設計。
 
 ### 基本提示
 
@@ -242,9 +242,9 @@ response = client.responses.create(
 
 主要內容區段可用多種方式驅動更有效的指令：
 
-- <strong>範例</strong> — 不直接說明模型要做什麼，而是給出範例讓它推斷模式。
-- <strong>提示</strong> — 在指令後附上「提示」啟動補全，引導模型朝向更相關回應。
-- <strong>範本</strong> — 可重複使用的提示「食譜」帶有佔位符（變量），能用特定資料量身定製。
+- <strong>範例</strong> - 不直接說明模型要做什麼，而是給出範例讓它推斷模式。
+- <strong>提示</strong> - 在指令後附上「提示」啟動補全，引導模型朝向更相關回應。
+- <strong>範本</strong> - 可重複使用的提示「食譜」帶有佔位符（變量），能用特定資料量身定製。
 
 讓我們實際看看這些方法的運作。
 
@@ -280,7 +280,7 @@ response = client.responses.create(
 
 ### 提示模板
 
-提示模板是一種 _預先定義的提示配方_，可以儲存並按需重複使用，以推動大規模的一致用戶體驗。最簡單的形式，它就是一組提示範例，比如[OpenAI 的這個範例](https://cookbook.openai.com/examples/gpt4-1_prompting_guide?WT.mc_id=academic-105485-koreyst)，提供了互動式的提示組件（用戶和系統訊息）以及 API 驅動的請求格式—以支持重用。
+提示模板是一種 _預先定義的提示配方_，可以儲存並按需重複使用，以推動大規模的一致用戶體驗。最簡單的形式，它就是一組提示範例，比如[OpenAI 的這個範例](https://cookbook.openai.com/examples/gpt4-1_prompting_guide?WT.mc_id=academic-105485-koreyst)，提供了互動式的提示組件（用戶和系統訊息）以及 API 驅動的請求格式-以支持重用。
 
 更複雜的形式如[LangChain 的範例](https://python.langchain.com/docs/concepts/prompt_templates/?WT.mc_id=academic-105485-koreyst)，包含可以用來替換多種來源數據（用戶輸入、系統上下文、外部資料等）的 _佔位符_ ，動態生成提示。這讓我們可以創建一個可程式化重用的提示庫，用來推動一致的用戶體驗。
 
@@ -313,7 +313,7 @@ response = client.responses.create(
 
 ## 提示最佳實踐
 
-現在我們已瞭解提示如何 _構造_，接著可以開始思考如何 _設計_ 它們以符合最佳實踐。我們可以從兩方面著手——擁有正確的 _心態_ 以及運用正確的 _技術_。
+現在我們已瞭解提示如何 _構造_，接著可以開始思考如何 _設計_ 它們以符合最佳實踐。我們可以從兩方面著手--擁有正確的 _心態_ 以及運用正確的 _技術_。
 
 ### 提示工程心態
 

@@ -42,7 +42,7 @@
 | Container สร้างติดแค่นานกว่า 10 นาที      | **Codespaces ➜ “Rebuild Container”**                               |
 | `python: command not found`                 | Terminal ไม่ได้แนบ; คลิก **+** ➜ *bash*                            |
 | `401 Unauthorized` จาก OpenAI               | `OPENAI_API_KEY` ผิดหรือหมดอายุ                                    |
-| VS Code แสดง “Dev container mounting…”    | รีเฟรชแท็บเบราว์เซอร์—Codespaces อาจหลุดการเชื่อมต่อ             |
+| VS Code แสดง “Dev container mounting…”    | รีเฟรชแท็บเบราว์เซอร์-Codespaces อาจหลุดการเชื่อมต่อ             |
 | Notebook kernel หายไป                        | เมนู Notebook ➜ **Kernel ▸ Select Kernel ▸ Python 3**              |
 
    ระบบ Unix-based:

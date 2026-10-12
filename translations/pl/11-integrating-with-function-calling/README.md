@@ -340,7 +340,7 @@ Aby zintegrować to z naszą aplikacją, wykonajmy następujące kroki:
      return str(results)
    ```
 
-   Zauważ, że teraz tworzymy faktyczną funkcję Pythona, która odpowiada nazwom funkcji podanym w zmiennej `functions`. Dokonujemy także realnych wywołań zewnętrznego API, by pobrać potrzebne dane — w tym przypadku korzystamy z Microsoft Learn API do wyszukiwania modułów szkoleniowych.
+   Zauważ, że teraz tworzymy faktyczną funkcję Pythona, która odpowiada nazwom funkcji podanym w zmiennej `functions`. Dokonujemy także realnych wywołań zewnętrznego API, by pobrać potrzebne dane - w tym przypadku korzystamy z Microsoft Learn API do wyszukiwania modułów szkoleniowych.
 
 Mamy więc zmienną `functions` oraz odpowiadającą jej funkcję Python. Jak powiedzieć LLM, jak połączyć te dwie rzeczy, aby wywołać funkcję Pythona?
 

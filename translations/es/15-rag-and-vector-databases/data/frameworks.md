@@ -85,7 +85,7 @@ El sobreajuste es en realidad un caso de un problema más general en estadístic
 * Los **errores de sesgo** son causados porque nuestro algoritmo no puede capturar correctamente la relación entre los datos de entrenamiento. Esto puede deberse a que nuestro modelo no es lo suficientemente potente (**subajuste**).
 * Los **errores de varianza** son causados porque el modelo aproxima el ruido en los datos de entrada en lugar de la relación significativa (**sobreajuste**).
 
-Durante el entrenamiento, el error de sesgo disminuye (a medida que nuestro modelo aprende a aproximar los datos) y el error de varianza aumenta. Es importante detener el entrenamiento — ya sea manualmente (cuando detectamos sobreajuste) o automáticamente (introduciendo regularización) — para evitar el sobreajuste.
+Durante el entrenamiento, el error de sesgo disminuye (a medida que nuestro modelo aprende a aproximar los datos) y el error de varianza aumenta. Es importante detener el entrenamiento - ya sea manualmente (cuando detectamos sobreajuste) o automáticamente (introduciendo regularización) - para evitar el sobreajuste.
 
 ## Conclusión
 

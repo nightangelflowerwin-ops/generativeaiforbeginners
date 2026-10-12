@@ -42,7 +42,7 @@
 | בניית הקונטיינר תקועה > 10 דקות           | **Codespaces ➜ “Rebuild Container”**                            |
 | `python: command not found`               | הטרמינל לא התחבר; לחץ **+** ➜ *bash*                             |
 | `401 Unauthorized` מ-OpenAI                 | `OPENAI_API_KEY` שגוי/פג תוקף                                   |
-| VS Code מציג “Dev container mounting…”    | רענן את לשונית הדפדפן—לעיתים Codespaces מאבד חיבור              |
+| VS Code מציג “Dev container mounting…”    | רענן את לשונית הדפדפן-לעיתים Codespaces מאבד חיבור              |
 | Kernel של הדפדפן חסר                     | תפריט המחברת ➜ **Kernel ▸ Select Kernel ▸ Python 3**            |
 
    מערכות מבוססות Unix:

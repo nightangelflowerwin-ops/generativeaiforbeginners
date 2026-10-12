@@ -2,7 +2,7 @@
 
 **Gamitin ang gabay na ito kung nais mong patakbuhin ang lahat sa sariling laptop mo.**  
 Mayroon kang dalawang paraan: **(A) native Python + virtual-env** o **(B) VS Code Dev Container gamit ang Docker**.  
-Piliin ang sa tingin mo ay mas madali—pareho ang patutunguhan ng mga ito sa mga aralin.
+Piliin ang sa tingin mo ay mas madali-pareho ang patutunguhan ng mga ito sa mga aralin.
 
 ## 1.  Mga Kinakailangan
 
@@ -33,7 +33,7 @@ source .venv/bin/activate     # macOS / Linux
 .\.venv\Scripts\activate      # Windows PowerShell
 ```
 
-✅ Dapat magsimula ang prompt ngayon sa (.venv)—iyon ay nasa loob ka na ng env.
+✅ Dapat magsimula ang prompt ngayon sa (.venv)-iyon ay nasa loob ka na ng env.
 
 ### Hakbang 3 Mag-install ng dependencies
 
@@ -196,7 +196,7 @@ Narito ang hakbang-hakbang na gabay kung paano gumawa ng `.env` file para sa Pyt
 
 Ayun na! Matagumpay mong nagawa ang `.env` file, naidagdag ang iyong Microsoft Foundry Models credentials, at naiload mo na ito sa iyong Python application.
 
-🔐 Huwag kailanman i-commit ang .env—nasa .gitignore na ito.
+🔐 Huwag kailanman i-commit ang .env-nasa .gitignore na ito.
 Buong tagubilin mula sa provider ay makikita sa [`providers.md`](03-providers.md).
 
 ## 4. Ano ang susunod?

@@ -149,7 +149,7 @@ print(response.output_text)
 
 ### 多轮对话
 
-Responses API 既适合单轮文本生成，也适合多轮聊天机器人——你通过在 `input` 中提供消息列表构建对话：
+Responses API 既适合单轮文本生成，也适合多轮聊天机器人--你通过在 `input` 中提供消息列表构建对话：
 
 ```python
 from openai import OpenAI
@@ -604,11 +604,11 @@ Shopping List:
 
   > 注意，越接近 1.0，输出越多样化。
 
-- **推理模型不使用 `temperature`<strong>。这是 2026 年的重要转变。Microsoft Foundry 上当前未废弃的模型是</strong>推理模型<strong>（GPT-5 系列，o 系列），它们</strong>不支持 `temperature` 或 `top_p`**（也不支持 `max_tokens`；使用 `max_output_tokens`）。如果给 `gpt-5-mini` 发送 `temperature`，会收到“参数不支持”的错误。要尝试上面的 temperature 例子，请指向仍支持采样控制的模型——例如开源 **Llama** 模型，如来自 [Microsoft Foundry 模型目录](https://ai.azure.com/catalog/models?WT.mc_id=academic-105485-koreyst) 的 `Llama-3.3-70B-Instruct`，通过 Foundry Models / Azure AI Inference 端点调用（和 `githubmodels-*` 示例的调用方式相同）。对于 GPT-5 等推理模型，输出控制方式不同：
+- **推理模型不使用 `temperature`<strong>。这是 2026 年的重要转变。Microsoft Foundry 上当前未废弃的模型是</strong>推理模型<strong>（GPT-5 系列，o 系列），它们</strong>不支持 `temperature` 或 `top_p`**（也不支持 `max_tokens`；使用 `max_output_tokens`）。如果给 `gpt-5-mini` 发送 `temperature`，会收到“参数不支持”的错误。要尝试上面的 temperature 例子，请指向仍支持采样控制的模型--例如开源 **Llama** 模型，如来自 [Microsoft Foundry 模型目录](https://ai.azure.com/catalog/models?WT.mc_id=academic-105485-koreyst) 的 `Llama-3.3-70B-Instruct`，通过 Foundry Models / Azure AI Inference 端点调用（和 `githubmodels-*` 示例的调用方式相同）。对于 GPT-5 等推理模型，输出控制方式不同：
   - <strong>提示工程</strong> - 清晰的指令、示例和结构化输出（参见课程 [04 - Prompt Engineering](../04-prompt-engineering-fundamentals/README.md?WT.mc_id=academic-105485-koreyst)）取代了采样调节器的工作。
   - <strong>推理控制</strong> - 参数如推理努力/详细程度权衡推理深度与延迟和成本。
 
-  总结：`temperature`/`top_p` 在很多模型（Llama、Mistral、Phi 和 GPT-4.x 系列——尽管 GPT-4.x 正在废弃）仍然有效，但趋势是在 GPT-5 这样的推理模型上使用提示工程和推理控制。
+  总结：`temperature`/`top_p` 在很多模型（Llama、Mistral、Phi 和 GPT-4.x 系列--尽管 GPT-4.x 正在废弃）仍然有效，但趋势是在 GPT-5 这样的推理模型上使用提示工程和推理控制。
 
 ## 任务
 

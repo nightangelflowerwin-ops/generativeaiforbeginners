@@ -72,9 +72,9 @@ La función de asistente de IA Copilot en Power Automate te permite describir qu
 
 ## Construcción de Agentes Inteligentes con Microsoft Copilot Studio
 
-[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst) (antes Power Virtual Agents) es el miembro de bajo código de Power Platform para construir **agentes de IA**—copilotos conversacionales que pueden responder preguntas, tomar acciones y automatizar tareas en nombre de tus usuarios. Al igual que el resto de Power Platform, construyes estos agentes en una experiencia visual y basada en lenguaje natural: describes lo que quieres que el agente haga y Copilot Studio ayuda a estructurar sus instrucciones, conocimientos y acciones.
+[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst) (antes Power Virtual Agents) es el miembro de bajo código de Power Platform para construir **agentes de IA**-copilotos conversacionales que pueden responder preguntas, tomar acciones y automatizar tareas en nombre de tus usuarios. Al igual que el resto de Power Platform, construyes estos agentes en una experiencia visual y basada en lenguaje natural: describes lo que quieres que el agente haga y Copilot Studio ayuda a estructurar sus instrucciones, conocimientos y acciones.
 
-Para nuestra startup educativa, podrías construir un agente que responda preguntas de estudiantes sobre cursos, compruebe fechas límite de tareas e incluso envíe correos electrónicos a un instructor—todo sin escribir código.
+Para nuestra startup educativa, podrías construir un agente que responda preguntas de estudiantes sobre cursos, compruebe fechas límite de tareas e incluso envíe correos electrónicos a un instructor-todo sin escribir código.
 
 Aquí están algunas de las capacidades más recientes que hacen que Copilot Studio sea poderoso:
 
@@ -84,13 +84,13 @@ Aquí están algunas de las capacidades más recientes que hacen que Copilot Stu
 
 - **Acciones y conectores**. Los agentes pueden *hacer* cosas, no solo chatear. Puedes proporcionar un agente con acciones respaldadas por los más de 1,500 conectores preconstruidos de Power Platform, flujos de Power Automate, APIs REST personalizadas, prompts o servidores **Model Context Protocol (MCP)**.
 
-- **Agentes autónomos**. Los agentes no están limitados a responder en una ventana de chat. Puedes construir **agentes autónomos** que se activan por eventos — como un nuevo correo electrónico, un nuevo registro en Dataverse o la subida de un archivo— y luego actúan en segundo plano para completar una tarea.
+- **Agentes autónomos**. Los agentes no están limitados a responder en una ventana de chat. Puedes construir **agentes autónomos** que se activan por eventos - como un nuevo correo electrónico, un nuevo registro en Dataverse o la subida de un archivo- y luego actúan en segundo plano para completar una tarea.
 
 - **Orquestación multi-agente**. Los agentes pueden llamar a otros agentes. Un agente de Copilot Studio puede pasar la tarea o ser extendido por otros agentes, incluyendo agentes publicados en Microsoft 365 Copilot y agentes construidos en Microsoft Foundry.
 
 - **Elección de modelos**. Más allá de los modelos integrados, puedes traer modelos del catálogo de modelos Microsoft Foundry para adaptar cómo tu agente razona y responde.
 
-- **Publicar en cualquier lugar**. Una vez construido, un agente puede publicarse en múltiples canales — Microsoft Teams, Microsoft 365 Copilot, un sitio web o app personalizada, y más — con seguridad, autenticación y análisis gestionados a través de la experiencia administrativa de Power Platform.
+- **Publicar en cualquier lugar**. Una vez construido, un agente puede publicarse en múltiples canales - Microsoft Teams, Microsoft 365 Copilot, un sitio web o app personalizada, y más - con seguridad, autenticación y análisis gestionados a través de la experiencia administrativa de Power Platform.
 
 Puedes empezar a construir tu primer agente en [copilotstudio.microsoft.com](https://copilotstudio.microsoft.com?WT.mc_id=academic-105485-koreyst) y aprender más en la [documentación de Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/?WT.mc_id=academic-105485-koreyst).
 

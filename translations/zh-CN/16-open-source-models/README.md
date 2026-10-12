@@ -28,14 +28,14 @@
 
 ## 开源模型的优势
 
-<strong>高度可定制</strong> —— 由于开源模型发布了详细的训练信息，研究人员和开发者可以修改模型内部结构，从而创建针对特定任务或研究领域的高度专业化模型。例如代码生成、数学运算和生物学领域的应用。
+<strong>高度可定制</strong> -- 由于开源模型发布了详细的训练信息，研究人员和开发者可以修改模型内部结构，从而创建针对特定任务或研究领域的高度专业化模型。例如代码生成、数学运算和生物学领域的应用。
 
-<strong>成本</strong> —— 使用和部署这些模型的每个令牌成本低于专有模型。在构建生成式人工智能应用时，应根据性能与价格对比评估这些模型在你的用例中的表现。
+<strong>成本</strong> -- 使用和部署这些模型的每个令牌成本低于专有模型。在构建生成式人工智能应用时，应根据性能与价格对比评估这些模型在你的用例中的表现。
 
 ![模型成本](../../../translated_images/zh-CN/model-price.3f5a3e4d32ae00b4.webp)
 来源：Artificial Analysis
 
-<strong>灵活性</strong> —— 使用开源模型可以灵活地选择不同模型或组合模型。例如，[HuggingChat 助手](https://huggingface.co/chat?WT.mc_id=academic-105485-koreyst)允许用户直接在界面中选择所用模型：
+<strong>灵活性</strong> -- 使用开源模型可以灵活地选择不同模型或组合模型。例如，[HuggingChat 助手](https://huggingface.co/chat?WT.mc_id=academic-105485-koreyst)允许用户直接在界面中选择所用模型：
 
 ![选择模型](../../../translated_images/zh-CN/choose-model.f095d15bbac92214.webp)
 

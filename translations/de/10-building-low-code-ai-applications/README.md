@@ -72,25 +72,25 @@ Das Copilot KI-Assistenten-Feature in Power Automate ermöglicht es Ihnen zu bes
 
 ## Erstellung intelligenter Agenten mit Microsoft Copilot Studio
 
-[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst) (ehemals Power Virtual Agents) ist das Low-Code-Mitglied der Power Platform zur Erstellung von **KI-Agenten** — konversationellen Copiloten, die Fragen beantworten, Aktionen ausführen und Aufgaben im Auftrag Ihrer Nutzer automatisieren können. Wie bei der restlichen Power Platform erstellen Sie diese Agenten in einer visuellen, auf natürliche Sprache fokussierten Umgebung: Sie beschreiben, was der Agent tun soll, und Copilot Studio unterstützt beim Strukturieren seiner Anweisungen, seines Wissens und seiner Aktionen.
+[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst) (ehemals Power Virtual Agents) ist das Low-Code-Mitglied der Power Platform zur Erstellung von **KI-Agenten** - konversationellen Copiloten, die Fragen beantworten, Aktionen ausführen und Aufgaben im Auftrag Ihrer Nutzer automatisieren können. Wie bei der restlichen Power Platform erstellen Sie diese Agenten in einer visuellen, auf natürliche Sprache fokussierten Umgebung: Sie beschreiben, was der Agent tun soll, und Copilot Studio unterstützt beim Strukturieren seiner Anweisungen, seines Wissens und seiner Aktionen.
 
 Für unser Bildungs-Startup könnten Sie einen Agenten erstellen, der Student*innenfragen zu Kursen beantwortet, Abgabetermine für Aufgaben überprüft und sogar E-Mails an Lehrende sendet – alles ohne Code zu schreiben.
 
 Hier sind einige der neuesten Funktionen, die Copilot Studio mächtig machen:
 
-- **Generative Antworten aus Ihrem Wissen**. Statt jede Konversation manuell zu verfassen, können Sie **Wissensquellen** verbinden — öffentliche Websites, SharePoint, OneDrive, Dataverse, hochgeladene Dateien oder Unternehmensdaten über Connectoren — und der Agent generiert fundierte Antworten daraus.
+- **Generative Antworten aus Ihrem Wissen**. Statt jede Konversation manuell zu verfassen, können Sie **Wissensquellen** verbinden - öffentliche Websites, SharePoint, OneDrive, Dataverse, hochgeladene Dateien oder Unternehmensdaten über Connectoren - und der Agent generiert fundierte Antworten daraus.
 
-- **Generative Orchestrierung**. Statt sich auf starre Auslösephrasen zu verlassen, nutzt der Agent KI, um eine Anfrage zu verstehen und dynamisch zu entscheiden, welches Wissen, welche Themen und Aktionen kombiniert werden, um sie zu erfüllen — inklusive der Verknüpfung mehrerer Schritte.
+- **Generative Orchestrierung**. Statt sich auf starre Auslösephrasen zu verlassen, nutzt der Agent KI, um eine Anfrage zu verstehen und dynamisch zu entscheiden, welches Wissen, welche Themen und Aktionen kombiniert werden, um sie zu erfüllen - inklusive der Verknüpfung mehrerer Schritte.
 
 - **Aktionen und Connectoren**. Agenten können *Handlungen ausführen*, nicht nur chatten. Sie können einem Agenten Aktionen geben, die durch die über 1.500 vorgefertigten Power Platform Connectoren, Power Automate Flows, benutzerdefinierte REST-APIs, Prompts oder **Model Context Protocol (MCP)**-Server unterstützt werden.
 
-- **Autonome Agenten**. Agenten sind nicht auf Antworten im Chatfenster beschränkt. Sie können **autonome Agenten** erstellen, die durch Ereignisse ausgelöst werden — wie eine neue E-Mail, ein neuer Datensatz in Dataverse oder das Hochladen einer Datei — und dann im Hintergrund handeln, um eine Aufgabe abzuschließen.
+- **Autonome Agenten**. Agenten sind nicht auf Antworten im Chatfenster beschränkt. Sie können **autonome Agenten** erstellen, die durch Ereignisse ausgelöst werden - wie eine neue E-Mail, ein neuer Datensatz in Dataverse oder das Hochladen einer Datei - und dann im Hintergrund handeln, um eine Aufgabe abzuschließen.
 
 - **Orchestrierung mehrerer Agenten**. Agenten können andere Agenten aufrufen. Ein Copilot Studio Agent kann an andere Agenten übergeben oder von ihnen erweitert werden, einschließlich Agenten, die in Microsoft 365 Copilot veröffentlicht sind, sowie Agenten, die in Microsoft Foundry gebaut werden.
 
 - **Modellauswahl**. Über die integrierten Modelle hinaus können Sie Modelle aus dem Microsoft Foundry Modellkatalog einbringen, um die Arbeitsweise Ihres Agenten in Bezug auf Argumentation und Antworten anzupassen.
 
-- **Überall veröffentlichen**. Ein einmal erstellter Agent kann auf mehreren Kanälen veröffentlicht werden — Microsoft Teams, Microsoft 365 Copilot, einer Webseite oder App und mehr — mit Sicherheit, Authentifizierung und Analysen, die über die Power Platform Admin-Erfahrung verwaltet werden.
+- **Überall veröffentlichen**. Ein einmal erstellter Agent kann auf mehreren Kanälen veröffentlicht werden - Microsoft Teams, Microsoft 365 Copilot, einer Webseite oder App und mehr - mit Sicherheit, Authentifizierung und Analysen, die über die Power Platform Admin-Erfahrung verwaltet werden.
 
 Sie können Ihren ersten Agenten unter [copilotstudio.microsoft.com](https://copilotstudio.microsoft.com?WT.mc_id=academic-105485-koreyst) erstellen und mehr in der [Microsoft Copilot Studio Dokumentation](https://learn.microsoft.com/microsoft-copilot-studio/?WT.mc_id=academic-105485-koreyst) erfahren.
 
@@ -270,7 +270,7 @@ Um zu lernen, wie Sie dieses KI-Modell in Power Automate verwenden, bearbeiten S
 
 Nachdem Sie diese Lektion abgeschlossen haben, sehen Sie sich unsere [Generative AI Learning Sammlung](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) an, um Ihr Generative AI-Wissen weiter zu vertiefen!
 
-Möchten Sie Copilot anpassen und mehr herausholen? Entdecken Sie [Awesome Copilot](https://github.com/github/awesome-copilot?WT.mc_id=academic-105485-koreyst) — eine von der Community beigetragene Sammlung von Anweisungen, Agenten, Skills und Konfigurationen, die Ihnen helfen, das Beste aus GitHub Copilot herauszuholen.
+Möchten Sie Copilot anpassen und mehr herausholen? Entdecken Sie [Awesome Copilot](https://github.com/github/awesome-copilot?WT.mc_id=academic-105485-koreyst) - eine von der Community beigetragene Sammlung von Anweisungen, Agenten, Skills und Konfigurationen, die Ihnen helfen, das Beste aus GitHub Copilot herauszuholen.
 
 Gehen Sie zu Lektion 11, wo wir uns ansehen, wie man [Generative AI mit Function Calling integriert](../11-integrating-with-function-calling/README.md?WT.mc_id=academic-105485-koreyst)!
 

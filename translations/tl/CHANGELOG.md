@@ -5,7 +5,7 @@ Nakadokumento sa file na ito ang lahat ng mahahalagang pagbabago sa kurikulum ng
 Ang format ay batay sa [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Dahil ito ay isang
 kurikulum sa pag-aaral at hindi isang versioned na software package, ang mga entry ay inayos ayon sa petsa.
 
-## [2026-07-16] — Pagpapatunay ng Nilalaman + Mga Larawan ng Aralin 09
+## [2026-07-16] - Pagpapatunay ng Nilalaman + Mga Larawan ng Aralin 09
 
 ### Binago
 
@@ -24,7 +24,7 @@ kurikulum sa pag-aaral at hindi isang versioned na software package, ang mga ent
 
 ### Napatunayan
 
-- In-audit ang mga README para sa mga aralin 01, 03, 05, 12, 14, at 16 — lahat ay kasalukuyan (tamang pangalan at mga link ng Microsoft Foundry);
+- In-audit ang mga README para sa mga aralin 01, 03, 05, 12, 14, at 16 - lahat ay kasalukuyan (tamang pangalan at mga link ng Microsoft Foundry);
   walang kinakailangang pagbabago.
 - Pinatakbo ang buong pag-validate ng markdown sa lahat ng 41 na mga markdown file sa repo (hindi kasama ang mga salin) para sa
   deprecated na mga path ng dokumento, `/en-us/` mga locale ng Microsoft, lumang pangalan ng produkto/modelo, nawawalang mga tracking
@@ -32,7 +32,7 @@ kurikulum sa pag-aaral at hindi isang versioned na software package, ang mga ent
   nagawang ayusin; lahat ng iba pang mga flag ay kinumpirmaang false positives (auto-generated na translation links,
   commented-out placeholders, at third-party `/en/` structural URLs).
 
-## [2026-07-15] — Muling Pagsulat ng Aralin 09 (Mga Aplikasyon ng Larawan) para sa GPT Image Models
+## [2026-07-15] - Muling Pagsulat ng Aralin 09 (Mga Aplikasyon ng Larawan) para sa GPT Image Models
 
 ### Binago
 
@@ -62,7 +62,7 @@ kurikulum sa pag-aaral at hindi isang versioned na software package, ang mga ent
 - Pinatakbo ang `aoai-app.py` ng mula umpisa hanggang dulo laban sa naka-deploy na `gpt-image-1.5` modelo at kinumpirma na ang
   base64 decode/save flow ay naglalabas ng PNG. Nasigurong valid JSON ang mga notebook.
 
-## [2026-07-14] — Pag-update ng Default Model + Patnubay sa Reasoning-Model
+## [2026-07-14] - Pag-update ng Default Model + Patnubay sa Reasoning-Model
 
 ### Binago
 
@@ -106,7 +106,7 @@ kurikulum sa pag-aaral at hindi isang versioned na software package, ang mga ent
 - Pinananatili ng mga sample sa aralin 20 (Mistral) at 21 (Meta) ang `temperature`/`max_tokens` dahil ang mga ito ay target
   ay mga Mistral/Llama models, na sumusuporta sa mga parameter na iyon.
 
-## [2026-07-06] — Refresh ng Modernisasyon ng Nilalaman
+## [2026-07-06] - Refresh ng Modernisasyon ng Nilalaman
 
 Isang malawak na refresh upang panatilihing tumpak ang kurikulum para sa 2026: modernong mga API, kasalukuyang pangalan ng produkto at
 mga pangalan ng modelo, na-update na patnubay sa provider, at bagong mga tooling para sa karanasan ng developer.
@@ -119,11 +119,11 @@ mga pangalan ng modelo, na-update na patnubay sa provider, at bagong mga tooling
 - Dokumentado ang **Foundry Local** bilang offline / on-device na provider (kasama ang Ollama) sa
   `00-course-setup/03-providers.md` at aralin `19-slm`.
 - **Continuous integration workflows**:
-  - `.github/workflows/code-quality.yml` — Ruff + Black (pinapatupad sa maintained `shared/`
+  - `.github/workflows/code-quality.yml` - Ruff + Black (pinapatupad sa maintained `shared/`
     module, advisory sa buong kurikulum), isang advisory ESLint pass, at isang pytest job.
-  - `.github/workflows/security.yml` — CodeQL analysis (Python + JavaScript/TypeScript) at
+  - `.github/workflows/security.yml` - CodeQL analysis (Python + JavaScript/TypeScript) at
     dependency review sa mga pull request.
-- **Test suite** sa ilalim ng `tests/` — 41 pytest tests na sumasakop sa shared utility module.
+- **Test suite** sa ilalim ng `tests/` - 41 pytest tests na sumasakop sa shared utility module.
 - **Kakayahan sa paglipat mula Azure OpenAI → Responses API** sa ilalim ng
   `.github/skills/azure-openai-to-responses/` na ginagamit upang gabayan ang paglipat ng API.
 
@@ -159,13 +159,13 @@ mga pangalan ng modelo, na-update na patnubay sa provider, at bagong mga tooling
 
 ### Naayos
 
-- **`shared/python/input_validation.py`** — `validate_text_input(allow_empty=True)` ngayon ay nagbabalik ng
+- **`shared/python/input_validation.py`** - `validate_text_input(allow_empty=True)` ngayon ay nagbabalik ng
   walang laman na string para sa input na puro whitespace sa halip na maglabas ng error na "too short"
   (ayon sa kaso ng `None`). Natuklasan at nasaklaw ng bagong test suite.
-- **Mga larawan ng Lesson 09** — naitama ang mga tunay na bug: `InvalidRequestError` → `BadRequestError`,
+- **Mga larawan ng Lesson 09** - naitama ang mga tunay na bug: `InvalidRequestError` → `BadRequestError`,
   `images.create` → `images.generate`, `Image.create_variation` → `client.images.create_variation`,
   at isang variable na tumalab sa `openai` na module.
-- **Lesson 15 RAG notebook** — inayos ang client setup, pinalitan ang tinanggal na `DataFrame.append`
+- **Lesson 15 RAG notebook** - inayos ang client setup, pinalitan ang tinanggal na `DataFrame.append`
   ng `pd.concat`, at inayos ang paggamit ng legacy SDK.
 - Mga deprecated / hindi na ginagamit na pangalan ng modelo (`gpt-3.5-turbo`, `gpt-35-turbo`) pinalitan ng `gpt-4o-mini`
   sa mga aktibong sample; ang mga historikal na fine-tuning output sa lesson 18 ay pinanatili at nilagyan ng anotasyon
@@ -174,8 +174,8 @@ mga pangalan ng modelo, na-update na patnubay sa provider, at bagong mga tooling
 ### Deprecated / Mga Tala
 
 - **Mga sample ng Microsoft Foundry Models** na gumagamit ng `azure-ai-inference` / `@azure-rest/ai-inference`
-  SDK (`client.complete()`) — ang `githubmodels-*` at `js-githubmodels` na mga sample at lessons 19, 20,
-  at 21 — nananatili sa Model Inference API, na **hindi** sumusuporta sa Responses API. Sadyang iniwan ito
+  SDK (`client.complete()`) - ang `githubmodels-*` at `js-githubmodels` na mga sample at lessons 19, 20,
+  at 21 - nananatili sa Model Inference API, na **hindi** sumusuporta sa Responses API. Sadyang iniwan ito
   sa SDK na iyon.
 - `AzureOpenAI()` ay sinasadyang pinanatili kung saan naaangkop pa (embeddings at paggawa ng larawan),
   dahil ang mga workflow na iyon ay hindi bahagi ng migration ng Responses API.

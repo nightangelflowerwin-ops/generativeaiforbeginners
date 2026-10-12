@@ -30,7 +30,7 @@ Tento proces trvá **~2 minuty** napoprvé.
 
 ## 3. Přidejte svůj API klíč (bezpečným způsobem)
 
-### Možnost A Secrets Codespaces — Doporučeno
+### Možnost A Secrets Codespaces - Doporučeno
 
 1. ⚙️ Ikona ozubeného kolečka -> Příkazová paleta -> Codespaces : Spravovat uživatelské tajemství -> Přidat nové tajemství.
 2. Název: OPENAI_API_KEY

@@ -30,7 +30,7 @@ Codespaces သည် အခမဲ့ဖြစ်ပြီး ဘရောက်�
 
 ## 3. သင့် API key ကို ထည့်သွင်းခြင်း (လုံခြုံသောနည်း)
 
-### နည်းလမ်း A Codespaces ရဲ့ Secrets — အကြံပြုသည်
+### နည်းလမ်း A Codespaces ရဲ့ Secrets - အကြံပြုသည်
 
 1. ⚙️ ဂီယာအိုင်ကွန် -> Command Pallete-> Codespaces : Manage user secret -> Add a new secret။
 2. အမည်: OPENAI_API_KEY

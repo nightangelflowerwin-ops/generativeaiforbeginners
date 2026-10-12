@@ -42,7 +42,7 @@
 | ಕಾಂಟೈನರ್ ಬಿಲ್ಡ್ stuck ಆಗಿದೆ > 10 ನಿಮಿಷರು   | **Codespaces ➜ “Rebuild Container”**                            |
 | `python: command not found`               | ಟರ್ಮಿನಲ್ ಜೋಡಿಸಲಾಗಿಲ್ಲ; **+** ➜ *bash* ಕ್ಲಿಕ್ ಮಾಡಿ                    |
 | OpenAI ಯಿಂದ `401 Unauthorized`            | ತಪ್ಪಾದ / ಅವಧಿ ಹೋದ `OPENAI_API_KEY`                                |
-| VS Code “Dev container mounting…” ತೋರುತ್ತಿದೆ | ಬ್ರೌಸರ್ ಟ್ಯಾಬ್ ರೀಫ್ರೆಶ್ ಮಾಡಿ—Codespaces ಕೆಲವೊಮ್ಮೆ ಸಂಪರ್ಕ ಕಳೆದುಕೊಳ್ಳುತ್ತದೆ   |
+| VS Code “Dev container mounting…” ತೋರುತ್ತಿದೆ | ಬ್ರೌಸರ್ ಟ್ಯಾಬ್ ರೀಫ್ರೆಶ್ ಮಾಡಿ-Codespaces ಕೆಲವೊಮ್ಮೆ ಸಂಪರ್ಕ ಕಳೆದುಕೊಳ್ಳುತ್ತದೆ   |
 | ನೋಟ್ಬುಕ್ ಕರ್ಮೆಲ್ ಇಲ್ಲ                    | ನೋಟ್ಬುಕ್ ಮೆನೂ ➜ **Kernel ▸ Select Kernel ▸ Python 3**           |
 
    ಯುನಿಕ್ಸ್ ಆಧಾರಿತ ವ್ಯವಸ್ಥೆಗಳು:

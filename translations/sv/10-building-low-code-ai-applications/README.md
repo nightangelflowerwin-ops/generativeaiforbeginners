@@ -72,25 +72,25 @@ Copilot AI-assistentfunktionen i Power Automate gör att du kan beskriva vilket 
 
 ## Bygga intelligenta agenter med Microsoft Copilot Studio
 
-[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst) (tidigare Power Virtual Agents) är lågkodmedlemmen i Power Platform för att bygga **AI-agenter** — konverserande copiloter som kan svara på frågor, utföra åtgärder och automatisera uppgifter åt dina användare. Precis som resten av Power Platform bygger du dessa agenter i en visuell upplevelse med fokus på naturligt språk: du beskriver vad du vill att agenten ska göra, och Copilot Studio hjälper till att ställa in dess instruktioner, kunskap och åtgärder.
+[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst) (tidigare Power Virtual Agents) är lågkodmedlemmen i Power Platform för att bygga **AI-agenter** - konverserande copiloter som kan svara på frågor, utföra åtgärder och automatisera uppgifter åt dina användare. Precis som resten av Power Platform bygger du dessa agenter i en visuell upplevelse med fokus på naturligt språk: du beskriver vad du vill att agenten ska göra, och Copilot Studio hjälper till att ställa in dess instruktioner, kunskap och åtgärder.
 
-För vår utbildningsstartup kan du bygga en agent som svarar på studenters frågor om kurser, kontrollerar inlämningsdatum för uppgifter och till och med skickar e-post till en instruktör — allt utan att skriva kod.
+För vår utbildningsstartup kan du bygga en agent som svarar på studenters frågor om kurser, kontrollerar inlämningsdatum för uppgifter och till och med skickar e-post till en instruktör - allt utan att skriva kod.
 
 Här är några av de senaste funktionerna som gör Copilot Studio kraftfullt:
 
-- **Generativa svar från din kunskap**. Istället för att manuellt skapa varje konversation kan du koppla **kunskapskällor** — offentliga webbplatser, SharePoint, OneDrive, Dataverse, uppladdade filer eller företagsdata via connectors — och agenten genererar förankrade svar från dem.
+- **Generativa svar från din kunskap**. Istället för att manuellt skapa varje konversation kan du koppla **kunskapskällor** - offentliga webbplatser, SharePoint, OneDrive, Dataverse, uppladdade filer eller företagsdata via connectors - och agenten genererar förankrade svar från dem.
 
 - **Generativ orkestrering**. Istället för att förlita sig på rigida utlösarfraser använder agenten AI för att förstå en begäran och dynamiskt bestämma vilken kunskap, ämnen och åtgärder som ska kombineras för att uppfylla den, inklusive att kedja flera steg tillsammans.
 
 - **Åtgärder och connectors**. Agenter kan *utföra* saker, inte bara chatta. Du kan ge en agent åtgärder som stöds av 1 500+ förbyggda Power Platform-anslutningar, Power Automate-flöden, anpassade REST-API:er, prompts eller **Model Context Protocol (MCP)**-servrar.
 
-- **Autonoma agenter**. Agenter är inte begränsade till att svara i ett chattfönster. Du kan bygga **autonoma agenter** som triggas av händelser — som ett nytt e-postmeddelande, en ny post i Dataverse eller en uppladdad fil — och sedan agerar i bakgrunden för att slutföra en uppgift.
+- **Autonoma agenter**. Agenter är inte begränsade till att svara i ett chattfönster. Du kan bygga **autonoma agenter** som triggas av händelser - som ett nytt e-postmeddelande, en ny post i Dataverse eller en uppladdad fil - och sedan agerar i bakgrunden för att slutföra en uppgift.
 
 - **Multi-agent orkestrering**. Agenter kan anropa andra agenter. En Copilot Studio-agent kan överlämna till, eller utökas av, andra agenter, inklusive agenter publicerade i Microsoft 365 Copilot och agenter byggda i Microsoft Foundry.
 
 - **Val av modell**. Utöver de inbyggda modellerna kan du använda modeller från Microsoft Foundrys modellkatalog för att anpassa hur din agent resonerar och svarar.
 
-- **Publicera var som helst**. När en agent är byggd kan den publiceras till flera kanaler — Microsoft Teams, Microsoft 365 Copilot, en webbplats eller anpassad app med mera — med säkerhet, autentisering och analys hanterade via Power Platforms administrationsupplevelse.
+- **Publicera var som helst**. När en agent är byggd kan den publiceras till flera kanaler - Microsoft Teams, Microsoft 365 Copilot, en webbplats eller anpassad app med mera - med säkerhet, autentisering och analys hanterade via Power Platforms administrationsupplevelse.
 
 Du kan börja bygga din första agent på [copilotstudio.microsoft.com](https://copilotstudio.microsoft.com?WT.mc_id=academic-105485-koreyst) och lära dig mer i [Microsoft Copilot Studio-dokumentationen](https://learn.microsoft.com/microsoft-copilot-studio/?WT.mc_id=academic-105485-koreyst).
 
@@ -270,7 +270,7 @@ För att lära dig hur du använder denna AI-modell i Power Automate, gå igenom
 
 Efter att ha slutfört denna lektion, kolla in vår [Generative AI Learning collection](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) för att fortsätta utveckla din kunskap om Generativ AI!
 
-Vill du anpassa och få ut mer av Copilot? Utforska [Awesome Copilot](https://github.com/github/awesome-copilot?WT.mc_id=academic-105485-koreyst) — en community-bidragsamling av instruktioner, agenter, färdigheter och konfigurationer som hjälper dig att få ut det mesta av GitHub Copilot.
+Vill du anpassa och få ut mer av Copilot? Utforska [Awesome Copilot](https://github.com/github/awesome-copilot?WT.mc_id=academic-105485-koreyst) - en community-bidragsamling av instruktioner, agenter, färdigheter och konfigurationer som hjälper dig att få ut det mesta av GitHub Copilot.
 
 Gå vidare till Lektion 11 där vi kommer att titta på hur man [integrerar Generativ AI med Funktionsanrop](../11-integrating-with-function-calling/README.md?WT.mc_id=academic-105485-koreyst)!
 

@@ -30,13 +30,13 @@ Ovo traje **~2 minute** prvi put.
 
 ## 3. Dodajte svoj API ključ (siguran način)
 
-### Opcija A Codespaces Secrets — Preporučeno
+### Opcija A Codespaces Secrets - Preporučeno
 
 1. ⚙️ Ikona zupčanika -> Command Palette -> Codespaces : Manage user secret -> Dodaj novi secret.
 2. Naziv: OPENAI_API_KEY
 3. Vrijednost: zalijepite svoj ključ → Dodaj secret
 
-To je to—naš će kod automatski pročitati ključ.
+To je to-naš će kod automatski pročitati ključ.
 
 ### Opcija B .env datoteka (ako vam baš treba)
 

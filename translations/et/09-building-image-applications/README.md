@@ -6,7 +6,7 @@ Suurte keelemudelite (LLM) võimekus ei piirdu vaid teksti genereerimisega. Saad
 
 ## Sissejuhatus
 
-Pildigeneratsioon võimaldab muuta loomuliku keelelise viite pildiks. Selles õppetükis kasutame OpenAI **`gpt-image`** mudelite pere — praeguse põlvkonna pildimudelid, mis on saadaval **[Microsoft Foundry](https://ai.azure.com?WT.mc_id=academic-105485-koreyst)** ja OpenAI platvormil. Need mudelid asendavad vanemad DALL·E mudelid (DALL·E 2/3 on päritolu).
+Pildigeneratsioon võimaldab muuta loomuliku keelelise viite pildiks. Selles õppetükis kasutame OpenAI **`gpt-image`** mudelite pere - praeguse põlvkonna pildimudelid, mis on saadaval **[Microsoft Foundry](https://ai.azure.com?WT.mc_id=academic-105485-koreyst)** ja OpenAI platvormil. Need mudelid asendavad vanemad DALL·E mudelid (DALL·E 2/3 on päritolu).
 
 Kogu õppetüki vältel kasutame väljamõeldud idufirmat **Edu4All**, mis arendab õppevahendeid. Meeskond soovib genereerida joonistusi ülesannete ja õppematerjalide jaoks.
 

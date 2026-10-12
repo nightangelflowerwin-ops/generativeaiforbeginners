@@ -72,25 +72,25 @@ Funkcia AI asistenta Copilot v Power Automate vám umožňuje opísať, aký typ
 
 ## Tvorba inteligentných asistentov s Microsoft Copilot Studio
 
-[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst) (predtým Power Virtual Agents) je platforma s nízkym kódom v Power Platform na tvorbu **AI asistentov** — konverzačných copilotov, ktorí môžu odpovedať na otázky, vykonávať akcie a automatizovať úlohy za vašich používateľov. Podobne ako zvyšok Power Platform, týchto asistentov vytvárate vo vizuálnom prostredí orientovanom na prirodzený jazyk: opíšete, čo chcete, aby asistent robil, a Copilot Studio pomáha štruktúrovať jeho inštrukcie, vedomosti a akcie.
+[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst) (predtým Power Virtual Agents) je platforma s nízkym kódom v Power Platform na tvorbu **AI asistentov** - konverzačných copilotov, ktorí môžu odpovedať na otázky, vykonávať akcie a automatizovať úlohy za vašich používateľov. Podobne ako zvyšok Power Platform, týchto asistentov vytvárate vo vizuálnom prostredí orientovanom na prirodzený jazyk: opíšete, čo chcete, aby asistent robil, a Copilot Studio pomáha štruktúrovať jeho inštrukcie, vedomosti a akcie.
 
-Pre náš vzdelávací startup môžete vytvoriť asistenta, ktorý odpovedá študentom na otázky o kurzoch, kontroluje termíny úloh a dokonca posiela emaily lektorovi — a to všetko bez písania kódu.
+Pre náš vzdelávací startup môžete vytvoriť asistenta, ktorý odpovedá študentom na otázky o kurzoch, kontroluje termíny úloh a dokonca posiela emaily lektorovi - a to všetko bez písania kódu.
 
 Tu sú niektoré z najnovších funkcií, ktoré robia Copilot Studio výkonným:
 
-- **Generatívne odpovede z vašich znalostí**. Namiesto manuálneho tvorenia každej konverzácie môžete pripojiť **zdroje znalostí** — verejné webstránky, SharePoint, OneDrive, Dataverse, nahrané súbory alebo podnikové dáta cez konektory — a asistent z nich generuje podložené odpovede.
+- **Generatívne odpovede z vašich znalostí**. Namiesto manuálneho tvorenia každej konverzácie môžete pripojiť **zdroje znalostí** - verejné webstránky, SharePoint, OneDrive, Dataverse, nahrané súbory alebo podnikové dáta cez konektory - a asistent z nich generuje podložené odpovede.
 
 - **Generatívna orchestrácia**. Namiesto neflexibilných štartovacích fráz asistent využíva AI na pochopenie požiadavky a dynamicky rozhoduje, ktoré vedomosti, témy a akcie skombinovať na jej splnenie, vrátane spojenia viacerých krokov.
 
 - **Akcie a konektory**. Asistenti môžu *vykonávať* úlohy, nielen chatovať. Môžete im prideliť akcie podporované viac ako 1500 predpripravenými konektormi Power Platform, tokmi Power Automate, vlastnými REST API, promptmi alebo servermi **Model Context Protocol (MCP)**.
 
-- **Autonómni asistenti**. Asistenti nie sú obmedzení na reagovanie v chatovom okne. môžete vytvárať **autonómnych asistentov**, ktorí sa spúšťajú na udalosti — ako nový email, nový záznam v Dataverse alebo nahratie súboru — a potom konajú na pozadí na dokončenie úlohy.
+- **Autonómni asistenti**. Asistenti nie sú obmedzení na reagovanie v chatovom okne. môžete vytvárať **autonómnych asistentov**, ktorí sa spúšťajú na udalosti - ako nový email, nový záznam v Dataverse alebo nahratie súboru - a potom konajú na pozadí na dokončenie úlohy.
 
 - **Orchestrácia viacerých asistentov**. Asistenti môžu volať iných asistentov. Asistent z Copilot Studio môže odovzdať úlohu alebo byť rozšírený ďalšími asistentmi, vrátane asistentov publikovaných v Microsoft 365 Copilot a asistentov vytvorených v Microsoft Foundry.
 
 - **Výber modelu**. Okrem vstavaných modelov môžete priniesť modely z katalógu modelov Microsoft Foundry, aby ste prispôsobili, ako váš asistent uvažuje a odpovedá.
 
-- **Publikovanie kdekoľvek**. Po vytvorení možno asistenta publikovať na viacerých kanáloch — Microsoft Teams, Microsoft 365 Copilot, webstránku alebo vlastnú aplikáciu a ďalšie — so zabezpečením, overovaním a analýzami riadenými cez administráciu Power Platform.
+- **Publikovanie kdekoľvek**. Po vytvorení možno asistenta publikovať na viacerých kanáloch - Microsoft Teams, Microsoft 365 Copilot, webstránku alebo vlastnú aplikáciu a ďalšie - so zabezpečením, overovaním a analýzami riadenými cez administráciu Power Platform.
 
 Svojho prvého asistenta môžete začať vytvárať na [copilotstudio.microsoft.com](https://copilotstudio.microsoft.com?WT.mc_id=academic-105485-koreyst) a dozvedieť sa viac v [dokumentácii Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/?WT.mc_id=academic-105485-koreyst).
 
@@ -270,7 +270,7 @@ Ak sa chcete naučiť, ako používať tento AI model v Power Automate, prejdite
 
 Po dokončení tejto lekcie si pozrite našu [kolekciu učenia Generatívnej AI](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst), aby ste si mohli naďalej zvyšovať vedomosti o Generatívnej AI!
 
-Chcete si prispôsobiť a vyťažiť viac z Copilota? Preskúmajte [Úžasný Copilot](https://github.com/github/awesome-copilot?WT.mc_id=academic-105485-koreyst) — komunitou prispievaná kolekcia inštrukcií, agentov, zručností a konfigurácií, ktoré vám pomôžu čo najlepšie využiť GitHub Copilot.
+Chcete si prispôsobiť a vyťažiť viac z Copilota? Preskúmajte [Úžasný Copilot](https://github.com/github/awesome-copilot?WT.mc_id=academic-105485-koreyst) - komunitou prispievaná kolekcia inštrukcií, agentov, zručností a konfigurácií, ktoré vám pomôžu čo najlepšie využiť GitHub Copilot.
 
 Prejdite na lekciu 11, kde sa pozrieme, ako [integrovať Generatívnu AI s volaním funkcií](../11-integrating-with-function-calling/README.md?WT.mc_id=academic-105485-koreyst)!
 

@@ -54,7 +54,7 @@ SLM-idel on lai rakenduste spekter, sealhulgas:
 
 **Suurus**
   
-Peamine erinevus LLM-ide ja SLM-ide vahel peitub mudelite mastaabis. LLM-id, nagu ChatGPT (GPT-4), võivad sisaldada hinnanguliselt 1,76 triljonit parameetrit, samas kui avatud lähtekoodiga SLM-id nagu Mistral 7B on disainitud oluliselt väiksema parameetrite arvuga—umbes 7 miljardit. See erinevus tuleneb peamiselt mudeli arhitektuuri ja treeningprotsesside erinevustest. Näiteks kasutab ChatGPT enda tähelepanu mehhanismi kodeerija-dekodeerija raamistikus, samal ajal kui Mistral 7B kasutab libiseva akna tähelepanu, mis võimaldab efektiivsemat treeningut ainult dekodeerija mudelis. See arhitektuuriline erinevus mõjutab oluliselt nende mudelite keerukust ja jõudlust.
+Peamine erinevus LLM-ide ja SLM-ide vahel peitub mudelite mastaabis. LLM-id, nagu ChatGPT (GPT-4), võivad sisaldada hinnanguliselt 1,76 triljonit parameetrit, samas kui avatud lähtekoodiga SLM-id nagu Mistral 7B on disainitud oluliselt väiksema parameetrite arvuga-umbes 7 miljardit. See erinevus tuleneb peamiselt mudeli arhitektuuri ja treeningprotsesside erinevustest. Näiteks kasutab ChatGPT enda tähelepanu mehhanismi kodeerija-dekodeerija raamistikus, samal ajal kui Mistral 7B kasutab libiseva akna tähelepanu, mis võimaldab efektiivsemat treeningut ainult dekodeerija mudelis. See arhitektuuriline erinevus mõjutab oluliselt nende mudelite keerukust ja jõudlust.
 
 **Mõistmine**
 
@@ -112,7 +112,7 @@ Phi-3-vision, millel on vaid 4,2 miljardit parameetrit, jätkab seda traditsioon
 
 **Phi-3.5-Vision**
 
-Phi-3.5-Vision on samuti uuendus Phi-3-Visionist, lisades mitme pildi toe. Seda võib nimetada nägemise paranemiseks — mitte ainult piltide, vaid ka videote nägemiseks.
+Phi-3.5-Vision on samuti uuendus Phi-3-Visionist, lisades mitme pildi toe. Seda võib nimetada nägemise paranemiseks - mitte ainult piltide, vaid ka videote nägemiseks.
 
 Phi-3.5-vision ületab suuremaid mudeleid nagu Claude-3.5 Sonnet ja Gemini 1.5 Flash OCR-is, tabelite ja diagrammide mõistmise ülesannetes ning on võrdväärne üldiste visuaalse teadmise mõtlemise ülesannetes. Toetab mitme kaadri sisendit, st saab teha järeldusi mitme sisendpildi põhjal.
 

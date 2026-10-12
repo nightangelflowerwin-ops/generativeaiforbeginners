@@ -2,7 +2,7 @@
 
 **如果你想在自己電腦上運行所有內容，請使用此指南。**   
 你有兩條路徑：**(A) 原生 Python + virtual-env** 或 **(B) VS Code 開發容器搭配 Docker**。  
-選擇你覺得較容易的一種——兩者都會帶你完成相同的課程。
+選擇你覺得較容易的一種--兩者都會帶你完成相同的課程。
 
 ## 1.  前置條件
 
@@ -33,7 +33,7 @@ source .venv/bin/activate     # macOS / Linux
 .\.venv\Scripts\activate      # Windows PowerShell
 ```
 
-✅ 提示符現在應該以 (.venv) 開頭——代表你已進入此環境。
+✅ 提示符現在應該以 (.venv) 開頭--代表你已進入此環境。
 
 ### 步驟 3 安裝相依套件
 
@@ -196,7 +196,7 @@ jupyterhub
 
 就這樣！你已成功建立 `.env` 檔案，加入了 Microsoft Foundry Models 的認證，並載入到 Python 應用程式中。
 
-🔐 切勿將 .env 提交至版本庫——它已被加入 .gitignore。
+🔐 切勿將 .env 提交至版本庫--它已被加入 .gitignore。
 詳細的服務商指引請參見 [`providers.md`](03-providers.md)。
 
 ## 4. 接下來做什麼？

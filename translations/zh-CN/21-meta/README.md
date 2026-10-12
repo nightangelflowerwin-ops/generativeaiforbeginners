@@ -11,7 +11,7 @@
 
 ## Meta 家族模型
 
-在本课程中，我们将探索 Meta 家族或“Llama Herd”中的两个模型——Llama 3.1 和 Llama 3.2。
+在本课程中，我们将探索 Meta 家族或“Llama Herd”中的两个模型--Llama 3.1 和 Llama 3.2。
 
 这些模型有不同的变体，并且可以在[Microsoft Foundry Models 目录](https://ai.azure.com/catalog/models?WT.mc_id=academic-105485-koreyst)中找到。
 

@@ -300,9 +300,9 @@ Semua terjemahan **selesai** dan dihasilkan secara otomatis oleh [Azure Co-op Tr
 
 | Aspek | Status |
 |--------|--------|
-| Cakupan terjemahan | Lengkap — 50+ bahasa, semua pelajaran |
+| Cakupan terjemahan | Lengkap - 50+ bahasa, semua pelajaran |
 | Metode terjemahan | Otomatis melalui [Azure Co-op Translator](https://github.com/Azure/co-op-translator?WT.mc_id=academic-105485-koreyst) |
-| Disinkronkan dengan sumber bahasa Inggris | Ya — dihasilkan ulang secara otomatis |
+| Disinkronkan dengan sumber bahasa Inggris | Ya - dihasilkan ulang secara otomatis |
 
 ### 9.2 Peningkatan Aksesibilitas
 

@@ -72,25 +72,25 @@ Power Automate 中的 Copilot AI 助手功能允許你描述所需的流程類�
 
 ## 使用 Microsoft Copilot Studio 建立智能代理人
 
-[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst)（前稱 Power Virtual Agents）是 Power Platform 中的低代碼成員，用於建構<strong>AI 代理人</strong>——對話型副手，可替你的使用者回答問題、執行動作並自動化任務。就像 Power Platform 其他產品一樣，你可以在視覺化、以自然語言為主的體驗中建立這些代理人：你描述想讓代理人做的事，Copilot Studio 協助架構其指令、知識和動作。
+[Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?WT.mc_id=academic-105485-koreyst)（前稱 Power Virtual Agents）是 Power Platform 中的低代碼成員，用於建構<strong>AI 代理人</strong>--對話型副手，可替你的使用者回答問題、執行動作並自動化任務。就像 Power Platform 其他產品一樣，你可以在視覺化、以自然語言為主的體驗中建立這些代理人：你描述想讓代理人做的事，Copilot Studio 協助架構其指令、知識和動作。
 
-對於我們的教育創業公司，你可以建構一個代理人，回答學生關於課程的問題、檢查作業截止日期，甚至發送電子郵件給講師——全部無需撰寫程式碼。
+對於我們的教育創業公司，你可以建構一個代理人，回答學生關於課程的問題、檢查作業截止日期，甚至發送電子郵件給講師--全部無需撰寫程式碼。
 
 以下是讓 Copilot Studio 強大的部分最新功能：
 
-- <strong>來自你的知識的生成回答</strong>。你不需逐字打造對話，而是可以連接<strong>知識來源</strong>——公共網站、SharePoint、OneDrive、Dataverse、上傳的文件，或透過連接器的企業資料——代理人利用它們產生有依據的回答。
+- <strong>來自你的知識的生成回答</strong>。你不需逐字打造對話，而是可以連接<strong>知識來源</strong>--公共網站、SharePoint、OneDrive、Dataverse、上傳的文件，或透過連接器的企業資料--代理人利用它們產生有依據的回答。
 
 - <strong>生成式協調</strong>。代理人不只依賴死板的觸發語句，它用 AI 理解請求並動態決定結合哪些知識、主題和動作來完成請求，甚至串聯多個步驟。
 
 - <strong>動作與連接器</strong>。代理人能<em>執行</em>任務，不只是聊天。你可以給代理人 1,500 多個預建的 Power Platform 連接器、Power Automate 流程、自訂 REST API、提示詞或<strong>模型上下文協議（MCP）</strong>伺服器支持的動作。
 
-- <strong>自動代理人</strong>。代理人不限於在聊天視窗回應。你可以建立<strong>自治代理人</strong>，由事件觸發——如新電郵、Dataverse 新紀錄或檔案上傳——然後在背景執行任務。
+- <strong>自動代理人</strong>。代理人不限於在聊天視窗回應。你可以建立<strong>自治代理人</strong>，由事件觸發--如新電郵、Dataverse 新紀錄或檔案上傳--然後在背景執行任務。
 
 - <strong>多代理協調</strong>。代理人能呼叫其他代理人。Copilot Studio 代理人可以轉交給其他代理人，或由其他代理人延伸，包括發佈到 Microsoft 365 Copilot 的代理人及 Microsoft Foundry 建置的代理人。
 
 - <strong>模型選擇</strong>。除了內建模型外，你還可以從 Microsoft Foundry 模型目錄導入模型，客製化代理人的推理與回應方式。
 
-- <strong>多渠道發佈</strong>。建立完成的代理人可發佈至多個平台——Microsoft Teams、Microsoft 365 Copilot、網站或自訂應用程式等——並透過 Power Platform 管理體驗管理安全、身分驗證及分析。
+- <strong>多渠道發佈</strong>。建立完成的代理人可發佈至多個平台--Microsoft Teams、Microsoft 365 Copilot、網站或自訂應用程式等--並透過 Power Platform 管理體驗管理安全、身分驗證及分析。
 
 你可以在 [copilotstudio.microsoft.com](https://copilotstudio.microsoft.com?WT.mc_id=academic-105485-koreyst) 開始建立第一個代理人，並在 [Microsoft Copilot Studio 文件](https://learn.microsoft.com/microsoft-copilot-studio/?WT.mc_id=academic-105485-koreyst) 了解更多。
 
@@ -270,7 +270,7 @@ GPT 模型經過大量數據密集訓練，使其在給定提示時能生成與�
 
 完成本課後，請查看我們的 [生成型 AI 學習系列](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst)，繼續提升你的生成型 AI 知識！
 
-想自訂並充分利用 Copilot？探索 [Awesome Copilot](https://github.com/github/awesome-copilot?WT.mc_id=academic-105485-koreyst) — 一個由社區貢獻的指令、代理、技能及配置集合，幫助你最大化使用 GitHub Copilot。
+想自訂並充分利用 Copilot？探索 [Awesome Copilot](https://github.com/github/awesome-copilot?WT.mc_id=academic-105485-koreyst) - 一個由社區貢獻的指令、代理、技能及配置集合，幫助你最大化使用 GitHub Copilot。
 
 前往第 11 課，我們將探討如何 [結合生成型 AI 與 Function Calling](../11-integrating-with-function-calling/README.md?WT.mc_id=academic-105485-koreyst)！
 

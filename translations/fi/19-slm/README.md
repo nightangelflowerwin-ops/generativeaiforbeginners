@@ -54,7 +54,7 @@ SLM:illä on laaja sovellusalue, mukaan lukien:
 
 **Koko**
   
-Keskeinen ero LLM:ien ja SLM:ien välillä liittyy mallien kokoon. LLM:t, kuten ChatGPT (GPT-4), voivat sisältää arviolta 1,76 biljoonaa parametria, kun taas avoimen lähdekoodin SLM:t, kuten Mistral 7B, on suunniteltu merkittävästi pienemmillä parametrijoukoilla — noin 7 miljardia. Tämä ero johtuu pääasiassa erotuksista mallin arkkitehtuurissa ja koulutusprosesseissa. Esimerkiksi ChatGPT käyttää itsehuomiomekanismia kooderi-dekooderi -kehyksessä, kun taas Mistral 7B hyödyntää liukuvan ikkunan huomiota, mikä mahdollistaa tehokkaamman koulutuksen pelkän dekooderimallin sisällä. Tämä arkkitehtoninen ero vaikuttaa syvästi mallien monimutkaisuuteen ja suorituskykyyn.
+Keskeinen ero LLM:ien ja SLM:ien välillä liittyy mallien kokoon. LLM:t, kuten ChatGPT (GPT-4), voivat sisältää arviolta 1,76 biljoonaa parametria, kun taas avoimen lähdekoodin SLM:t, kuten Mistral 7B, on suunniteltu merkittävästi pienemmillä parametrijoukoilla - noin 7 miljardia. Tämä ero johtuu pääasiassa erotuksista mallin arkkitehtuurissa ja koulutusprosesseissa. Esimerkiksi ChatGPT käyttää itsehuomiomekanismia kooderi-dekooderi -kehyksessä, kun taas Mistral 7B hyödyntää liukuvan ikkunan huomiota, mikä mahdollistaa tehokkaamman koulutuksen pelkän dekooderimallin sisällä. Tämä arkkitehtoninen ero vaikuttaa syvästi mallien monimutkaisuuteen ja suorituskykyyn.
 
 **Ymmärrys**
 

@@ -208,7 +208,7 @@ ollama run phi3.5
 
 **Foundry Local**
 
-[Foundry Local](https://foundrylocal.ai?WT.mc_id=academic-105485-koreyst) হল মাইক্রোসফটের অফলাইন, অন-ডিভাইস রানটাইম যা সম্পূর্ণ আপনার নিজস্ব হার্ডওয়্যারে Phi মত মডেল চালায় — কোনো Azure সাবস্ক্রিপশন, API কী বা নেটওয়ার্ক সংযোগ প্রয়োজন নেই। এটি স্বয়ংক্রিয়ভাবে সেরা এক্সিকিউশন প্রোভাইডার নির্বাচন করে (NPU, GPU বা CPU) এবং OpenAI-কম্প্যাটিবল এন্ডপয়েন্ট সরবরাহ করে, তাই বিদ্যমান `openai`/Azure AI ইনফারেন্স SDK কোড খুব কম পরিবর্তনে ব্যবহার করা যায়। শুরু করতে [Foundry Local ডকুমেন্টেশন](https://learn.microsoft.com/azure/ai-foundry/foundry-local/get-started?WT.mc_id=academic-105485-koreyst) দেখুন।
+[Foundry Local](https://foundrylocal.ai?WT.mc_id=academic-105485-koreyst) হল মাইক্রোসফটের অফলাইন, অন-ডিভাইস রানটাইম যা সম্পূর্ণ আপনার নিজস্ব হার্ডওয়্যারে Phi মত মডেল চালায় - কোনো Azure সাবস্ক্রিপশন, API কী বা নেটওয়ার্ক সংযোগ প্রয়োজন নেই। এটি স্বয়ংক্রিয়ভাবে সেরা এক্সিকিউশন প্রোভাইডার নির্বাচন করে (NPU, GPU বা CPU) এবং OpenAI-কম্প্যাটিবল এন্ডপয়েন্ট সরবরাহ করে, তাই বিদ্যমান `openai`/Azure AI ইনফারেন্স SDK কোড খুব কম পরিবর্তনে ব্যবহার করা যায়। শুরু করতে [Foundry Local ডকুমেন্টেশন](https://learn.microsoft.com/azure/ai-foundry/foundry-local/get-started?WT.mc_id=academic-105485-koreyst) দেখুন।
 
 ```bash
 

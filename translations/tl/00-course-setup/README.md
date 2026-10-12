@@ -42,7 +42,7 @@ Sa iyong fork: **Code -> Codespaces -> New on main**
 | Nahirapan ang pagbuo ng container > 10 min | **Codespaces ➜ “Rebuild Container”**                          |
 | `python: command not found`               | Hindi na-attach ang Terminal; i-click ang **+** ➜ *bash*        |
 | `401 Unauthorized` mula sa OpenAI          | Mali / expired ang `OPENAI_API_KEY`                            |
-| Nagpapakita ang VS Code ng “Dev container mounting…” | I-refresh ang browser tab—may mga pagkakataon na nawawala ang koneksyon ng Codespaces   |
+| Nagpapakita ang VS Code ng “Dev container mounting…” | I-refresh ang browser tab-may mga pagkakataon na nawawala ang koneksyon ng Codespaces   |
 | Nawawala ang Notebook kernel               | Menu ng Notebook ➜ **Kernel ▸ Select Kernel ▸ Python 3**        |
 
    Mga Unix-based na sistema:
@@ -192,7 +192,7 @@ Isa sa mga pinakamahusay na paraan upang mapanatiling ligtas ang iyong mga API k
 
 Ang kurso ay may mga "Learn" na aralin na nagpapaliwanag ng mga konsepto ng Generative AI at mga "Build" na aralin na may mga praktikal na halimbawa ng code sa parehong **Python** at **TypeScript** kung posible.
 
-Para sa mga coding lessons, ginagamit namin ang Azure OpenAI sa Microsoft Foundry. Kailangan mo ng Azure subscription at isang API key. Bukas ang access—hindi kailangan ng aplikasyon—kaya maaari kang [gumawa ng Microsoft Foundry resource at mag-deploy ng model](https://learn.microsoft.com/azure/ai-foundry/openai/how-to/create-resource?pivots=web-portal&WT.mc_id=academic-105485-koreyst) upang makuha ang iyong endpoint at key.
+Para sa mga coding lessons, ginagamit namin ang Azure OpenAI sa Microsoft Foundry. Kailangan mo ng Azure subscription at isang API key. Bukas ang access-hindi kailangan ng aplikasyon-kaya maaari kang [gumawa ng Microsoft Foundry resource at mag-deploy ng model](https://learn.microsoft.com/azure/ai-foundry/openai/how-to/create-resource?pivots=web-portal&WT.mc_id=academic-105485-koreyst) upang makuha ang iyong endpoint at key.
 
 Bawat coding lesson ay mayroon ding `README.md` file kung saan maaari mong makita ang code at output nang hindi pinapatakbo ang anumang bagay.
 

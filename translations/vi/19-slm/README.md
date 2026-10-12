@@ -54,7 +54,7 @@ SLM có nhiều ứng dụng đa dạng, bao gồm:
 
 **Kích thước**
   
-Một điểm phân biệt chính giữa LLM và SLM nằm ở quy mô của mô hình. LLM như ChatGPT (GPT-4) có thể bao gồm khoảng 1,76 nghìn tỷ tham số, trong khi các SLM mã nguồn mở như Mistral 7B chỉ được thiết kế với số lượng tham số ít hơn đáng kể — khoảng 7 tỷ. Sự chênh lệch này chủ yếu do khác biệt về kiến trúc mô hình và quy trình huấn luyện. Ví dụ, ChatGPT sử dụng cơ chế tự chú ý trong khuôn khổ mã hóa-giải mã, trong khi Mistral 7B sử dụng cơ chế chú ý cửa sổ trượt, cho phép huấn luyện hiệu quả hơn trong một mô hình chỉ giải mã. Sự khác biệt kiến trúc này có ảnh hưởng sâu sắc đến độ phức tạp và hiệu suất của các mô hình.
+Một điểm phân biệt chính giữa LLM và SLM nằm ở quy mô của mô hình. LLM như ChatGPT (GPT-4) có thể bao gồm khoảng 1,76 nghìn tỷ tham số, trong khi các SLM mã nguồn mở như Mistral 7B chỉ được thiết kế với số lượng tham số ít hơn đáng kể - khoảng 7 tỷ. Sự chênh lệch này chủ yếu do khác biệt về kiến trúc mô hình và quy trình huấn luyện. Ví dụ, ChatGPT sử dụng cơ chế tự chú ý trong khuôn khổ mã hóa-giải mã, trong khi Mistral 7B sử dụng cơ chế chú ý cửa sổ trượt, cho phép huấn luyện hiệu quả hơn trong một mô hình chỉ giải mã. Sự khác biệt kiến trúc này có ảnh hưởng sâu sắc đến độ phức tạp và hiệu suất của các mô hình.
 
 **Hiểu biết**
 

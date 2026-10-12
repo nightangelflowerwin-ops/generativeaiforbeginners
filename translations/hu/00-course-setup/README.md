@@ -42,7 +42,7 @@ A forkodban: **Code -> Codespaces -> New on main**
 | Konténer építése beragadt > 10 perc | **Codespaces ➜ „Rebuild Container”**                            |
 | `python: command not found`               | A terminál nem csatlakozott; kattints a **+** ➜ *bash*                    |
 | `401 Unauthorized` az OpenAI-tól           | Hibás / lejárt `OPENAI_API_KEY`                                |
-| VS Code „Dev container mounting…” üzenetet mutat | Frissítsd a böngészőfület—néha a Codespaces kapcsolat megszakad   |
+| VS Code „Dev container mounting…” üzenetet mutat | Frissítsd a böngészőfület-néha a Codespaces kapcsolat megszakad   |
 | Notebook kernel hiányzik                   | Notebook menü ➜ **Kernel ▸ Select Kernel ▸ Python 3**           |
 
    Unix-alapú rendszerek:

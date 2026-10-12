@@ -2,7 +2,7 @@
 
 **Use este guia se preferir executar tudo em seu próprio laptop.**   
 Você tem dois caminhos: **(A) Python nativo + virtual-env** ou **(B) Dev Container do VS Code com Docker**.  
-Escolha o que for mais fácil—ambos levam às mesmas lições.
+Escolha o que for mais fácil-ambos levam às mesmas lições.
 
 ## 1.  Pré-requisitos
 
@@ -33,7 +33,7 @@ source .venv/bin/activate     # macOS / Linux
 .\.venv\Scripts\activate      # Windows PowerShell
 ```
 
-✅ O prompt agora deve começar com (.venv)—isso significa que você está dentro do ambiente.
+✅ O prompt agora deve começar com (.venv)-isso significa que você está dentro do ambiente.
 
 ### Passo 3 Instale as dependências
 
@@ -196,7 +196,7 @@ Aqui está um guia passo a passo para criar um arquivo `.env` para Python e adic
 
 É isso! Você criou com sucesso um arquivo `.env`, adicionou suas credenciais do Microsoft Foundry Models e as carregou na sua aplicação Python.
 
-🔐 Nunca envie o .env para o repositório—ele já está no .gitignore.
+🔐 Nunca envie o .env para o repositório-ele já está no .gitignore.
 As instruções completas do provedor estão em [`providers.md`](03-providers.md).
 
 ## 4. E agora?

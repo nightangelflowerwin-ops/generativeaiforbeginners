@@ -30,13 +30,13 @@ Ini memakan waktu sekitar **~2 menit** untuk pertama kali.
 
 ## 3. Tambahkan kunci API Anda (dengan cara aman)
 
-### Opsi A Rahasia Codespaces — Direkomendasikan
+### Opsi A Rahasia Codespaces - Direkomendasikan
 
 1. ⚙️ Ikon gear -> Command Palette -> Codespaces : Manage user secret -> Tambah rahasia baru.
 2. Nama: OPENAI_API_KEY
 3. Nilai: tempel kunci Anda → Tambah rahasia
 
-Selesai—kode kami akan mengaksesnya secara otomatis.
+Selesai-kode kami akan mengaksesnya secara otomatis.
 
 ### Opsi B file .env (jika benar-benar diperlukan)
 

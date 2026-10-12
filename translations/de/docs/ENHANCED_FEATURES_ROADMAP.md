@@ -300,9 +300,9 @@ Alle Übersetzungen sind **fertiggestellt** und werden automatisch durch den [Az
 
 | Aspekt | Status |
 |--------|--------|
-| Übersetzungsabdeckung | Komplett — 50+ Sprachen, alle Lektionen |
+| Übersetzungsabdeckung | Komplett - 50+ Sprachen, alle Lektionen |
 | Übersetzungsmethode | Automatisiert via [Azure Co-op Translator](https://github.com/Azure/co-op-translator?WT.mc_id=academic-105485-koreyst) |
-| Synchron mit englischer Quelle gehalten | Ja — automatisch neu generiert |
+| Synchron mit englischer Quelle gehalten | Ja - automatisch neu generiert |
 
 ### 9.2 Verbesserungen der Barrierefreiheit
 

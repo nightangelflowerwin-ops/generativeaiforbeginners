@@ -112,7 +112,7 @@ Anda boleh mendapatkan senarai [contoh kod AutoGen](https://microsoft.github.io/
 
 ## Microsoft Agent Framework
 
-[Microsoft Agent Framework](https://learn.microsoft.com/agent-framework/?WT.mc_id=academic-105485-koreyst) adalah SDK sumber terbuka Microsoft untuk membina Ejen AI dan sistem multi-ejen dalam kedua-dua **Python** dan **.NET**. Ia menggabungkan kekuatan dua projek Microsoft terdahulu — ciri enterprise **Semantic Kernel** dan orkestrasi multi-ejen **AutoGen** — ke dalam satu rangka kerja yang disokong. Jika anda memulakan projek ejen baru hari ini, ini adalah penerus yang disyorkan untuk AutoGen.
+[Microsoft Agent Framework](https://learn.microsoft.com/agent-framework/?WT.mc_id=academic-105485-koreyst) adalah SDK sumber terbuka Microsoft untuk membina Ejen AI dan sistem multi-ejen dalam kedua-dua **Python** dan **.NET**. Ia menggabungkan kekuatan dua projek Microsoft terdahulu - ciri enterprise **Semantic Kernel** dan orkestrasi multi-ejen **AutoGen** - ke dalam satu rangka kerja yang disokong. Jika anda memulakan projek ejen baru hari ini, ini adalah penerus yang disyorkan untuk AutoGen.
 
 Rangka kerja ini berkembang dari satu **ejen sembang** sehingga **aliran kerja multi-ejen** yang kompleks, dan ia berintegrasi secara langsung dengan Microsoft Foundry, Azure OpenAI, dan OpenAI. Ia juga menyediakan kebolehlihatan terbina dalam melalui OpenTelemetry supaya anda boleh menjejaki dengan tepat apa yang dilakukan oleh ejen anda.
 

@@ -42,7 +42,7 @@
 | 容器建立卡住超過 10 分鐘                 | **Codespaces ➜ “Rebuild Container”**                         |
 | 出現 `python: command not found`        | 終端機未附加；點擊 **+** ➜ *bash*                              |
 | OpenAI 回傳 `401 Unauthorized`          | 錯誤或過期的 `OPENAI_API_KEY`                                 |
-| VS Code 顯示 “Dev container mounting…” | 重新整理瀏覽器分頁—Codespaces 有時會失去連線                  |
+| VS Code 顯示 “Dev container mounting…” | 重新整理瀏覽器分頁-Codespaces 有時會失去連線                  |
 | Notebook kernel 缺失                     | Notebook 選單 ➜ **Kernel ▸ Select Kernel ▸ Python 3**        |
 
    Unix 系統：

@@ -28,14 +28,14 @@
 
 ## 開放模型的優點
 
-<strong>高度可定制</strong> — 由於開放模型附帶詳細的訓練資訊，研究人員和開發者可以修改模型內部結構。這允許創建針對特定任務或研究領域微調的高度專門化模型。例如程式碼生成、數學運算和生物學。
+<strong>高度可定制</strong> - 由於開放模型附帶詳細的訓練資訊，研究人員和開發者可以修改模型內部結構。這允許創建針對特定任務或研究領域微調的高度專門化模型。例如程式碼生成、數學運算和生物學。
 
-<strong>成本</strong> — 使用及部署這些模型的每個字元成本低於專有模型。在構建生成式AI應用時，應根據效能與價格來評估這些模型在您使用案例中的表現。
+<strong>成本</strong> - 使用及部署這些模型的每個字元成本低於專有模型。在構建生成式AI應用時，應根據效能與價格來評估這些模型在您使用案例中的表現。
 
 ![模型成本](../../../translated_images/zh-HK/model-price.3f5a3e4d32ae00b4.webp)
 來源：Artificial Analysis
 
-<strong>靈活性</strong> — 使用開放模型讓您在選擇不同模型或結合使用時更具彈性。例如[HuggingChat 助手](https://huggingface.co/chat?WT.mc_id=academic-105485-koreyst)允許用戶直接在介面中選擇使用的模型：
+<strong>靈活性</strong> - 使用開放模型讓您在選擇不同模型或結合使用時更具彈性。例如[HuggingChat 助手](https://huggingface.co/chat?WT.mc_id=academic-105485-koreyst)允許用戶直接在介面中選擇使用的模型：
 
 ![選擇模型](../../../translated_images/zh-HK/choose-model.f095d15bbac92214.webp)
 

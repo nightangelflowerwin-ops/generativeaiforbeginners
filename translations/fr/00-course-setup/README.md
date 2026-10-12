@@ -42,7 +42,7 @@ Dans votre fork : **Code -> Codespaces -> New on main**
 | Construction de container bloquée > 10 min | **Codespaces ➜ “Rebuild Container”**                           |
 | `python: command not found`                | Le terminal ne s'est pas attaché ; cliquez sur **+** ➜ *bash*  |
 | `401 Unauthorized` de OpenAI                | `OPENAI_API_KEY` erronée ou expirée                            |
-| VS Code affiche “Dev container mounting…”  | Rafraîchissez l'onglet du navigateur—Codespaces perd parfois la connexion  |
+| VS Code affiche “Dev container mounting…”  | Rafraîchissez l'onglet du navigateur-Codespaces perd parfois la connexion  |
 | Noyau du notebook manquant                 | Menu notebook ➜ **Kernel ▸ Select Kernel ▸ Python 3**          |
 
    Systèmes basés sur Unix :
@@ -192,7 +192,7 @@ Une des meilleures façons de sécuriser vos clés API lors de l’utilisation d
 
 Le cours comprend des leçons "Apprendre" qui expliquent les concepts de l’IA Générative et des leçons "Construire" avec des exemples de code pratiques en **Python** et en **TypeScript** quand c’est possible.
 
-Pour les leçons de codage, nous utilisons Azure OpenAI dans Microsoft Foundry. Vous aurez besoin d’un abonnement Azure et d’une clé API. L’accès est ouvert — pas de demande requise — vous pouvez donc [créer une ressource Microsoft Foundry et déployer un modèle](https://learn.microsoft.com/azure/ai-foundry/openai/how-to/create-resource?pivots=web-portal&WT.mc_id=academic-105485-koreyst) pour obtenir votre point de terminaison et votre clé.
+Pour les leçons de codage, nous utilisons Azure OpenAI dans Microsoft Foundry. Vous aurez besoin d’un abonnement Azure et d’une clé API. L’accès est ouvert - pas de demande requise - vous pouvez donc [créer une ressource Microsoft Foundry et déployer un modèle](https://learn.microsoft.com/azure/ai-foundry/openai/how-to/create-resource?pivots=web-portal&WT.mc_id=academic-105485-koreyst) pour obtenir votre point de terminaison et votre clé.
 
 Chaque leçon de codage comprend aussi un fichier `README.md` où vous pouvez voir le code et les résultats sans rien exécuter.
 

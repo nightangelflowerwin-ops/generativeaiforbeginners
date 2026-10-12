@@ -42,7 +42,7 @@ Oma forkis: **Code -> Codespaces -> New on main**
 | Konteineri ehitus takerdub > 10 min        | **Codespaces ➜ “Rebuild Container”**                            |
 | `python: command not found`               | Terminal ei kinnitunud; klõpsake **+** ➜ *bash*                   |
 | `401 Unauthorized` OpenAI-lt              | Vale või aegunud `OPENAI_API_KEY`                                 |
-| VS Code kuvab “Dev container mounting…”   | Värskendage brauseri vahekaarti—Codespaces kaotab vahel ühenduse  |
+| VS Code kuvab “Dev container mounting…”   | Värskendage brauseri vahekaarti-Codespaces kaotab vahel ühenduse  |
 | Märkmiku tuuma puudumine                  | Märkmiku menüü ➜ **Kernel ▸ Select Kernel ▸ Python 3**           |
 
    Unix-põhised süsteemid:
